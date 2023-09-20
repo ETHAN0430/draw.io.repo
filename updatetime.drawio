@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T07:30:17.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-hBjBTMWZKUjnNxV1kxt" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T12:54:11.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WPN2MvJPmeVby8ag9zmu" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="1737" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4503" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
           <mxGeometry x="720" y="460" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-2" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 36px;&quot;&gt;增量更新&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-360" y="310" width="170" height="60" as="geometry" />
+          <mxGeometry x="-395" y="310" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -313,10 +313,10 @@
             <mxPoint x="55" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-96" value="&lt;font color=&quot;#ff3333&quot;&gt;问题：&lt;/font&gt;&lt;br&gt;09:51.49 &lt;br&gt;修改数据 id=1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-96" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;问题：&lt;/font&gt;&lt;br&gt;09:51.49 &lt;br&gt;修改数据 id=1&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-97" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;id=1&lt;br&gt;updateTime=9:51:00&lt;br&gt;(9:51.10)&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-97" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;id=1&lt;br&gt;valid_state=1&lt;br&gt;updateTime=9:51:00&lt;br&gt;(9:51.10)&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-225" y="460" width="115" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-98" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=-0.079;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8eTx1scZpe6bk8PXPmwQ-26" target="Ntxb1XvlZdcsDZPh0-gk-97">
@@ -326,7 +326,118 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-102" value="如果每次往前推进一秒 需要保证一秒内的数据量不能小于每次拉取的limit数据长度&lt;br&gt;limit数据量够大的话 结束beginId的循环时 updatetime的最大更新时间不会和lastUpdatime只差一秒钟&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="230" width="560" height="40" as="geometry" />
+          <mxGeometry x="100" y="190" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-103" value="丢数据核心问题：在500毫秒之前改会把前面数据覆盖而且拉不到&lt;br&gt;在500毫秒之后改的都会算到下一秒，也就是四舍五入的四舍有问题。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="490" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-104" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-110" target="Ntxb1XvlZdcsDZPh0-gk-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1850" y="385" />
+              <mxPoint x="-1850" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-110" target="Ntxb1XvlZdcsDZPh0-gk-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-110" value="isDataOverSelectLimit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1415" y="335" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-111" target="Ntxb1XvlZdcsDZPh0-gk-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-111" value="获取锁&lt;br&gt;lastUpdatetime = xxx&lt;br&gt;limit = xxx&lt;br&gt;maxUpdateTime = 0L&lt;br&gt;isDataOverSelectLimit=true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="130" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-113" value="结束&lt;br&gt;释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-115" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1445" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-117" target="Ntxb1XvlZdcsDZPh0-gk-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-117" value="select *&lt;br&gt;from intent_token&lt;br&gt;where updateTime &amp;gt;= #{lastUptdateTime}&lt;br&gt;order by updateTime, id&lt;br&gt;limit #{limit}" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1467.5" y="530" width="275" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-119" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-122" target="Ntxb1XvlZdcsDZPh0-gk-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-122" target="Ntxb1XvlZdcsDZPh0-gk-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-122" value="数据判空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1405" y="722" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-126" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1420" y="730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-143" target="Ntxb1XvlZdcsDZPh0-gk-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1225" y="955.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-130" target="Ntxb1XvlZdcsDZPh0-gk-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-130" target="Ntxb1XvlZdcsDZPh0-gk-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-905" y="1138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-130" value="有剩余数据加载&lt;br&gt;并且&lt;br&gt;首条数据和末条数据updateTime相同" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="880" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-132" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1315" y="798" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-133" value="Timestamp loop 负责这一秒的数据处理&lt;br&gt;(Timestamp updateTime, 这一秒的数据超过过了limit&lt;br&gt;int limit, &lt;br&gt;&lt;div style=&quot;&quot;&gt;Boolean isDataOverSelectLimit,&amp;nbsp; 对象类型 &lt;br&gt;假设updateTime是9:00 一共600条 同时也是数据库最后的600条 而limit是500，处理完之后&lt;/div&gt;isDataOverSelectLimit应该是false&lt;div style=&quot;&quot;&gt;跳转到上层方法后isDataOverSelect也应该从进来的true变成false，否则会死循环&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;Set&amp;lt;Long&amp;gt; tmpIncModuleIdSet&amp;nbsp; &amp;nbsp;updateToken要用&lt;br&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1110" width="345" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-137" target="Ntxb1XvlZdcsDZPh0-gk-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-137" value="updateIntentToken" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="1108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-139" target="Ntxb1XvlZdcsDZPh0-gk-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-139" value="maxUpdateTime=lastToken.UpdateTime&lt;br&gt;赋值为最后一条数据的updateTime" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1750" y="1108" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-143" value="isDataOverSelectLimit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="927.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-145" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="922" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-146" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="1038" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1350" y="280" as="targetPoint" />
+            <mxPoint x="-1800.1099999999994" y="1384.0000000000005" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-2300" y="1284" />
+              <mxPoint x="-2300" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-148" value="lastUpdateTime=maxUpdaTime" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1770" y="1248" width="320" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
