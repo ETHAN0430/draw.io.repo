@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:03:18.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-6mb54F6a4YadhkPvAXg" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:04:33.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yuub7OuukdV0JK8D0YOh" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3552" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3781" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1429,10 +1429,10 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-445" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-442" target="ujubCkocFbaikDBOblAJ-444">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-447" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-442" target="ujubCkocFbaikDBOblAJ-446">
+        <mxCell id="ujubCkocFbaikDBOblAJ-507" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-442" target="ujubCkocFbaikDBOblAJ-506">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-442" value="数据量 &amp;lt; Limit？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-442" value="数据量 == Limit？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1721.75" y="4650" width="201.75" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-443" value="获取锁&lt;br&gt;第一条数据为token1&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一条数据为token2&lt;br&gt;token1的updateTime为t1&amp;nbsp; &amp;nbsp; &amp;nbsp; token2的updateTime为t2&lt;br&gt;token1的id为id1&amp;nbsp; &amp;nbsp; token2的id为id2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1459,10 +1459,10 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-446" value="isDataOverLimit = false&lt;br&gt;&lt;br&gt;说明数据库暂时没有数据了&lt;br&gt;&lt;br&gt;哪怕数据库正在添加数据&lt;br&gt;这些数据也是下一次定时增量的事情&lt;br&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1340" y="4850" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-451" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-451" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1760" y="4710" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-452" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-452" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1510" y="4710" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-459" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-453" target="ujubCkocFbaikDBOblAJ-458">
@@ -1478,7 +1478,7 @@
           <mxGeometry x="-2130" y="4250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-460" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1763" y="4190" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1740" y="4150" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-463" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-461" target="ujubCkocFbaikDBOblAJ-453">
           <mxGeometry relative="1" as="geometry" />
@@ -1535,6 +1535,16 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-504" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1721.75" y="4445" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-508" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-506" target="ujubCkocFbaikDBOblAJ-446">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1200" y="4700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-506" value="数据量 &amp;lt; limit" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1399.125" y="4670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
