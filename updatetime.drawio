@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T06:54:02.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UamTMsgEwalFd_FVJkVm" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:03:18.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-6mb54F6a4YadhkPvAXg" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3781" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3552" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1424,7 +1424,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-342" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1833.5" y="3795" width="443.5" height="140" as="geometry" />
+          <mxGeometry x="-1840.87" y="3770" width="443.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-445" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-442" target="ujubCkocFbaikDBOblAJ-444">
           <mxGeometry relative="1" as="geometry" />
@@ -1433,69 +1433,108 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-442" value="数据量 &amp;lt; Limit？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1711.75" y="4310" width="201.75" height="100" as="geometry" />
+          <mxGeometry x="-1721.75" y="4650" width="201.75" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-443" value="获取锁&lt;br&gt;第一条数据为token1&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一条数据为token2&lt;br&gt;token1的updateTime为t1&amp;nbsp; &amp;nbsp; &amp;nbsp; token2的updateTime为t2&lt;br&gt;token1的id为id1&amp;nbsp; &amp;nbsp; token2的id为id2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1760" y="3830" width="310" height="70" as="geometry" />
+          <mxGeometry x="-1770" y="3805" width="310" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-468" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-444">
+        <mxCell id="ujubCkocFbaikDBOblAJ-468" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-444" target="ujubCkocFbaikDBOblAJ-471">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2027" y="4740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-444" value="说明数据库可能还有数据&lt;br&gt;isDataOverLimit = true" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-2140" y="4510" width="226.5" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-477" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-446">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1610" y="4090" as="targetPoint" />
+            <mxPoint x="-2037" y="5080" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-950" y="4570" />
-              <mxPoint x="-950" y="4090" />
+              <mxPoint x="-2037" y="5080" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-446" value="说明数据库暂时没有数据了&lt;br&gt;把token信息提取完之后&lt;br&gt;下一次就退出循环&lt;br&gt;哪怕数据库正在添加数据&lt;br&gt;这些数据也是下一次定时增量的事情&lt;br&gt;isDataOverLimit = false" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1330" y="4510" width="280" height="120" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-444" value="isDataOverLimit = true&lt;br&gt;说明数据库可能还有数据" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="4850" width="226.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-479" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-446" target="ujubCkocFbaikDBOblAJ-471">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1200" y="5080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-446" value="isDataOverLimit = false&lt;br&gt;&lt;br&gt;说明数据库暂时没有数据了&lt;br&gt;&lt;br&gt;哪怕数据库正在添加数据&lt;br&gt;这些数据也是下一次定时增量的事情&lt;br&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="4850" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-451" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1750" y="4370" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1760" y="4710" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-452" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1500" y="4370" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1510" y="4710" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-459" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-453" target="ujubCkocFbaikDBOblAJ-458">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-465" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-453" target="ujubCkocFbaikDBOblAJ-442">
+        <mxCell id="ujubCkocFbaikDBOblAJ-490" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-453" target="ujubCkocFbaikDBOblAJ-489">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-453" value="while(isDataOverLimit)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1711.75" y="4130" width="200" height="100" as="geometry" />
+          <mxGeometry x="-1720" y="4130" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-458" value="释放锁&lt;br&gt;结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="4210" width="100" height="60" as="geometry" />
+          <mxGeometry x="-2130" y="4250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-460" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1750" y="4190" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1763" y="4190" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-463" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-461" target="ujubCkocFbaikDBOblAJ-453">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-461" value="isDataOverLimit = true" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1681.7499999999998" y="3990" width="141.75" height="60" as="geometry" />
+          <mxGeometry x="-1689.9999999999998" y="3990" width="141.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-466" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1650" y="4230" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1620" y="4230" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-476" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-471" target="ujubCkocFbaikDBOblAJ-475">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-482" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-471" target="ujubCkocFbaikDBOblAJ-481">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-471" value="isDataOverLimit?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2133.25" y="4740" width="213" height="100" as="geometry" />
+          <mxGeometry x="-1733" y="5090" width="213" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-475" value="t1==t2?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-2430" y="4940" width="213" height="100" as="geometry" />
+          <mxGeometry x="-2440" y="5280" width="213" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-486" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-481" target="ujubCkocFbaikDBOblAJ-485">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-481" value="把最后的token信息提取到本地" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1295" y="5260" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-483" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1525" y="5148" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-485" value="lastUpdateTime = t2" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1261.25" y="5460" width="157.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-497" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-489" target="ujubCkocFbaikDBOblAJ-496">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-489" value="根据lastUpdateTime- 1&lt;br&gt;拉取limit条数据" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="4300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-493" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-496" target="ujubCkocFbaikDBOblAJ-442">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1620" y="4540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-503" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-496" target="ujubCkocFbaikDBOblAJ-458">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-496" value="有没有数据" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="4445" width="140" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-500" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1615" y="4528" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-504" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1721.75" y="4445" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
