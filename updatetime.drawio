@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T03:25:14.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="19ONBv-gmTBqoS-9Jic9" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T03:28:46.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gISHp5-R_H_jQPlZSSkI" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="4136" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4503" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,7 +517,7 @@
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-130" value="不会漏数据，情况详见右图" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1650" y="958" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mguj6qo9-BzR1XpOUaJ4-132" target="ujubCkocFbaikDBOblAJ-246">
+        <mxCell id="ujubCkocFbaikDBOblAJ-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mguj6qo9-BzR1XpOUaJ4-132" target="ujubCkocFbaikDBOblAJ-248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-132" value="loop = 1&lt;br&gt;maxUpdateTime = updateTime&amp;nbsp; 就是需要处理的这一秒种" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
@@ -1306,8 +1306,11 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-245" value="&lt;b&gt;程序拉取到的区间数据 order by updatime，id&lt;br&gt;t1和t2是数据的updateTime（Timestamp），TimeStamp会四舍五入&lt;br&gt;id1和id2分别是区间的首尾条数据的id&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="65" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-246" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1125" y="1692" width="270" height="60" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-248" value="" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="1672" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-251" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;解决方案：&lt;br&gt;lastUpdateTime取全量更新前的时间（仍然存在一定量的重复数据，解决需要改造原代码，引入中间件)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="853" width="1650" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
