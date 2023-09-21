@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T03:15:07.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="o325yLSNX0-iiKqwNhPE" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T03:25:14.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="19ONBv-gmTBqoS-9Jic9" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3552" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4136" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
           <mxGeometry x="329" y="444" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8eTx1scZpe6bk8PXPmwQ-32" value="如果t1=t2，下一个区间数据的开始点为：&amp;gt;=t2&amp;nbsp; &amp;gt;id2&lt;br&gt;如果t1&amp;lt;t2，下一个区间数据的开始点为: &amp;gt;=t2 null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="484" y="154" width="300" height="40" as="geometry" />
+          <mxGeometry x="503" y="131" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8eTx1scZpe6bk8PXPmwQ-34" value="t1&amp;lt;t2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="439" y="444" width="50" height="30" as="geometry" />
@@ -158,7 +158,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-102" value="如果每次往前推进一秒 需要保证一秒内的数据量不能小于每次拉取的limit数据长度&lt;br&gt;limit数据量够大的话 结束beginId的循环时 updatetime的最大更新时间不会和lastUpdatime只差一秒钟&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="829" y="274" width="560" height="40" as="geometry" />
+          <mxGeometry x="1280" y="65" width="560" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-103" value="在0~499毫秒之间修改数据，updateTime往前，往前的数据已经被加载到本地了&lt;br&gt;在500~1000毫秒之间修改数据，updateTime往后，往后的数据会被下一次加载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="304" y="545" width="440" height="40" as="geometry" />
@@ -308,9 +308,6 @@
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-16" value="09:52.00" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="489" y="434" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-17" value="&lt;b&gt;程序拉取到的区间数据 order by updatime，id&lt;br&gt;t1和t2是Timestamp，现实时间的四舍五入&lt;br&gt;id1和id2分别是区间的首尾条数据的id&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="34" y="144" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;" parent="1" vertex="1">
           <mxGeometry x="299" y="444" width="110" height="30" as="geometry" />
@@ -520,14 +517,11 @@
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-130" value="不会漏数据，情况详见右图" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1650" y="958" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mguj6qo9-BzR1XpOUaJ4-132" target="Mguj6qo9-BzR1XpOUaJ4-133" edge="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mguj6qo9-BzR1XpOUaJ4-132" target="ujubCkocFbaikDBOblAJ-246">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-132" value="循环&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-627.5" y="1490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-133" value="" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-827.5" y="1490" width="120" height="60" as="geometry" />
+        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-132" value="loop = 1&lt;br&gt;maxUpdateTime = updateTime&amp;nbsp; 就是需要处理的这一秒种" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="1500" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-134" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -550,7 +544,7 @@
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-139" value="现实时间序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="160" y="1672" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-140" value="数据覆盖情况二：&lt;br&gt;不进入循环,且数据updateTime和现实时间无交集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-140" value="数据覆盖情况三：&lt;br&gt;不进入循环,且数据updateTime和现实时间无交集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="70" y="1792" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-141" value="&lt;b&gt;程序拉取到的区间数据 order by updatime，id&lt;br&gt;t1和t2是数据的updateTime（Timestamp），TimeStamp会四舍五入&lt;br&gt;id1和id2分别是区间的首尾条数据的id&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -563,7 +557,7 @@
           <mxGeometry x="550" y="1432" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-144" value="如果t1=t2，下一个区间数据的开始点为：&amp;gt;=t2&amp;nbsp; &amp;gt;id2&lt;br&gt;如果t1&amp;lt;t2，下一个区间数据的开始点为: &amp;gt;=t2 null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="624" y="1402" width="300" height="40" as="geometry" />
+          <mxGeometry x="95" y="1445" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-145" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 36px;&quot;&gt;增量更新&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-40" y="1722" width="170" height="60" as="geometry" />
@@ -576,9 +570,6 @@
             <mxPoint x="410" y="1794.3700000000003" as="sourcePoint" />
             <mxPoint x="335.84765228003994" y="1852" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-148" value="如果每次往前推进一秒 需要保证一秒内的数据量不能小于每次拉取的limit数据长度&lt;br&gt;limit数据量够大的话 结束beginId的循环时 updatetime的最大更新时间不会和lastUpdatime只差一秒钟&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="570" y="1512" width="560" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-149" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;" parent="1" vertex="1">
           <mxGeometry x="360" y="1762" width="140" height="30" as="geometry" />
@@ -604,11 +595,8 @@
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-169" value="时:分:秒.毫秒" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="240" y="1672" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-170" value="丢数据核心问题：&lt;br&gt;1.数据覆盖是否连续&lt;br&gt;2.加载过程中，已被加载到本地的数据在数据库被修改了，是否会重新载入这条数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-170" value="丢数据核心问题：&lt;br&gt;1.数据覆盖是否连续&lt;br&gt;2.加载过程中，已被加载到本地的数据在数据库被修改了，是否会重新载入这条数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-120" y="214" width="470" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-171" value="&lt;span style=&quot;text-align: left;&quot;&gt;在500毫秒之前改会把前面数据覆盖而且拉不到&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;在500毫秒之后改的都会算到下一秒，也就是四舍五入的四舍有问题。&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;而且处理数据只处理那一秒，期间不推进时间，只推进id&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="865" y="1435" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-172" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;id=1&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;valid_state=0&lt;br&gt;updateTime=00:00:52.00&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="1912" width="155" height="65" as="geometry" />
@@ -652,7 +640,7 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-6" value="现实时间序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="160" y="2102" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-7" value="数据覆盖情况三：&lt;br&gt;不进入循环,且数据updateTime和现实时间有交集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-7" value="数据覆盖情况四：&lt;br&gt;不进入循环,且数据updateTime和现实时间有交集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="2222" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-8" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;id=1&lt;br&gt;valid_state=1&lt;br&gt;updateTime=00:00:41.00&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1063,7 +1051,7 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-146" value="现实时间序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="151" y="808" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-147" value="数据覆盖情况四：&lt;br&gt;一次循环处理一秒的数据，进入循环，时间无交集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-147" value="数据覆盖情况二：&lt;br&gt;一次循环处理一秒的数据，进入循环，时间无交集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1" y="928" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-148" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-144" target="ujubCkocFbaikDBOblAJ-144">
@@ -1167,9 +1155,6 @@
             <mxPoint x="251" y="998" as="sourcePoint" />
             <mxPoint x="301" y="948" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-181" value="如果每次往前推进一秒 需要保证一秒内的数据量不能小于每次拉取的limit数据长度&lt;br&gt;limit数据量够大的话 结束beginId的循环时 updatetime的最大更新时间不会和lastUpdatime只差一秒钟&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="456" y="728" width="560" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-183" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1315,8 +1300,14 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-239" value="单独处理这一秒数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-627.5" y="938" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-243" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;&lt;br&gt;往前推一秒会死循环&amp;nbsp; 不往前推一秒小概率丢数据&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;解决方案：&lt;/b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;只往前推一秒的操作只执行一次&lt;br&gt;退出循环的条件是前后时间不同&lt;br&gt;所以再执行一次就可以&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="366" y="564" width="280" height="90" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-243" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;&lt;br&gt;往前推一秒会死循环&amp;nbsp; 不往前推一秒小概率丢数据&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;解决方案：&lt;/b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;&lt;br&gt;退出循环的条件是t1&amp;lt;t2&lt;br&gt;那么之后的修改操作一定发生在t2之后&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;所以只需要将t1和t2之间的数据再拉取一遍即可保证不丢数据&lt;/b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="336" y="559" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-245" value="&lt;b&gt;程序拉取到的区间数据 order by updatime，id&lt;br&gt;t1和t2是数据的updateTime（Timestamp），TimeStamp会四舍五入&lt;br&gt;id1和id2分别是区间的首尾条数据的id&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="65" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-246" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1125" y="1692" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
