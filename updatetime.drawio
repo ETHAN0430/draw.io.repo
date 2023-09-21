@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T03:11:06.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BJH5x4VeBLzLctDRv9oz" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T03:15:07.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="o325yLSNX0-iiKqwNhPE" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3998" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3552" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1314,6 +1314,9 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-239" value="单独处理这一秒数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-627.5" y="938" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-243" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;&lt;br&gt;往前推一秒会死循环&amp;nbsp; 不往前推一秒小概率丢数据&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51);&quot;&gt;解决方案：&lt;/b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;只往前推一秒的操作只执行一次&lt;br&gt;退出循环的条件是前后时间不同&lt;br&gt;所以再执行一次就可以&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="366" y="564" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
