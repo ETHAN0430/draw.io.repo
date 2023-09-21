@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T11:40:40.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zOzCdxDIivBteK4r3apc" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T11:59:08.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="R_i79WHdomhdy72FqNd8" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="7508" dy="3337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5408" dy="2253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1799,8 +1799,11 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-677" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;updateTime = t2 - 1&lt;/b&gt;&lt;br&gt;问题：当t2 - t1 == 1会死循环，可复现&lt;br&gt;解决方案：&lt;br&gt;1.退出S1状态时，如果t2 - t1 == 1，重新执行一次S1状态&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="880" y="6490" width="1230" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-680" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;如果500条数据里面&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-605" y="6830" width="440" height="130" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-680" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;【NEW】新问题&lt;br&gt;S1退出时，如果500条数据里面&lt;br&gt;11秒有498条 12秒有2条&lt;br&gt;下次一次更新从12秒开始 重复加载两条&lt;br&gt;&lt;br&gt;11秒有2条 12秒有498条&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-605" y="6880" width="860" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-681" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;【NEW】新问题&lt;br&gt;如果状态机有效，其他项目增量更新也可以使用这个方案。&lt;br&gt;比如Resource&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="7425" width="1270" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
