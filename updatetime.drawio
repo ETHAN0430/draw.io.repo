@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T03:02:54.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UGdE0unmu4WYVD-mIq23" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T03:05:41.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-ThGsbDOPW0f0lbEClJB" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3272" dy="1584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5514" dy="2759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,10 +161,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-102" value="如果每次往前推进一秒 需要保证一秒内的数据量不能小于每次拉取的limit数据长度&lt;br&gt;limit数据量够大的话 结束beginId的循环时 updatetime的最大更新时间不会和lastUpdatime只差一秒钟&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="459" y="264" width="560" height="40" as="geometry" />
+          <mxGeometry x="829" y="274" width="560" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-103" value="在0~499毫秒之间修改数据，会触发四舍五入的四舍，updateTime往前&lt;br&gt;在500~1000毫秒之间修改数据，updateTime往后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="264" y="564" width="400" height="40" as="geometry" />
+        <mxCell id="Ntxb1XvlZdcsDZPh0-gk-103" value="在0~499毫秒之间修改数据，updateTime往前，往前的数据已经被加载到本地了&lt;br&gt;在500~1000毫秒之间修改数据，updateTime往后，往后的数据会被下一次加载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="304" y="545" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ntxb1XvlZdcsDZPh0-gk-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ntxb1XvlZdcsDZPh0-gk-110" target="Ntxb1XvlZdcsDZPh0-gk-113" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -622,8 +622,8 @@
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-169" value="时:分:秒.毫秒" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="240" y="1672" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-170" value="丢数据核心问题：&lt;br&gt;1.数据覆盖是否连续&lt;br&gt;2.加载过程中，已被加载本地数据在数据库被修改了，是否会重新载入这条数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-111" y="244" width="440" height="60" as="geometry" />
+        <mxCell id="Mguj6qo9-BzR1XpOUaJ4-170" value="丢数据核心问题：&lt;br&gt;1.数据覆盖是否连续&lt;br&gt;2.加载过程中，已被加载到本地的数据在数据库被修改了，是否会重新载入这条数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="214" width="470" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mguj6qo9-BzR1XpOUaJ4-171" value="&lt;span style=&quot;text-align: left;&quot;&gt;在500毫秒之前改会把前面数据覆盖而且拉不到&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;在500毫秒之后改的都会算到下一秒，也就是四舍五入的四舍有问题。&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;而且处理数据只处理那一秒，期间不推进时间，只推进id&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="865" y="1435" width="390" height="60" as="geometry" />
