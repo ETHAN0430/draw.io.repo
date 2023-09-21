@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T08:26:52.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UzcahKEKHHJEC_MA394q" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T08:27:54.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="l9QWxmR8AhtQ8eHRv8H0" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="4066" dy="1567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4963" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1495,7 +1495,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-481" value="把token信息存储到本地" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1542.5" y="5465" width="225" height="90" as="geometry" />
+          <mxGeometry x="-1495" y="5465" width="225" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-526" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-485" target="ujubCkocFbaikDBOblAJ-453">
           <mxGeometry relative="1" as="geometry">
@@ -1624,13 +1624,19 @@
           <mxGeometry x="-1817.1899999999998" y="5630" width="158.13" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-602" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1860" y="5600" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1684" y="5630" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-604" value="说明之前不存在同一秒的数据超过limit的情况" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1992.8700000000001" y="5770" width="155.24" height="60" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-610" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-604" target="ujubCkocFbaikDBOblAJ-481">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-608" value="说明之前存在同一秒的数据超过limit的情况" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1640.01" y="5770" width="140.01" height="60" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-604" value="说明之前&lt;b&gt;不存在&lt;/b&gt;同一秒的数据超过limit的情况" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1615.24" y="5640" width="155.24" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-608" value="说明之前&lt;b&gt;存在&lt;/b&gt;同一秒的数据超过limit的情况" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1808.12" y="5800" width="140.01" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-611" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1783.12" y="5700" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
