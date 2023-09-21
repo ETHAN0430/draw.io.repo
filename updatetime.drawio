@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T08:00:56.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Vb4S0LgOhneAl5JMsonb" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T08:20:30.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="rXtsuVGV3RrkYx2SLH1D" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="4379" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4608" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1474,8 +1474,8 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-463" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-461" target="ujubCkocFbaikDBOblAJ-453">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-461" value="初始化&lt;br&gt;isDataOverLimit = true&lt;br&gt;lastUpdateTime减一秒&lt;br&gt;beginId = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1689.9999999999998" y="3990" width="141.75" height="60" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-461" value="初始化&lt;br&gt;isDataOverLimit = true&lt;br&gt;lastUpdateTime减一秒&lt;br&gt;beginId = 0&lt;br&gt;假设limit = 500" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1709.12" y="3980" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-466" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1610" y="4220" width="30" height="30" as="geometry" />
@@ -1578,23 +1578,41 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-583" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-578" target="ujubCkocFbaikDBOblAJ-582">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-585" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-578" target="ujubCkocFbaikDBOblAJ-584">
+        <mxCell id="ujubCkocFbaikDBOblAJ-589" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-578" target="ujubCkocFbaikDBOblAJ-584">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-578" value="beginId = 0？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1719.13" y="4280" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-582" value="说明上一批拉取的数据不是同一秒的" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-2030" y="4390" width="230" height="100" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-591" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-582" target="ujubCkocFbaikDBOblAJ-590">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-584" value="说明上一批拉取的数据是同一秒的，现在正在同一秒内" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1440" y="4390" width="220" height="90" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-582" value="说明上一批拉取的数据不是同一秒的" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-2038.37" y="4400" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-593" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-584" target="ujubCkocFbaikDBOblAJ-592">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-584" value="说明上一批拉取的数据是同一秒的，接下来的数据有两种情况：&lt;br&gt;情况一：t1 = t2 拉取到的500条数据仍然是同一秒的，以后还会来到这一步&lt;br&gt;情况二：t1 &amp;lt; t2 开始拉取到这一秒后的数据了 后面beginId会重置为0 走左边的分支" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1495" y="4360" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-586" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1753.12" y="4290" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-587" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1525" y="4278" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-594" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-590" target="ujubCkocFbaikDBOblAJ-496">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-590" value="&amp;gt;= updateTime&lt;br&gt;根据updateTIme升序&lt;br&gt;拉取500条" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-2005.87" y="4540" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-595" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-592" target="ujubCkocFbaikDBOblAJ-496">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-592" value="&amp;gt;= updateTime&amp;nbsp; &amp;nbsp; &amp;gt; beginId&lt;br&gt;先根据updateTIme升序，再根据id升序&lt;br&gt;拉取500条" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1383.75" y="4540" width="217.5" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
