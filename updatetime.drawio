@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T05:38:56.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Suc_xFduLisILAef_kl9" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T05:52:55.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0QZqvNkX9ERxnfx2rDdA" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3348" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3492" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,10 +26,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8eTx1scZpe6bk8PXPmwQ-18" value="00:00:51.000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="275" y="374" width="90" height="30" as="geometry" />
+          <mxGeometry x="275" y="378" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8eTx1scZpe6bk8PXPmwQ-22" value="00:00:51.000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="249" y="426" width="90" height="30" as="geometry" />
+          <mxGeometry x="249" y="421" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8eTx1scZpe6bk8PXPmwQ-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;" parent="1" vertex="1">
           <mxGeometry x="459" y="474" width="110" height="30" as="geometry" />
@@ -1408,11 +1408,14 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-332" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=north;" vertex="1" parent="1">
           <mxGeometry x="1090" y="534" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-333" value="情况一：&lt;br&gt;limit500条 加载了300条 isDataOverLimit = false&lt;br&gt;说明数据库数据全都直接退出循环了&lt;br&gt;lastUpdateTIme = 00:00:52.000&lt;br&gt;定时任务执行下一轮增量的时候 会把时间推到00:00:51.000&lt;br&gt;没有问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="543" y="87" width="340" height="100" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-333" value="情况二：&lt;br&gt;limit500条 加载了300条 isDataOverLimit = false&lt;br&gt;说明数据库数据全都直接退出循环了&lt;br&gt;lastUpdateTIme = 00:00:52.000&lt;br&gt;定时任务执行下一轮增量的时候 会把时间推到00:00:51.000&lt;br&gt;如果有情况二的出现，也就是00:00:52.000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="875" y="87" width="340" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-334" value="情况二：&lt;br&gt;limit500条 加载满了500条&amp;nbsp;&amp;nbsp;isDataOverLimit = true&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="916" y="90" width="290" height="40" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-334" value="情况一：&lt;br&gt;00:00:51~00:00:52&lt;br&gt;limit500条 加载满了500条&amp;nbsp;&amp;nbsp;isDataOverLimit = true&lt;br&gt;死循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="589" y="87" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-335" value="解决方案&lt;br&gt;1.limit配置合理&lt;br&gt;2.仅执行一次，避免死循环" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="553" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
