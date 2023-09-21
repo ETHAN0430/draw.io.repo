@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T12:00:57.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ss6TCjPHTykmzlLNH5cc" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T12:17:22.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NGawQmvA7q_wKUXSEKxs" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="5408" dy="2253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8558" dy="3879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1803,7 +1803,7 @@
           <mxGeometry x="-600" y="6880" width="850" height="420" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-681" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;【NEW】新问题&lt;br&gt;如果状态机证实是正确且有效，其他项目增量更新也可以使用这个方案。&lt;br&gt;比如Resource&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="70" y="7550" width="1560" height="240" as="geometry" />
+          <mxGeometry x="445" y="7070" width="1560" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
