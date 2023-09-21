@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T06:08:40.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="y6IT9iuwZBjuVWhmtJjN" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T06:16:49.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DECj-Mx8wdQ9L7w47Oat" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
     <mxGraphModel dx="3239" dy="1567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1416,6 +1416,9 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-335" value="解决方案&lt;br&gt;1.limit配置合理&lt;br&gt;2.仅执行一次，避免死循环" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="315" y="553" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-337" value="推一秒也不能解决问题，假设51.4修改 51~53跳出循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="218" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
