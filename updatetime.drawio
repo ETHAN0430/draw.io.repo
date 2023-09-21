@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T08:27:54.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="l9QWxmR8AhtQ8eHRv8H0" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T08:31:31.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HUQypUgkoKjQ8-cn-lKZ" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="4963" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7858" dy="3554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1632,11 +1632,26 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-604" value="说明之前&lt;b&gt;不存在&lt;/b&gt;同一秒的数据超过limit的情况" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1615.24" y="5640" width="155.24" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-608" value="说明之前&lt;b&gt;存在&lt;/b&gt;同一秒的数据超过limit的情况" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1808.12" y="5800" width="140.01" height="60" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-619" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-608" target="ujubCkocFbaikDBOblAJ-618">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1738" y="6100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-608" value="说明之前&lt;b&gt;存在&lt;/b&gt;同一秒的数据超过limit的情况&lt;br&gt;&lt;br&gt;现在t1&amp;lt;t2 说明同一秒的数据已经拉取完了&lt;br&gt;&lt;br&gt;beginId没用了 beginId重置为0" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1832.1899999999998" y="5800" width="188.12" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-611" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1783.12" y="5700" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-620" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-618">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-839.9999999999995" y="5879.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-618" value="lastUpdateTime = t2&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;这里有丢数据的可能&lt;br&gt;1.减一秒试试看有没有死循环&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="6060" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
