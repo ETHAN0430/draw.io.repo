@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T06:31:54.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1S4rTqp_hPzT0Eoy-HGP" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T06:36:21.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="R9btgkpJUcLIGGN-eKX4" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3391" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3781" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1422,17 +1422,38 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-441" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-342">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1066.5" y="4730" as="targetPoint" />
+            <mxPoint x="-1610" y="4310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-342" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1288.25" y="4410" width="443.5" height="140" as="geometry" />
+          <mxGeometry x="-1831.75" y="3990" width="443.5" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-442" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1168.25" y="4730" width="203.5" height="100" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-445" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-442" target="ujubCkocFbaikDBOblAJ-444">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-443" value="每次拉取&amp;lt;= limit 条数据&lt;br&gt;第一条数据为token1&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一条数据为token2&lt;br&gt;token1的updatime为t1&amp;nbsp; &amp;nbsp; &amp;nbsp; token2的updateTime为t2&lt;br&gt;token1的id为id1&amp;nbsp; &amp;nbsp; token2的id为id2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1215" y="4445" width="300" height="70" as="geometry" />
+        <mxCell id="ujubCkocFbaikDBOblAJ-447" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-442" target="ujubCkocFbaikDBOblAJ-446">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-442" value="数据量==limit？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1711.75" y="4310" width="201.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-443" value="获取锁&lt;br&gt;每次拉取&amp;lt;= limit 条数据&lt;br&gt;第一条数据为token1&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一条数据为token2&lt;br&gt;token1的updateTime为t1&amp;nbsp; &amp;nbsp; &amp;nbsp; token2的updateTime为t2&lt;br&gt;token1的id为id1&amp;nbsp; &amp;nbsp; token2的id为id2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1763.5" y="4015" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-444" value="说明数据库可能还有数据" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-2140" y="4510" width="226.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-446" value="数据库没有数据了" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="4500" width="226.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-449" value="释放锁" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1115" y="5140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-451" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1741.75" y="4320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-452" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="4320" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
