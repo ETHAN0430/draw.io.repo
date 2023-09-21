@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:04:33.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yuub7OuukdV0JK8D0YOh" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:08:48.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tTe_S-8SI0eI1TXm5v2M" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3781" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3694" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1510,8 +1510,11 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-483" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1525" y="5148" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-519" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-485" target="ujubCkocFbaikDBOblAJ-518">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-485" value="lastUpdateTime = t2" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1261.25" y="5460" width="157.5" height="65" as="geometry" />
+          <mxGeometry x="-1261.25" y="5460" width="161.25" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-497" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-489" target="ujubCkocFbaikDBOblAJ-496">
           <mxGeometry relative="1" as="geometry" />
@@ -1545,6 +1548,12 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-506" value="数据量 &amp;lt; limit" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1399.125" y="4670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-521" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-518" target="ujubCkocFbaikDBOblAJ-453">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-518" value="提示：isDataOverLimit=false" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="4030" width="150.01" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
