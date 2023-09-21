@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:32:37.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BruQm0NvtZvlboO5Llpt" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:34:43.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JTvt_DH027Qgnfm6qVw6" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3155" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3348" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1554,16 +1554,14 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-543" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2180" y="5080" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-554" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-553">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2215" y="5510" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-2215" y="5460" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ujubCkocFbaikDBOblAJ-556" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-553" target="ujubCkocFbaikDBOblAJ-555">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-553" value="假如有500条数据&lt;br&gt;500条数据的时间都是凌晨00:00:00&lt;br&gt;&lt;br&gt;如果继续只靠updateTime查询，lastUpdateTime=t2，那么下次拉到的还是这五百条数据，死循环。&lt;br&gt;&lt;br&gt;所以需要加入beginId来拉取这同一秒的数据，避免死循环。" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-553" value="假如有500条数据，t1 == t2&lt;br&gt;500条数据的时间都是凌晨00:00:00&lt;br&gt;&lt;br&gt;如果继续只靠updateTime查询，lastUpdateTime = t2，那么下次拉到的还是这五百条数据，死循环。&lt;br&gt;&lt;br&gt;所以需要加入beginId来拉取00:00:00的数据，避免死循环。" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-2400" y="5230" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-555" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-2282.5" y="5510" width="135" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
