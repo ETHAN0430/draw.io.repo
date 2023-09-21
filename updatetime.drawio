@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T06:51:05.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kCh7vADwvzsCf_XyOSTt" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T06:54:02.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UamTMsgEwalFd_FVJkVm" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="4301" dy="2123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3781" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1432,7 +1432,7 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-447" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-442" target="ujubCkocFbaikDBOblAJ-446">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-442" value="数据量&amp;lt;limit？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-442" value="数据量 &amp;lt; Limit？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-1711.75" y="4310" width="201.75" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-443" value="获取锁&lt;br&gt;第一条数据为token1&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一条数据为token2&lt;br&gt;token1的updateTime为t1&amp;nbsp; &amp;nbsp; &amp;nbsp; token2的updateTime为t2&lt;br&gt;token1的id为id1&amp;nbsp; &amp;nbsp; token2的id为id2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1445,6 +1445,15 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-444" value="说明数据库可能还有数据&lt;br&gt;isDataOverLimit = true" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-2140" y="4510" width="226.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-477" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-446">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1610" y="4090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-950" y="4570" />
+              <mxPoint x="-950" y="4090" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-446" value="说明数据库暂时没有数据了&lt;br&gt;把token信息提取完之后&lt;br&gt;下一次就退出循环&lt;br&gt;哪怕数据库正在添加数据&lt;br&gt;这些数据也是下一次定时增量的事情&lt;br&gt;isDataOverLimit = false" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-1330" y="4510" width="280" height="120" as="geometry" />
@@ -1465,10 +1474,10 @@
           <mxGeometry x="-1711.75" y="4130" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-458" value="释放锁&lt;br&gt;结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-875" y="4150" width="100" height="60" as="geometry" />
+          <mxGeometry x="-2000" y="4210" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-460" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1510" y="4180" width="30" height="30" as="geometry" />
+          <mxGeometry x="-1750" y="4190" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-463" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-461" target="ujubCkocFbaikDBOblAJ-453">
           <mxGeometry relative="1" as="geometry" />
@@ -1479,8 +1488,14 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-466" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1650" y="4230" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-471" value="isDataOverLimit=true&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;t1 == t2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="ujubCkocFbaikDBOblAJ-476" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-471" target="ujubCkocFbaikDBOblAJ-475">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-471" value="isDataOverLimit?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-2133.25" y="4740" width="213" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-475" value="t1==t2?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="4940" width="213" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
