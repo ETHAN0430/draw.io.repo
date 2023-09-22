@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T09:18:39.892Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="n1TuApwI_iCmSWlW2AOH" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T09:20:43.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dY51n7hRjxuVAAteVkYp" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
     <mxGraphModel dx="21508" dy="10709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1962,7 +1962,7 @@
           <mxGeometry x="9990" y="2440" width="1710" height="360" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-763" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 144px; background-color: rgb(51, 0, 0);&quot;&gt;cdo-detail-core的数据插入流程：now() =&amp;gt; 00:00:00 =&amp;gt; Timestamp&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="8730" y="2202" width="4290" height="190" as="geometry" />
+          <mxGeometry x="8930" y="2129.75" width="4290" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-764" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 144px; background-color: rgb(51, 0, 0);&quot;&gt;所以不是四舍五入&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="10240" y="2848" width="1180" height="190" as="geometry" />
@@ -2120,6 +2120,12 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-839" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 72px;&quot;&gt;00:00:02.999&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="13540" y="8285" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-841" value="最终方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10600" y="9000" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-842" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 144px; background-color: rgb(51, 0, 0);&quot;&gt;最终方案：&lt;br&gt;如果系统时间和数据时间只差一秒，那么S1从头开始自选（S0 -&amp;gt;S1)&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="11710" y="3520" width="4410" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
