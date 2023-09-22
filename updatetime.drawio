@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T08:14:51.215Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="t4ws0WCqX5YOorcIYj3x" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T08:17:24.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_NtUmGdaC6K6kmNCJq2N" version="21.7.5" type="github">
   <diagram name="第 1 页" id="Zjm2JlXs56T9bLfwZ5cv">
-    <mxGraphModel dx="3796" dy="1421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8558" dy="3879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1830,33 +1830,11 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-700" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-703" target="ujubCkocFbaikDBOblAJ-698">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-701" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-703" target="ujubCkocFbaikDBOblAJ-699">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-702" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ujubCkocFbaikDBOblAJ-703" target="ujubCkocFbaikDBOblAJ-704">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="4631.5" y="4729" />
-              <mxPoint x="6377.5" y="4729" />
-              <mxPoint x="6377.5" y="6381" />
-              <mxPoint x="4645.5" y="6381" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-703" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4423.5" y="4884" width="416.5" height="152.5" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-704" value="&lt;font style=&quot;font-size: 72px;&quot;&gt;结束&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4437" y="6209" width="416.5" height="152.5" as="geometry" />
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-705" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;t1 &amp;lt; t2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4211.5" y="4879" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-706" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;t1 == t2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4873.5" y="4869" width="190" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-707" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;beginId = id2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5277.5" y="5139" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-708" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
           <mxGeometry x="4333.5" y="5689" width="560" height="200" as="geometry" />
@@ -1867,14 +1845,8 @@
         <mxCell id="ujubCkocFbaikDBOblAJ-710" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;t1 == t2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4177.5" y="5429" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-711" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;updateTime = t2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3611.5" y="5119" width="370" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-712" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;beginId = id2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4457.5" y="5299" width="300" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-713" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;updateTime = t2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5277.5" y="5209" width="370" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-714" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;updateTime = t2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4416.5" y="5359" width="370" height="70" as="geometry" />
@@ -1917,9 +1889,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-723" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;updateTime = t2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5367.5" y="4629" width="370" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-724" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;beginId == null&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3875.5" y="5649" width="260" height="60" as="geometry" />
         </mxCell>
@@ -1931,9 +1900,6 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-727" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;select *&lt;br&gt;from table&lt;br&gt;where update_time = t2&lt;br&gt;and id &amp;gt; id2&lt;br&gt;order by update_time, id&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5437.5" y="5569" width="540" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="ujubCkocFbaikDBOblAJ-728" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;isDataLoadedComplete&amp;nbsp;== false&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4512.5" y="4589" width="710" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-729" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;isDataLoadedComplete&amp;nbsp;== true&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4257.5" y="5239" width="690" height="70" as="geometry" />
@@ -1949,6 +1915,9 @@
         </mxCell>
         <mxCell id="ujubCkocFbaikDBOblAJ-735" value="问题根源：一秒钟的数据超过了limit，一秒钟的数据根据id排序被分批拉取，也就是说第一批的数据加载后可以被篡改&lt;br&gt;通常来说 被篡改的时候的updatetime是现实时间，离正在读取的那一秒很远，那没有问题，还是能加载到的。&lt;br&gt;如果离正在读取的那一秒很近，就会出现问题，如下图51.4秒四舍五入修改了第一批数据&lt;br&gt;再读一遍同一秒，可以解决问题，但是如果这一秒数据量很大那就要读两遍，可以用集合来存id。&lt;br&gt;如果是想要下一次更新的时候减两秒覆盖这51秒？那也不行，虽然51秒和现实时间很近，但是显示时间仍然在推进52 53秒，lastUpdateTime会被覆盖，只能全量补偿。&lt;br&gt;所以两个方案：全量补偿或者，循环读，直到现实时间推进了！&lt;br&gt;画图可以画成两个线程，一个是数据库的篡改线程，一个是本地的读取线程。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="192" width="910" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ujubCkocFbaikDBOblAJ-739" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;beginId = null&lt;br&gt;maxUpdateTIme(t2) = lastUpdateime - 1000L&lt;br&gt;isDataLoadedComplete&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4172.5" y="4646" width="990" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
