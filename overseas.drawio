@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T04:54:03.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9wvDatZ9wP2H0VUEJefK" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T04:55:59.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="w3GbKp7Prf5mutB6pYV8" version="21.8.2" type="github">
   <diagram name="第 1 页" id="R1pX3bboMI2ceJxk94YC">
-    <mxGraphModel dx="1618" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2482" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,7 +48,7 @@
             <mxPoint x="570" y="60.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YkHYq3g6I9ERcJjr3e46-47" value="查询数据&lt;br&gt;（OverseasRegionAppExtCache 新增字段appLabel)&lt;br&gt;(新增overseas_app_label的DO类）" style="whiteSpace=wrap;html=1;" vertex="1" parent="YkHYq3g6I9ERcJjr3e46-18">
+        <mxCell id="YkHYq3g6I9ERcJjr3e46-47" value="查询数据&lt;br&gt;&lt;font color=&quot;#ff2e1f&quot;&gt;&lt;b&gt;(新增overseas_app_label的Entity类）&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;（OverseasRegionAppExtCache 新增字段appLabel)&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="YkHYq3g6I9ERcJjr3e46-18">
           <mxGeometry x="140" y="30" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YkHYq3g6I9ERcJjr3e46-108" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YkHYq3g6I9ERcJjr3e46-18">
