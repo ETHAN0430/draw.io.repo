@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:23:19.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bvpLqguN_5ZUlnHOI2B7" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T07:23:24.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Q4jp9dK6g08xyDb37yoM" version="21.8.2" type="github">
   <diagram name="第 1 页" id="R1pX3bboMI2ceJxk94YC">
     <mxGraphModel dx="2227" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -291,10 +291,10 @@
           <mxGeometry x="-690" y="1690" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YkHYq3g6I9ERcJjr3e46-166" value="findAppLabelList现在有被调用吗？这个方法是根据地区和label 查询 app" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1980" width="550" height="130" as="geometry" />
+          <mxGeometry x="840" y="870" width="550" height="130" as="geometry" />
         </mxCell>
         <mxCell id="YkHYq3g6I9ERcJjr3e46-164" value="Label用数字来替代字符串会不会合理一些？&lt;br&gt;如1代表takeTaxi" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1890" width="410" height="90" as="geometry" />
+          <mxGeometry x="920" y="780" width="410" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
