@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T10:46:27.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RW2wqpmzGtBoBU48ZuRD" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:59:58.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="sQb4BAiY9xJezihQJz55" version="22.0.4" type="github">
   <diagram name="第 1 页" id="kvVqzePV_11T5itiF_ri">
-    <mxGraphModel dx="1785" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1618" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,6 +88,14 @@
         <mxCell id="zVIqmHbUI8k_uLwxVMFR-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-28" target="zVIqmHbUI8k_uLwxVMFR-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-28" target="zVIqmHbUI8k_uLwxVMFR-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-28" target="zVIqmHbUI8k_uLwxVMFR-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zVIqmHbUI8k_uLwxVMFR-28" value="开始Redis缓存&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
@@ -111,8 +119,11 @@
         <mxCell id="zVIqmHbUI8k_uLwxVMFR-32" value="区域&amp;nbsp; 所有appid" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-310" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zVIqmHbUI8k_uLwxVMFR-33" value="开始Redis缓存&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1810" width="120" height="60" as="geometry" />
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-33" target="zVIqmHbUI8k_uLwxVMFR-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-33" value="版本 downloadinfo" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zVIqmHbUI8k_uLwxVMFR-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-34" target="zVIqmHbUI8k_uLwxVMFR-46">
           <mxGeometry relative="1" as="geometry" />
@@ -130,7 +141,28 @@
           <mxGeometry x="365" y="1965" width="290" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zVIqmHbUI8k_uLwxVMFR-46" value="type: set(???为啥 不能用list吗)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;key:overseas:cdo:bundle:file:cache:{region}:{versionId}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;value:&amp;nbsp; VersionBundleFileCache&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;bundle资源文件缓存 就是bundle文件的信息 md5 文件url什么的" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="717.5" y="1990" width="305" height="140" as="geometry" />
+          <mxGeometry x="717.5" y="1975" width="305" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-48" value="type: hash&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;key:overseas:cdo:app:download:{region}:{versionId}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;field=apk_ext(代表bundle) 或 apk value=OverseasDownloadInfoCache&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;也是一些下载的url什么的" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1062.5" y="1985" width="295" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-53" target="zVIqmHbUI8k_uLwxVMFR-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-53" value="包名 appid" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-55" value="type: string&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;key:overseas:cdo:pkg:appid:{region}:{pkgname}&lt;br&gt;&amp;nbsp;value=appid&lt;br&gt;区域的这个包名与appid的映射" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1990" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-57" target="zVIqmHbUI8k_uLwxVMFR-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-57" value="label appid" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-59" value="type：hash&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;key:overseas:cdo:label:app:list&lt;br&gt;&lt;font color=&quot;#ff4b0a&quot;&gt;&lt;b&gt;为啥每次都是用tempkey然后rename？&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;value=appid&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;区域的这个包名与appid的映射" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1990" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
