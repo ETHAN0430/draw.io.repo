@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T09:15:26.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xvZHHV3deMRGhbELRb2H" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T09:17:45.211Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="uLTWvqNP3aHQU8oBg8tq" version="22.0.4" type="github">
   <diagram name="第 1 页" id="kvVqzePV_11T5itiF_ri">
     <mxGraphModel dx="791" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,8 +61,14 @@
         <mxCell id="zVIqmHbUI8k_uLwxVMFR-22" value="分页拉取&lt;br&gt;overseas_app_config" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zVIqmHbUI8k_uLwxVMFR-24" value="分条处理appConfig&lt;br&gt;&lt;br&gt;Set&amp;lt;Long&amp;gt; allAppIdList &lt;br&gt;存储appid&lt;br&gt;&lt;br&gt;appConfig根据appLabelTitleMap&lt;br&gt;修改appLabelTitle&lt;br&gt;&lt;br&gt;Map&amp;lt;Long, appConfig&amp;gt; configAppIdMap &lt;br&gt;存储 Key：appid Value：appconfig&lt;br&gt;&lt;br&gt;Map&amp;lt;String, Set&amp;lt;Long&amp;gt; appLabelMap&lt;br&gt;存储 Key：appLabel Value：newAppId（1000+appid）&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zVIqmHbUI8k_uLwxVMFR-24" target="zVIqmHbUI8k_uLwxVMFR-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-24" value="分条处理appConfig&lt;br&gt;&lt;br&gt;Set&amp;lt;Long&amp;gt; allAppIdList &lt;br&gt;存储appid&lt;br&gt;&lt;br&gt;appConfig根据appLabelTitleMap&lt;br&gt;修改appLabelTitle&lt;br&gt;&lt;br&gt;Map&amp;lt;Long, appConfig&amp;gt; configAppIdMap &lt;br&gt;存储 Key：appid&amp;nbsp; &amp;nbsp; Value：appconfig&lt;br&gt;&lt;br&gt;Map&amp;lt;String, Set&amp;lt;Long&amp;gt;&amp;gt; appLabelMap&lt;br&gt;存储 Key：appLabel&amp;nbsp; 如TakeTaxi&amp;nbsp; Value：newAppId（1000+appid）&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="291.25" y="1150" width="437.5" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zVIqmHbUI8k_uLwxVMFR-26" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1545" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
