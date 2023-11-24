@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T10:08:54.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="a6Dlvf0ku3KTbRHmAOMy" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T10:10:40.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DVVd_9Okyx8HrCRXEEwj" version="22.1.3" type="github">
   <diagram name="第 1 页" id="BEXhH0KvzpkVn1QPAtbz">
     <mxGraphModel dx="1235" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,6 +44,9 @@
         <mxCell id="Q_9h0P1raSveHAzUApkY-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q_9h0P1raSveHAzUApkY-7" source="Q_9h0P1raSveHAzUApkY-58" target="Q_9h0P1raSveHAzUApkY-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Q_9h0P1raSveHAzUApkY-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q_9h0P1raSveHAzUApkY-7" source="Q_9h0P1raSveHAzUApkY-58" target="Q_9h0P1raSveHAzUApkY-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Q_9h0P1raSveHAzUApkY-58" value="设置榜单缓存：&lt;b&gt;RankMap&lt;/b&gt;&lt;br&gt;&lt;b&gt;KEY：rankId_region&lt;/b&gt;&lt;br&gt;&lt;b&gt;VALUE：[List] appids&lt;br&gt;(会多存一份region为空值的默认数据&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;不合理的地方：正在遍历的区域和配置中心拉取的区域字符串相同，才缓存空值，这个判断条件没什么用，直接缓存不就好了？&lt;/b&gt;&lt;b&gt;）&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
           <mxGeometry x="215" y="980" width="300" height="160" as="geometry" />
         </mxCell>
@@ -56,8 +59,11 @@
         <mxCell id="Q_9h0P1raSveHAzUApkY-65" value="设置飙升缓存：&lt;b&gt;SoarMap&lt;br&gt;KEY：rankId_region_appId&lt;br&gt;VALUE：soar&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
           <mxGeometry x="490" y="780" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Q_9h0P1raSveHAzUApkY-77" value="如果有第二个更新时间，那么再缓存一次数据，要根据两个不同的榜单缓存比较出排名上升值" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
+        <mxCell id="Q_9h0P1raSveHAzUApkY-77" value="如果有第二个更新时间，缓存第二个更新时间的榜单数据到OLD_RANK_MAP，要根据两个不同的榜单缓存比较出排名上升值" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
           <mxGeometry x="40" y="720" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_9h0P1raSveHAzUApkY-82" value="" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
+          <mxGeometry x="305" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q_9h0P1raSveHAzUApkY-8" value="DB" style="swimlane;startSize=20;html=1;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-6">
           <mxGeometry x="730" y="20" width="250" height="1970" as="geometry">
@@ -73,7 +79,7 @@
         <mxCell id="Q_9h0P1raSveHAzUApkY-21" value="找到当前区域榜单最近的两个更新日期" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-8">
           <mxGeometry x="30" y="250" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Q_9h0P1raSveHAzUApkY-25" value="返回appid集合（覆盖索引）&lt;br&gt;条件：区域限定；更新时间是上述两个更新时间更近的那个；当前时间在运营干预榜单表里的时间范围内" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-8">
+        <mxCell id="Q_9h0P1raSveHAzUApkY-25" value="返回appid集合（覆盖索引）&lt;br&gt;条件：区域限定；更新时间限定（先查更近的更新时间）；当前时间在运营干预榜单表里的时间范围内" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-8">
           <mxGeometry x="25" y="400" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Q_9h0P1raSveHAzUApkY-61" value="单独针对飙升榜再去拉一次数据库&lt;br&gt;拿到soar飙升值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-8">
@@ -106,6 +112,14 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="865" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_9h0P1raSveHAzUApkY-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q_9h0P1raSveHAzUApkY-6" source="Q_9h0P1raSveHAzUApkY-77" target="Q_9h0P1raSveHAzUApkY-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="360" />
+              <mxPoint x="850" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
