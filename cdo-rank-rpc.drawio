@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T02:32:09.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ur1Lk4ztLP7m_pB5XM_h" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-27T02:32:44.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="b16IMcrGYAX0sWbpAtvN" version="22.1.4" type="github">
   <diagram name="第 1 页" id="BEXhH0KvzpkVn1QPAtbz">
-    <mxGraphModel dx="1235" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3000" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Q_9h0P1raSveHAzUApkY-6" value="数据缓存流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="70" width="980" height="1990" as="geometry">
+          <mxGeometry x="210" y="70" width="980" height="2220" as="geometry">
             <mxRectangle x="260.00000000000045" y="20" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -51,7 +51,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q_9h0P1raSveHAzUApkY-7" value="cdo-rank-rpc" style="swimlane;startSize=20;html=1;" parent="Q_9h0P1raSveHAzUApkY-6" vertex="1">
-          <mxGeometry y="20" width="730" height="1970" as="geometry" />
+          <mxGeometry y="20" width="730" height="2200" as="geometry" />
         </mxCell>
         <mxCell id="Q_9h0P1raSveHAzUApkY-11" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="Q_9h0P1raSveHAzUApkY-7" vertex="1">
           <mxGeometry x="79.99999999999955" y="40" width="100" height="60" as="geometry" />
@@ -112,11 +112,17 @@
         <mxCell id="xOoHtlaLZufVqUDBDISK-3" value="更新黑名单" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
           <mxGeometry x="304.995" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xOoHtlaLZufVqUDBDISK-9" value="&lt;b&gt;BLACK_MAP&lt;br&gt;KEY:rankId&lt;br&gt;VALUE:[List] appids&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
+        <mxCell id="xOoHtlaLZufVqUDBDISK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Q_9h0P1raSveHAzUApkY-7" source="xOoHtlaLZufVqUDBDISK-9" target="xOoHtlaLZufVqUDBDISK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOoHtlaLZufVqUDBDISK-9" value="&lt;b&gt;设置BLACK_MAP&lt;br&gt;KEY:rankId&lt;br&gt;VALUE:[List] appids&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
           <mxGeometry x="305.01" y="1730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xOoHtlaLZufVqUDBDISK-12" value="" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="Q_9h0P1raSveHAzUApkY-7">
+          <mxGeometry x="305.01" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="Q_9h0P1raSveHAzUApkY-8" value="DB" style="swimlane;startSize=20;html=1;" parent="Q_9h0P1raSveHAzUApkY-6" vertex="1">
-          <mxGeometry x="730" y="20" width="250" height="1970" as="geometry">
+          <mxGeometry x="730" y="20" width="250" height="2200" as="geometry">
             <mxRectangle x="300" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
