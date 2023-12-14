@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T02:17:59.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Th44uXk_48MnnvxzU-jZ" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T03:11:10.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="12mazcNaI7T_ekrSNf_U" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="4279" dy="1355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2704" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,11 +182,62 @@
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-93" target="pVk94E6_9Db-SWxM0IGJ-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-93" target="pVk94E6_9Db-SWxM0IGJ-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-93" value="缓存hotLevels资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-500" y="920" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-97" target="pVk94E6_9Db-SWxM0IGJ-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-97" value="&lt;br&gt;【同步 / 异步】&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Redis删除全量加载低等级资源状态&lt;br&gt;KEY：cdo:low:app:cache:state&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 加载lowLevels资源&lt;br&gt;&lt;br&gt;3. Redis设置全量加载低等级资源状态&lt;br&gt;KEY：cdo:low:app:cache:state&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VALUE: finish&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-622.5" y="1050" width="365" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-100" value="Redis SET 全量加载状态&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:cache:state&lt;br&gt;VALUE：finish" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="1440" width="180" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-101" target="pVk94E6_9Db-SWxM0IGJ-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-101" value="处理author映射关系" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-105" target="pVk94E6_9Db-SWxM0IGJ-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-105" target="pVk94E6_9Db-SWxM0IGJ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-105" value="delSwitch == on？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="1010" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-108" target="pVk94E6_9Db-SWxM0IGJ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-108" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Redis DELETE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;KEY：cdo:app:inc:app:cache:time:{region}:{level}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;KEY：cdo:app:inc:app:cache:time:{region}:{level}:tmp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;KEY：cdo:app:inc:ver:cache:time:{region}:{level}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;KEY：cdo:app:inc:ver:cache:time:{region}:{level}:tmp&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="1132" width="350" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-111" target="pVk94E6_9Db-SWxM0IGJ-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-111" value="recacheAppBase" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-113" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1185" y="998" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-115" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="1090" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-117" target="pVk94E6_9Db-SWxM0IGJ-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-117" value="分批缓存上架资源的app_id和version_id &lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;表：region_version&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;POJO：RegionAppPolyEntity&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1397.5" y="1410" width="255" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-119" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="1550" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
