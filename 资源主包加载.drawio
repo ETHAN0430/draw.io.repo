@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T09:07:09.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8PzN7utYD2UDuz-Jow-k" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T09:16:42.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Xq2xSHGDI8hhm2k3PS6p" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
     <mxGraphModel dx="3499" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -344,17 +344,35 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-22" target="qrpw8NseWM4qQTTdBPbL-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-22" value="VersionSummaryCache —— 应用概要信息&lt;br&gt;包含：&lt;br&gt;- IntlVersionPolyEntity部分信息&lt;br&gt;- 附属文件，如obb&lt;br&gt;- 悟空包【已废弃】&lt;br&gt;- 增量安装&lt;br&gt;- 压缩包&lt;br&gt;- 渠道压缩包&lt;br&gt;- AB实验&lt;br&gt;&lt;br&gt;Redis SET&lt;br&gt;KEY：cdo:app:summary:{versionid}:{lang}&lt;br&gt;VALUE:VersionSummaryCache&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-22" value="VersionSummaryCache —— 应用概要信息&lt;br&gt;包含：&lt;br&gt;- IntlVersionPolyEntity相关信息&lt;br&gt;- 附属文件，如obb&lt;br&gt;- 悟空包【已废弃】&lt;br&gt;- 增量安装&lt;br&gt;- 压缩包&lt;br&gt;- 渠道压缩包&lt;br&gt;- AB实验&lt;br&gt;&lt;br&gt;Redis SET&lt;br&gt;KEY：cdo:app:summary:{versionid}:{lang}&lt;br&gt;VALUE:VersionSummaryCache&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1473.1699999999998" y="4190" width="406.3" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-24" target="qrpw8NseWM4qQTTdBPbL-26">
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-24" target="qrpw8NseWM4qQTTdBPbL-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-24" value="VersionDetailCache —— 应用详细信息&lt;br&gt;包含：&lt;br&gt;- IntlVersionPolyEntity部分信息&lt;br&gt;- 图片信息&lt;br&gt;&lt;br&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:detail:{versionid}:{lang}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:VersionDetailCache&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-24" value="VersionDetailCache —— 应用详细信息&lt;br&gt;包含：&lt;br&gt;- IntlVersionPolyEntity相关信息&lt;br&gt;- 图片信息&lt;br&gt;&lt;br&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:detail:{versionid}:{lang}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:VersionDetailCache&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1417.5" y="4470" width="295.03" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-26" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1329.9850000000001" y="4710" width="120" height="60" as="geometry" />
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-28" target="qrpw8NseWM4qQTTdBPbL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-28" value="AppDownloadInfoCache—— 资源下载信息&lt;br&gt;包含：&lt;br&gt;- IntlVersionPolyEntity相关信息&lt;br&gt;&lt;br&gt;Redis HSET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:download:{versionid}&lt;br&gt;FIELD：apk&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:AppDownloadInfoCache" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="4700" width="295.03" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-30" target="qrpw8NseWM4qQTTdBPbL-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-30" value="AppDownloadExtInfoCache—— 资源下载额外信息&lt;br&gt;包含：&lt;br&gt;- IntlVersionPolyEntity相关信息&lt;br&gt;&lt;br&gt;Redis HSET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:download:{versionid}&lt;br&gt;FIELD：apk_ext&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:AppDownloadExtInfoCache" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="4930" width="295.03" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-34" target="qrpw8NseWM4qQTTdBPbL-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-34" value="pkgName - appId 的映射关系&lt;br&gt;此处会存到两个不同的Redis中&lt;br&gt;&lt;br&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:pkg:{pkgName}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE：appId" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="5160" width="295.03" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-38" value="versionId - appId 的映射关系&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;此处会存到两个不同的Redis中&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:version:{versionId}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE：appId" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="5390" width="295.03" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
