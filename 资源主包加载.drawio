@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T09:16:42.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Xq2xSHGDI8hhm2k3PS6p" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T09:25:44.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5FnTaC5jfIMjmX5-lwFb" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
     <mxGraphModel dx="3499" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -371,8 +371,20 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-34" value="pkgName - appId 的映射关系&lt;br&gt;此处会存到两个不同的Redis中&lt;br&gt;&lt;br&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:pkg:{pkgName}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE：appId" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1417.5" y="5160" width="295.03" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-38" target="qrpw8NseWM4qQTTdBPbL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-38" value="versionId - appId 的映射关系&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;此处会存到两个不同的Redis中&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:version:{versionId}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE：appId" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1417.5" y="5390" width="295.03" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-40" target="qrpw8NseWM4qQTTdBPbL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-40" value="VersionBundleFileCache—— Bundle资源文件&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;包含：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- IntlVersionPolyEntity的versionId&lt;br&gt;- Bundle资源文件信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis SADD RENAME&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:bundle:file:cache:{versionId}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:VersionBundleFileCache&lt;br&gt;EXPIRE:30天" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="5620" width="295.03" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-42" value="VersionGrayStageCache—— Bundle资源文件&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;包含：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- IntlVersionPolyEntity的versionId appId&lt;br&gt;- 灰度版本阶段信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis SADD RENAME&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:vgray:cache:{versionId}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:VersionBundleFileCache&lt;br&gt;EXPIRE:7天" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1417.5" y="5850" width="295.03" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
