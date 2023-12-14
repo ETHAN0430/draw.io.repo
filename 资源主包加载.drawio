@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T02:07:02.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="89Ho8TOQk1EkFDT-6dZ-" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T02:17:59.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Th44uXk_48MnnvxzU-jZ" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="2889" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4279" dy="1355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,22 +125,25 @@
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-59" value="这里没有CAS的功能，不过获取到旧值是否和预期相同，都会设置值进去&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 75, 10);&quot;&gt;&lt;span style=&quot;color: rgb(255, 75, 10);&quot;&gt;如果Redis单线程可以锁住，但是可能存在时间戳并不是获取到分布式锁的那个线程设置的&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="1010" width="500" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pVk94E6_9Db-SWxM0IGJ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-61" target="pVk94E6_9Db-SWxM0IGJ-65">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-61" target="pVk94E6_9Db-SWxM0IGJ-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pVk94E6_9Db-SWxM0IGJ-61" value="启动时的全量加载？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-61" target="pVk94E6_9Db-SWxM0IGJ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-61" value="是服务启动时的全量加载？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-540" y="518" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-65" target="pVk94E6_9Db-SWxM0IGJ-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-65" value="Redis GET 全量加载状态&lt;br&gt;KEY：cdo:app:cache:state" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-765" y="640" width="160" height="60" as="geometry" />
+          <mxGeometry x="-760" y="528" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-69" target="pVk94E6_9Db-SWxM0IGJ-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-69" target="pVk94E6_9Db-SWxM0IGJ-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-69" value="Redis DELETE 全量加载状态&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:cache:state" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -155,17 +158,35 @@
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-76" target="pVk94E6_9Db-SWxM0IGJ-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-76" target="pVk94E6_9Db-SWxM0IGJ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-76" value="VALUE == finsh?&lt;br&gt;是否全量加载完成？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-772.5" y="785" width="175" height="80" as="geometry" />
+          <mxGeometry x="-767.5" y="628" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-80" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="785" width="30" height="30" as="geometry" />
+          <mxGeometry x="-790" y="638" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-81" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="795" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1000" y="638" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pVk94E6_9Db-SWxM0IGJ-83" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-500" y="831" width="120" height="60" as="geometry" />
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-83" target="pVk94E6_9Db-SWxM0IGJ-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-83" value="从配置中心拉取配置的区域regions" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-86" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="628" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-93" target="pVk94E6_9Db-SWxM0IGJ-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-93" value="缓存hotLevels资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-97" value="&lt;br&gt;【同步 / 异步】&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Redis删除全量加载低等级资源状态&lt;br&gt;KEY：cdo:low:app:cache:state&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 加载lowLevels资源&lt;br&gt;&lt;br&gt;3. Redis设置全量加载低等级资源状态&lt;br&gt;KEY：cdo:low:app:cache:state&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VALUE: finish&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-622.5" y="1050" width="365" height="171" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
