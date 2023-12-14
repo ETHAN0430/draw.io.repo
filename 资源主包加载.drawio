@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T09:28:18.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6-JRArI9m1nvVCC2lVq6" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T09:38:38.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-aYlTBE62Rhhhi7B3MEq" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3499" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4923" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,8 +389,20 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-42" value="VersionGrayStageCache —— Bundle资源文件&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;包含：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- IntlVersionPolyEntity的versionId appId&lt;br&gt;- 灰度版本阶段信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis SADD RENAME&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:vgray:cache:{versionId}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:VersionGrayStageCache&lt;br&gt;EXPIRE:7天" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1417.5" y="5850" width="295.03" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-44" value="Obit2.0 增量包&lt;br&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1329.9850000000001" y="6125" width="120" height="60" as="geometry" />
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-44" target="qrpw8NseWM4qQTTdBPbL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-44" value="缓存Obit2.0 增量包&lt;br&gt;库表：&lt;br&gt;patch | patch_obit | patch_obit_v{}&lt;br&gt;&lt;br&gt;AppDownloadInfoCache—— 资源下载信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;包含：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- IntlVersionPolyEntity相关信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis HSET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:download:{versionid}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;FIELD：md5 obit相关 ob ob2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:AppDownloadInfoCache" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1482.53" y="6130" width="425.02" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-46" target="qrpw8NseWM4qQTTdBPbL-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-46" value="AppDownloadInfoCache—— 资源下载信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;包含：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- IntlVersionPolyEntity相关信息&lt;br&gt;- Obb附属文件下载信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:download:version:attach:file&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:AppDownloadInfoCache" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1449.72" y="6480" width="359.4" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-48" value="缓存DevId - Set&amp;lt;appId&amp;gt; 映射关系&lt;br&gt;&lt;br&gt;Redis SADD&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:dev:app:set&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE: Set&amp;lt;appid&amp;gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1394.99" y="6660" width="250.02" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
