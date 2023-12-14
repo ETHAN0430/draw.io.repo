@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T09:38:38.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-aYlTBE62Rhhhi7B3MEq" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T11:25:53.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JJImsB0q_zBMSPlJrc29" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="4923" dy="1244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4516" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -401,8 +401,17 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-46" value="AppDownloadInfoCache—— 资源下载信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;包含：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- IntlVersionPolyEntity相关信息&lt;br&gt;- Obb附属文件下载信息&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Redis SET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:download:version:attach:file&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE:AppDownloadInfoCache" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1449.72" y="6480" width="359.4" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-48" value="缓存DevId - Set&amp;lt;appId&amp;gt; 映射关系&lt;br&gt;&lt;br&gt;Redis SADD&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:dev:app:set&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE: Set&amp;lt;appid&amp;gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-48" target="qrpw8NseWM4qQTTdBPbL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-48" value="增量缓存DevId - Set&amp;lt;appId&amp;gt; 映射关系&lt;br&gt;&lt;br&gt;Redis SADD&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:dev:app:set&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE: Set&amp;lt;appid&amp;gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1394.99" y="6660" width="250.02" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-50" value="全量缓存DevId - Set&amp;lt;appId&amp;gt; 映射关系&lt;br&gt;&lt;br&gt;Redis SADD RENAME&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:dev:app:set&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE: Set&amp;lt;appid&amp;gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1394.99" y="6810" width="250.02" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-52" value="可能是加载到的先缓存，可以先用，最后全量肯定也会带这些数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-1719.98" y="6760" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
