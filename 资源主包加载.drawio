@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T07:03:30.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DemuARd2jitk6QqeWT8j" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T07:27:24.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="z7LzW_pUWjE0fOz4U2ho" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3881" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3436" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,7 +237,7 @@
           <mxGeometry x="-1397.5" y="1410" width="255" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-119" value="Redis HSET&lt;br&gt;KEY：cdo:app:{region}:{level}:{index}:{batch}&lt;br&gt;VALUE：" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1461.24" y="2300" width="382.5" height="90" as="geometry" />
+          <mxGeometry x="-1461.24" y="2580" width="382.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-121" value="&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;例如数据量约为64w,minid=1,maxid=639999&lt;br&gt;把64w个id按步长1w拆分,list=[1,10001,20001,......630001]&lt;br&gt;list.size()=64&lt;br&gt;将list的顺序打散之后分给8个线程&lt;br&gt;index的取值为[0,63]&lt;br&gt;list.get(index)可能是1,230001,50001&lt;br&gt;&lt;br&gt;batch是在10000条里面再拆分&lt;br&gt;count / 1000，count目前受limit限制，500 / 1000 永远是 0，&lt;font color=&quot;#ff4b0a&quot;&gt;目前batch永远是0&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1850" y="1350" width="440" height="190" as="geometry" />
@@ -263,8 +263,23 @@
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-130" value="这里AppVerMap是不是没用了？&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 75, 10);&quot;&gt;&lt;span style=&quot;color: rgb(255, 75, 10);&quot;&gt;因为appid对应多个versionid，2017年这里只做一对一映射&lt;br&gt;&lt;br&gt;是的，versionId字段已在2019年被废弃&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1910" y="1760" width="330" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-132" target="pVk94E6_9Db-SWxM0IGJ-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-132" value="Redis SET&lt;br&gt;region appid 和 versionid的映射&lt;br&gt;&lt;font color=&quot;#ff4b0a&quot;&gt;同理已废弃&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1410" y="2110" width="280" height="70" as="geometry" />
+          <mxGeometry x="-1409.99" y="2070" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pVk94E6_9Db-SWxM0IGJ-134" target="pVk94E6_9Db-SWxM0IGJ-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-134" value="Redis RENAME&lt;br&gt;KEY：cdo:app:appid:vset:{region}:{appid}&lt;br&gt;VALUE：SET&amp;lt;versionid&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1434.99" y="2200" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-137" value="rename意味着用新数据覆盖&lt;br&gt;如果先删后加可能会导致期间读不到数据&lt;br&gt;也不能直接加 因为旧数据可能失效" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1760" y="2205" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-140" value="缓存L2包名列表&lt;br&gt;库表：app_base&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;app_base的id就是appid&lt;br&gt;有几种包名？内部外部？&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Redis HMSET&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;KEY：cdo:app:pkg:l{level}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FIELD:{pkgName}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;VALUE:{id}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1463.75" y="2380" width="387.52" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
