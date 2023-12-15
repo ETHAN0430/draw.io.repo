@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T09:02:46.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="iXdfRypCBmNeJcKzR4SW" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T09:18:50.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DsiO8nwymafoZ1SPbyS0" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="4814" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3436" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -540,8 +540,8 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-100" value="1: n&lt;br&gt;region - appid - versionid - lang&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1080" y="80" width="270" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-101" value="转换为本地缓存&lt;br&gt;IntlVersionLocalCache&lt;br&gt;VersionSummaryLocalCache.IntlVersions:Map&amp;lt;lang,IntlVersionLocalCache&amp;gt;&lt;br&gt;summaryCacheMap:&amp;lt;versionId,VersionSummaryLocalCache&amp;gt;&lt;br&gt;pkgCache:Map&amp;lt;pkgName,appId&amp;gt;&lt;br&gt;versionCache:Map&amp;lt;versionId,appId&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="2747.5" width="440" height="100" as="geometry" />
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-101" value="转换为本地缓存&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;IntlVersionLocalCache &lt;/font&gt;&lt;/b&gt;extends SummaryCache:{appname,subname,summary,iconUrl,lang,&lt;b&gt;isDefault??&lt;/b&gt;}&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff66ff&quot;&gt;VersionSummaryLocalCache&lt;/font&gt;&lt;/b&gt;.IntlVersions:Map&amp;lt;lang,&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;IntlVersionLocalCache&lt;/font&gt;&lt;/b&gt;&amp;gt;&lt;br&gt;summaryCacheMap:&amp;lt;versionId,&lt;b&gt;&lt;font color=&quot;#ff66ff&quot;&gt;VersionSummaryLocalCache&lt;/font&gt;&lt;/b&gt;&amp;gt;&lt;br&gt;pkgCache:Map&amp;lt;pkgName,appId&amp;gt;&lt;br&gt;versionCache:Map&amp;lt;versionId,appId&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="2730" width="790" height="242.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
