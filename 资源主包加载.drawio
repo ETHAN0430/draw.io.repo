@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T07:25:33.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-ZXa--qylVV3OOFqBffA" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T07:41:38.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="R7xNFzuOuvWJO3Y842Vs" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
     <mxGraphModel dx="3543" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -471,8 +471,8 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-75" target="qrpw8NseWM4qQTTdBPbL-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-75" value="设置RegionExtCache的appid和level" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="1166" width="120" height="60" as="geometry" />
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-75" value="简单设置RegionExtCache的appid和level&lt;br&gt;appid加入集合" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1169" width="220" height="64" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-77" target="qrpw8NseWM4qQTTdBPbL-79">
           <mxGeometry relative="1" as="geometry" />
@@ -504,8 +504,14 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-87" value="先判断isLoadMore再拉取不好吗？？？不然拉取了又不用" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1830" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-88" value="本地缓存结构&lt;br&gt;&amp;nbsp;regionAppMap：Map&amp;lt;region,Map&amp;lt;appid,RegionAppExtCache&amp;gt;&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1897.5" y="1830" width="385" height="100" as="geometry" />
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-88" target="qrpw8NseWM4qQTTdBPbL-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-88" value="本地缓存&lt;br&gt;regionAppCache:Map&amp;lt;appid,RegionAppExtCache&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;regionAppMap：Map&amp;lt;region,regionAppCache&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1903.75" y="1840" width="372.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-91" value="根据appid集合多线程拉取扩展信息&lt;br&gt;并将本地缓存其他信息补充完整&lt;br&gt;（之前只设置了appid和level）&lt;br&gt;Redis GET&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;KEY：cdo:app:ext:{region}:{appid}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE：RegionAppExtCache" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1935" y="2025" width="310" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
