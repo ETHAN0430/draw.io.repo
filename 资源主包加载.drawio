@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T09:24:44.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HQCk9OS4LcSD8eYgmAny" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T09:26:28.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8co6uskQc2OJpwR0c49u" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="5106" dy="1355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="23481" dy="10840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -554,6 +554,9 @@
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-105" value="把各种缓存存到aooLocalCacheManager&lt;br&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1995" y="3200" width="190" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-107" value="只把admin全量加载的主要消息都缓存下来，比如下载相关的就没有本地缓存下来，可能在download服务？" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="70" width="325" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
