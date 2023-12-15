@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T07:52:36.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0QQl7tX7ogz1L3PFUBqC" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T07:52:49.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="33pHX95ZOUMoGLtO7gS_" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="4701" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3543" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -501,8 +501,8 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-85" value="将versionId都加入集合返回" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2240" y="1655" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-87" value="先判断isLoadMore再拉取不好吗？？？不然拉取了又不用" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="1490" width="120" height="60" as="geometry" />
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-87" value="先判断isLoadMore再拉取Redis不好吗？？？不然拉取了又不用" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="1500" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-88" target="qrpw8NseWM4qQTTdBPbL-91">
           <mxGeometry relative="1" as="geometry" />
