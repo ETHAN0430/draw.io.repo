@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T06:54:25.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="rUJQYY4IfQPq13Zuirn4" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T07:25:33.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-ZXa--qylVV3OOFqBffA" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3221" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3543" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,7 +275,7 @@
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pVk94E6_9Db-SWxM0IGJ-134" target="pVk94E6_9Db-SWxM0IGJ-140" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pVk94E6_9Db-SWxM0IGJ-134" value="Redis RENAME&lt;br&gt;KEY：cdo:app:appid:vset:{region}:{appid}&lt;br&gt;VALUE：SET&amp;lt;versionid&amp;gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="pVk94E6_9Db-SWxM0IGJ-134" value="Redis SADD RENAME&lt;br&gt;KEY：cdo:app:appid:vset:{region}:{appid}&lt;br&gt;VALUE：SET&amp;lt;versionid&amp;gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1434.99" y="2200" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pVk94E6_9Db-SWxM0IGJ-137" value="rename意味着用新数据覆盖&lt;br&gt;如果先删后加可能会导致期间读不到数据&lt;br&gt;也不能直接加 因为旧数据可能失效" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -459,11 +459,53 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-69" target="qrpw8NseWM4qQTTdBPbL-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-69" value="每个区域缓存L2 L1资源" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-69" value="每个区域缓存L2 L1 L0 L-1资源" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2030" y="798" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-71" target="qrpw8NseWM4qQTTdBPbL-75">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-71" value="拉取redis v2 batch&lt;br&gt;REDIS SMEMBERS&lt;br&gt;KEY：cdo:app:appid:batch:v2:keys:{region}:{level}:{index}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE：Set&amp;lt;appIds&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1930" y="948" width="320" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-75" target="qrpw8NseWM4qQTTdBPbL-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-75" value="设置RegionExtCache的appid和level" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1166" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-77" target="qrpw8NseWM4qQTTdBPbL-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-77" value="拉取appid和对应的versionId列表&lt;br&gt;Redis SMEMBERS&lt;br&gt;KEY：cdo:app:appid:vset:{region}:{appid}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;VALUE：SET&amp;lt;versionid&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="1330" width="300" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-79" target="qrpw8NseWM4qQTTdBPbL-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-79" target="qrpw8NseWM4qQTTdBPbL-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-79" value="isLoadMore == true&lt;br&gt;不加载低等级资源时为N" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1560" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-83" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2037" y="1625" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-84" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2175" y="1568" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-85" target="qrpw8NseWM4qQTTdBPbL-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-85" value="将versionId都加入集合返回" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="1655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-87" value="先判断isLoadMore再拉取不好吗？？？不然拉取了又不用" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-88" value="本地缓存结构&lt;br&gt;&amp;nbsp;regionAppMap：Map&amp;lt;region,Map&amp;lt;appid,RegionAppExtCache&amp;gt;&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1897.5" y="1830" width="385" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
