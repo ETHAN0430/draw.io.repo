@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T08:37:52.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ewYlwN7daj5bSceW0nhq" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T09:02:46.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="iXdfRypCBmNeJcKzR4SW" version="22.1.8" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3543" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4814" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,8 +519,29 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-93" value="appkey appsecret sysid&lt;br&gt;redis没存 本地缓存却要加载&lt;br&gt;&lt;br&gt;下面还要设置LocalCacheRegionAppResult但是appkey和sysid都是空的，所以设置了个啥？" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1580" y="1950" width="260" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-94" target="qrpw8NseWM4qQTTdBPbL-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-94" value="reloadAppVersionLocalCache" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1975" y="2217.5" width="230" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-96" target="qrpw8NseWM4qQTTdBPbL-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-96" value="多线程拉取&lt;br&gt;LocalCacheSummaryHandler" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1985" y="2350" width="210" height="68.75" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-98" target="qrpw8NseWM4qQTTdBPbL-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-98" value="获取每一个版本id对应的每一种语言（配置中心）的信息&lt;br&gt;VersionSummaryCache&lt;br&gt;&lt;br&gt;Redis GET&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;KEY：cdo:app:summary:{versionid}:{lang}&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;VALUE:VersionSummaryCache&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="2490" width="260" height="106.88" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-100" value="1: n&lt;br&gt;region - appid - versionid - lang&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="80" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-101" value="转换为本地缓存&lt;br&gt;IntlVersionLocalCache&lt;br&gt;VersionSummaryLocalCache.IntlVersions:Map&amp;lt;lang,IntlVersionLocalCache&amp;gt;&lt;br&gt;summaryCacheMap:&amp;lt;versionId,VersionSummaryLocalCache&amp;gt;&lt;br&gt;pkgCache:Map&amp;lt;pkgName,appId&amp;gt;&lt;br&gt;versionCache:Map&amp;lt;versionId,appId&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="2747.5" width="440" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
