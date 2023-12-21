@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T07:58:37.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="45CD2rSaAO4t8gRJtElv" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T08:00:09.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NZ9TABuOgCJQaJkW78Ak" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3716" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3321" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -542,7 +542,7 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-103" value="设置appname,subname,summary,iconUrl,bundle信息（如果是bundle）,gray信息（如果是gray）" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1782.5" y="2969" width="615" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-105" value="把各种缓存存到aooLocalCacheManager&lt;br&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-105" value="把各种缓存存到appLocalCacheManager" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1995" y="3200" width="190" height="54.5" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-107" value="resource-rpc只把admin全量加载的主要消息都缓存下来，比如下载相关的就没有本地缓存下来，可能在download服务？" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
