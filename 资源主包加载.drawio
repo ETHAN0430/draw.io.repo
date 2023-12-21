@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T07:23:39.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GAq3Uz0lcLp5-7C88zCg" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T07:42:12.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tgmB_dc1pIhDI8FCoOIh" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="5981" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3481" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -755,8 +755,26 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-80" value="用versionids 去拉versionDataEntity" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3652.25" y="2596.88" width="224.84" height="85.04" as="geometry" />
         </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-82" target="0dyDwwtQKs_j8eoFrtzp-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-82" value="又去请求region_verision，过滤一遍appid，要求是上架的，还维护了appVerMap，然后去拉appDataEntity" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3632.01" y="2777.78" width="265.33" height="64.44" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-84" target="0dyDwwtQKs_j8eoFrtzp-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-84" value="versionDataEntity存Redis" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3677.0099999999998" y="2914.44" width="175.32" height="65.56" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-86" target="0dyDwwtQKs_j8eoFrtzp-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-86" value="appDataEntity存Redis" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3672.5" y="3069" width="185.33" height="52.78" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-88" value="cacheAndDelApp2Redis&lt;br&gt;传了两个appIds，一个是过滤版本，一个是存在region_version的下架版本&lt;br&gt;两个求交集，就能得到最近下架的app_id" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3652.7400000000002" y="3200" width="224.84" height="81.83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
