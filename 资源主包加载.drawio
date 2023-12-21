@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T09:04:42.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="PphF0-A2-Z_Ax_IGoBjI" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T09:14:38.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="iwUOULD1TtgYAU6dfSCk" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3531" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3586" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -889,8 +889,14 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-135" value="根据appid和versionid单点去拉取，如果拉取不到，说明下架了" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="4800" y="1255" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-139" value="所以就算redis里面是要存下架的appid的，不然删不了啊" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4465" y="1245" width="320" height="30" as="geometry" />
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-139" value="所以就算redis里面是需要去存下架的appid的，不然删不了啊" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4455" y="1245" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-140" value="版本号是没问题的 app有问题，但是会再去查" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="3190" y="2420" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-141" value="如果所有region_version 一个appid的versionid全都是下架，返回的数据就不会有这个appid。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="3035" y="2288" width="510" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
