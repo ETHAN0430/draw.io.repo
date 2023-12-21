@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T06:24:04.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IUfS7Xk6tstbBJk9EF6v" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T06:29:48.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kjRoiXAzBUltDY8uJkWx" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
     <mxGraphModel dx="3531" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -701,8 +701,8 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-61" value="记录下一轮的lastReloadTime" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2835" y="1175" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-63" value="开始增量，lastReloadTime为定值" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2662.5" y="1335" width="465" height="205" as="geometry" />
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;开始增量，lastReloadTime为SQL定值筛选条件。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;涉及库表：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;app_base: {id, id, update_time} （id是app_id)&lt;br&gt;version_compat: {id, app_id, update_time}&lt;br&gt;region_version: {id, app_id, version_id}&lt;br&gt;region_app_ext：{id, app_id, update_time}&lt;br&gt;version：{id, id, update_time} （id是version_id)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;intl_version：{id, version_id, update_time}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2726.25" y="1340" width="337.5" height="195" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-65" value="风险点：时间滞后，六个表都没数据才会停止，如果一个表一直插入，其他的表也要" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2640" y="1270" width="470" height="30" as="geometry" />
