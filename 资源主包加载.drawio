@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T06:44:26.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dtJWVZQzNDD9GIybaamw" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T07:07:01.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8uWDXjpHo-3vYqR-Fl8u" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
     <mxGraphModel dx="3436" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -704,7 +704,7 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-63" target="0dyDwwtQKs_j8eoFrtzp-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;开始增量，lastReloadTime为SQL定值筛选条件。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;涉及库表：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;app_base: {id, id, update_time} （id是app_id)&lt;br&gt;version_compat: {id, app_id, update_time}&lt;br&gt;region_version: {id, app_id, version_id}&lt;br&gt;region_app_ext：{id, app_id, update_time}&lt;br&gt;version：{id, id, update_time} （id是version_id)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;intl_version：{id, version_id, update_time}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;上述app_id也是entity_id&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-63" value="&lt;div style=&quot;text-align: left;&quot;&gt;开始增量，lastReloadTime为SQL定值筛选条件。&lt;br&gt;下文的app_id也是entity_id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;region_version是有根据region level筛选的&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;涉及库表：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;app_base: {id, id, update_time} （id是app_id)&lt;br&gt;version_compat: {id, app_id, update_time}&lt;br&gt;region_version: {id, app_id, version_id}&lt;br&gt;region_app_ext：{id, app_id, update_time}&lt;br&gt;version：{id, id, update_time} （id是version_id)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;intl_version：{id, version_id, update_time}&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3597.8" y="1350" width="333.75" height="180" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-65" value="风险点：时间滞后，六个表都没数据才会停止&lt;br&gt;如果一个表一直插入，其他的表也要" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
@@ -725,11 +725,26 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-70" target="0dyDwwtQKs_j8eoFrtzp-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-70" value="根据当前region和level，查询region_version&lt;br&gt;筛选checkRegionLevelAppIds" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-70" value="根据当前region和level，以及checkRegionLevelAppIds&lt;br&gt;查询region_version&lt;br&gt;并返回上下架状态" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3635.06" y="1995.62" width="260.2" height="74.38" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-72" target="0dyDwwtQKs_j8eoFrtzp-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-72" value="根据当前region和level，查询region_version&lt;br&gt;筛选checkRegionLevelAppIds后加入&lt;br&gt;rightRegionLevelAppIds" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3635.06" y="2150" width="260.2" height="74.38" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-75" value="region_version的在架下架版本都在之前拉进来了&lt;br&gt;还把region_version之外的数据，根据level和region以及在架状态以及更新时间近的数据存进来了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3095" y="2291.79" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-76" target="0dyDwwtQKs_j8eoFrtzp-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-76" value="把版本在架和更新时间在lastUpdateTime最近一小时的版本号加到rightRegionLevelVersionIds" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3642.2499999999995" y="2286" width="244.84" height="51.57" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-78" value="把version.intl_version也通过region_version过滤符合region和level的版本号加入到" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3632.83" y="2430" width="264.67" height="76.64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
