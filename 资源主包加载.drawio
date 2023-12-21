@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T03:29:13.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZxYNfrkty4AnoF9jOukF" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T06:17:22.719Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WF-7RMrDo7nAuMdlr2zg" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3356" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3735" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -668,14 +668,26 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-48" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2700" y="760" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-49" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-49" target="0dyDwwtQKs_j8eoFrtzp-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-49" value="遍历不同区域和等级" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2835" y="755" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-52" value="互斥逻辑有误，并不是在做互斥，而是增量给全量5分钟的容忍时间&lt;br&gt;1. 首次waitStartTime为0，时间差必定大于1天，waitStartTime被更新为now&lt;br&gt;2.由于waitStartTime刚刚被更新了，时间差大概率小于5分钟。&lt;br&gt;3. 如果5分钟内全量加载完成了，那么开始获取分布式锁&lt;br&gt;如果5分钟内没有完成，还是获取分布式锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-52" value="不是在做互斥，而是增量给全量5分钟的容忍时间&lt;br&gt;1. 首次waitStartTime为0，时间差必定大于1天，waitStartTime被更新为now&lt;br&gt;2.由于waitStartTime刚刚被更新了，时间差大概率小于5分钟。&lt;br&gt;3. 如果5分钟内全量加载完成了，那么开始获取分布式锁&lt;br&gt;如果5分钟内没有完成，还是获取分布式锁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="2285" y="240" width="420" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-53" value="语义：waitStartTime是开始等待全量完成的时间&lt;br&gt;如果等待超过5分钟就不等待，直接开始获取分布式锁开始更新？？？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="2306.25" y="840" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-54" target="0dyDwwtQKs_j8eoFrtzp-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-54" value="获取上次该区域该等级的lastReloadTime" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-58" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="1035" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
