@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T02:33:49.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="piByJVTAJXaFpRYxa8Cu" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T02:45:58.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FrREwkDSe40hT9HoIx73" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3436" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4231" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -437,24 +437,14 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-59" value="如果一直在加载，分布式锁没释放怎么办？必须确保1小时内能够成功加载。" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qrpw8NseWM4qQTTdBPbL-60" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2090" y="538" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-60" value="从本地缓存获取支持的区域MAP，有啥用？只是记日志？" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2030" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-60" value="从本地缓存获取支持的区域MAP，只用来记日志？" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="445" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qrpw8NseWM4qQTTdBPbL-62" target="qrpw8NseWM4qQTTdBPbL-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-62" value="配置中心获取区域列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2030" y="658" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="qrpw8NseWM4qQTTdBPbL-62" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2090" y="598" as="sourcePoint" />
-          </mxGeometry>
+          <mxGeometry x="2030" y="628" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qrpw8NseWM4qQTTdBPbL-69" target="qrpw8NseWM4qQTTdBPbL-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -615,8 +605,20 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-20" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2915" y="445" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-21" value="now - waitStartTime(默认为0) &amp;gt; 1天" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-21" target="0dyDwwtQKs_j8eoFrtzp-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-21" value="now() - waitStartTime(默认为0) &amp;gt; 1天" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2481" y="473" width="240" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-26" value="waitStartTime = now()" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2491.5" y="644" width="219" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-28" value="又调用一次now()？？？应该提前记录好吧 虽然影响不大" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="2710.5" y="798" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qrpw8NseWM4qQTTdBPbL-60" target="qrpw8NseWM4qQTTdBPbL-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
