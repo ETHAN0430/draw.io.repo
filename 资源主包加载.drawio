@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T02:16:57.425Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mePPj54Qzp_up-gdg8Zn" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T02:17:52.102Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HqrVSKcXsDUxw3_8RIC2" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3586" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3205" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -543,7 +543,7 @@
         <mxCell id="qrpw8NseWM4qQTTdBPbL-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qrpw8NseWM4qQTTdBPbL-101" target="qrpw8NseWM4qQTTdBPbL-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qrpw8NseWM4qQTTdBPbL-101" value="转换为本地缓存&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;IntlVersionLocalCache &lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff3333&quot;&gt;extends SummaryCache&lt;/font&gt;:{appname,subname,summary,iconUrl,lang,&lt;b&gt;isDefault??&lt;/b&gt;}&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff66ff&quot;&gt;VersionSummaryLocalCache&lt;/font&gt;&lt;/b&gt;.IntlVersions:Map&amp;lt;lang,&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;IntlVersionLocalCache&lt;/font&gt;&lt;/b&gt;&amp;gt;&lt;br&gt;summaryCacheMap:&amp;lt;versionId,&lt;b&gt;&lt;font color=&quot;#ff66ff&quot;&gt;VersionSummaryLocalCache&lt;/font&gt;&lt;/b&gt;&amp;gt;&lt;br&gt;pkgCache:Map&amp;lt;pkgName,appId&amp;gt;&lt;br&gt;versionCache:Map&amp;lt;versionId,appId&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="qrpw8NseWM4qQTTdBPbL-101" value="转换为本地缓存&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;IntlVersionLocalCache &lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff3333&quot;&gt;extends SummaryCache&lt;/font&gt;:{appname,subname,summary,iconUrl,lang,&lt;b&gt;isDefault??&lt;/b&gt;}&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff66ff&quot;&gt;VersionSummaryLocalCache&lt;/font&gt;&lt;/b&gt;.IntlVersions:Map&amp;lt;lang,&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;IntlVersionLocalCache&lt;/font&gt;&lt;/b&gt;&amp;gt;&lt;br&gt;summaryCache:Map&amp;lt;versionId,&lt;b&gt;&lt;font color=&quot;#ff66ff&quot;&gt;VersionSummaryLocalCache&lt;/font&gt;&lt;/b&gt;&amp;gt;&lt;br&gt;pkgCache:Map&amp;lt;pkgName,appId&amp;gt;&lt;br&gt;versionCache:Map&amp;lt;versionId,appId&amp;gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1695" y="2730" width="790" height="160" as="geometry" />
         </mxCell>
         <mxCell id="qrpw8NseWM4qQTTdBPbL-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qrpw8NseWM4qQTTdBPbL-103" target="qrpw8NseWM4qQTTdBPbL-105" edge="1">
