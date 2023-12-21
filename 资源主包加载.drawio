@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T02:52:41.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jddDV2LDWLmWMIyLC_qW" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T02:54:16.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="x7wIO85H6caFQ2AaVis6" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
     <mxGraphModel dx="3586" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -593,17 +593,17 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-12" target="0dyDwwtQKs_j8eoFrtzp-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-12" value="分布式全量是否正在加载" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-12" value="分布式全量是否加载完成" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2797.5" y="370" width="195" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-16" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2835" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-19" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2776" y="380" width="30" height="30" as="geometry" />
+          <mxGeometry x="2900" y="440" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-20" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="445" width="30" height="30" as="geometry" />
+          <mxGeometry x="2767.5" y="380" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-21" target="0dyDwwtQKs_j8eoFrtzp-26">
           <mxGeometry relative="1" as="geometry">
@@ -651,7 +651,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-43" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2480" y="790" width="30" height="30" as="geometry" />
+          <mxGeometry x="2485" y="750" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.492;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-33" target="0dyDwwtQKs_j8eoFrtzp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-48" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="760" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
