@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T07:07:01.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8uWDXjpHo-3vYqR-Fl8u" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T07:23:39.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="GAq3Uz0lcLp5-7C88zCg" version="22.1.11" type="github">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3436" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5981" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -734,8 +734,8 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-72" value="根据当前region和level，查询region_version&lt;br&gt;筛选checkRegionLevelAppIds后加入&lt;br&gt;rightRegionLevelAppIds" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3635.06" y="2150" width="260.2" height="74.38" as="geometry" />
         </mxCell>
-        <mxCell id="0dyDwwtQKs_j8eoFrtzp-75" value="region_version的在架下架版本都在之前拉进来了&lt;br&gt;还把region_version之外的数据，根据level和region以及在架状态以及更新时间近的数据存进来了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3095" y="2291.79" width="530" height="40" as="geometry" />
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-75" value="虽然region_version的下架版本都在之前拉进来了，但是最后真正去拉数据的时候会上架state=1条件的限制。&lt;br&gt;搞得很乱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="3019.3" y="2165" width="600" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-76" target="0dyDwwtQKs_j8eoFrtzp-78">
           <mxGeometry relative="1" as="geometry" />
@@ -743,8 +743,20 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-76" value="把版本在架和更新时间在lastUpdateTime最近一小时的版本号加到rightRegionLevelVersionIds" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3642.2499999999995" y="2286" width="244.84" height="51.57" as="geometry" />
         </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-78" target="0dyDwwtQKs_j8eoFrtzp-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-78" value="把version.intl_version也通过region_version过滤符合region和level的版本号加入到" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3632.83" y="2430" width="264.67" height="76.64" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dyDwwtQKs_j8eoFrtzp-80" target="0dyDwwtQKs_j8eoFrtzp-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-80" value="用versionids 去拉versionDataEntity" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3652.25" y="2596.88" width="224.84" height="85.04" as="geometry" />
+        </mxCell>
+        <mxCell id="0dyDwwtQKs_j8eoFrtzp-82" value="又去请求region_verision，过滤一遍appid，要求是上架的，还维护了appVerMap，然后去拉appDataEntity" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3632.01" y="2777.78" width="265.33" height="64.44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
