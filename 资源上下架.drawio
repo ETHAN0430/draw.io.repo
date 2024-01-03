@@ -1,9 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T09:20:54.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="22.1.16" etag="s-t0PUOWNM90Z3tltvjn" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T09:30:28.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="d2C6XX2KcxcU5rHwlB70" version="22.1.16" type="github">
   <diagram name="第 1 页" id="CVmsUMpqrHY093zlfx2p">
-    <mxGraphModel>
+    <mxGraphModel dx="1702" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-2" value="/apps/{appId}/versions/{vId}/add" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="18" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QRnUijK3OwcHCtFtSfkU-3" target="QRnUijK3OwcHCtFtSfkU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;开始&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QRnUijK3OwcHCtFtSfkU-6" target="QRnUijK3OwcHCtFtSfkU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QRnUijK3OwcHCtFtSfkU-6" target="QRnUijK3OwcHCtFtSfkU-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-6" value="是【非合作游戏】？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QRnUijK3OwcHCtFtSfkU-8" target="QRnUijK3OwcHCtFtSfkU-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-8" value="资源等级修改为-1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-10" value="非合作游戏，也就是没有合作的游戏。&lt;br&gt;对商店全场景屏蔽，也就是-1。&lt;br&gt;目前仅对游戏中心部分场景分发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="155" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-11" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="228" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-12" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="298" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QRnUijK3OwcHCtFtSfkU-14" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
