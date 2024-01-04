@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T07:14:52.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m81mb5hWl1vy6HoHLCG-" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T07:27:50.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qK76zxCcuIqTeAd1-bb2" version="22.1.16" type="github">
   <diagram name="第 1 页" id="CVmsUMpqrHY093zlfx2p">
-    <mxGraphModel dx="1500" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,23 +97,47 @@
         <mxCell id="QRnUijK3OwcHCtFtSfkU-43" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="580" y="1505" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NSQjwPK7_Z54wf_-hxor-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000" y="270" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-10" target="NSQjwPK7_Z54wf_-hxor-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSQjwPK7_Z54wf_-hxor-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1400" y="260" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-10" target="NSQjwPK7_Z54wf_-hxor-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSQjwPK7_Z54wf_-hxor-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1802.857142857143" y="250" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-10" target="NSQjwPK7_Z54wf_-hxor-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NSQjwPK7_Z54wf_-hxor-1" value="渠道包挂载逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-10" value="渠道包挂载" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-16" target="NSQjwPK7_Z54wf_-hxor-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-16" value="成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-18" target="NSQjwPK7_Z54wf_-hxor-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-18" value="失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSQjwPK7_Z54wf_-hxor-19" target="NSQjwPK7_Z54wf_-hxor-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-19" value="预上架" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-20" value="主包上架会去找预上架的渠道包吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="313" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-23" value="成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="438" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-25" value="失败" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="438" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-27" value="预上架" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="438" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
