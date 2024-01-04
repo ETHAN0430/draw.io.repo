@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T07:36:04.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4pV63rQsC_6oUYE8tRb5" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T08:33:52.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="rr1dDTOCWjw8jExXTzlb" version="22.1.16" type="github">
   <diagram name="第 1 页" id="CVmsUMpqrHY093zlfx2p">
     <mxGraphModel dx="1500" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,13 +113,16 @@
           <mxGeometry x="860" y="298" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NSQjwPK7_Z54wf_-hxor-18" value="失败:&lt;br&gt;1. 资源包level &amp;lt; 主包level&lt;br&gt;2. 版本号匹配，版本名不匹配" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1185" y="300" width="170" height="102" as="geometry" />
+          <mxGeometry x="1185" y="271" width="170" height="102" as="geometry" />
         </mxCell>
         <mxCell id="NSQjwPK7_Z54wf_-hxor-19" value="预上架&lt;br&gt;1. cpu不匹配&lt;br&gt;2. 其他情况" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="313" width="120" height="60" as="geometry" />
+          <mxGeometry x="1550" y="292" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NSQjwPK7_Z54wf_-hxor-20" value="主包上架会去找预上架的渠道包吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="313" width="200" height="30" as="geometry" />
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-20" value="主包上架会去找预上架的渠道包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="313" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NSQjwPK7_Z54wf_-hxor-39" value="channel_pkg_bind_state_info 渠道包状态的具体描述&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;app_ext_version 渠道包信息&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="930" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
