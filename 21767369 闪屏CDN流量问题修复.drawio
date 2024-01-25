@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T08:42:14.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-exR-VPdUSU2b2RTNYfZ" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T09:30:40.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0mUvrps1ejC3tTU40-xU" version="23.0.0" type="github">
   <diagram name="第 1 页" id="aElg5sLpoX3Ebc0uYG0e">
-    <mxGraphModel dx="840" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,8 +63,8 @@
         <mxCell id="PzFznaBnjliR8zpqUf7G-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fh1afi0INpeB3CUUYA5U-21" target="PzFznaBnjliR8zpqUf7G-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fh1afi0INpeB3CUUYA5U-21" value="是否开启散列开关？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="552" y="880" width="204" height="80" as="geometry" />
+        <mxCell id="fh1afi0INpeB3CUUYA5U-21" value="遍历splashDto的Components&lt;br&gt;判断是否是视频？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="530" y="880" width="248" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fh1afi0INpeB3CUUYA5U-26" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="650" y="950" width="30" height="30" as="geometry" />
@@ -75,7 +75,7 @@
         <mxCell id="PzFznaBnjliR8zpqUf7G-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fh1afi0INpeB3CUUYA5U-36" target="fh1afi0INpeB3CUUYA5U-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fh1afi0INpeB3CUUYA5U-36" value="判断Component是否是视频？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="fh1afi0INpeB3CUUYA5U-36" value="是否开启散列开关？" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="321" y="730" width="186" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fh1afi0INpeB3CUUYA5U-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fh1afi0INpeB3CUUYA5U-36" target="fh1afi0INpeB3CUUYA5U-17" edge="1">
@@ -118,10 +118,10 @@
           <mxGeometry x="527.5" y="1320" width="253" height="100" as="geometry" />
         </mxCell>
         <mxCell id="PzFznaBnjliR8zpqUf7G-16" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="522" y="1183" width="30" height="30" as="geometry" />
+          <mxGeometry x="660" y="1263" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PzFznaBnjliR8zpqUf7G-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="660" y="1260" width="30" height="30" as="geometry" />
+          <mxGeometry x="509.5" y="1190" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PzFznaBnjliR8zpqUf7G-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PzFznaBnjliR8zpqUf7G-18" target="PzFznaBnjliR8zpqUf7G-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -172,7 +172,7 @@
         <mxCell id="PzFznaBnjliR8zpqUf7G-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PzFznaBnjliR8zpqUf7G-43" target="PzFznaBnjliR8zpqUf7G-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PzFznaBnjliR8zpqUf7G-43" value="【测试用】&lt;br&gt;设备OpenID是否命中&quot;不散列的名单“" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="PzFznaBnjliR8zpqUf7G-43" value="&lt;strike&gt;&lt;i&gt;【废弃】【测试用】&lt;br&gt;设备OpenID是否命中&quot;不散列的名单“&lt;/i&gt;&lt;/strike&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="515" y="1000" width="278" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PzFznaBnjliR8zpqUf7G-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PzFznaBnjliR8zpqUf7G-43" target="fh1afi0INpeB3CUUYA5U-17" edge="1">
