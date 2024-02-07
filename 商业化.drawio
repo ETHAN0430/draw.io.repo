@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T07:35:55.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UX-RWpU_5sPfz5lNcaV1" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T07:36:43.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wKiNCFmj1dyoRskBSyun" version="23.0.2" type="github">
   <diagram name="第 1 页" id="AMbzhqfFkD4l3YyqTUbq">
     <mxGraphModel dx="1750" dy="2072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -34,14 +34,6 @@
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-6" value="&lt;b&gt;拍卖引擎&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="600" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.56;entryY=1.121;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-9" target="0BEzw5he5oUD5oCdYzI9-34">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="340" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="397" y="400" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-9" value="自然量DSP&lt;br&gt;（召回、截断、排序、策略）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="600" y="370" width="570" height="60" as="geometry" />
@@ -147,9 +139,6 @@
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-66" value="返回商业化混排结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="180" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-70" value="非强运营" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="330" y="360" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-72" value="&lt;b&gt;广告&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="270" y="-180" width="70" height="40" as="geometry" />
