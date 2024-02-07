@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T06:53:27.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CR-0loi_ZO3nl96m-31A" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T07:00:22.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lVmaMHHTTGzuDxICxKmk" version="23.0.2" type="github">
   <diagram name="第 1 页" id="AMbzhqfFkD4l3YyqTUbq">
-    <mxGraphModel dx="1235" dy="1807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,11 +104,35 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-43" value="e.g.&lt;br&gt;搜索、榜单、分类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="825" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-44" value="e.g.&lt;br&gt;OPPO广告平台 ADX&amp;nbsp;https://e.oppo.com/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-44" value="e.g.&lt;br&gt;OPPO ADX 广告平台 https://e.oppo.com/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="865" y="-140" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-45" value="合约广告系统 非实时竞价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="243" width="160" height="30" as="geometry" />
+          <mxGeometry x="1040" y="288" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-56" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-52" target="0BEzw5he5oUD5oCdYzI9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-52" value="直客DSP&lt;br&gt;（OPPO ADX）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-53" target="0BEzw5he5oUD5oCdYzI9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-53" value="三方DSP&lt;br&gt;（OPPO ADX）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-54" value="TODO:&lt;br&gt;1. 广告联盟" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-147" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-55" value="参考文档：&lt;br&gt;1.&amp;nbsp;https://odocs.myoas.com/docs/kG0gHYWj7GkOaqwe?mobileMsgShowStyle=1&amp;amp;pcMsgShowStyle=1&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-300" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-58" value="e.g. 拼多多、字节跳动、淘宝" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="-210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-59" value="e.g. 穿山甲、广点通" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="-80" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
