@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T07:16:38.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="A4jFyrpd88L5I1OOi_Nw" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T07:19:19.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="eD9JF3mIVX9EFOJ7C6Mu" version="23.0.2" type="github">
   <diagram name="第 1 页" id="AMbzhqfFkD4l3YyqTUbq">
     <mxGraphModel dx="1500" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-1" target="0BEzw5he5oUD5oCdYzI9-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-1" value="媒体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-1" value="媒体" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="90" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-2" target="0BEzw5he5oUD5oCdYzI9-6">
@@ -26,7 +26,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-2" value="媒体引擎" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-2" value="媒体引擎" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-6" target="0BEzw5he5oUD5oCdYzI9-1">
@@ -35,7 +35,7 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-6" value="拍卖引擎" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-9" value="自然量DSP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-9" value="自然量DSP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="600" y="370" width="570" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-12" target="0BEzw5he5oUD5oCdYzI9-6">
@@ -74,7 +74,7 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-29" target="0BEzw5he5oUD5oCdYzI9-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-29" value="&lt;font color=&quot;#1a1a1a&quot;&gt;自然算法&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-29" value="自然算法" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1270" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-33" value="e.g.&lt;br&gt;软件商店" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -130,6 +130,15 @@
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-59" value="e.g. 穿山甲、广点通" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1165" y="-80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-63" value="PCTR PCVR 预估" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-64" value="返回自然排序结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="318" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-66" value="返回自然量排序" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="165" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
