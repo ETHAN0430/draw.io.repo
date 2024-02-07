@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T07:22:45.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5s27Q0X4xwtGDInIC2vK" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T07:28:05.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="26vtBH5cWAHw6PWBNUCd" version="23.0.2" type="github">
   <diagram name="第 1 页" id="AMbzhqfFkD4l3YyqTUbq">
     <mxGraphModel dx="1500" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-2" value="媒体引擎" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-2" value="媒体引擎&lt;br&gt;（自然 + 商业化混排、用户体验等）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-6" target="0BEzw5he5oUD5oCdYzI9-1">
@@ -35,7 +35,15 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-6" value="&lt;b&gt;拍卖引擎&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="600" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-9" value="自然量DSP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.56;entryY=1.121;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-9" target="0BEzw5he5oUD5oCdYzI9-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="397" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-9" value="自然量DSP&lt;br&gt;（召回、截断、排序、策略）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="600" y="370" width="570" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-12" target="0BEzw5he5oUD5oCdYzI9-6">
@@ -74,7 +82,7 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-29" target="0BEzw5he5oUD5oCdYzI9-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-29" value="自然算法" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-29" value="自然算法&lt;br&gt;（自建预估模型）" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1270" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-33" value="e.g.&lt;br&gt;软件商店" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -84,7 +92,7 @@
           <mxGeometry x="330" y="283" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-35" value="e.g.融合列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="210" width="90" height="30" as="geometry" />
+          <mxGeometry x="230" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-37" value="e.g. &lt;br&gt;闪屏" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="50" width="50" height="40" as="geometry" />
@@ -98,8 +106,8 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-41" value="PCTR PCVR 预估" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1150" y="45" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-42" value="e.g.&lt;br&gt;OPPO营销平台 &lt;br&gt;发现这个好像也是广告平台的网址啊" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="870" y="30" width="220" height="60" as="geometry" />
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-42" value="e.g.&lt;br&gt;OPPO营销平台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="925" y="35" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-43" value="e.g.&lt;br&gt;搜索、榜单、分类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="825" y="440" width="120" height="40" as="geometry" />
@@ -139,6 +147,9 @@
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-66" value="返回商业化混排结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-70" value="非强运营" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
