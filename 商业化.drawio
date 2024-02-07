@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T07:32:57.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RdXmtRgSJ3831YGWrQVS" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T07:35:55.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UX-RWpU_5sPfz5lNcaV1" version="23.0.2" type="github">
   <diagram name="第 1 页" id="AMbzhqfFkD4l3YyqTUbq">
     <mxGraphModel dx="1750" dy="2072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-12" target="0BEzw5he5oUD5oCdYzI9-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-12" value="外部DSP" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-12" value="外部DSP&lt;br&gt;（OPPO ADX）" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="920" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0BEzw5he5oUD5oCdYzI9-15" target="0BEzw5he5oUD5oCdYzI9-6">
@@ -112,8 +112,8 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-43" value="e.g.&lt;br&gt;搜索、榜单、分类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="825" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-44" value="e.g.&lt;br&gt;OPPO ADX 广告平台 https://e.oppo.com/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="865" y="-140" width="240" height="40" as="geometry" />
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-44" value="广告平台 https://e.oppo.com/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-130" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-45" value="合约广告系统 非实时竞价&lt;br&gt;CPM / CPT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1040" y="283" width="160" height="40" as="geometry" />
@@ -160,7 +160,7 @@
         <mxCell id="0BEzw5he5oUD5oCdYzI9-74" value="联运" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="-130" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0BEzw5he5oUD5oCdYzI9-75" value="&lt;font color=&quot;#ff3333&quot;&gt;算法&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#bac8d3;strokeColor=#23445d;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0BEzw5he5oUD5oCdYzI9-75" value="&lt;font&gt;算法&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#bac8d3;strokeColor=#23445d;fontStyle=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="270" y="-130" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0BEzw5he5oUD5oCdYzI9-76" value="外部" style="whiteSpace=wrap;html=1;rounded=1;fontStyle=1" vertex="1" parent="1">
