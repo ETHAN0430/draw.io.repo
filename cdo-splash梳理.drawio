@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T10:45:28.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="s3GxFe1qSCcFFXl_wani" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T10:56:05.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3nBbpjZencxGoMV9zMJV" version="23.1.1" type="github">
   <diagram name="第 1 页" id="bnFz2s8V-IMa5PUOaGIh">
-    <mxGraphModel dx="4543" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4358" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -877,7 +877,7 @@
         <mxCell id="_Z0DNaSZjBo9LMDWnHwv-209" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="jnPAhy2o1k66CBEsYkHb-95" vertex="1">
           <mxGeometry x="292" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_Z0DNaSZjBo9LMDWnHwv-211" value="拦截折叠屏、平板" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="jnPAhy2o1k66CBEsYkHb-95" vertex="1">
+        <mxCell id="_Z0DNaSZjBo9LMDWnHwv-211" value="拦截折叠屏、平板、黑名单用户" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="jnPAhy2o1k66CBEsYkHb-95" vertex="1">
           <mxGeometry x="282" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_Z0DNaSZjBo9LMDWnHwv-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="jnPAhy2o1k66CBEsYkHb-95" source="_Z0DNaSZjBo9LMDWnHwv-209" target="_Z0DNaSZjBo9LMDWnHwv-211" edge="1">
@@ -1096,13 +1096,13 @@
         <mxCell id="jnPAhy2o1k66CBEsYkHb-238" value="闪屏实时加载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-229">
           <mxGeometry x="491.63" y="120" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jnPAhy2o1k66CBEsYkHb-239" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;从splash表获取3条闪屏配置，关键条件：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;闪屏是运营后台配置的(valid_state)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 未过期的闪屏配置(end_time)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 根据排期开始时间排序(start_time)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-229">
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-239" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;从splash表获取1条闪屏配置，关键条件：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;闪屏是运营后台配置的(valid_state)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 未过期的闪屏配置(end_time)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 根据优先级排序(sort)(无效，目前sort都是1)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-229">
           <mxGeometry x="209" y="435" width="266" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jnPAhy2o1k66CBEsYkHb-229" source="jnPAhy2o1k66CBEsYkHb-231" target="jnPAhy2o1k66CBEsYkHb-239">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jnPAhy2o1k66CBEsYkHb-241" value="&lt;div style=&quot;text-align: left;&quot;&gt;从splash表获取1条广告专用的闪屏配置&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-229">
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-241" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;从splash表获取3条闪屏配置，关键条件：&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;闪屏是运营后台配置的(valid_state)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;2. 未过期的闪屏配置(end_time)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;3. 根据排期开始时间排序(start_time)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-229">
           <mxGeometry x="224" y="627" width="235.5" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-242" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jnPAhy2o1k66CBEsYkHb-229" source="jnPAhy2o1k66CBEsYkHb-239" target="jnPAhy2o1k66CBEsYkHb-241">
@@ -1233,11 +1233,20 @@
         <mxCell id="jnPAhy2o1k66CBEsYkHb-280" value="请求广告" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-229">
           <mxGeometry x="668.63" y="450" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-285" value="异步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-229">
+          <mxGeometry x="604.88" y="280" width="50" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-278" value="广告（拍卖引擎）" style="swimlane;startSize=20;html=1;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-223">
           <mxGeometry x="1340" y="20" width="360" height="2220" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jnPAhy2o1k66CBEsYkHb-223" source="jnPAhy2o1k66CBEsYkHb-227" target="jnPAhy2o1k66CBEsYkHb-230">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-284" value="异步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="408" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-287" value="黑名单由于历史原因改错地方" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-2390" y="398" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
