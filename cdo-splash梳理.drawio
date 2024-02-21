@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T09:12:56.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lrDPfBSV50IlvxDkOE0N" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T09:15:16.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="b4c1n1A90g0XvC8OcRFF" version="23.1.1" type="github">
   <diagram name="第 1 页" id="bnFz2s8V-IMa5PUOaGIh">
     <mxGraphModel dx="2062" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -943,12 +943,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="1310" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="414" y="1340" />
+              <mxPoint x="414" y="1350" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-15" value="校验是否用户是否是儿童" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1550" width="120" height="60" as="geometry" />
+          <mxGeometry x="81.5" y="1550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-17" value="问题：儿童预加载可以拉到广告，历史代码改错地方了，但是实时加载有对儿童进行校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="-440" y="1440" width="490" height="30" as="geometry" />
@@ -960,7 +960,7 @@
           <mxGeometry x="221" y="790" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-22" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290.63" y="1295" width="30" height="30" as="geometry" />
+          <mxGeometry x="301" y="1320" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-23" value="可曝光" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="145" y="1350" width="60" height="30" as="geometry" />
@@ -971,11 +971,11 @@
             <mxPoint x="140" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jnPAhy2o1k66CBEsYkHb-24" value="内容是否曝光？关键规则：&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;1.总曝光，但是广告不校验&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2.单用户当日曝光次数&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;3. 用户跳过和复显情况&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-19" y="1280" width="318" height="120" as="geometry" />
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-24" value="内容是否曝光？关键规则：&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;1.总曝光，但是此处广告不校验&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2.单用户&lt;font color=&quot;#ff2e1f&quot;&gt;当日&lt;/font&gt;曝光次数是否达到阈值&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;3. 用户跳过和复显情况&lt;br&gt;（如果用户跳过且不可复显才不曝光）&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="1280" width="359" height="140" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-26" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="145" y="1400" width="30" height="30" as="geometry" />
+          <mxGeometry x="145" y="1420" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
