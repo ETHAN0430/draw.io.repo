@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T09:38:35.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HxXwS9fHjrNLJcGBd5ue" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T09:42:50.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bgf5PYSu5qC3Wtrx3tQH" version="23.1.1" type="github">
   <diagram name="第 1 页" id="bnFz2s8V-IMa5PUOaGIh">
-    <mxGraphModel dx="2227" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1932" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -874,7 +874,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_Z0DNaSZjBo9LMDWnHwv-216" value="组装运营侧的splashDto" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="327.5" y="1520" width="175" height="60" as="geometry" />
+          <mxGeometry x="327.5" y="1570" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_Z0DNaSZjBo9LMDWnHwv-217" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="374" y="1170" width="30" height="30" as="geometry" />
@@ -941,7 +941,7 @@
         <mxCell id="jnPAhy2o1k66CBEsYkHb-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jnPAhy2o1k66CBEsYkHb-24" target="jnPAhy2o1k66CBEsYkHb-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jnPAhy2o1k66CBEsYkHb-24" value="内容是否曝光？关键规则：&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;1.总曝光，但是此处广告不校验总曝光。&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2.单用户&lt;font color=&quot;#ff2e1f&quot;&gt;当日/总&lt;/font&gt;曝光次数是否达到阈值&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;3. 用户跳过和复显情况&lt;br&gt;（如果用户跳过且不可复显才不曝光）&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-24" value="内容是否曝光？曝光关键规则：&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;1.总曝光，但是此处广告不校验总曝光。&lt;br&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2.单用户&lt;font color=&quot;#ff2e1f&quot;&gt;当日/总&lt;/font&gt;曝光次数是否达到阈值&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;3. 用户跳过和复显情况&lt;br&gt;（如果用户跳过且不可复显才不曝光）&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="593.63" y="1380" width="359" height="140" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-26" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -955,7 +955,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-28" value="视频CDN散列逻辑" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="355" y="1650" width="120" height="60" as="geometry" />
+          <mxGeometry x="355" y="1740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jnPAhy2o1k66CBEsYkHb-30" target="_Z0DNaSZjBo9LMDWnHwv-216">
           <mxGeometry relative="1" as="geometry" />
@@ -1024,7 +1024,7 @@
           <mxGeometry x="-90" y="1850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-73" value="客户端请求：&lt;br&gt;1. 用户打开首页10s后&lt;br&gt;2.从开机时间开始，每6小时左右定时请求" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="60" width="280" height="60" as="geometry" />
+          <mxGeometry x="-130" y="70" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
