@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T10:56:17.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="A9FtsYqtcGBbdYW-RhCp" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T10:56:21.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6oUgQN2AIDelpp3s8ZnP" version="23.1.1" type="github">
   <diagram name="第 1 页" id="bnFz2s8V-IMa5PUOaGIh">
     <mxGraphModel dx="4358" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -871,7 +871,7 @@
         <mxCell id="jnPAhy2o1k66CBEsYkHb-69" value="客户端请求CDN后缓存本地" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-92">
           <mxGeometry x="80" y="1940" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jnPAhy2o1k66CBEsYkHb-95" value="s" style="swimlane;startSize=20;html=1;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-91">
+        <mxCell id="jnPAhy2o1k66CBEsYkHb-95" value="商店服务端" style="swimlane;startSize=20;html=1;" vertex="1" parent="jnPAhy2o1k66CBEsYkHb-91">
           <mxGeometry x="370" y="20" width="970" height="2220" as="geometry" />
         </mxCell>
         <mxCell id="_Z0DNaSZjBo9LMDWnHwv-209" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="jnPAhy2o1k66CBEsYkHb-95" vertex="1">
