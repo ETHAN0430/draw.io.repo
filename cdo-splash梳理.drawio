@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T03:47:41.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8gU_-vLmDfypf-MF-B4c" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T03:48:50.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3KjufBZtq9Vqq7opgEMs" version="23.1.1" type="github">
   <diagram name="第 1 页" id="bnFz2s8V-IMa5PUOaGIh">
-    <mxGraphModel dx="7508" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="13808" dy="5420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1051,10 +1051,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-223" value="闪屏实时加载" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-960" y="110" width="2335.13" height="2830" as="geometry" />
+          <mxGeometry x="-960" y="110" width="2335.13" height="2480" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-226" value="商店客户端" style="swimlane;startSize=20;html=1;" parent="jnPAhy2o1k66CBEsYkHb-223" vertex="1">
-          <mxGeometry y="20" width="370" height="2810" as="geometry" />
+          <mxGeometry y="20" width="370" height="2460" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-227" value="客户端请求：&lt;br&gt;1.白屏logo展示时发起请求" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" parent="jnPAhy2o1k66CBEsYkHb-226" vertex="1">
           <mxGeometry x="40" y="160" width="280" height="60" as="geometry" />
@@ -1076,7 +1076,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-229" value="商店服务端" style="swimlane;startSize=20;html=1;" parent="jnPAhy2o1k66CBEsYkHb-223" vertex="1">
-          <mxGeometry x="370" y="20" width="1415.13" height="2810" as="geometry" />
+          <mxGeometry x="370" y="20" width="1415.13" height="2460" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-230" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="jnPAhy2o1k66CBEsYkHb-229" vertex="1">
           <mxGeometry x="494.88" y="160" width="100" height="60" as="geometry" />
@@ -1260,7 +1260,7 @@
           <mxGeometry x="427.32" y="2320" width="155.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-278" value="广告（拍卖引擎）" style="swimlane;startSize=20;html=1;" parent="jnPAhy2o1k66CBEsYkHb-223" vertex="1">
-          <mxGeometry x="1785.13" y="20" width="550" height="2810" as="geometry" />
+          <mxGeometry x="1785.13" y="20" width="550" height="2460" as="geometry" />
         </mxCell>
         <mxCell id="jnPAhy2o1k66CBEsYkHb-270" value="合约广告系统【旧】" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="jnPAhy2o1k66CBEsYkHb-278" vertex="1">
           <mxGeometry x="90" y="1590" width="120" height="60" as="geometry" />
