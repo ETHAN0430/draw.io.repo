@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T03:37:37.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DFjBnijCar_-tNOArnQd" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T03:38:17.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pJT0E1cF2DoEbRxyxTmt" version="23.1.1" type="github">
   <diagram name="第 1 页" id="bnFz2s8V-IMa5PUOaGIh">
-    <mxGraphModel dx="4086" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6308" dy="1549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1283,16 +1283,19 @@
           <mxGeometry x="-155" y="408" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-33" value="浮层预加载" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3210" y="3080" width="3690" height="3100" as="geometry" />
+          <mxGeometry x="-3210" y="3080" width="2300" height="2860" as="geometry" />
         </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-36" value="商店客户端" style="swimlane;startSize=20;html=1;" parent="DgIfX76vQBpuF078rkGU-33" vertex="1">
-          <mxGeometry y="20" width="370" height="3080" as="geometry" />
+          <mxGeometry y="20" width="370" height="2840" as="geometry" />
         </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-37" value="客户端请求：&lt;br&gt;1. 用户进入首页时&lt;br&gt;2. 如果剪贴板命中了配置的关键字（如兑换码，打开OPPO软件商店），则会携带参数请求，否则为空值。" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" parent="DgIfX76vQBpuF078rkGU-36" vertex="1">
           <mxGeometry x="40" y="160" width="290" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="DgIfX76vQBpuF078rkGU-38" value="客户端缓存本地" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="DgIfX76vQBpuF078rkGU-36" vertex="1">
+          <mxGeometry x="90" y="2710" width="160" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-39" value="商店服务端" style="swimlane;startSize=20;html=1;" parent="DgIfX76vQBpuF078rkGU-33" vertex="1">
-          <mxGeometry x="370" y="20" width="2960" height="3080" as="geometry" />
+          <mxGeometry x="370" y="20" width="1570" height="2840" as="geometry" />
         </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-40" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="DgIfX76vQBpuF078rkGU-39" vertex="1">
           <mxGeometry x="292" y="160" width="100" height="60" as="geometry" />
@@ -1427,7 +1430,7 @@
           <mxGeometry x="910" y="2595" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-88" value="广告（拍卖引擎）" style="swimlane;startSize=20;html=1;" parent="DgIfX76vQBpuF078rkGU-33" vertex="1">
-          <mxGeometry x="3330" y="20" width="360" height="3080" as="geometry" />
+          <mxGeometry x="1940" y="20" width="360" height="2840" as="geometry" />
         </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-89" value="合约广告系统【旧】&lt;br&gt;bdapi.ads.oppo.local" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="DgIfX76vQBpuF078rkGU-88" vertex="1">
           <mxGeometry x="50" y="1730" width="120" height="60" as="geometry" />
@@ -1438,18 +1441,22 @@
         <mxCell id="DgIfX76vQBpuF078rkGU-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="DgIfX76vQBpuF078rkGU-33" source="DgIfX76vQBpuF078rkGU-89" target="DgIfX76vQBpuF078rkGU-79" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1780" y="2290" />
+              <mxPoint x="2040" y="2290" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="t2GAyQsilGFc3RQSJOKc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DgIfX76vQBpuF078rkGU-33" source="DgIfX76vQBpuF078rkGU-71" target="DgIfX76vQBpuF078rkGU-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="t2GAyQsilGFc3RQSJOKc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DgIfX76vQBpuF078rkGU-33" source="t2GAyQsilGFc3RQSJOKc-14" target="DgIfX76vQBpuF078rkGU-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045" y="2760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DgIfX76vQBpuF078rkGU-93" value="三方依赖：discovery-rpc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="-2355" y="3418" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DgIfX76vQBpuF078rkGU-38" value="客户端请求CDN后拿到素材后缓存本地" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-3240" y="6000" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
