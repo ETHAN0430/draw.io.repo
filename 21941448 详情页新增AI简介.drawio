@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-02T07:14:23.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Rr3cbcTwtRD1bhfmYvnG" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-02T07:56:40.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="r9Oo3ec4hQDWo5UROSi-" version="24.2.1" type="github">
   <diagram name="第 1 页" id="xFQqxOvKg_2QKdmenYfW">
-    <mxGraphModel dx="875" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="600" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,8 +102,8 @@
         <mxCell id="i6ucDYE52NVHHel0_k9a-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZCPd7wDw_mDAkKnFZIFM-5" source="i6ucDYE52NVHHel0_k9a-3" target="qv62CeJe-PLrkM93TVkC-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="1160" />
-              <mxPoint x="400" y="1600" />
+              <mxPoint x="620" y="1160" />
+              <mxPoint x="620" y="1600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -116,8 +116,8 @@
         <mxCell id="i6ucDYE52NVHHel0_k9a-9" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZCPd7wDw_mDAkKnFZIFM-5">
           <mxGeometry x="330" y="1120" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i6ucDYE52NVHHel0_k9a-13" value="40083 卡片位置A&lt;br&gt;40093 卡片位置B&lt;br&gt;40055 卡片位置C" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZCPd7wDw_mDAkKnFZIFM-5">
-          <mxGeometry x="140" y="1260" width="240" height="90" as="geometry" />
+        <mxCell id="i6ucDYE52NVHHel0_k9a-13" value="40083 活动卡片位置A&lt;br&gt;40093 AI卡片位置B&lt;br&gt;40055 五图卡片位置C&lt;br&gt;&lt;br&gt;假设ABC都存在&lt;br&gt;&lt;br&gt;五图标题为“预览”：&lt;br&gt;C &amp;gt; A &amp;amp;&amp;amp; C - 1 != B&lt;br&gt;&lt;br&gt;AI卡片标题为&quot;预览&quot;：&lt;br&gt;C &amp;gt; A &amp;amp;&amp;amp; C - 1 == B&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ZCPd7wDw_mDAkKnFZIFM-5">
+          <mxGeometry x="10" y="1260" width="500" height="230" as="geometry" />
         </mxCell>
         <mxCell id="ZCPd7wDw_mDAkKnFZIFM-38" value="卡片服务" style="swimlane;startSize=20;html=1;" parent="ZCPd7wDw_mDAkKnFZIFM-2" vertex="1">
           <mxGeometry x="960" y="20" width="400" height="1820" as="geometry" />
