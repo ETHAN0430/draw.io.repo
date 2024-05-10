@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T12:15:09.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="PK8gf6OE99Mn_U6HHfjr" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T12:15:17.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xsep4pB_lRQoLxqjOyIG" version="24.3.1" type="github">
   <diagram name="第 1 页" id="S-5s4yw2gBzfNdzOF_SS">
-    <mxGraphModel dx="96" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-154" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
           <mxGeometry x="1245" y="20" width="230" height="1650" as="geometry" />
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--137" value="游戏预约信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="6m1_PlZxY0XMyKxD8_Q--136">
-          <mxGeometry x="60" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="75" y="958.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6m1_PlZxY0XMyKxD8_Q--111" source="6m1_PlZxY0XMyKxD8_Q--113" target="6m1_PlZxY0XMyKxD8_Q--118">
           <mxGeometry relative="1" as="geometry" />
@@ -116,7 +116,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=open;startFill=0;" edge="1" parent="6m1_PlZxY0XMyKxD8_Q--111" source="6m1_PlZxY0XMyKxD8_Q--137" target="6m1_PlZxY0XMyKxD8_Q--124">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1009" />
+              <mxPoint x="1080" y="1009" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6m1_PlZxY0XMyKxD8_Q--111" source="6m1_PlZxY0XMyKxD8_Q--125" target="6m1_PlZxY0XMyKxD8_Q--115">
           <mxGeometry relative="1" as="geometry" />
