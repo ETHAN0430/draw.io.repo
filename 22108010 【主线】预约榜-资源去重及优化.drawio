@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T11:41:28.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kTK5ob855QufRJti3Lg8" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T11:41:50.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IRVGpc7EkYqjEcw39m0w" version="24.3.1" type="github">
   <diagram name="第 1 页" id="S-5s4yw2gBzfNdzOF_SS">
-    <mxGraphModel dx="96" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-419" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,7 +163,7 @@
           <mxGeometry x="62.5" y="130" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--167" value="获取配置中心：&lt;br&gt;预约榜rank_id = 3108" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="6m1_PlZxY0XMyKxD8_Q--161">
-          <mxGeometry x="40" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="85" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6m1_PlZxY0XMyKxD8_Q--161" source="6m1_PlZxY0XMyKxD8_Q--169" target="6m1_PlZxY0XMyKxD8_Q--170">
           <mxGeometry relative="1" as="geometry" />
@@ -176,6 +176,9 @@
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--171" value="定时任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="6m1_PlZxY0XMyKxD8_Q--161">
           <mxGeometry x="220" y="970" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6m1_PlZxY0XMyKxD8_Q--202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6m1_PlZxY0XMyKxD8_Q--161" source="6m1_PlZxY0XMyKxD8_Q--173" target="6m1_PlZxY0XMyKxD8_Q--167">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6m1_PlZxY0XMyKxD8_Q--173" value="subType == 5?&lt;br&gt;（是否是预约专题？）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="6m1_PlZxY0XMyKxD8_Q--161">
           <mxGeometry x="70" y="260" width="150" height="80" as="geometry" />
