@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T12:24:02.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="RODrXBO6jDHLmtRSu3_1" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T12:26:52.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="LxAahtbkXiAMRwwLv8VA" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Cw7JuRhic6mHa8Vxboj5">
     <mxGraphModel dx="2112" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="DE0FPp-bvfPzOY9VbYr1-20" value="获取当前用户的App与个性化角标的映射" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="572.5" y="770" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-23" value="不太明白为什么需要app那么多信息，不是一个名字就够了吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="850" y="790" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
