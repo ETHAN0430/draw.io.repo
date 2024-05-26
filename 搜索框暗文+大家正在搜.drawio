@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T12:07:46.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="tNc4Pz2tw4-qNcbOXsSM" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T12:24:02.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="RODrXBO6jDHLmtRSu3_1" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Cw7JuRhic6mHa8Vxboj5">
-    <mxGraphModel dx="1453" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2112" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,8 +52,20 @@
         <mxCell id="DE0FPp-bvfPzOY9VbYr1-13" value="填充到暗词缓存和正在搜缓存" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-17.490000000000002" y="892.5" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DE0FPp-bvfPzOY9VbYr1-15" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="635" y="435" width="120" height="60" as="geometry" />
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0FPp-bvfPzOY9VbYr1-15" target="DE0FPp-bvfPzOY9VbYr1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-15" value="如果是广告算法code，则http请求广告词" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="427.5" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0FPp-bvfPzOY9VbYr1-18" target="DE0FPp-bvfPzOY9VbYr1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-18" value="如果是暗词，则获取实验平台分流key，调用ranker" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="555" y="576.25" width="280" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-20" value="获取当前用户的App与个性化角标的映射" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="770" width="245" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
