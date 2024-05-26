@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T11:31:43.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="v9Be_8HBfVc_vQ5hCvtd" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T12:03:06.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="LqNe3BWVu8hD32_6BRq_" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Cw7JuRhic6mHa8Vxboj5">
     <mxGraphModel dx="2263" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,11 +16,11 @@
         <mxCell id="DE0FPp-bvfPzOY9VbYr1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0FPp-bvfPzOY9VbYr1-2" target="DE0FPp-bvfPzOY9VbYr1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DE0FPp-bvfPzOY9VbYr1-2" value="个性化：getPersonalHomeListV2" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="10" y="285" width="190" height="60" as="geometry" />
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-2" value="&lt;div&gt;非个性化：getHomeList&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30.01" y="285" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DE0FPp-bvfPzOY9VbYr1-4" value="非个性化：getHomeList" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="620" y="280" width="140" height="70" as="geometry" />
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-4" value="个性化：getPersonalHomeListV2" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DE0FPp-bvfPzOY9VbYr1-6" value="合并规则：&lt;br&gt;如果单个算法code的个性化词语&amp;lt;2，则追加算法code对应的个性化词语" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="214" y="1110" width="400" height="110" as="geometry" />
