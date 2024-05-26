@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T11:22:30.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="hG2lrigJ-ZUyTR-rugNr" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T11:30:50.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="jGoo8g5rT2qwmu8hFlIc" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Cw7JuRhic6mHa8Vxboj5">
     <mxGraphModel dx="2048" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="620" y="280" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DE0FPp-bvfPzOY9VbYr1-6" value="合并规则：&lt;br&gt;如果单个算法code的个性化词语&amp;lt;2，则追加算法code对应的个性化词语" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="720" width="400" height="110" as="geometry" />
+          <mxGeometry x="214" y="1110" width="400" height="110" as="geometry" />
         </mxCell>
         <mxCell id="DE0FPp-bvfPzOY9VbYr1-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0FPp-bvfPzOY9VbYr1-7" target="DE0FPp-bvfPzOY9VbYr1-9">
           <mxGeometry relative="1" as="geometry" />
@@ -31,8 +31,14 @@
         <mxCell id="DE0FPp-bvfPzOY9VbYr1-7" value="DB查询：op_home_algorithm&lt;br&gt;PK&lt;span style=&quot;background-color: initial;&quot;&gt;:code[算法code]&lt;/span&gt;&lt;div&gt;type: 1[暗文] 2[大家正在搜]&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;alg：0[默认]&amp;nbsp; 1[个性化算法1] 2[个性化算法2]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-40" y="430" width="290" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="DE0FPp-bvfPzOY9VbYr1-9" value="DB查询：stat_recent_search_down&lt;br&gt;获取前2000个热搜词：下载量/搜索量 &amp;gt; 30%" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-41.25" y="575" width="292.5" height="85" as="geometry" />
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DE0FPp-bvfPzOY9VbYr1-9" target="DE0FPp-bvfPzOY9VbYr1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-9" value="DB查询：stat_recent_search_down（数据很久没更新了&lt;br&gt;获取前2000个热搜词：下载量/搜索量 &amp;gt; 30%" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-60.620000000000005" y="580" width="331.25" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="DE0FPp-bvfPzOY9VbYr1-11" value="DB查询：&lt;div&gt;热搜词屏蔽&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="45" y="752.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
