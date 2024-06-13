@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T07:00:22.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8c7dGEJz7jGOAF2GJBKn" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T07:00:56.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4H1zOYOhdXX8x8oevuCA" version="24.5.3" type="github">
   <diagram name="第 1 页" id="3wBC5aZO0or2MzLLkAB7">
     <mxGraphModel dx="913" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,11 +57,28 @@
         <mxCell id="KBHzEdIqT_XmXeJ4vEnn-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KBHzEdIqT_XmXeJ4vEnn-29" target="KBHzEdIqT_XmXeJ4vEnn-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KBHzEdIqT_XmXeJ4vEnn-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KBHzEdIqT_XmXeJ4vEnn-29" target="KBHzEdIqT_XmXeJ4vEnn-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="740" />
+              <mxPoint x="190" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KBHzEdIqT_XmXeJ4vEnn-29" value="配置返回残词，且list为空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="326.26" y="700" width="162.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KBHzEdIqT_XmXeJ4vEnn-31" value="list.add(意图残词)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="347.51" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBHzEdIqT_XmXeJ4vEnn-34" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="296.26" y="710" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KBHzEdIqT_XmXeJ4vEnn-35" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="373.75" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KBHzEdIqT_XmXeJ4vEnn-37" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="373.75" y="470" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
