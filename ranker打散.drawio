@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T07:04:17.563Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="54MtCUfWtbau7GXhbC1Q" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T07:42:45.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="U0CQ4oSUj0f8S7oretbG" version="24.6.3" type="github">
   <diagram name="第 1 页" id="WHk2lP5VTiKvq-knWTFa">
-    <mxGraphModel dx="875" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,11 +43,17 @@
         <mxCell id="j2hrrhkY1lciyOF6niYS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2hrrhkY1lciyOF6niYS-14" target="j2hrrhkY1lciyOF6niYS-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j2hrrhkY1lciyOF6niYS-14" value="按照排序后的应用列表顺序遍历" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="77" y="670" width="174" height="65" as="geometry" />
+        <mxCell id="j2hrrhkY1lciyOF6niYS-14" value="按照排序后的应用列表顺序遍历应用" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="670" width="203" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="j2hrrhkY1lciyOF6niYS-16" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="104" y="817.5" width="120" height="60" as="geometry" />
+        <mxCell id="j2hrrhkY1lciyOF6niYS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2hrrhkY1lciyOF6niYS-16" target="j2hrrhkY1lciyOF6niYS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2hrrhkY1lciyOF6niYS-16" value="读取该应用绑定的推荐理由组列表，根据组间优先级排序&lt;br&gt;List&amp;lt;Map&amp;lt;二行/三行, List&amp;lt;Word&amp;gt;&amp;gt;&amp;gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10.25" y="830" width="307.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j2hrrhkY1lciyOF6niYS-22" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="943.75" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
