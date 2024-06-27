@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T06:51:25.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dckc6OTmelMwIpj6EPAl" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T07:00:10.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="uQubbyVXqICtJbqYhClC" version="24.6.3" type="github">
   <diagram name="第 1 页" id="WHk2lP5VTiKvq-knWTFa">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,10 +25,10 @@
         <mxCell id="j2hrrhkY1lciyOF6niYS-4" value="实验：是否开启推荐理由组" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="242.5" y="310" width="235" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="j2hrrhkY1lciyOF6niYS-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j2hrrhkY1lciyOF6niYS-6" value="阿斯顿" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j2hrrhkY1lciyOF6niYS-8" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j2hrrhkY1lciyOF6niYS-8" value="a商店" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j2hrrhkY1lciyOF6niYS-10" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
