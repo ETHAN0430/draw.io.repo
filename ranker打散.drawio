@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T06:38:12.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.5.4" etag="WZP0l2mtYTx__Gt41zJv" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T06:44:04.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hH7wkCyqxgeuzfBfh8zG" version="24.6.3" type="github">
   <diagram name="第 1 页" id="WHk2lP5VTiKvq-knWTFa">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j2hrrhkY1lciyOF6niYS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2hrrhkY1lciyOF6niYS-1" target="j2hrrhkY1lciyOF6niYS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2hrrhkY1lciyOF6niYS-1" value="召回、预估、排序" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j2hrrhkY1lciyOF6niYS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2hrrhkY1lciyOF6niYS-2" target="j2hrrhkY1lciyOF6niYS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2hrrhkY1lciyOF6niYS-2" value="后置处理器&lt;br&gt;（商店推荐理由）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j2hrrhkY1lciyOF6niYS-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="310" width="170" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
