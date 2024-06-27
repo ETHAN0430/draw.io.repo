@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-27T08:22:50.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="y2m8Hbp0H3dlAQT2bGsm" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-27T08:23:09.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="a1SVp71ZUnonEh07fclj" version="24.6.3" type="github">
   <diagram name="第 1 页" id="WHk2lP5VTiKvq-knWTFa">
-    <mxGraphModel dx="1327" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="j2hrrhkY1lciyOF6niYS-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2hrrhkY1lciyOF6niYS-4" target="j2hrrhkY1lciyOF6niYS-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j2hrrhkY1lciyOF6niYS-4" value="实验：是否开启推荐理由组" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j2hrrhkY1lciyOF6niYS-4" value="实验：是否开启推荐理由组间打散" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="296.5" y="315" width="235" height="90" as="geometry" />
         </mxCell>
         <mxCell id="j2hrrhkY1lciyOF6niYS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j2hrrhkY1lciyOF6niYS-6" target="j2hrrhkY1lciyOF6niYS-14">
