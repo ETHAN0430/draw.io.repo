@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T14:31:36.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="BExs-cTYo1k9_9SOPRPx" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T14:32:26.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="7DVi5EG_sAs_MA6YXHlD" version="24.4.8" type="github">
   <diagram name="第 1 页" id="WHk2lP5VTiKvq-knWTFa">
-    <mxGraphModel dx="2048" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,13 +74,23 @@
           <mxGeometry x="-320" y="630" width="275.06" height="150" as="geometry" />
         </mxCell>
         <mxCell id="j2hrrhkY1lciyOF6niYS-30" value="将符合结果的组绑定到应用上" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="75.25" y="1360" width="176.5" height="70" as="geometry" />
+          <mxGeometry x="300" y="1410" width="176.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="j2hrrhkY1lciyOF6niYS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="j2hrrhkY1lciyOF6niYS-32" target="j2hrrhkY1lciyOF6niYS-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j2hrrhkY1lciyOF6niYS-32" value="1. 按照排序后的应用列表顺序遍历应用&lt;br&gt;2. 找到该位置存在的策略列表&lt;div&gt;3. 取出该应用对应的词语列表&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="551" y="670" width="226" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="mtNr6vaQ514MPIwtLlBz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="j2hrrhkY1lciyOF6niYS-34" target="j2hrrhkY1lciyOF6niYS-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1380" as="targetPoint" />
+            <mxPoint x="704.0400000000002" y="910" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="664" y="1350" />
+              <mxPoint x="388" y="1350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="j2hrrhkY1lciyOF6niYS-34" value="1. 取优先级最高的词语拼接&lt;br&gt;2. 满足所有打散策略&lt;br&gt;3. minLength（实验平台） &amp;lt; 拼接长度 &amp;lt; maxLength（配置中心）&lt;br&gt;4.&amp;nbsp; 一旦碰到不可拼接的词语，当前优先级结束（不一定是最终返回结果，参见第1条）" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="483.75" y="820" width="360.5" height="110" as="geometry" />
