@@ -1,39 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T08:01:00.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="r8ISg03fDcSfYNfdvtSO" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T08:07:33.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fau6Rj0gFmhkepKl6pJE" version="24.6.4" type="github">
   <diagram name="第 1 页" id="80e1wzVn7lP730qj4w-V">
     <mxGraphModel dx="1740" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NDE4TgQGStizHJLq0DFC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-4" target="NDE4TgQGStizHJLq0DFC-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NDE4TgQGStizHJLq0DFC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="177.00000000000023" y="1130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="1050" as="targetPoint" />
+            <mxPoint x="357" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-4" value="是（静态）热词吗？&lt;br&gt;CONF 热词列表： special_hotword_list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="880" width="190" height="80" as="geometry" />
+          <mxGeometry x="262" y="1050" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-5" value="京,京东,jd,小红书,小红薯,快,快手,抖,抖音," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="484" y="-25" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-6">
+        <mxCell id="NDE4TgQGStizHJLq0DFC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="266" y="1090" as="targetPoint" />
+            <mxPoint x="163.00000000000023" y="1210" as="sourcePoint" />
+            <mxPoint x="283" y="1260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="146" y="1090" />
+              <mxPoint x="163" y="1260" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-6" value="写入热词guava&lt;div&gt;searchHotWordCache&lt;br&gt;suggestHotWordCache&lt;br&gt;KEY:keyword&lt;br&gt;VALUE:wrapDto&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="960" width="170" height="80" as="geometry" />
+          <mxGeometry x="-10" y="1089" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-10" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="960" width="30" height="30" as="geometry" />
+          <mxGeometry x="357" y="1130" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-12" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="215" y="885" width="30" height="30" as="geometry" />
+          <mxGeometry x="232" y="1055" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-13" target="NDE4TgQGStizHJLq0DFC-14">
           <mxGeometry relative="1" as="geometry" />
@@ -44,22 +47,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-13" value="首页&amp;amp;非刷量&amp;amp;开关" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1050" width="140" height="80" as="geometry" />
+          <mxGeometry x="287" y="1220" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-14" target="NDE4TgQGStizHJLq0DFC-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-14" value="KeywordCountMap" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1220" width="120" height="60" as="geometry" />
+          <mxGeometry x="297" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-18" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="361" y="1118" width="30" height="30" as="geometry" />
+          <mxGeometry x="378" y="1288" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="850" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-23" value="写入缓存 深拷贝&lt;br&gt;suggestHotKeywordCacheMap&amp;nbsp;&lt;br&gt;suggestFallBackTime缓存过期时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="238" y="1350" width="204" height="60" as="geometry" />
+          <mxGeometry x="255" y="1520" width="204" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-25" value="一个动态热词，一个静态热词" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-154" y="1380" width="180" height="30" as="geometry" />
@@ -106,9 +109,6 @@
         <mxCell id="NDE4TgQGStizHJLq0DFC-48" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="507" y="20" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-49" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="346" y="780" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-51" target="NDE4TgQGStizHJLq0DFC-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -133,11 +133,26 @@
         <mxCell id="NDE4TgQGStizHJLq0DFC-60" value="媒体引擎返空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="331" y="390" width="166" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-62" value="写入兜底缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NDE4TgQGStizHJLq0DFC-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-62" target="NDE4TgQGStizHJLq0DFC-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDE4TgQGStizHJLq0DFC-62" value="写入兜底缓存&lt;br&gt;结果页：30个&lt;br&gt;联想页：10个" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-64" value="获取兜底缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="108" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDE4TgQGStizHJLq0DFC-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-66" target="NDE4TgQGStizHJLq0DFC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NDE4TgQGStizHJLq0DFC-66" value="Redis" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NDE4TgQGStizHJLq0DFC-68" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="458" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NDE4TgQGStizHJLq0DFC-70" value="CONF KEY：backup_query为空，本地缓存未开启" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
