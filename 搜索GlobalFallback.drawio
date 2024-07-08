@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T08:49:06.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="erYyfWWtmMnwzQVpd58b" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T08:50:15.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gb_qwjf0w_Z7KqDXK8V6" version="24.6.4" type="github">
   <diagram name="第 1 页" id="80e1wzVn7lP730qj4w-V">
     <mxGraphModel dx="1932" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,15 +17,6 @@
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-5" value="京,京东,jd,小红书,小红薯,快,快手,抖,抖音," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="484" y="-25" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="149.00000000000023" y="1715" as="sourcePoint" />
-            <mxPoint x="269" y="1765" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="149" y="1765" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NDE4TgQGStizHJLq0DFC-6" target="NDE4TgQGStizHJLq0DFC-13">
           <mxGeometry relative="1" as="geometry" />
@@ -54,10 +45,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-14" value="KeywordCountMap" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="283" y="1778" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-18" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="364" y="1793" width="30" height="30" as="geometry" />
+          <mxGeometry x="136" y="1823" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="840" width="120" height="80" as="geometry" />
@@ -210,7 +198,7 @@
         <mxCell id="NDE4TgQGStizHJLq0DFC-93" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="373" y="1610" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-95" value="获取兜底数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NDE4TgQGStizHJLq0DFC-95" value="根据keyword维度获取兜底数据，如果无兜底强插精准" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
