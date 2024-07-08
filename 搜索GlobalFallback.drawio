@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:09:57.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="c4fPDrdV1WNDqihmnKEF" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:18:51.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vBb2aSoJAJNWoythJg_O" version="24.6.4" type="github">
   <diagram name="第 1 页" id="80e1wzVn7lP730qj4w-V">
     <mxGraphModel dx="1877" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
             <mxPoint x="414" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-4" value="是热词吗？&lt;br&gt;CONF 热词列表： special_hotword_list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NDE4TgQGStizHJLq0DFC-4" value="是（静态）热词吗？&lt;br&gt;CONF 热词列表： special_hotword_list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="319" y="190" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-5" value="京,京东,jd,小红书,小红薯,快,快手,抖,抖音," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -76,13 +76,13 @@
           <mxGeometry x="-80" y="488" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-27" value="全局返回只兜首页，但是写入不限制首页？那写入的非首页有啥用啊，给returnDto提前返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="748" width="510" height="30" as="geometry" />
+          <mxGeometry x="-166" y="620" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-28" value="gauva 1800 半小时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-15" y="598" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-29" value="有两套缓存：&lt;br&gt;1. 静态热词缓存guava&amp;nbsp;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;searchHotWordCache&lt;/span&gt;&lt;br&gt;2. 全局兜底缓存（卡片为空），这里也有热词缓存，但是是动态的&lt;br&gt;seachHotKeywords（取CountMap前4000个）&lt;br&gt;searchHotKeywordCacheMap&lt;br&gt;searchHotKeywordCountMap&lt;br&gt;searchFallbackTime&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="775" width="370" height="130" as="geometry" />
+        <mxCell id="NDE4TgQGStizHJLq0DFC-29" value="有两套缓存：&lt;br&gt;1. 静态热词缓存guava&amp;nbsp;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;searchHotWordCache，这个是不限制分页的&lt;/span&gt;&lt;br&gt;2. 全局兜底缓存（卡片为空），这里也有热词缓存，但是是动态的&lt;br&gt;seachHotKeywords（取CountMap前4000个）&lt;br&gt;searchHotKeywordCacheMap&lt;br&gt;searchHotKeywordCountMap&lt;br&gt;searchFallbackTime&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="775" width="380" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
