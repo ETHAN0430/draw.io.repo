@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T09:12:50.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TFSx7wF2qGT2FWB1Nhwk" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T09:15:56.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="PKPT8O0j0mhb8ci9I3X3" version="24.6.4" type="github">
   <diagram name="第 1 页" id="80e1wzVn7lP730qj4w-V">
     <mxGraphModel dx="1463" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
         <mxCell id="NDE4TgQGStizHJLq0DFC-109" value="searchKeyCountMap 热词计数&amp;nbsp;&lt;br&gt;&lt;br&gt;热词个数&lt;br&gt;结果页 4000&lt;br&gt;联想页&amp;nbsp; 6000" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="532" y="1670" width="204" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-111" value="判断是否是上一个小时的热词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NDE4TgQGStizHJLq0DFC-111" value="判断是否是上一个小时的热词&amp;amp;&amp;amp;已经到了缓存过期时间，则写入" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="526" y="1815" width="216" height="60" as="geometry" />
         </mxCell>
       </root>
