@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:18:51.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vBb2aSoJAJNWoythJg_O" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:19:13.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="v_YXZkzYe-1wwJvdGhes" version="24.6.4" type="github">
   <diagram name="第 1 页" id="80e1wzVn7lP730qj4w-V">
     <mxGraphModel dx="1877" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,17 +69,14 @@
         <mxCell id="NDE4TgQGStizHJLq0DFC-23" value="写入缓存 深拷贝&lt;br&gt;suggestHotKeywordCacheMap&amp;nbsp;&lt;br&gt;suggestFallBackTime缓存过期时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="312" y="660" width="204" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-25" value="？？？你和热词guava有任何区别吗？？？&lt;br&gt;下午debug一下，" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4" y="660" width="250" height="40" as="geometry" />
+        <mxCell id="NDE4TgQGStizHJLq0DFC-25" value="一个动态热词，一个静态热词" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="39" y="665" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-26" value="主要是为了最终结果的缓存dsputils里的fallback吧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-80" y="488" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-27" value="全局返回只兜首页，但是写入不限制首页？那写入的非首页有啥用啊，给returnDto提前返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-166" y="620" width="510" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-28" value="gauva 1800 半小时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-15" y="598" width="130" height="30" as="geometry" />
+          <mxGeometry x="-140" y="620" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-29" value="有两套缓存：&lt;br&gt;1. 静态热词缓存guava&amp;nbsp;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;searchHotWordCache，这个是不限制分页的&lt;/span&gt;&lt;br&gt;2. 全局兜底缓存（卡片为空），这里也有热词缓存，但是是动态的&lt;br&gt;seachHotKeywords（取CountMap前4000个）&lt;br&gt;searchHotKeywordCacheMap&lt;br&gt;searchHotKeywordCountMap&lt;br&gt;searchFallbackTime&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-130" y="775" width="380" height="130" as="geometry" />
