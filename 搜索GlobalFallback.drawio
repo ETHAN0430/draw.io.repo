@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:21:09.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xy37ZRpu-B9tH-SQurpp" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:22:23.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="98n5yx5A0HCYH4BkmvzZ" version="24.6.4" type="github">
   <diagram name="第 1 页" id="80e1wzVn7lP730qj4w-V">
     <mxGraphModel dx="1877" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,8 +78,8 @@
         <mxCell id="NDE4TgQGStizHJLq0DFC-28" value="gauva 1800 半小时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-80" y="620" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NDE4TgQGStizHJLq0DFC-29" value="有两套缓存：&lt;br&gt;1. 静态热词缓存guava&amp;nbsp;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;searchHotWordCache，这个是不限制分页的，而且要触发限流降级。&lt;/span&gt;&lt;br&gt;2. 全局兜底缓存（卡片为空），这里也有热词缓存，但是是动态的，触发条件是有异常或者卡片为空&lt;br&gt;seachHotKeywords（取CountMap前4000个）&lt;br&gt;searchHotKeywordCacheMap&lt;br&gt;searchHotKeywordCountMap&lt;br&gt;searchFallbackTime&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-231" y="790" width="550" height="130" as="geometry" />
+        <mxCell id="NDE4TgQGStizHJLq0DFC-29" value="有两套缓存：&lt;br&gt;1. 静态热词缓存guava&amp;nbsp;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;searchHotWordCache，这个是不限制分页的，但是限制版本，而且要触发限流降级。&lt;/span&gt;&lt;br&gt;2. 全局兜底缓存（卡片为空），这里也有热词缓存，但是是动态的，触发条件是有异常或者卡片为空&lt;br&gt;seachHotKeywords（取CountMap前4000个）&lt;br&gt;searchHotKeywordCacheMap&lt;br&gt;searchHotKeywordCountMap&lt;br&gt;searchFallbackTime&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-256" y="790" width="600" height="130" as="geometry" />
         </mxCell>
         <mxCell id="NDE4TgQGStizHJLq0DFC-30" value="缓存 分布式缓存，兜的是媒体引擎" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="990" width="120" height="60" as="geometry" />
