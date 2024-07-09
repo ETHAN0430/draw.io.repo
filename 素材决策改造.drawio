@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T08:32:15.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="g2kuHYbJS47XNBqMw04_" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T08:44:23.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cpZLNnm4U9vmOkQk60qO" version="24.6.4" type="github">
   <diagram name="第 1 页" id="2p6PbSH8Rtov-mYEVdqb">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="UeHk_AjMX2R_iuzYlcZ4-2" value="实验参数判断新老逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="341" y="220" width="146" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UeHk_AjMX2R_iuzYlcZ4-6" value="旧逻辑：服务端自行组装素材" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UeHk_AjMX2R_iuzYlcZ4-6" value="旧逻辑：服务端自行组装素材并频控" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UeHk_AjMX2R_iuzYlcZ4-8" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
