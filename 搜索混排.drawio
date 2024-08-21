@@ -129,8 +129,14 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-42" value="海外非精准" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1647.5" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-44" target="MTvjtJ75Bb0OnX07eG9y-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-44" value="自然和商业化移除新增环节的插入资源" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="345" y="1780" width="310" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-46" value="自然和商业化去重，商业化优先" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1940" width="270" height="86.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
