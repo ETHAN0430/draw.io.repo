@@ -26,9 +26,6 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-3" value="自然预估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-13" value="召回呢？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="90" y="50" width="70" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-14" target="MTvjtJ75Bb0OnX07eG9y-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -73,7 +70,7 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-17" value="LTV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-19" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-19" value="自然召回" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-26" target="MTvjtJ75Bb0OnX07eG9y-19">
