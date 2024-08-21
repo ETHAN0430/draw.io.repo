@@ -99,11 +99,17 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-31" value="媒体意图：&lt;br&gt;精准资源补充信息，如ctr，素材，并在精准资源间按纯ctr排序" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="720" width="280" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-33" value="干预资源获取以及补充相关性等信息&lt;br&gt;&lt;br&gt;强插：&lt;br&gt;去重干预资源：自然、商业化、精准（如果干预和精准重合，移除精准并且关闭首位广告）&lt;br&gt;&lt;br&gt;非强插：&lt;br&gt;干预的dsp按照优先级，1 &amp;gt; 5 &amp;gt; 20 &amp;gt; 强运营 &amp;gt; 自然，依次比较干预资源的ecpm，直到胜出" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="352.5" y="910" width="295" height="160" as="geometry" />
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-33" target="MTvjtJ75Bb0OnX07eG9y-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-33" value="干预资源获取以及补充相关性等信息&lt;br&gt;&lt;br&gt;强插：&lt;br&gt;去重干预资源：自然、商业化、精准（如果干预和精准重合，移除精准并且关闭首位广告）&lt;br&gt;&lt;br&gt;非强插：&lt;br&gt;干预的dsp按照优先级，1 &amp;gt; 5 &amp;gt; 20 &amp;gt; 强运营 &amp;gt; 自然，依次比较干预资源的ecpm，直到胜出&lt;br&gt;&lt;br&gt;添加冷启干预 + 如果干预位置小于精准长度，也要去首位广告&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350.63" y="910" width="298.75" height="200" as="geometry" />
         </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-35" value="冷启干预？？？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="660" y="975" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-37" value="干预资源插入&lt;br&gt;1. 精准插入&lt;br&gt;&lt;br&gt;2. 非精准插入" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335.01" y="1200" width="330" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
