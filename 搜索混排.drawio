@@ -99,8 +99,8 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-31" value="媒体意图：&lt;br&gt;精准资源补充信息，如ctr，素材，并在精准资源间按纯ctr排序" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="720" width="280" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-33" value="干预去重" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="972.5" width="120" height="60" as="geometry" />
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-33" value="干预资源获取以及补充相关性等信息&lt;br&gt;&lt;br&gt;强插：&lt;br&gt;去重干预资源：自然、商业化、精准（如果干预和精准重合，移除精准并且关闭首位广告）&lt;br&gt;&lt;br&gt;非强插：" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="910" width="295" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
