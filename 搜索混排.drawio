@@ -108,8 +108,8 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-35" value="冷启干预？？？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="660" y="975" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-37" value="干预资源插入&lt;br&gt;1. 精准插入&lt;br&gt;&lt;br&gt;2. 非精准插入" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="335.01" y="1200" width="330" height="170" as="geometry" />
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-37" value="干预资源插入&lt;br&gt;1. 精准插入&lt;br&gt;干预优先，如果没有干预，自然精准和广告精准比价&amp;nbsp;&lt;br&gt;&lt;br&gt;2. 非精准插入" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1200" width="325.01" height="170" as="geometry" />
         </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-39" value="为什么最终结果先放非精准再放精准" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="690" y="1270" width="220" height="30" as="geometry" />
