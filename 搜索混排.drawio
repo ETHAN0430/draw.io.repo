@@ -70,6 +70,9 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-17" value="LTV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="80" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-19" target="MTvjtJ75Bb0OnX07eG9y-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;自然结果列表：&lt;/span&gt;&lt;/div&gt;1.&amp;nbsp;兜底&amp;nbsp; query维度&lt;br&gt;2. 自然分数计算&lt;br&gt;3. 过滤badcase&lt;br&gt;4. 灰化召回资源统计" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="360" y="340" width="280" height="115" as="geometry" />
         </mxCell>
@@ -83,6 +86,9 @@
         </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-26" value="分流参数：&lt;br&gt;算法参数 α β etc.." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-29" value="商业化结果列表：&lt;br&gt;1. 兜底 query维度&lt;br&gt;2.&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="530" width="310" height="137.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
