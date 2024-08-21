@@ -123,8 +123,14 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-40" value="灰化召回&lt;br&gt;精准资源存在灰化资源" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="1500" width="280" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-42" target="MTvjtJ75Bb0OnX07eG9y-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-42" value="海外非精准" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1647.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-44" value="自然和商业化移除新增环节的插入资源" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1780" width="310" height="82.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
