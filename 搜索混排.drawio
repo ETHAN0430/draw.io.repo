@@ -99,8 +99,11 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-31" value="媒体意图：&lt;br&gt;精准资源补充信息，如ctr，素材，并在精准资源间按纯ctr排序" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="720" width="280" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-33" value="干预资源获取以及补充相关性等信息&lt;br&gt;&lt;br&gt;强插：&lt;br&gt;去重干预资源：自然、商业化、精准（如果干预和精准重合，移除精准并且关闭首位广告）&lt;br&gt;&lt;br&gt;非强插：如果有了就不插入" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-33" value="干预资源获取以及补充相关性等信息&lt;br&gt;&lt;br&gt;强插：&lt;br&gt;去重干预资源：自然、商业化、精准（如果干预和精准重合，移除精准并且关闭首位广告）&lt;br&gt;&lt;br&gt;非强插：&lt;br&gt;干预的dsp按照优先级，1 &amp;gt; 5 &amp;gt; 20 &amp;gt; 强运营 &amp;gt; 自然，依次比较干预资源的ecpm，直到胜出" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="352.5" y="910" width="295" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-35" value="冷启干预？？？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="978" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
