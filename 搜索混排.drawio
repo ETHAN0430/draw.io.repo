@@ -87,8 +87,14 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-26" value="分流参数：&lt;br&gt;算法参数 α β etc.." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="80" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-29" target="MTvjtJ75Bb0OnX07eG9y-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-29" value="商业化结果列表：&lt;br&gt;1. 兜底 query维度&lt;br&gt;2. 补全混排参数（）&lt;br&gt;3. 广告分数计算" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="357.5" y="515" width="285" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-31" value="" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="280" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
