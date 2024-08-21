@@ -34,7 +34,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-14" value="商业化召回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-14" value="商业化（拍卖引擎）召回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MTvjtJ75Bb0OnX07eG9y-15" target="MTvjtJ75Bb0OnX07eG9y-19">
@@ -87,7 +87,7 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-26" value="分流参数：&lt;br&gt;算法参数 α β etc.." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MTvjtJ75Bb0OnX07eG9y-29" value="商业化结果列表：&lt;br&gt;1. 兜底 query维度&lt;br&gt;2.&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-29" value="商业化结果列表：&lt;br&gt;1. 兜底 query维度&lt;br&gt;2. 补全混排参数（）&lt;br&gt;3. 广告分数计算" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="345" y="530" width="310" height="137.5" as="geometry" />
         </mxCell>
       </root>
