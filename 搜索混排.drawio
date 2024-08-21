@@ -88,7 +88,7 @@
           <mxGeometry x="1020" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-29" value="商业化结果列表：&lt;br&gt;1. 兜底 query维度&lt;br&gt;2. 补全混排参数（）&lt;br&gt;3. 广告分数计算" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="345" y="530" width="310" height="137.5" as="geometry" />
+          <mxGeometry x="357.5" y="515" width="285" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
