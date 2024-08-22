@@ -138,6 +138,9 @@
         <mxCell id="MTvjtJ75Bb0OnX07eG9y-46" value="自然和商业化去重，商业化优先" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="365" y="1940" width="270" height="86.25" as="geometry" />
         </mxCell>
+        <mxCell id="MTvjtJ75Bb0OnX07eG9y-48" value="残词哪去了，有用到吗？好像没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1938" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
