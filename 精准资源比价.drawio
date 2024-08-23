@@ -64,8 +64,17 @@
         <mxCell id="FYOJllrjulyDy6syuC7D-24" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="640" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FYOJllrjulyDy6syuC7D-27" value="商业化&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;无强运营？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="730" width="180" height="80" as="geometry" />
+        <mxCell id="FYOJllrjulyDy6syuC7D-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FYOJllrjulyDy6syuC7D-27" target="FYOJllrjulyDy6syuC7D-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-27" value="商业化ECPM &amp;gt; 自然量ECPM&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="730" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-31" value="商业化胜出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-33" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="730" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
