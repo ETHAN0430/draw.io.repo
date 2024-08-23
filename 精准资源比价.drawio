@@ -31,6 +31,12 @@
         <mxCell id="FYOJllrjulyDy6syuC7D-13" value="自然联运胜出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="410" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-15" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="255" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-16" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
