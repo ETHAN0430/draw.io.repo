@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="HVctTstOVXDaHSwUmRFw">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FYOJllrjulyDy6syuC7D-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FYOJllrjulyDy6syuC7D-2" target="FYOJllrjulyDy6syuC7D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FYOJllrjulyDy6syuC7D-7" target="FYOJllrjulyDy6syuC7D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FYOJllrjulyDy6syuC7D-7" target="FYOJllrjulyDy6syuC7D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-7" value="无商业化？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-9" value="自然胜出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="255" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FYOJllrjulyDy6syuC7D-11" target="FYOJllrjulyDy6syuC7D-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-11" value="商业化联运&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;自然联运?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="410" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FYOJllrjulyDy6syuC7D-13" value="自然联运胜出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
