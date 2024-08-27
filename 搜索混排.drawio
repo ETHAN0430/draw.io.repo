@@ -150,8 +150,8 @@
         <mxCell id="QId7CwIasNgy6EOKNHfV-4" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;运营干预 + 冷启（新资源算法还没有数据）&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-690" y="390" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QId7CwIasNgy6EOKNHfV-5" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;通过natureStrategy实验，&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Tahoma; font-size: 13px;&quot;&gt;定时任务加载全量候选集到redis，从redis读取指定前缀的广告资源候选，&lt;/span&gt;&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;对拍卖引擎商业化资源进行mix_ctr cvrd自然预估；&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="420" width="880" height="30" as="geometry" />
+        <mxCell id="QId7CwIasNgy6EOKNHfV-5" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;通过natureStrategy实验，&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Tahoma; font-size: 13px;&quot;&gt;定时任务加载全量广告候选集到redis，从redis读取指定前缀的广告资源候选，&lt;/span&gt;&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;对拍卖引擎商业化资源进行mix_ctr cvrd自然预估；&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-725" y="420" width="910" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
