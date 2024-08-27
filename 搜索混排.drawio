@@ -150,11 +150,8 @@
         <mxCell id="QId7CwIasNgy6EOKNHfV-4" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;运营干预 + 冷启（新资源算法还没有数据）&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-690" y="390" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QId7CwIasNgy6EOKNHfV-5" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;通过natureStrategy实验，对拍卖引擎某dsp进行mix_ctr cvrd预估；并决定是实时候选还是离线获取&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="420" width="590" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QId7CwIasNgy6EOKNHfV-6" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;拍卖引擎&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="450" width="80" height="30" as="geometry" />
+        <mxCell id="QId7CwIasNgy6EOKNHfV-5" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;通过natureStrategy实验，对拍卖引擎某dsp进行mix_ctr cvrd预估；并决定候选集离线Redis（全量）还是实时（关闭）&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="420" width="700" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
