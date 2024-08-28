@@ -171,6 +171,9 @@
         <mxCell id="b92oHLRS5Lr2IwDNP5Ls-2" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;根据用户特征额外召回，比如vip，算法标，（存在干预、机型屏蔽、特殊query直接关闭首位广告，否则用searchx的&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1193.0700000000002" y="570" width="690" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="b92oHLRS5Lr2IwDNP5Ls-3" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;封装召回数据，方便排序使用&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1120.0000000000002" y="600" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
