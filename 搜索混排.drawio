@@ -199,7 +199,7 @@
           <mxGeometry x="-1120.0000000000002" y="820" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b92oHLRS5Lr2IwDNP5Ls-13" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;非精准非广告安装降权：插到后面位置&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1083.0700000000002" y="855" width="240" height="30" as="geometry" />
+          <mxGeometry x="-1083.0700000000002" y="850" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
