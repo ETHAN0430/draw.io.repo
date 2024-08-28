@@ -180,8 +180,8 @@
         <mxCell id="b92oHLRS5Lr2IwDNP5Ls-5" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;自然相关性预估&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1163.0700000000002" y="658" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b92oHLRS5Lr2IwDNP5Ls-6" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;强运营&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1040.0000000000002" y="677.5" width="60" height="30" as="geometry" />
+        <mxCell id="b92oHLRS5Lr2IwDNP5Ls-6" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;召回资源请求强运营&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1040.0000000000002" y="677.5" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b92oHLRS5Lr2IwDNP5Ls-7" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;自然预估&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1083.0700000000002" y="707.5" width="80" height="30" as="geometry" />
