@@ -160,7 +160,10 @@
           <mxGeometry x="-670" y="480" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QId7CwIasNgy6EOKNHfV-10" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;意图二级分类从Redis召回海外资源，然后根据当前区域区分出可出列表和不可出列表，二者都会召回&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="510" width="600" height="30" as="geometry" />
+          <mxGeometry x="-660" y="510" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QId7CwIasNgy6EOKNHfV-11" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;强保召回&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="530" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
