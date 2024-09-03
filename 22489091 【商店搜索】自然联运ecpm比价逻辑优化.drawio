@@ -10,8 +10,14 @@
         <mxCell id="8KwIYaK9aIIhkefSwVKC-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="50" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="8KwIYaK9aIIhkefSwVKC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8KwIYaK9aIIhkefSwVKC-2" target="8KwIYaK9aIIhkefSwVKC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8KwIYaK9aIIhkefSwVKC-2" value="自然量召回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8KwIYaK9aIIhkefSwVKC-4" value="调联运接口&lt;br&gt;获得 ECPM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
