@@ -118,7 +118,7 @@
           <mxGeometry x="895" y="868" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-47" value="TODO: 单价值和列表价值可以并行计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="1330" width="230" height="30" as="geometry" />
+          <mxGeometry x="1260" y="1310" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
