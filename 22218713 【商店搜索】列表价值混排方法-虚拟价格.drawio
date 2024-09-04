@@ -111,8 +111,8 @@
         <mxCell id="82ahOu1l450AlYFmvK46-36" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="770" y="800" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="82ahOu1l450AlYFmvK46-39" value="TODO: 当N比较大的时候，需要滑动窗口性能优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1110" width="290" height="30" as="geometry" />
+        <mxCell id="82ahOu1l450AlYFmvK46-39" value="TODO: 如果N比较大，需要滑动窗口性能优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1110" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-40" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="895" y="868" width="30" height="30" as="geometry" />
