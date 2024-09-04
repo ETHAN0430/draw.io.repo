@@ -51,6 +51,9 @@
         <mxCell id="82ahOu1l450AlYFmvK46-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="82ahOu1l450AlYFmvK46-1" target="82ahOu1l450AlYFmvK46-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="82ahOu1l450AlYFmvK46-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="82ahOu1l450AlYFmvK46-1" target="82ahOu1l450AlYFmvK46-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-1" value="实验开关开启？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="328" y="650" width="168" height="80" as="geometry" />
         </mxCell>
@@ -69,6 +72,12 @@
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-11" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="298" y="650" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82ahOu1l450AlYFmvK46-12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82ahOu1l450AlYFmvK46-14" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="413" y="720" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
