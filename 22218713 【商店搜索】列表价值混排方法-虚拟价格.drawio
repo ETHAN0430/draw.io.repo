@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="N9kNklqTaCKMSfdVolA9">
-    <mxGraphModel dx="1195" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="cB46XJUW-apT-bxPfPfF-8" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;shadow_score = item_score + list_score&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;ZFiZ\&amp;quot;|36:150|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;sql&quot; class=&quot;ql-code-block ql-long-10203 ql-authorBlock-10203 ql-direction-ltr&quot;&gt;shadow_score &lt;span class=&quot;ql-token hljs-operator&quot;&gt;=&lt;/span&gt; &lt;font color=&quot;#ff2e1f&quot;&gt;item_score&lt;/font&gt; &lt;span class=&quot;ql-token hljs-operator&quot;&gt;+&lt;/span&gt; &lt;font color=&quot;#3333ff&quot;&gt;list_score&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;item_score = ecpm + [(mix_ctr*cvr_d*α) + rel*β] * theta&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;LYW5\&amp;quot;|36:150|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;          - [ (ρ_1*is_commerice) + (ρ_2*is_badcase) ] / [log2(pos+1)]^gamma &amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;6fk8\&amp;quot;|36:150|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;pre&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font color=&quot;#ff2e1f&quot;&gt;item_score&lt;/font&gt; = ecpm + [(mix_ctr*cvr_d*α) + rel*β] * theta  - [ (ρ_1*is_commerice) + (ρ_2*is_badcase) ] / [log2(pos+1)]^gamma &lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;pre&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;list_score&lt;/font&gt; = - is_commerice*ρ_3*[max(0, latest_commerice_exp_ratio_diff)] - is_badcase*ρ_4*[max(0, latest_badcase_ratio_diff)]&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="170" width="730" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cB46XJUW-apT-bxPfPfF-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cB46XJUW-apT-bxPfPfF-9" value="badCase？" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="352" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
