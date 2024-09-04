@@ -22,23 +22,30 @@
         <mxCell id="cB46XJUW-apT-bxPfPfF-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cB46XJUW-apT-bxPfPfF-11" target="cB46XJUW-apT-bxPfPfF-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cB46XJUW-apT-bxPfPfF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cB46XJUW-apT-bxPfPfF-11" target="cB46XJUW-apT-bxPfPfF-15">
+        <mxCell id="cB46XJUW-apT-bxPfPfF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cB46XJUW-apT-bxPfPfF-11" target="cB46XJUW-apT-bxPfPfF-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-11" value="当前pos &amp;lt; limitPostion？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="328" y="340" width="168" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="cB46XJUW-apT-bxPfPfF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cB46XJUW-apT-bxPfPfF-13" target="cB46XJUW-apT-bxPfPfF-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-13" value="按照当前位置：&lt;br&gt;商业化队列重新计算ecpm，ecpm降序排&lt;br&gt;自然队列填充对应的位ecpm，顺序不变" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="480" width="295" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cB46XJUW-apT-bxPfPfF-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="475" width="380" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="298" y="348" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-18" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="496" y="348" width="30" height="30" as="geometry" />
+          <mxGeometry x="420" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cB46XJUW-apT-bxPfPfF-20" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
