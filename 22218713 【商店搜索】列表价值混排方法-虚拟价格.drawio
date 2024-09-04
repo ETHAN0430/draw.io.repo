@@ -86,7 +86,7 @@
           <mxGeometry x="820" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-29" value="计算startPos到当前pos之间badCase占比和Commerce占比" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1150" width="120" height="60" as="geometry" />
+          <mxGeometry x="720" y="1150" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82ahOu1l450AlYFmvK46-32" target="82ahOu1l450AlYFmvK46-9">
           <mxGeometry relative="1" as="geometry" />
