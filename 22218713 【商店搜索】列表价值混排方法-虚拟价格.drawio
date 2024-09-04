@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="N9kNklqTaCKMSfdVolA9">
-    <mxGraphModel dx="1024" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,16 @@
         <mxCell id="cB46XJUW-apT-bxPfPfF-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="40" width="116" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="82ahOu1l450AlYFmvK46-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cB46XJUW-apT-bxPfPfF-8" target="82ahOu1l450AlYFmvK46-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="1280" />
+              <mxPoint x="1370" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-8" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;shadow_score = item_score + list_score&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;ZFiZ\&amp;quot;|36:150|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;sql&quot; class=&quot;ql-code-block ql-long-10203 ql-authorBlock-10203 ql-direction-ltr&quot;&gt;shadow_score &lt;span class=&quot;ql-token hljs-operator&quot;&gt;=&lt;/span&gt; &lt;font color=&quot;#ff2e1f&quot;&gt;item_score&lt;/font&gt; &lt;span class=&quot;ql-token hljs-operator&quot;&gt;+&lt;/span&gt; &lt;font color=&quot;#3333ff&quot;&gt;list_score&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;item_score = ecpm + [(mix_ctr*cvr_d*α) + rel*β] * theta&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;LYW5\&amp;quot;|36:150|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;          - [ (ρ_1*is_commerice) + (ρ_2*is_badcase) ] / [log2(pos+1)]^gamma &amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;6fk8\&amp;quot;|36:150|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;pre&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font color=&quot;#ff2e1f&quot;&gt;item_score&lt;/font&gt; = ecpm + [(mix_ctr*cvr_d*α) + rel*β] * theta  - [ (ρ_1*is_commerice) + (ρ_2*is_badcase) ] / [log2(pos+1)]^gamma &lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;pre&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;font color=&quot;#3333ff&quot;&gt;list_score&lt;/font&gt; = - is_commerice*ρ_3*[max(0, latest_commerice_exp_ratio_diff)] - is_badcase*ρ_4*[max(0, latest_badcase_ratio_diff)]&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="860" width="730" height="120" as="geometry" />
+          <mxGeometry x="515" y="1220" width="730" height="120" as="geometry" />
         </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cB46XJUW-apT-bxPfPfF-9" target="cB46XJUW-apT-bxPfPfF-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -77,16 +85,19 @@
           <mxGeometry x="496" y="660" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-23" value="&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 14.6667px;&quot;&gt;排到第2位，N为3，则 前N位 至 1-2 位&lt;br&gt;&lt;/span&gt;pos = 1, N=3, 前N位是 pos ∈ [0, 1], startPos = 0&lt;br&gt;&lt;br style=&quot;color: rgb(73, 73, 73); font-size: 14.6667px;&quot;&gt;&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 14.6667px;&quot;&gt;排到第10位，N为3，则 前N位 指 8-10 位&lt;br&gt;&lt;/span&gt;pos = 9, N=3, 前N位是 pos ∈ [7, 9],&amp;nbsp; startPos = 7&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 14.6667px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="526" y="930" width="290" height="100" as="geometry" />
+          <mxGeometry x="510" y="930" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="82ahOu1l450AlYFmvK46-27" target="82ahOu1l450AlYFmvK46-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="82ahOu1l450AlYFmvK46-27" value="找到前N位的startPos，最小为0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="950" width="120" height="60" as="geometry" />
+        <mxCell id="82ahOu1l450AlYFmvK46-27" value="在resultList中，找前N位的startPos，最小为0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="950" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="82ahOu1l450AlYFmvK46-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82ahOu1l450AlYFmvK46-29" target="cB46XJUW-apT-bxPfPfF-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-29" value="计算startPos到当前pos之间badCase占比和Commerce占比" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="1150" width="320" height="70" as="geometry" />
+          <mxGeometry x="720" y="1090" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="82ahOu1l450AlYFmvK46-32" target="82ahOu1l450AlYFmvK46-9">
           <mxGeometry relative="1" as="geometry" />
@@ -101,7 +112,13 @@
           <mxGeometry x="770" y="800" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="82ahOu1l450AlYFmvK46-39" value="TODO: 当N比较大的时候，需要滑动窗口性能优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="1070" width="290" height="30" as="geometry" />
+          <mxGeometry x="1050" y="1110" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82ahOu1l450AlYFmvK46-40" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="895" y="868" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="82ahOu1l450AlYFmvK46-47" value="TODO: 单价值和列表价值可以并行计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1330" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
