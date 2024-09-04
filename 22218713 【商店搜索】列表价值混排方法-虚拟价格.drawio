@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="第 1 页" id="N9kNklqTaCKMSfdVolA9">
-    <mxGraphModel dx="2022" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1816" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="cB46XJUW-apT-bxPfPfF-11" value="当前pos &amp;lt; limitPostion？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="328" y="340" width="168" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cB46XJUW-apT-bxPfPfF-13" value="按照当前位置，重新计算商业化队列和自然队列ECPM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cB46XJUW-apT-bxPfPfF-13" value="按照当前位置，重新计算商业化队列和自然队列并分别按ecpm和pctr降序排列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="480" width="295" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
