@@ -28,7 +28,7 @@
         <mxCell id="cB46XJUW-apT-bxPfPfF-11" value="当前pos &amp;lt; limitPostion？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="328" y="340" width="168" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cB46XJUW-apT-bxPfPfF-13" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cB46XJUW-apT-bxPfPfF-13" value="按照当前位置，重新计算商业化队列和自然队列" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="115" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
