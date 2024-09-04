@@ -35,7 +35,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cB46XJUW-apT-bxPfPfF-13" value="按照当前位置：&lt;br&gt;商业化队列重新计算ecpm，ecpm降序排&lt;br&gt;自然队列填充对应的位ecpm，顺序不变" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="cB46XJUW-apT-bxPfPfF-13" value="按照当前位置：&lt;br&gt;商业化队列重新计算ecpm，ecpm降序排&lt;br&gt;自然队列填充对应的位ecpm，顺序不变，保持pctr降序" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="480" width="295" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cB46XJUW-apT-bxPfPfF-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
