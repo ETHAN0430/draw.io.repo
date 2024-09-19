@@ -92,11 +92,20 @@
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-66" target="g8HIUZK8w_mc1hn0HHyK-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-66" target="g8HIUZK8w_mc1hn0HHyK-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-66" value="tab栏搜索?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="870" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-70" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-70" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-72" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="950" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-74" value="拍卖引擎 callback" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
