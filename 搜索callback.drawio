@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="第 1 页" id="kJ6ruK-Ss0x04oIJjGyf">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,7 +125,7 @@
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-80" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="630" y="1110" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-81" value="拍卖引擎 callback&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;metric_service:&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;callback&lt;/span&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;broker:&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;http://ht-predictor-statistics-kafka.proxy.kafka.oppo.local:9095&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;topic:&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;topic_mlops_callback_appstore&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-81" value="拍卖引擎 callback&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;metric_service:无&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;broker:&lt;/b&gt;&lt;span style=&quot;background-color: initial; font-weight: normal;&quot;&gt;http://ht-predictor-statistics-kafka.proxy.kafka.oppo.local:9095&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-weight: bold; background-color: initial;&quot;&gt;正常topic:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;search-report-new&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;刷量topic: &lt;/b&gt;search-report-brush&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="1160" width="410" height="171" as="geometry" />
         </mxCell>
       </root>
