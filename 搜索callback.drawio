@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="第 1 页" id="kJ6ruK-Ss0x04oIJjGyf">
-    <mxGraphModel dx="2022" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,30 +13,45 @@
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-10" value="searchx 303" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-16" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13" target="g8HIUZK8w_mc1hn0HHyK-15">
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13" target="g8HIUZK8w_mc1hn0HHyK-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-26" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13" target="g8HIUZK8w_mc1hn0HHyK-25">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-13" value="风控识别：高危刷量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="525" y="230" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-25" target="g8HIUZK8w_mc1hn0HHyK-27">
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-25">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="125" y="960" />
-            </Array>
+            <mxPoint x="610" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-25" value="&lt;b&gt;Callback开关判断&lt;/b&gt;&lt;br&gt;风控高危刷量 open.brush.callback 线上关闭&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="340" width="510" height="150" as="geometry" />
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-25" target="g8HIUZK8w_mc1hn0HHyK-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-25" value="刷量callback开关&lt;br&gt;&amp;nbsp;open.brush.callback 线上关闭" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-27" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-35" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="228" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-36" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-39" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-42" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="750" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-46" value="自然算法 mlops callback开关" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="420" width="310" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
