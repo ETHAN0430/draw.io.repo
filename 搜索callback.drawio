@@ -13,13 +13,13 @@
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-10" value="searchx 303" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="70" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-16" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13" target="g8HIUZK8w_mc1hn0HHyK-15">
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-16" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13" target="g8HIUZK8w_mc1hn0HHyK-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-26" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13" target="g8HIUZK8w_mc1hn0HHyK-25">
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-26" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-13" target="g8HIUZK8w_mc1hn0HHyK-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g8HIUZK8w_mc1hn0HHyK-13" value="风控高危刷量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-13" value="风控识别：高危刷量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="525" y="230" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
