@@ -10,8 +10,14 @@
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-4" value="&lt;b&gt;有两个303：&lt;/b&gt;&lt;br&gt;bingo303：混排最终结果&lt;br&gt;searchx303：对bingo303后置处理后的结果&lt;br&gt;诊断后台二者同时存在优先展示bingo303&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="60" width="250" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g8HIUZK8w_mc1hn0HHyK-5" target="g8HIUZK8w_mc1hn0HHyK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g8HIUZK8w_mc1hn0HHyK-5" value="searchx 303" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g8HIUZK8w_mc1hn0HHyK-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="215" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
