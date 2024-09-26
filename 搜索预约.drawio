@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="6AN-3cwEPdBDDhWw0bSy">
-    <mxGraphModel dx="1740" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="1556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,8 +173,8 @@
         <mxCell id="i3pbH2j_8MyRmLFWwFwp-56" value="诊断 也报的303" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-109.9" y="840" width="172.6" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="i3pbH2j_8MyRmLFWwFwp-58" value="下发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="435" y="474.37" width="50" height="30" as="geometry" />
+        <mxCell id="i3pbH2j_8MyRmLFWwFwp-58" value="结果下发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="460" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i3pbH2j_8MyRmLFWwFwp-65" value="实时修正状态，我们上次改的这里" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="745" y="910" width="200" height="30" as="geometry" />
