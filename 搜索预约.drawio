@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="6AN-3cwEPdBDDhWw0bSy">
-    <mxGraphModel dx="3452" dy="2524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,8 +173,8 @@
         <mxCell id="i3pbH2j_8MyRmLFWwFwp-75" value="现状：意图识别已经很快了5~10分钟内可以出，但是还是不够快&lt;br&gt;目标：无需一大早起来人工干预，实现自动化，也就是让运营保持干预预约状态即可" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-740" y="-166.5" width="480" height="66.5" as="geometry" />
         </mxCell>
-        <mxCell id="i3pbH2j_8MyRmLFWwFwp-77" value="隐患点1：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="560" y="238" width="80" height="30" as="geometry" />
+        <mxCell id="i3pbH2j_8MyRmLFWwFwp-77" value="隐患点1：预约下架后，如果此时redis的写入时间和读取时间相近，会导致预约干预失效，过滤掉干预资源&lt;br&gt;其实逻辑是没问题的，但是这样就只能等意图识别在架或者干预在架，太慢了。&lt;br&gt;这个时候已经上架了，其实不应该去过滤这个资源，这个时候因为已经有调用资源，所以可以顺便把状态转了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i3pbH2j_8MyRmLFWwFwp-78" value="数据流图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=55;" vertex="1" parent="1">
           <mxGeometry x="485" y="-430" width="240" height="80" as="geometry" />
