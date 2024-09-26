@@ -166,6 +166,9 @@
         <mxCell id="i3pbH2j_8MyRmLFWwFwp-56" value="诊断 也报的303" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-109.9" y="840" width="172.6" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="i3pbH2j_8MyRmLFWwFwp-58" value="下发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="474.37" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
