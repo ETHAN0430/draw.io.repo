@@ -173,7 +173,7 @@
         <mxCell id="i3pbH2j_8MyRmLFWwFwp-75" value="现状：意图识别已经很快了5~10分钟内可以出，但是还是不够快&lt;br&gt;目标：无需一大早起来人工干预，实现自动化，也就是让运营保持干预预约状态即可" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-740" y="-166.5" width="480" height="66.5" as="geometry" />
         </mxCell>
-        <mxCell id="i3pbH2j_8MyRmLFWwFwp-77" value="隐患点1：预约下架后，如果此时redis的写入时间和读取时间相近，会导致预约干预失效，过滤掉干预资源&lt;br&gt;其实逻辑是没问题的，但是这样就只能等意图识别在架或者干预在架，太慢了。&lt;br&gt;这个时候已经上架了，其实不应该去过滤这个资源，这个时候因为已经有调用资源，所以逻辑：&lt;br&gt;&lt;br&gt;1. 如果预约下架，并且资源也不在架，可以过滤&lt;br&gt;2. 如果预约下架，但是资源在架，可以顺便把状态转了，省得媒体再去查&lt;br&gt;3. 如果预约还在架（延迟），那还是得我们去校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="i3pbH2j_8MyRmLFWwFwp-77" value="隐患点1：预约下架后，如果此时redis的写入时间和读取时间相近，会导致预约干预失效，过滤掉干预资源&lt;br&gt;其实逻辑是没问题的，但是这样就只能等意图识别在架或者干预在架，太慢了。&lt;br&gt;这个时候已经上架了，其实不应该去过滤这个资源，这个时候因为已经有调用资源，所以逻辑：&lt;br&gt;&lt;br&gt;1. 如果预约下架，并且资源也不在架，可以过滤&lt;br&gt;2. 如果预约下架，但是资源在架，不要过滤。可以顺便把状态转了，省得媒体再去查&lt;br&gt;3. 如果预约还在架（延迟），那还是得我们去校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="442.42" y="225" width="580" height="110" as="geometry" />
         </mxCell>
         <mxCell id="i3pbH2j_8MyRmLFWwFwp-78" value="数据流图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontSize=55;" vertex="1" parent="1">
