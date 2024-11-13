@@ -7,7 +7,7 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-1" value="素材服务&lt;br&gt;&lt;br&gt;场景 page code + card code，注意不是id&lt;br&gt;召回策略&lt;br&gt;优先级策略&lt;br&gt;频控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="490" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-2" value="推荐理由业务模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-2" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="300" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-3" value="非推荐理由其他素材" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
