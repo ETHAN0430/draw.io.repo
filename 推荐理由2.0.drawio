@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-1" value="素材服务&lt;br&gt;&lt;br&gt;场景 page code + card code，匹配召回策略，注意不是id&lt;br&gt;并发召回&lt;br&gt;资源位&lt;br&gt;行数&lt;br&gt;优先级策略&lt;br&gt;频控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-1" value="素材决策/混排服务&lt;br&gt;&lt;br&gt;场景 page code + card code，匹配召回策略，注意不是id&lt;br&gt;并发召回&lt;br&gt;资源位&lt;br&gt;行数&lt;br&gt;优先级策略&lt;br&gt;频控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="490" height="590" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-2" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
