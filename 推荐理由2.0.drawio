@@ -172,6 +172,9 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-22" value="应用活动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1030" y="335" width="90" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-24" value="休闲游戏坑位召回策略&lt;br&gt;&lt;br&gt;目前休闲游戏素材只有休闲游戏坑位填充" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="367.5" width="50" height="145" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
