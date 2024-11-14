@@ -58,7 +58,7 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="260" width="180" height="515" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-11" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-11" value="推荐理由&lt;br&gt;（类型 模板）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="255" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-17" value="实验平台imei分流，获取召回类型：&lt;br&gt;line2:24,25,27" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
