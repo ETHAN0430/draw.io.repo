@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="3054" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3269" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,13 +30,20 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-4" value="拍卖引擎" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1425" y="480" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-5" target="1YZOs5OkidO7PdD_BnGx-39">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-98.92307692307668" y="260" as="sourcePoint" />
+            <mxPoint x="1236" y="525" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-100" y="80" />
-              <mxPoint x="1340" y="80" />
-              <mxPoint x="1340" y="525" />
+              <mxPoint x="-99" y="80" />
+              <mxPoint x="1341" y="80" />
+              <mxPoint x="1341" y="525" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-61" value="强制召回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1YZOs5OkidO7PdD_BnGx-49">
+          <mxGeometry x="-0.1772" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-5" value="分发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -48,11 +55,8 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-7" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-490" y="430" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-8" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="260" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-10" value="RPC&lt;br&gt;resource-ext-rpc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="324" y="585" width="180" height="90" as="geometry" />
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="180" height="515" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-11" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="255" width="180" height="100" as="geometry" />
@@ -116,8 +120,8 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-39" value="数据源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="230" width="215" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-40" value="数据召回层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="1085" y="180" width="80" height="30" as="geometry" />
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-40" value="数据召回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="180" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-44" target="1YZOs5OkidO7PdD_BnGx-39">
           <mxGeometry relative="1" as="geometry">
@@ -136,14 +140,17 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-53" value="应用活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="520" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-54" value="&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;素材决策/混排/排序服务&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;规则引擎&lt;/b&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;场景 page code + card code + 素材展示位置&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;，用来匹配召回、优先级策略，注意不是id&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;并发召回&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;资源位&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;行数&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;优先级策略&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;频控&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="730" y="1020" width="260" height="160" as="geometry" />
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-54" value="&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;素材决策/混排/排序服务 中台&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;规则引擎&lt;/b&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;场景 page code + card code + 素材展示位置&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;，用来匹配召回、优先级策略，注意不是id&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;并发召回&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;资源位&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;行数&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;优先级策略&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;频控&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1050" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-55" value="产品 / 实体 / 素材" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="810" y="180" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-58" value="......." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="665" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-62" value="频控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="305" y="180" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
