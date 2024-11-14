@@ -77,7 +77,7 @@
           <mxGeometry x="15" y="985" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-30" value="榜单优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="410" y="970" width="80" height="30" as="geometry" />
+          <mxGeometry x="415" y="990" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
