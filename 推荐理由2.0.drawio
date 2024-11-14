@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="2759" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2567" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,8 +58,26 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-22" value="page code&lt;div&gt;(card code)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="1000" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-23" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-23" target="1YZOs5OkidO7PdD_BnGx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-23" value="文案模板&lt;br&gt;- 是否可拼接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-25" target="1YZOs5OkidO7PdD_BnGx-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-25" value="文案槽位&lt;br&gt;比如rankName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-27" value="rank服务&lt;br&gt;提供某个资源存在在多少个榜单里面" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-29" value="模板频控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="985" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-30" value="榜单优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="970" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
