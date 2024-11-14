@@ -142,16 +142,8 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-66" value="推荐理由类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="-30" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-2" value="推荐理由&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-2" value="推荐理由&lt;br&gt;坑位&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="950" y="10" width="50" height="320" as="geometry" />
-        </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-67" target="1YZOs5OkidO7PdD_BnGx-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="980" y="278" />
-              <mxPoint x="980" y="305" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-67" value="榜单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="30" width="80" height="45" as="geometry" />
@@ -161,14 +153,6 @@
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-68" value="休闲游戏" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1040" y="412.5" width="70" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=top;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-69" target="1YZOs5OkidO7PdD_BnGx-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="980" y="345" />
-              <mxPoint x="980" y="305" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-69" value="分类" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1035" y="110" width="90" height="50" as="geometry" />
@@ -186,10 +170,13 @@
           <mxGeometry x="1130" y="110" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-10" value="素材召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="640" y="15" width="85" height="730" as="geometry" />
+          <mxGeometry x="435" y="15" width="85" height="730" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-14" value="数据源&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1495" y="-90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-15" value="推荐理由&lt;br&gt;类型&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="680" y="12.5" width="50" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
