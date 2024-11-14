@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="3088" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2643" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,7 +153,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-26" value="资源素材频控【策略】" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="340" y="5" width="165" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="素材类型优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="372.5" y="65" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-29" value="DTO" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -168,8 +168,8 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-33" value="优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="835" y="70" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-35" value="打散" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="364" y="140" width="100" height="40" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-35" value="素材类型打散" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="122.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-36" value="推荐理由A · B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="75" width="90" height="50" as="geometry" />
