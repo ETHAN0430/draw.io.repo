@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="1816" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2801" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-11" value="入参强制召回 / 广告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="470" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-17" value="实验平台imei分流，获取召回类型：&lt;br&gt;line2:24,25,27" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1495" y="100" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-18" value="推荐理由1.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-1325" y="58" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-19" value="模块id，获取召回类型（似乎不需要？）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="220" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-20" value="模块id，获取召回类型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="330" width="330" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
