@@ -76,8 +76,8 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-30" value="榜单优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="414" y="970" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-32" value="推荐理由模板优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="950" width="130" height="30" as="geometry" />
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-32" value="推荐理由文案模板优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="950" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-33" target="1YZOs5OkidO7PdD_BnGx-34">
           <mxGeometry relative="1" as="geometry" />
