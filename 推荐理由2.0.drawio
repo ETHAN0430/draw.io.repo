@@ -201,8 +201,11 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-48" value="类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-51" value="高亮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="80" width="70" height="30" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-51" value="跳转" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-52" value="高亮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="70" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
