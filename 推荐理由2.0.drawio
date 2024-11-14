@@ -56,7 +56,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-22" value="page code&lt;div&gt;(card code)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="997.5" width="170" height="90" as="geometry" />
+          <mxGeometry x="-260" y="995" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-26" value="1:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1YZOs5OkidO7PdD_BnGx-23" target="1YZOs5OkidO7PdD_BnGx-25">
           <mxGeometry relative="1" as="geometry" />
@@ -73,8 +73,8 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-27" value="rank服务&lt;br&gt;提供某个资源存在在多少个榜单里面" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="1015" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-29" value="推荐理由优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="1000" width="110" height="30" as="geometry" />
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-29" value="推荐理由类型优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1000" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-30" value="榜单优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="415" y="990" width="80" height="30" as="geometry" />
