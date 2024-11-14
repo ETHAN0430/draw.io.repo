@@ -180,7 +180,7 @@
           <mxGeometry x="392.5" y="70" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-29" value="素材详情填充" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="230" y="15" width="80" height="725" as="geometry" />
+          <mxGeometry x="250" y="15" width="80" height="725" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-30" value="交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="240" y="-80" width="50" height="30" as="geometry" />
