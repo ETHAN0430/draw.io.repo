@@ -73,8 +73,8 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-27" value="rank服务&lt;br&gt;提供某个资源存在在多少个榜单里面" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="1015" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-29" value="模板频控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="15" y="985" width="70" height="30" as="geometry" />
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-29" value="模板优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="985" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-30" value="榜单优先级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="415" y="990" width="80" height="30" as="geometry" />
