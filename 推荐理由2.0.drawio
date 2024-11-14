@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="2901" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2523" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,9 +43,6 @@
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-7" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1040" y="450" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="260" width="180" height="515" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-11" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="750" y="10" width="180" height="325" as="geometry" />
@@ -110,7 +107,7 @@
           <mxGeometry x="1012.5" y="10" width="207.5" height="740" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-40" value="坑位召回（可以换个名字）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="-80" width="170" height="30" as="geometry" />
+          <mxGeometry x="1031.25" y="-80" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-44" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1425" y="675" width="180" height="90" as="geometry" />
@@ -129,15 +126,6 @@
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-58" value="etc." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="750" y="650" width="180" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-62" value="频控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="305" y="180" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-63" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="314" y="15" width="180" height="525" as="geometry" />
-        </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-64" value="打散" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="535" y="37.5" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-66" value="推荐理由类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="-30" width="100" height="30" as="geometry" />
@@ -160,17 +148,11 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-78" value="搜索干预" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1135" y="27.5" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-1" value="优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="105" width="110" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-4" value="频控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="230" width="110" height="55" as="geometry" />
-        </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-5" value="分发干预一句话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1130" y="110" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-10" value="素材召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="450" y="25" width="85" height="730" as="geometry" />
+          <mxGeometry x="560" y="12.5" width="85" height="730" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-14" value="数据源&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="1495" y="-90" width="60" height="30" as="geometry" />
