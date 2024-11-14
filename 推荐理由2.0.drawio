@@ -209,6 +209,9 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-41" value="类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="915" y="120" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-42" value="坑位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="915" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
