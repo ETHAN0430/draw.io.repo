@@ -4,13 +4,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-1" value="素材决策/混排/排序服务&lt;br&gt;&lt;br&gt;场景 page code + card code + 素材展示位置&lt;br&gt;，用来匹配召回、优先级策略，注意不是id&lt;br&gt;并发召回&lt;br&gt;资源位&lt;br&gt;行数&lt;br&gt;优先级策略&lt;br&gt;频控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-1" value="素材决策/混排/排序服务&lt;br&gt;&lt;br&gt;&lt;b&gt;规则引擎&lt;/b&gt;&lt;br&gt;&lt;br&gt;场景 page code + card code + 素材展示位置&lt;br&gt;，用来匹配召回、优先级策略，注意不是id&lt;br&gt;并发召回&lt;br&gt;资源位&lt;br&gt;行数&lt;br&gt;优先级策略&lt;br&gt;频控" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="490" height="590" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-2" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="300" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-3" value="其他素材..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-3" value="其他素材... 休闲游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="665" y="630" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-4" value="广告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
