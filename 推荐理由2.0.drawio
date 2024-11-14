@@ -146,7 +146,7 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-69" value="分类" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1035" y="80" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-78" value="搜索干预" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-78" value="搜索干预一句话" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1032.5" y="140" width="92.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-5" value="休闲游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -165,7 +165,7 @@
           <mxGeometry x="1032.5" y="275" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-22" value="应用活动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="335" width="90" height="50" as="geometry" />
+          <mxGeometry x="1035" y="345" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-24" value="休闲游戏&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="370" width="55" height="152.5" as="geometry" />
