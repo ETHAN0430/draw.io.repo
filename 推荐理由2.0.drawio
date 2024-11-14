@@ -204,7 +204,7 @@
           <mxGeometry x="757.5" y="60" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-37" value="推荐理由文案B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="755" y="125" width="90" height="50" as="geometry" />
+          <mxGeometry x="757.5" y="125" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
