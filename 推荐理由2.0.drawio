@@ -188,7 +188,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-30" value="交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="240" y="-80" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-32" value="推荐理由&lt;br&gt;打散策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-32" value="推荐理由&lt;br&gt;频控策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="645" y="10" width="60" height="335" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-33" value="优先级策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
