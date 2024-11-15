@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="2901" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2523" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,10 +127,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-78" value="搜索干预一句话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-78" value="搜索干预一句话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1137.5" y="602.5" width="87.5" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-10" value="素材召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-10" value="素材召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="520" y="10" width="106.25" height="722.5" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-14" value="数据源&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
@@ -211,7 +211,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-61" value="游戏节点日历" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1184" y="203.75" width="86" height="46.25" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-68" value="旧DTO&lt;br&gt;&lt;br&gt;LabelxxxxDTO&lt;br&gt;RecWordDTO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-68" value="旧DTO&lt;br&gt;100&lt;br&gt;desc&lt;br&gt;xxxx&lt;br&gt;&lt;br&gt;&lt;br&gt;200&lt;br&gt;LabelxxxxDTO&lt;br&gt;RecWordDTO&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="-161.25" width="130" height="190" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-70" value="新DTO" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
@@ -247,7 +247,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-78" value="好评人数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1191.25" y="150" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-82" value="干预一句话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-82" value="干预一句话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="648.75" y="600" width="142.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-3" value="这期写死，但是要抽接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -280,7 +280,7 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-25" value="资源位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="538.12" y="132.5" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-28" value="干预一句话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-28" value="超级主题" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="648.75" y="750" width="142.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-29" value="干预一句话&lt;br&gt;频控策略&lt;br&gt;&lt;br&gt;无" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
@@ -316,6 +316,9 @@
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-45" value="cardStyle = 300" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-330" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-48" value="超级主题" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1108.75" y="750" width="142.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
