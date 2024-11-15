@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="1591" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1382" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,7 +73,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-26" value="素材排序策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="340" y="5" width="170" height="835" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="页面code&lt;br&gt;=&amp;gt;&lt;br&gt;素材类型优先级" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="优先级统一：&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="372.5" y="75" width="97.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-29" value="DTO&lt;br&gt;素材组装" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -247,6 +247,12 @@
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-78" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="951.25" y="237.5" width="65" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-82" value="页面code&lt;br&gt;=&amp;gt;&lt;br&gt;素材类型频控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="213" width="97.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-83" value="页面code&lt;br&gt;=&amp;gt;&lt;br&gt;素材类型优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="140.5" width="97.5" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
