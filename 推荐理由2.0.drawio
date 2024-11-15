@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="2759" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3154" dy="1992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="1410" y="464.38" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-7" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="-40" width="150" height="850" as="geometry" />
+          <mxGeometry x="-610" y="-55" width="150" height="850" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-11" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="640" y="35" width="160" height="320" as="geometry" />
@@ -230,6 +230,24 @@
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-61" value="游戏节点日历" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1030" y="485.01" width="92.5" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-62" value="干预一句话" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="438.76" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-63" value="待迁移" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="464.38" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-64" value="广告素材" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-142.5" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-65" value="素材决策素材" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-68" value="旧DTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="-7.5" width="165" height="227.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-70" value="新DTO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="256.25" width="155" height="493.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
