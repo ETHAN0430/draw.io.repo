@@ -216,7 +216,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-56" value="推荐理由 - 休闲游戏 与 休闲游戏是否有本质区别？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="660" y="-180" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-57" value="召回&lt;br&gt;（准入）规则" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-57" value="召回&lt;br&gt;（准入）规则" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1240.5" y="15" width="59" height="730" as="geometry" />
         </mxCell>
       </root>
