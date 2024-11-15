@@ -259,8 +259,8 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.477;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mTAsUbE7UdsPs39N6bfx-72" target="mTAsUbE7UdsPs39N6bfx-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-72" value="优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="835" y="80" width="50" height="30" as="geometry" />
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-72" value="文案模板优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="832.5" y="80" width="55" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
