@@ -73,8 +73,8 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-26" value="素材排序策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="340" y="5" width="170" height="835" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="优先级统一：&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="372.5" y="50" width="97.5" height="70" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="优先级统一：&lt;div&gt;1. 超级主题&lt;br&gt;2. 干预一句话&lt;br&gt;3. 广告素材&lt;br&gt;4. 推荐理由&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="367.5" y="40" width="107.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-29" value="DTO&lt;br&gt;素材组装" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="250" y="15" width="80" height="815" as="geometry" />
