@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="2716" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4261" dy="2547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,9 +226,6 @@
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-59" value="这个地方只出一个类型的推荐理由 还是多类型推荐理由" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="495" y="-40" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-60" value="推荐理由 - 休闲游戏 与 休闲游戏是否有本质区别？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="680" y="-160" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-61" value="游戏节点日历" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1030" y="485.01" width="92.5" height="48.75" as="geometry" />
