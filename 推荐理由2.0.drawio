@@ -137,8 +137,8 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-26" value="页面资源素材频控【策略】" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="340" y="5" width="165" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="素材类型优先级" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="372.5" y="75" width="100" height="40" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-28" value="页面code&lt;br&gt;=》&lt;br&gt;素材类型优先级" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="372.5" y="75" width="97.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-29" value="DTO" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="250" y="15" width="80" height="725" as="geometry" />
@@ -257,11 +257,11 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-22" value="干预一句话&lt;br&gt;召回策略&lt;br&gt;&lt;br&gt;无" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="915" y="587.5" width="65" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-24" value="卡片&lt;br&gt;&amp;nbsp;=&amp;gt;&lt;br&gt;素材类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-24" value="卡片code&lt;br&gt;&amp;nbsp;=&amp;gt;&lt;br&gt;素材类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="537.18" y="75" width="71.88" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-25" value="资源位&lt;br&gt;=&amp;gt;&amp;nbsp;&lt;br&gt;素材类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="537.18" y="155" width="71.88" height="60" as="geometry" />
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-25" value="资源位置范围&lt;br&gt;=&amp;gt;&amp;nbsp;&lt;br&gt;素材类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="531.7099999999999" y="155" width="82.82" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-28" value="超级主题" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="648.75" y="750" width="142.5" height="70" as="geometry" />
