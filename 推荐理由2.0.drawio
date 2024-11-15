@@ -88,8 +88,8 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-37" value="推荐理由类型B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="675" y="140" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-39" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="915" y="75" width="55" height="65" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-39" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;n槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="911.25" y="80" width="65" height="65" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-45" value="分发/搜索" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-35" y="-161.25" width="145" height="1050" as="geometry" />
@@ -243,10 +243,10 @@
           <mxGeometry x="832.5" y="80" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-77" value="推荐理由&lt;br&gt;文案模板&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="907.5" y="180" width="72.5" height="160" as="geometry" />
+          <mxGeometry x="907.5" y="180" width="162.5" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-78" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无槽位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="915" y="245" width="55" height="65" as="geometry" />
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-78" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="956.25" y="245" width="65" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
