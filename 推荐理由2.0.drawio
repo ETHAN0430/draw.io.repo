@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="1470" dy="1547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,7 +243,7 @@
           <mxGeometry x="832.5" y="80" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-77" value="推荐理由&lt;br&gt;文案模板&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="907.5" y="180" width="162.5" height="190" as="geometry" />
+          <mxGeometry x="911.25" y="175" width="162.5" height="180" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-78" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="956.25" y="245" width="65" height="95" as="geometry" />
