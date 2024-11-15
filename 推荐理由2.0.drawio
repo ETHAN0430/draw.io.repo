@@ -93,7 +93,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-37" value="推荐理由类型B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="675" y="140" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-39" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;坑位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-39" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="915" y="75" width="55" height="65" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-45" value="分发/搜索" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
