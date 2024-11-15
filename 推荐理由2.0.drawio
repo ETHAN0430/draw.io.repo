@@ -207,7 +207,7 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-52" value="高亮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="255" y="70" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-53" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-53" value="推荐理由&lt;br&gt;Icon" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="255" y="170" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-54" value="推荐理由类型C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
