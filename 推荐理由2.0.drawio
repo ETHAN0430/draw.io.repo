@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="3116" dy="2393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,11 +82,11 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-32" value="推荐理由&lt;br&gt;文案模板&lt;br&gt;排序策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="825" y="20" width="70" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-36" value="推荐理由类型A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="675" y="80" width="90" height="50" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-36" value="推荐理由类型A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="675" y="290" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-37" value="推荐理由类型B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="675" y="140" width="90" height="50" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-37" value="推荐理由&lt;br&gt;文案类型B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="675" y="114" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-39" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;n槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="911.25" y="80" width="65" height="65" as="geometry" />
@@ -107,10 +107,10 @@
           <mxGeometry x="255" y="170" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-54" value="推荐理由类型C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="675" y="200" width="90" height="50" as="geometry" />
+          <mxGeometry x="675" y="230" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-55" value="推荐理由类型D" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="675" y="260" width="90" height="50" as="geometry" />
+          <mxGeometry x="675" y="168.75" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-57" value="推荐理由&lt;br&gt;槽位（零件）&lt;br&gt;排序策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="985" y="20" width="82.5" height="310" as="geometry" />
@@ -262,6 +262,9 @@
         </mxCell>
         <mxCell id="5NM-MxCQULftXHbTaLZO-11" value="&lt;b&gt;素材&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-22.49999999999997" y="-131.25" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5NM-MxCQULftXHbTaLZO-15" value="推荐理由&lt;br&gt;类型B 文案2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="675" y="60" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
