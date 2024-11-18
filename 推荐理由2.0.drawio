@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="1642" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="520" y="10" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-16" value="推荐理由&lt;br&gt;文案模板&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="907.5" y="20" width="72.5" height="150" as="geometry" />
+          <mxGeometry x="907.5" y="20" width="72.5" height="310" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-22" value="应用活动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1086.25" y="165" width="90" height="50" as="geometry" />
@@ -242,17 +242,14 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-72" value="文案模板优先级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="832.5" y="80" width="55" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-77" value="推荐理由&lt;br&gt;文案模板&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="902.5" y="175" width="162.5" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-78" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="951.25" y="237.5" width="65" height="95" as="geometry" />
-        </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-82" value="页面code&lt;br&gt;=&amp;gt;&lt;br&gt;素材类型频控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="372.5" y="213" width="97.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-83" value="页面code&lt;br&gt;=&amp;gt;&lt;br&gt;素材类型优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="372.5" y="140.5" width="97.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-84" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="200" width="65" height="84.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
