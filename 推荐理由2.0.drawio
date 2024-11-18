@@ -101,7 +101,7 @@
           <mxGeometry x="475" y="-570" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-53" value="推荐理由&lt;br&gt;Icon" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="475" y="-427" width="70" height="30" as="geometry" />
+          <mxGeometry x="475" y="-420" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-54" value="推荐理由&lt;br&gt;类型C 文案4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="895" y="-380" width="90" height="50" as="geometry" />
