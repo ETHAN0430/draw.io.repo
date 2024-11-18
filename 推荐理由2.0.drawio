@@ -251,6 +251,9 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-84" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="911.25" y="212.13" width="65" height="84.5" as="geometry" />
         </mxCell>
+        <mxCell id="5NM-MxCQULftXHbTaLZO-9" value="休闲游戏" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1086.25" y="291.25" width="97.5" height="48.75" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
