@@ -10,7 +10,7 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-66" value=" " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-710" y="-262.5" width="2690" height="1355" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-1" value="素材决策服务 cdo-matreial-decision-rpc" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" parent="1" vertex="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-1" value="素材决策服务 cdo-material-decision-rpc" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="160" y="-50" width="1300.47" height="960" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-64" value="数据（零件）" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
