@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="1795" dy="1687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1473" dy="1514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="740" y="-630" width="100" height="830" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-16" value="推荐理由&lt;br&gt;文案模板&lt;br&gt;召回策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1127.5" y="-620" width="72.5" height="310" as="geometry" />
+          <mxGeometry x="1120" y="-617.5" width="72.5" height="310" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-22" value="应用活动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1306.25" y="-475" width="90" height="50" as="geometry" />
@@ -80,13 +80,13 @@
           <mxGeometry x="470" y="-625" width="80" height="815" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-32" value="推荐理由&lt;br&gt;文案模板&lt;br&gt;排序策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1045" y="-620" width="70" height="320" as="geometry" />
+          <mxGeometry x="1037.5" y="-620" width="70" height="320" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-37" value="推荐理由&lt;br&gt;类型C 文案1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="895" y="-500" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-39" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;n槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1131.25" y="-560" width="65" height="65" as="geometry" />
+          <mxGeometry x="1123.75" y="-561" width="65" height="65" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-45" value="分发/搜索" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="185" y="-801.25" width="145" height="1050" as="geometry" />
@@ -234,7 +234,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-72" value="文案模板优先级" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1052.5" y="-560" width="55" height="40" as="geometry" />
+          <mxGeometry x="1045" y="-561" width="55" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-82" value="页面code&lt;br&gt;=&amp;gt;&lt;br&gt;素材类型频控" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="587.5" y="-490" width="97.5" height="55" as="geometry" />
@@ -243,7 +243,7 @@
           <mxGeometry x="587.5" y="-415" width="97.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-84" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1131.25" y="-425" width="65" height="84.5" as="geometry" />
+          <mxGeometry x="1123.75" y="-485" width="65" height="84.5" as="geometry" />
         </mxCell>
         <mxCell id="5NM-MxCQULftXHbTaLZO-9" value="休闲游戏" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1306.25" y="-348.75" width="97.5" height="48.75" as="geometry" />
