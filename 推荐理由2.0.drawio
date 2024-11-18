@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="2226" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1922" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-69" value="分类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1086.25" y="53" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3B4yekNZGvFQ_pMUscjl-22" target="mTAsUbE7UdsPs39N6bfx-82" edge="1">
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3B4yekNZGvFQ_pMUscjl-21" target="mTAsUbE7UdsPs39N6bfx-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1YZOs5OkidO7PdD_BnGx-78" target="3B4yekNZGvFQ_pMUscjl-22" edge="1">
@@ -152,7 +152,7 @@
           <mxGeometry x="1192" y="50" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-82" value="干预一句话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="648.75" y="600" width="142.5" height="70" as="geometry" />
+          <mxGeometry x="630" y="615" width="142.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3B4yekNZGvFQ_pMUscjl-19" target="1YZOs5OkidO7PdD_BnGx-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -168,9 +168,6 @@
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-19" value="广告素材&lt;br&gt;排序策略&lt;br&gt;&lt;br&gt;无" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="825" y="388.75" width="75" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-21" value="干预一句话&lt;br&gt;排序策略&lt;br&gt;&lt;br&gt;无" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="823.75" y="585" width="77.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-22" value="干预一句话&lt;br&gt;召回策略&lt;br&gt;&lt;br&gt;无" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="915" y="587.5" width="65" height="125" as="geometry" />
@@ -253,6 +250,15 @@
         </mxCell>
         <mxCell id="5NM-MxCQULftXHbTaLZO-9" value="休闲游戏" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1086.25" y="291.25" width="97.5" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="5NM-MxCQULftXHbTaLZO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3B4yekNZGvFQ_pMUscjl-22" target="3B4yekNZGvFQ_pMUscjl-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="650" as="sourcePoint" />
+            <mxPoint x="773" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-21" value="干预一句话&lt;br&gt;排序策略&lt;br&gt;&lt;br&gt;无" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+          <mxGeometry x="825" y="585" width="77.5" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
