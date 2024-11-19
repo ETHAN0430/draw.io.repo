@@ -579,7 +579,7 @@
         <mxCell id="yLvWYDWx1C-PkN3-8YZx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="yLvWYDWx1C-PkN3-8YZx-1">
           <mxGeometry y="100" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="yLvWYDWx1C-PkN3-8YZx-4" value="+ execute(Context):String&lt;br&gt;- rankPriority(): void&lt;br&gt;-&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yLvWYDWx1C-PkN3-8YZx-1">
+        <mxCell id="yLvWYDWx1C-PkN3-8YZx-4" value="+ recall(Context):void&lt;br&gt;+ shuffle(Context):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="yLvWYDWx1C-PkN3-8YZx-1">
           <mxGeometry y="108" width="260" height="82" as="geometry" />
         </mxCell>
       </root>
