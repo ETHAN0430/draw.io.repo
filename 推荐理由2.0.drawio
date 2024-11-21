@@ -612,6 +612,24 @@
         <mxCell id="PunCPP6NaFX6XrQioEfc-15" value="+ get():&lt;br&gt;+ set():" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PunCPP6NaFX6XrQioEfc-12">
           <mxGeometry y="108" width="260" height="82" as="geometry" />
         </mxCell>
+        <mxCell id="PunCPP6NaFX6XrQioEfc-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;RankStrategy&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="2420" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="PunCPP6NaFX6XrQioEfc-17" value="-&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PunCPP6NaFX6XrQioEfc-16">
+          <mxGeometry y="26" width="260" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="PunCPP6NaFX6XrQioEfc-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="PunCPP6NaFX6XrQioEfc-16">
+          <mxGeometry y="100" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PunCPP6NaFX6XrQioEfc-19" value="+ recall(Context, List&amp;lt;Long&amp;gt;):void&lt;br&gt;&lt;strike&gt;+ shuffle(Context):void&lt;/strike&gt;&lt;br&gt;- rankPriority(Context, List&amp;lt;Long&amp;gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PunCPP6NaFX6XrQioEfc-16">
+          <mxGeometry y="108" width="260" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="PunCPP6NaFX6XrQioEfc-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.497;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PunCPP6NaFX6XrQioEfc-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1880" y="2428" as="sourcePoint" />
+            <mxPoint x="1142" y="2345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
