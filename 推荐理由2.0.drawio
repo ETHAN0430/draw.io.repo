@@ -621,13 +621,19 @@
         <mxCell id="PunCPP6NaFX6XrQioEfc-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="PunCPP6NaFX6XrQioEfc-16">
           <mxGeometry y="100" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="PunCPP6NaFX6XrQioEfc-19" value="+ recall(Context, List&amp;lt;Long&amp;gt;):void&lt;br&gt;&lt;strike&gt;+ shuffle(Context):void&lt;/strike&gt;&lt;br&gt;- rankPriority(Context, List&amp;lt;Long&amp;gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PunCPP6NaFX6XrQioEfc-16">
+        <mxCell id="PunCPP6NaFX6XrQioEfc-19" value="+ recall(Context, List&amp;lt;Long&amp;gt;):void&lt;br&gt;- rankPriority(Context, List&amp;lt;Long&amp;gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PunCPP6NaFX6XrQioEfc-16">
           <mxGeometry y="108" width="260" height="82" as="geometry" />
         </mxCell>
         <mxCell id="PunCPP6NaFX6XrQioEfc-20" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.497;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PunCPP6NaFX6XrQioEfc-16">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1880" y="2428" as="sourcePoint" />
             <mxPoint x="1142" y="2345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PunCPP6NaFX6XrQioEfc-21" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.566;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1519.5" y="2610" as="sourcePoint" />
+            <mxPoint x="1519.5" y="2680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
