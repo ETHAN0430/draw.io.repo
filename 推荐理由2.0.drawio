@@ -642,7 +642,7 @@
             <mxPoint x="1859.5" y="2680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fN5kkKPuxDcYNZ79QlVT-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;DescriptionTextDto（新增）&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="fN5kkKPuxDcYNZ79QlVT-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;DescriptionDetailDto（新增）&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1150" y="710" width="290" height="260" as="geometry" />
         </mxCell>
         <mxCell id="fN5kkKPuxDcYNZ79QlVT-2" value="&lt;div&gt;- :text: String&lt;br&gt;- :textColor: String&lt;br&gt;- :iconUrl: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="fN5kkKPuxDcYNZ79QlVT-1" vertex="1">
