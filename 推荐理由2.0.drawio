@@ -32,7 +32,7 @@
           <mxGeometry x="860" y="-605" width="160" height="320" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-39" value="数据（零件）" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1291.25" y="-630" width="249.83" height="850" as="geometry" />
+          <mxGeometry x="1240" y="-630" width="301.08" height="850" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1YZOs5OkidO7PdD_BnGx-44" target="1YZOs5OkidO7PdD_BnGx-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry x="-13.460000000000008" y="-1060" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1YZOs5OkidO7PdD_BnGx-67" value="榜单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="-580.25" width="85" height="50" as="geometry" />
+          <mxGeometry x="1262.5" y="-590.37" width="135" height="70.25" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3B4yekNZGvFQ_pMUscjl-21" target="mTAsUbE7UdsPs39N6bfx-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -103,11 +103,11 @@
         <mxCell id="mTAsUbE7UdsPs39N6bfx-55" value="推荐理由&lt;br&gt;类型A 文案3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="895" y="-440" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-57" value="推荐理由&lt;br&gt;槽位（零件）&lt;br&gt;排序策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1205" y="-620" width="82.5" height="310" as="geometry" />
+        <mxCell id="mTAsUbE7UdsPs39N6bfx-57" value="排序策略" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="-582.5" width="31.25" height="55" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-61" value="游戏节点日历" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="-500" width="86" height="46.25" as="geometry" />
+          <mxGeometry x="1284.24" y="-485" width="86" height="46.25" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-68" value="旧DTO&lt;br&gt;100&lt;br&gt;desc&lt;br&gt;xxxx&lt;br&gt;&lt;br&gt;&lt;br&gt;200&lt;br&gt;LabelxxxxDTO&lt;br&gt;RecWordDTO&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry y="-801.25" width="130" height="190" as="geometry" />
@@ -199,9 +199,6 @@
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-52" value="商店服务端" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1794.91" y="-517" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-56" value="榜单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1225" y="-556" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3B4yekNZGvFQ_pMUscjl-31" value="超级主题&lt;br&gt;召回策略&lt;br&gt;&lt;br&gt;无" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="1135" y="92.5" width="65" height="125" as="geometry" />
