@@ -630,7 +630,7 @@
         <mxCell id="fN5kkKPuxDcYNZ79QlVT-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="fN5kkKPuxDcYNZ79QlVT-1" vertex="1">
           <mxGeometry y="130" width="290" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="MWTv-GuXuTBtAwa-BtnY-1" value="游戏节点日历" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="MWTv-GuXuTBtAwa-BtnY-1" value="运营配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1437.5" y="-580.25" width="86" height="46.25" as="geometry" />
         </mxCell>
       </root>
