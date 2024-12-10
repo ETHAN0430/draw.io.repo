@@ -16,7 +16,7 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-64" value="数据源" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1760" y="-670" width="249.83" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-63" value="素材（产品）" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-63" value="Material（产品）" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="850" y="-637.5" width="180" height="860" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1YZOs5OkidO7PdD_BnGx-4" target="1YZOs5OkidO7PdD_BnGx-39" edge="1">
@@ -31,7 +31,7 @@
         <mxCell id="1YZOs5OkidO7PdD_BnGx-11" value="推荐理由" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="860" y="-605" width="160" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="1YZOs5OkidO7PdD_BnGx-39" value="数据（零件）" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="1YZOs5OkidO7PdD_BnGx-39" value="MaterialMeta（零件）" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1240" y="-630" width="301.08" height="850" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1YZOs5OkidO7PdD_BnGx-44" target="1YZOs5OkidO7PdD_BnGx-39" edge="1">
@@ -78,9 +78,6 @@
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-37" value="推荐理由&lt;br&gt;类型C 文案1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="895" y="-500" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="mTAsUbE7UdsPs39N6bfx-39" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;n槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1123.75" y="-561" width="65" height="65" as="geometry" />
         </mxCell>
         <mxCell id="mTAsUbE7UdsPs39N6bfx-45" value="分发/搜索" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="185" y="-801.25" width="145" height="1050" as="geometry" />
@@ -221,8 +218,8 @@
         <mxCell id="3B4yekNZGvFQ_pMUscjl-83" value="页面code&lt;br&gt;=&amp;gt;&lt;br&gt;素材类型优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="587.5" y="-415" width="97.5" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="3B4yekNZGvFQ_pMUscjl-84" value="文案模板&lt;br&gt;=&amp;gt;&lt;br&gt;无 槽位&lt;br&gt;&lt;br&gt;类型即槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1123.75" y="-485" width="65" height="84.5" as="geometry" />
+        <mxCell id="3B4yekNZGvFQ_pMUscjl-84" value="推荐理由类型&lt;div&gt;=》&lt;br&gt;数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1116.25" y="-514.25" width="76.25" height="84.5" as="geometry" />
         </mxCell>
         <mxCell id="5NM-MxCQULftXHbTaLZO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3B4yekNZGvFQ_pMUscjl-22" target="3B4yekNZGvFQ_pMUscjl-21" edge="1">
           <mxGeometry relative="1" as="geometry">
