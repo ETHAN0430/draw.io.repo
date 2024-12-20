@@ -352,8 +352,11 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-147" value="写imei缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2605" y="295" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-149" target="K1Wzr4Rf5TzKCfg1iNbo-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-149" value="读缓存&lt;br&gt;KEY：imei+query" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2375" y="455" width="120" height="60" as="geometry" />
+          <mxGeometry x="2375" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-151" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2495" y="295" width="30" height="30" as="geometry" />
@@ -381,8 +384,14 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-160" value="backup_expire_time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3070" y="430" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-166" value="写入结果缓存&lt;br&gt;KEY：imei+query&lt;br&gt;&lt;br&gt;缓存时间：&lt;div&gt;1. search_result_cache_expire_time&lt;br&gt;2. 如果这次用户在写imei缓存那里成功了，&lt;br&gt;就用&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;backup_expire_time&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="570" width="290" height="120" as="geometry" />
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-166" target="K1Wzr4Rf5TzKCfg1iNbo-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-166" value="写入结果缓存&lt;br&gt;&lt;br&gt;&lt;br&gt;缓存时间：&lt;div&gt;1. search_result_cache_expire_time&lt;br&gt;2. 如果这次用户在写imei缓存那里成功了，&lt;br&gt;就用&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;backup_expire_time&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="540" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-169" value="KEY：imei+query&lt;div&gt;VALUE：List&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
