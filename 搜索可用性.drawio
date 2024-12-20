@@ -127,7 +127,7 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-21" value="媒体引擎返空/异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1350.5" y="630" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-23" value="&lt;b&gt;媒体引擎兜底&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-23" value="&lt;b&gt;媒体引擎兜底【分布式缓存】&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1830" y="570" width="1210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-24" target="kvgdyRZ8XNl1OnzRA7-r-51">
@@ -138,7 +138,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-24" value="&lt;b&gt;全局/媒体兜底 【本地内存】&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-24" value="&lt;b&gt;全局/媒体兜底 【本地缓存】&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-480" y="410" width="1715.75" height="430" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-27" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
