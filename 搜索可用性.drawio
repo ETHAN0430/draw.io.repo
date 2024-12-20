@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="1Aa76YPSy4CPtxVOISLz">
-    <mxGraphModel dx="2127" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -215,7 +215,7 @@
             <mxPoint x="1114.9999999999995" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-64" value="结果是否有效？&lt;br&gt;1. 卡片不为空&lt;br&gt;2. 卡片不是少结果卡片" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-64" value="&lt;div&gt;结果卡片为空？&lt;br&gt;（排除少结果卡片）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="580" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-66" value="读取缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -224,7 +224,7 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-72" target="K1Wzr4Rf5TzKCfg1iNbo-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-72" value="是否要" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-72" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="750" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-73" value="写入缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
