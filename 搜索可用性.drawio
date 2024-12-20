@@ -79,6 +79,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1459.9999999999995" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-1" value="刷量：自定义规则&lt;br&gt;（机型、品牌、商店版本）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="-10" width="220" height="80" as="geometry" />
         </mxCell>
