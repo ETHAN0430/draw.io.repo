@@ -287,8 +287,8 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-99" value="global.fallback.interval.time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="275" y="908" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-101" value="热词缓存：&lt;br&gt;KEY：query&lt;br&gt;VALUE：深拷贝DTO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-101" value="热词缓存：&lt;br&gt;KEY：query&lt;br&gt;VALUE：深拷贝的结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="670" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
