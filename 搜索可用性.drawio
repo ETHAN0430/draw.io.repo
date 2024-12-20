@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="1Aa76YPSy4CPtxVOISLz">
-    <mxGraphModel dx="2344" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2040" dy="1805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,13 +32,8 @@
             <mxPoint x="940" y="30.000000000000227" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvgdyRZ8XNl1OnzRA7-r-31" target="kvgdyRZ8XNl1OnzRA7-r-46">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="130" />
-              <mxPoint x="841" y="130" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvgdyRZ8XNl1OnzRA7-r-31" target="K1Wzr4Rf5TzKCfg1iNbo-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kvgdyRZ8XNl1OnzRA7-r-31" value="实时风控刷量识别（仅结果页）" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="-10" width="220" height="80" as="geometry" />
@@ -62,24 +57,18 @@
         <mxCell id="kvgdyRZ8XNl1OnzRA7-r-45" value="精准意图（实时请求）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="307.5" y="150" width="155" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kvgdyRZ8XNl1OnzRA7-r-46" value="【开关】刷量拦截：&lt;br&gt;返回“请稍后再试”" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="160" width="141" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kvgdyRZ8XNl1OnzRA7-r-51" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-1" target="kvgdyRZ8XNl1OnzRA7-r-46">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvgdyRZ8XNl1OnzRA7-r-46" target="kvgdyRZ8XNl1OnzRA7-r-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1060" y="130" />
-              <mxPoint x="841" y="130" />
+              <mxPoint x="841" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1459.9999999999995" y="280" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="kvgdyRZ8XNl1OnzRA7-r-46" value="返回提示语“请稍后再试”" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="210" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kvgdyRZ8XNl1OnzRA7-r-51" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-1" value="刷量：自定义规则&lt;br&gt;（机型、品牌、商店版本）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="-10" width="220" height="80" as="geometry" />
@@ -119,7 +108,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-20" value="调用媒体引擎前" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="280" width="141" height="80" as="geometry" />
+          <mxGeometry x="1390" y="340" width="141" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-21" target="K1Wzr4Rf5TzKCfg1iNbo-23">
           <mxGeometry relative="1" as="geometry" />
@@ -143,6 +132,32 @@
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-29" value="调用媒体引擎后" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1390" y="640" width="141" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-33" target="K1Wzr4Rf5TzKCfg1iNbo-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1461" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-33" value="刷量拦截开关" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="140" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-33" target="kvgdyRZ8XNl1OnzRA7-r-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-1" target="K1Wzr4Rf5TzKCfg1iNbo-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1459.9999999999995" y="280" as="targetPoint" />
+            <mxPoint x="1170" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-37" target="K1Wzr4Rf5TzKCfg1iNbo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-37" value="限流" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="190" width="141" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
