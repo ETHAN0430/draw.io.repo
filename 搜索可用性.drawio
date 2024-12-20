@@ -182,6 +182,12 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-46" value="调用媒体引擎前" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="460" width="141" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-47" value="调用媒体引擎前" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="919" y="460" width="141" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-48" value="调用媒体引擎前" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="460" width="141" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
