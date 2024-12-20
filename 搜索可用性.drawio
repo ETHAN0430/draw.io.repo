@@ -121,7 +121,7 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-20" value="核心逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1390" y="290" width="141" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-21" value="searchApp失败？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-21" value="searchApp失败/返空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1350.5" y="420" width="220" height="80" as="geometry" />
         </mxCell>
       </root>
