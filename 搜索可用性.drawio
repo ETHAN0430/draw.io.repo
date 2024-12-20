@@ -217,7 +217,7 @@
           <mxGeometry x="1010" y="580" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-66" value="读取缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="765" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="840" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-68" target="K1Wzr4Rf5TzKCfg1iNbo-70">
           <mxGeometry relative="1" as="geometry" />
