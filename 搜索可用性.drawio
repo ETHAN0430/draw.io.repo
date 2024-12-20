@@ -246,6 +246,9 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-85" value="search.global.fallback.size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="870" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-86" target="K1Wzr4Rf5TzKCfg1iNbo-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-86" value="写入缓存条件：（满足一个）&lt;br&gt;1. query为自定义热词&lt;br&gt;2. query为过去1小时的搜索量最大的前n个词" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="720" width="400" height="80" as="geometry" />
         </mxCell>
@@ -260,6 +263,12 @@
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-93" value="special_hotword_list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="295" y="860" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-94" value="更新缓存条件：&lt;br&gt;1. query缓存更新间隔" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="720" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-96" value="global.fallback.refresh.time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="860" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
