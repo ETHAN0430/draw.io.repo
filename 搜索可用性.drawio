@@ -276,6 +276,9 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-98" value="这里逻辑要再看看，好像写入之后这一小时内就不会刷新了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-260" y="908" width="340" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-99" value="global.fallback.interval.time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="908" width="170" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
