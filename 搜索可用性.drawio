@@ -218,6 +218,9 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-64" value="&lt;div&gt;结果卡片为空？&lt;br&gt;（排除少结果卡片）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="580" width="210" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-66" target="K1Wzr4Rf5TzKCfg1iNbo-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-66" value="读取缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="815" y="590" width="120" height="60" as="geometry" />
         </mxCell>
@@ -229,6 +232,9 @@
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-73" value="写入缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="815" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-75" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
