@@ -353,7 +353,7 @@
           <mxGeometry x="2605" y="295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-149" value="读缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2375" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="2375" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-151" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2495" y="295" width="30" height="30" as="geometry" />
