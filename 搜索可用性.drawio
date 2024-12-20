@@ -230,17 +230,19 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-72" value="写入缓存条件&lt;br&gt;1. 第一页&lt;br&gt;2. 低风险&lt;br&gt;3.配置中心开关&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="750" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-73" target="K1Wzr4Rf5TzKCfg1iNbo-77">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="790" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-73" value="写入缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-73" value="写入热词缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="815" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-75" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="615" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-77" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="615" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-79" value="open.global.fallback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="840" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
