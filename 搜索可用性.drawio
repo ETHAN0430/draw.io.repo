@@ -210,12 +210,10 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-64" target="K1Wzr4Rf5TzKCfg1iNbo-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-64">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1114.9999999999995" y="750" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-64" target="K1Wzr4Rf5TzKCfg1iNbo-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-64" value="&lt;div&gt;结果卡片为空？&lt;br&gt;（排除少结果卡片）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-64" value="&lt;div&gt;结果卡片为空？&lt;br&gt;（少结果卡片也算空）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="580" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-66" target="K1Wzr4Rf5TzKCfg1iNbo-75">
@@ -227,8 +225,8 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-72" target="K1Wzr4Rf5TzKCfg1iNbo-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-72" value="写入缓存条件&lt;br&gt;1. 第一页&lt;br&gt;2. 低风险&lt;br&gt;3.配置中心开关&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="750" width="230" height="80" as="geometry" />
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-72" value="写入缓存条件（同时满足）&lt;br&gt;1. 第一页&lt;br&gt;2. 低风险&lt;br&gt;3.配置中心开关&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="690" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-75" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="615" y="590" width="120" height="60" as="geometry" />
@@ -243,13 +241,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-82" value="写入缓存条件（同时满足）&lt;br&gt;1. query长度限制&lt;br&gt;2. 热词缓存容量限制" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="740" width="310" height="100" as="geometry" />
+          <mxGeometry x="620" y="710" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-85" value="search.global.fallback.size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="870" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-86" value="写入缓存条件：（满足一个）&lt;br&gt;1. query为自定义热词&lt;br&gt;2.&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="750" width="280" height="80" as="geometry" />
+          <mxGeometry x="280" y="720" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-90" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="580" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-91" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="650" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
