@@ -104,10 +104,8 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-18" value="高风险" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="690" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="K1Wzr4Rf5TzKCfg1iNbo-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1465.25" y="569.9999999999995" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-20" target="K1Wzr4Rf5TzKCfg1iNbo-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-20" value="调用媒体引擎前" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1390" y="460" width="141" height="80" as="geometry" />
@@ -115,21 +113,8 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-21" target="K1Wzr4Rf5TzKCfg1iNbo-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1465.25" y="790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-21" value="媒体引擎返空/异常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1355.25" y="610" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-23" target="K1Wzr4Rf5TzKCfg1iNbo-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="649.75" y="750" />
-              <mxPoint x="1465.75" y="750" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="1350.5" y="600" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-23" value="&lt;b&gt;媒体引擎兜底&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="44.75" y="580" width="1210" height="140" as="geometry" />
@@ -144,7 +129,7 @@
           <mxGeometry x="1315.25" y="610" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-29" value="调用媒体引擎后" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1394.75" y="790" width="141" height="80" as="geometry" />
+          <mxGeometry x="1393.75" y="780" width="141" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-50" target="K1Wzr4Rf5TzKCfg1iNbo-37">
           <mxGeometry relative="1" as="geometry">
@@ -212,7 +197,7 @@
           <mxGeometry x="1550.5" y="200" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-57" value="开启" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1481" y="250" width="50" height="30" as="geometry" />
+          <mxGeometry x="1460" y="250" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
