@@ -354,7 +354,7 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-147" target="K1Wzr4Rf5TzKCfg1iNbo-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-147" value="写缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-147" value="写imei缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2605" y="295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-149" value="读缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -380,8 +380,8 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-156" value="write_cache_min_size_suggest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2745" y="210" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-159" value="1. 已有缓存 &amp;amp;&amp;amp; 缓存刚好也是这次用户的, 刷新过期时间&lt;br&gt;&lt;br&gt;2.&amp;nbsp; 没有缓存则写入" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2798.75" y="410" width="211.25" height="80" as="geometry" />
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-159" value="缓存某query下的缓存属于哪个用户&lt;br&gt;KEY：query&lt;br&gt;VALUE：imei" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2766.88" y="400" width="211.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-160" value="backup_expire_time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3075" y="410" width="130" height="30" as="geometry" />
