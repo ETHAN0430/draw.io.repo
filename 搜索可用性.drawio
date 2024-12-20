@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="1Aa76YPSy4CPtxVOISLz">
-    <mxGraphModel dx="1898" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2344" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-24" value="&lt;b&gt;媒体兜底【全局兜底】&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="550" width="1715.75" height="290" as="geometry" />
+          <mxGeometry x="-480" y="410" width="1715.75" height="430" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-27" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1555.5" y="585" width="40" height="30" as="geometry" />
@@ -288,11 +288,17 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-101" value="热词缓存&lt;br&gt;KEY：query&lt;br&gt;VALUE：DTO&lt;br&gt;&lt;br&gt;1. 基本信息深拷贝&lt;br&gt;2. 埋点深拷贝（page_src会换为兜底)&lt;br&gt;3. 卡片深拷贝&lt;br&gt;实验组id刷新 &lt;br&gt;兜底埋点 BUSINESS_FALLBACK = 20&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-450" y="580" width="210" height="210" as="geometry" />
         </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-103" target="K1Wzr4Rf5TzKCfg1iNbo-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-103" value="商店版本太低？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="570" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-105" value="hot.word.cache.lowest.app.version" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="665" y="508" width="210" height="30" as="geometry" />
+          <mxGeometry x="670" y="440" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-107" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
