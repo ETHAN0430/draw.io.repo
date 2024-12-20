@@ -292,23 +292,17 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-101" target="K1Wzr4Rf5TzKCfg1iNbo-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-101" value="热词缓存&lt;br&gt;KEY：query&lt;br&gt;VALUE：DTO&lt;br&gt;&lt;br&gt;1. 基本信息深拷贝&lt;br&gt;2. 埋点深拷贝（page_src会换为兜底)&lt;br&gt;3. 卡片深拷贝&lt;br&gt;实验组id刷新 &lt;br&gt;兜底埋点 BUSINESS_FALLBACK = 20&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-101" value="热词缓存（结果页/联想页隔离）&lt;br&gt;KEY：query&lt;br&gt;VALUE：DTO&lt;br&gt;&lt;br&gt;1. 基本信息深拷贝&lt;br&gt;2. 埋点深拷贝（page_src会换为兜底)&lt;br&gt;3. 卡片深拷贝&lt;br&gt;实验组id刷新 &lt;br&gt;兜底埋点 BUSINESS_FALLBACK = 20&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-425" y="450" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-103" target="K1Wzr4Rf5TzKCfg1iNbo-107">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-103" target="K1Wzr4Rf5TzKCfg1iNbo-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-103" value="商店版本太低？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="460" width="310" height="100" as="geometry" />
+          <mxGeometry x="230" y="460" width="310" height="100" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-105" value="hot.word.cache.lowest.app.version" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="420" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-107" target="K1Wzr4Rf5TzKCfg1iNbo-101">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-107" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="317.88" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="413" y="440" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-116" target="K1Wzr4Rf5TzKCfg1iNbo-117">
           <mxGeometry relative="1" as="geometry" />
