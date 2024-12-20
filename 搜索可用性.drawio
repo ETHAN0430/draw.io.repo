@@ -152,9 +152,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-29" target="K1Wzr4Rf5TzKCfg1iNbo-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-29" value="分页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1391.12" y="760" width="141" height="80" as="geometry" />
         </mxCell>
@@ -385,6 +382,9 @@
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-160" value="backup_expire_time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="3060" y="425" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-162" value="写入条件：&lt;br&gt;结果最小长度校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="610" width="185" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
