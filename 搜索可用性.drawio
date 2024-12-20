@@ -213,7 +213,7 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-64" target="K1Wzr4Rf5TzKCfg1iNbo-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-64" value="&lt;div&gt;结果卡片为空？&lt;br&gt;（少结果卡片也算空）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-64" value="&lt;div&gt;结果卡片为空？&lt;br&gt;（&quot;少结果&quot;卡片也算空）&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="580" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-66" target="K1Wzr4Rf5TzKCfg1iNbo-75">
