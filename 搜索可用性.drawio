@@ -138,6 +138,9 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-29" target="K1Wzr4Rf5TzKCfg1iNbo-166" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qs3GoqLjjJzCY68HmrBl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-29" target="K1Wzr4Rf5TzKCfg1iNbo-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-29" value="其他逻辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1391.13" y="740" width="141" height="80" as="geometry" />
         </mxCell>
