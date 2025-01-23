@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="1Aa76YPSy4CPtxVOISLz">
-    <mxGraphModel dx="2152" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1760" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,6 +121,14 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-20" value="其他逻辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1391.12" y="510" width="141" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="piJ36TH8UZs6pjO6e0jp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-23" target="K1Wzr4Rf5TzKCfg1iNbo-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2455" y="730" />
+              <mxPoint x="1462" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-23" value="&lt;b&gt;媒体引擎兜底【分布式缓存】（仅结果页）&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1850" y="240" width="1210" height="470" as="geometry" />
         </mxCell>
@@ -135,11 +143,21 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-24" value="&lt;b&gt;全局/媒体兜底 【本地缓存】&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-480" y="410" width="1715.75" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-29" target="K1Wzr4Rf5TzKCfg1iNbo-166" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qs3GoqLjjJzCY68HmrBl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.501;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="piJ36TH8UZs6pjO6e0jp-2" target="K1Wzr4Rf5TzKCfg1iNbo-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1306" y="880" />
+              <mxPoint x="1306" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qs3GoqLjjJzCY68HmrBl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-29" target="K1Wzr4Rf5TzKCfg1iNbo-64" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="piJ36TH8UZs6pjO6e0jp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-29" target="K1Wzr4Rf5TzKCfg1iNbo-166">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1462" y="830" />
+              <mxPoint x="2640" y="830" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-29" value="其他逻辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1391.13" y="740" width="141" height="80" as="geometry" />
@@ -328,9 +346,6 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-144" target="K1Wzr4Rf5TzKCfg1iNbo-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-144" target="K1Wzr4Rf5TzKCfg1iNbo-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-144" value="searchApp" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1391.12" y="625" width="141" height="80" as="geometry" />
         </mxCell>
@@ -367,13 +382,13 @@
           <mxGeometry x="2745" y="210" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-159" value="缓存某query下的缓存属于哪个用户&lt;br&gt;KEY：query&lt;br&gt;VALUE：imei&lt;br&gt;&lt;br&gt;reg.setUpdateCache(true)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2766.88" y="400" width="211.25" height="80" as="geometry" />
+          <mxGeometry x="2800" y="400" width="211.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-160" value="backup_expire_time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3070" y="430" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-166" value="写入结果缓存&lt;br&gt;&lt;br&gt;&lt;br&gt;缓存时间：&lt;div&gt;1. search_result_cache_expire_time&lt;br&gt;2. 如果这次用户在写imei缓存那里成功了，&lt;br&gt;就用&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;backup_expire_time&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2070" y="450" width="290" height="120" as="geometry" />
+          <mxGeometry x="2510" y="450" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-169" target="K1Wzr4Rf5TzKCfg1iNbo-177" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -382,7 +397,7 @@
           <mxGeometry x="2375" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-175" value="分页缓存当前请求用户的imei&lt;br&gt;兜底缓存用的是某一个用户的imei" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2515" y="490" width="200" height="40" as="geometry" />
+          <mxGeometry x="2160" y="480" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K1Wzr4Rf5TzKCfg1iNbo-177" target="K1Wzr4Rf5TzKCfg1iNbo-181" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -412,7 +427,16 @@
           <mxGeometry x="320" y="470" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="piJ36TH8UZs6pjO6e0jp-1" value="mixer.strong.insert.intention.switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="565" width="210" height="30" as="geometry" />
+          <mxGeometry x="2160" y="555" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="piJ36TH8UZs6pjO6e0jp-2" value="少结果/无结果卡片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="840" width="141" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="piJ36TH8UZs6pjO6e0jp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="820" as="sourcePoint" />
+            <mxPoint x="1460" y="845" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
