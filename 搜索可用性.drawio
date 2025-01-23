@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="1Aa76YPSy4CPtxVOISLz">
-    <mxGraphModel dx="1760" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1922" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -302,7 +302,7 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-105" value="hot.word.cache.lowest.app.version" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="413" y="440" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-116" value="意图精准（非实时调用）&lt;br&gt;+&lt;br&gt;&amp;nbsp;推荐卡片兜底（定时任务调page）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-116" value="意图精准（非实时调用）&lt;br&gt;+&lt;br&gt;&amp;nbsp;推荐卡片兜底（定时任务调page）&lt;br&gt;40013 小于3个不展示卡片" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-420" y="720" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-124" value="触发限流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
