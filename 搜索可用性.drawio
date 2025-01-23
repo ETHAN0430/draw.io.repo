@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="1Aa76YPSy4CPtxVOISLz">
-    <mxGraphModel dx="2152" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1760" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -376,8 +376,8 @@
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-156" value="write_cache_min_size_suggest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2745" y="210" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-159" value="缓存某query下的缓存属于哪个用户&lt;br&gt;KEY：query&lt;br&gt;VALUE：imei&lt;br&gt;&lt;br&gt;reg.setUpdateCache(true)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2800" y="400" width="211.25" height="80" as="geometry" />
+        <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-159" value="缓存某query下的缓存属于哪个用户&lt;br&gt;KEY：query&lt;br&gt;VALUE：imei&lt;br&gt;&lt;br&gt;reg.setUpdateCache(true)&lt;br&gt;用于写入缓存时使用更长的时间" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2800" y="400" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="K1Wzr4Rf5TzKCfg1iNbo-160" value="backup_expire_time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="3070" y="430" width="130" height="30" as="geometry" />
