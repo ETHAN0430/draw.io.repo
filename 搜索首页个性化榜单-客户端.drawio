@@ -263,8 +263,8 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-126" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="613.75" y="1855" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-129" value="做好埋点监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="950" y="2535" width="100" height="30" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-129" value="客户端做好监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="2535" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
