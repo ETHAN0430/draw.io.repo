@@ -86,7 +86,7 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-33" target="9Gnq12phPFpCPruZLT1S-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-33" value="配置中心强制刷新榜单id列表" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-33" value="配置中心强制刷新榜单id列表&lt;br&gt;【防止黑名单资源】" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="477.5" y="790" width="245" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-34" value="clientCache = true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
