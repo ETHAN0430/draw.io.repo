@@ -359,6 +359,11 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-83" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="759" y="1290" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1184.9999999999995" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-84" value="&lt;div&gt;clientReadCache = null&lt;br&gt;clientWriteCache = null&lt;br&gt;clientWriteExpireTime= null&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="1090" y="1860" width="190" height="63" as="geometry" />
         </mxCell>
@@ -388,14 +393,29 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-76" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="555" y="1530" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-89" value="&lt;div&gt;clientReadCache = false&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteExpireTime= 3600&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="634" y="1940" width="190" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="2110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-91" value="&lt;div&gt;clientReadCache = false&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteExpireTime= 3600&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="340" y="1940" width="190" height="63" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-62" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="285" y="1740" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="2110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-94" value="&lt;div&gt;clientReadCache = true&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteExpireTime= 3600&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="10" y="1940" width="190" height="63" as="geometry" />
@@ -415,6 +435,11 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-96" value="是个性化榜单？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="570" y="1440" width="160" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="969.9999999999995" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-99" value="clientReadCache = false&lt;br&gt;clientWriteCache = false&lt;br&gt;clientWriteExpireTime= 0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="880" y="1855.5" width="180" height="72" as="geometry" />
         </mxCell>
@@ -424,8 +449,8 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-103" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="729" y="1450" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-104" value="缓存参数有效性校验，非法情况：&lt;br&gt;1. 客户端不使用缓存，读取实时服务端榜单，但是服务端下发空数据：clientReadCache == false &amp;amp;&amp;amp; isEmpty(list)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="220" y="2090" width="800" height="63" as="geometry" />
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-104" value="缓存参数有效性校验，非法情况：&lt;br&gt;1. 客户端实时读取服务端榜单，但是服务端下发空数据：clientReadCache == false &amp;amp;&amp;amp; isEmpty(list)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="50" y="2120" width="1230" height="63" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="-150" width="860" height="460" as="geometry" />
