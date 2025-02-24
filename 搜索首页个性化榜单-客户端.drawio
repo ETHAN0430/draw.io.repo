@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="2152" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2308" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-2" value="进入搜索首页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="285" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-4" target="9Gnq12phPFpCPruZLT1S-161">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-4" target="9Gnq12phPFpCPruZLT1S-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-4" target="9Gnq12phPFpCPruZLT1S-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-4" value="客户端有缓存？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="170" width="170" height="80" as="geometry" />
+          <mxGeometry x="260" y="30" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-18">
           <mxGeometry relative="1" as="geometry">
@@ -270,11 +273,26 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-158" value="兜底提前做好&lt;br&gt;有效性校验&lt;br&gt;readCache = false 并且 数据是空，这个时候要做好监控，" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="1560" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-161" value="客户端缓存过期" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-164" value="needCache = true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-163" value="异步TAB加载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-166" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-167" target="9Gnq12phPFpCPruZLT1S-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-167" value="currentTimestamp - writeTimestamp &amp;gt; expireTime" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="30" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-173" value="异步TAB有坑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-177" value="needCache = false" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-179" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
