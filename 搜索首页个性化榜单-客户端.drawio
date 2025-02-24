@@ -132,8 +132,8 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-43" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1555" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-49" value="rpc同样可以做优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="707" y="670" width="120" height="30" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-49" value="p,s, rpc同样可以做优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="665" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-50" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="710" y="1380" width="30" height="30" as="geometry" />
