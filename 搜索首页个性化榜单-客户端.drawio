@@ -245,8 +245,8 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-219" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="990" y="210" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-220" value="目前和缓存相关的只有个性化算法榜单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="795" y="290" width="230" height="30" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-220" value="目前和缓存相关的只有个性化算法榜单&lt;br&gt;后续这里可以是可拓展的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="795" y="285" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-224" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-222" target="9Gnq12phPFpCPruZLT1S-223">
           <mxGeometry relative="1" as="geometry" />
