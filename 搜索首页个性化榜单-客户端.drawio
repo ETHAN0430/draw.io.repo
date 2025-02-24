@@ -138,7 +138,7 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-52" target="9Gnq12phPFpCPruZLT1S-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-52" value="writeCache = true&lt;br&gt;readCache = true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-52" value="writeCache = false&lt;br&gt;readCache = true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-54" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -171,16 +171,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-71" value="writeCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="516.25" y="1580" width="160" height="80" as="geometry" />
+          <mxGeometry x="526.25" y="1640" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-73" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="813.75" y="1590" width="120" height="60" as="geometry" />
+          <mxGeometry x="823.75" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-74" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="563.75" y="1660" width="30" height="30" as="geometry" />
+          <mxGeometry x="573.75" y="1720" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-75" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="676.25" y="1580" width="30" height="30" as="geometry" />
+          <mxGeometry x="686.25" y="1640" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-89" target="9Gnq12phPFpCPruZLT1S-42">
           <mxGeometry relative="1" as="geometry">
@@ -245,23 +245,23 @@
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-115" target="9Gnq12phPFpCPruZLT1S-125">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="596.25" y="1870" as="targetPoint" />
+            <mxPoint x="606.25" y="1930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-115" value="客户端有缓存？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="516.25" y="1715" width="160" height="80" as="geometry" />
+          <mxGeometry x="526.25" y="1775" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-121" value="直接写入" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="296.25" y="1725" width="120" height="60" as="geometry" />
+          <mxGeometry x="306.25" y="1785" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-123" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="496.25" y="1725" width="30" height="30" as="geometry" />
+          <mxGeometry x="506.25" y="1785" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-125" value="客户端减去" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="536.25" y="1880" width="120" height="60" as="geometry" />
+          <mxGeometry x="546.25" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-126" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="603.75" y="1795" width="30" height="30" as="geometry" />
+          <mxGeometry x="613.75" y="1855" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-129" value="做好埋点监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="950" y="2535" width="100" height="30" as="geometry" />
