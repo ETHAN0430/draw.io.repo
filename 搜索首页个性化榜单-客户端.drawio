@@ -235,14 +235,14 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-222" target="IQsKiP9p9qlhISxIr5vT-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="500" y="430" />
+              <mxPoint x="500" y="450" />
               <mxPoint x="500" y="745" />
               <mxPoint x="650" y="745" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-222" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="9Gnq12phPFpCPruZLT1S-207" vertex="1">
-          <mxGeometry x="565" y="390" width="170" height="80" as="geometry" />
+          <mxGeometry x="565" y="410" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-223" target="IQsKiP9p9qlhISxIr5vT-23">
           <mxGeometry relative="1" as="geometry" />
