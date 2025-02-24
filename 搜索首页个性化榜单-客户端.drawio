@@ -329,7 +329,7 @@
           <mxGeometry x="555" y="1040" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-43" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="330" y="1194" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="1210" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-45" value="一次性下发全部榜单&lt;br&gt;（肯定不包括个性化榜单，因为个性化 &amp;gt;= 12.3)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="850" y="1194" width="290" height="86" as="geometry" />
