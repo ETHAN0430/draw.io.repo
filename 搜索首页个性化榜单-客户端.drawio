@@ -216,10 +216,10 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-206" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-320" y="-140" width="860" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-177" value="请求头加参数&lt;br&gt;needRankCache = false" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-206">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-177" value="请求头加参数&lt;br&gt;refreshRankCache = false" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-206">
           <mxGeometry y="370" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-164" value="请求头加参数&lt;br&gt;needRankCache = true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-206">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-164" value="请求头加参数&lt;br&gt;refreshRankCache&amp;nbsp;= true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-206">
           <mxGeometry x="582.5" y="380" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-207" value="服务端" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -234,7 +234,7 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-211" value="needRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="825" y="210" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-214" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-214" value="请求算法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="620" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-49" value="p.s.：rpc同样可以做优化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
