@@ -345,7 +345,7 @@
             <mxPoint x="1080" y="1720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-53" value="是个性化榜单&lt;br&gt;【内容版本隔离12.3】" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-53" value="&lt;br&gt;appVersion &amp;gt;= 12.3 &amp;amp;&lt;br&gt;是个性化榜单" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="527.5" y="1290" width="245" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-73" target="IQsKiP9p9qlhISxIr5vT-89">
