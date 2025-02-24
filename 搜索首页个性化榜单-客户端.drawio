@@ -217,8 +217,8 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-218" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="530" y="200" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-219" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="505" y="310" width="70" height="30" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-219" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="525" y="310" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-220" value="目前和缓存相关的只有个性化算法榜单&lt;br&gt;后续这里可以是可拓展的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="310" y="390" width="230" height="40" as="geometry" />
@@ -232,6 +232,16 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-222" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="340" y="310" width="170" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-223">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="620" />
+              <mxPoint x="671" y="620" />
+              <mxPoint x="671" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-223" value="请求ranker" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="150" y="430" width="120" height="60" as="geometry" />
         </mxCell>
@@ -241,8 +251,8 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-230" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="740" y="200" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-229" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="330" y="310" width="30" height="30" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-229" value="Y&amp;nbsp;&amp;nbsp;or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="310" y="310" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-233" target="9Gnq12phPFpCPruZLT1S-211">
           <mxGeometry relative="1" as="geometry" />
