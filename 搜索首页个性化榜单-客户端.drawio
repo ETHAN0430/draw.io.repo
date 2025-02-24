@@ -174,7 +174,7 @@
           <mxGeometry x="-130" y="30" width="350" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-173" value="异步TAB有坑 如果不请求我没法失效。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="-90" width="330" height="60" as="geometry" />
+          <mxGeometry x="1320" y="-80" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-179" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="350" y="110" width="30" height="30" as="geometry" />
@@ -186,7 +186,7 @@
           <mxGeometry x="-160" y="30" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-185" value="什么时候要算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="138" width="110" height="30" as="geometry" />
+          <mxGeometry x="1415" y="148" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-206" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-320" y="-140" width="860" height="460" as="geometry" />
@@ -428,7 +428,7 @@
           <mxGeometry x="729" y="1450" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="-150" width="860" height="460" as="geometry" />
+          <mxGeometry x="1020" y="-140" width="860" height="460" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9Gnq12phPFpCPruZLT1S-206" target="9Gnq12phPFpCPruZLT1S-207" edge="1">
           <mxGeometry relative="1" as="geometry" />
