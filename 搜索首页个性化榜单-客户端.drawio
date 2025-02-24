@@ -43,8 +43,8 @@
             <mxPoint x="600" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-18" value="遍历组装榜单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-18" value="遍历40118卡片的榜单id" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="650" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-20" value="时间戳 or 过期时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="250" width="120" height="30" as="geometry" />
@@ -77,11 +77,16 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-32" target="9Gnq12phPFpCPruZLT1S-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-32" target="9Gnq12phPFpCPruZLT1S-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-32" value="needCache.contains(rankid)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="477.5" y="930" width="245" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-33" target="9Gnq12phPFpCPruZLT1S-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-33" target="9Gnq12phPFpCPruZLT1S-32">
           <mxGeometry relative="1" as="geometry" />
@@ -89,20 +94,17 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-33" value="配置中心强制刷新榜单id列表&lt;br&gt;【防止黑名单资源】" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="477.5" y="790" width="245" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-34" value="clientCache = true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1180" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-36" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="447.5" y="800" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-37" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="610" y="880" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-39" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1080" width="120" height="60" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-39" value="发起rpc请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-41" value="p.s.个性化榜单内容限制在12.3以上，故肯定不会下发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="750" width="310" height="30" as="geometry" />
+          <mxGeometry x="-290" y="680" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-42" target="9Gnq12phPFpCPruZLT1S-43">
           <mxGeometry relative="1" as="geometry" />
@@ -121,6 +123,18 @@
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-43" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-49" value="不确定ods是否能做到判断当前卡片是40118" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="665" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-50" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-51" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1460" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-52" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
