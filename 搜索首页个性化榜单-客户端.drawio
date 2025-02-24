@@ -340,13 +340,16 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-41" target="IQsKiP9p9qlhISxIr5vT-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-53">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-53" target="IQsKiP9p9qlhISxIr5vT-84">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="1720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-53" value="是个性化榜单&lt;br&gt;【内容版本隔离12.3】" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="527.5" y="1290" width="245" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-73" target="IQsKiP9p9qlhISxIr5vT-89">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-73" value="属于强制刷新榜单id的列表？&lt;br&gt;【配置中心】" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="527.5" y="1450" width="245" height="80" as="geometry" />
@@ -358,7 +361,15 @@
           <mxGeometry x="759" y="1290" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-84" value="&lt;div&gt;clientReadCache = false&lt;br&gt;clientWriteCache = false&lt;br&gt;clientWriteTime= null&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="930" y="1735" width="290" height="103" as="geometry" />
+          <mxGeometry x="1090" y="1870" width="190" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-66" target="IQsKiP9p9qlhISxIr5vT-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1840" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-66" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="565" y="1650" width="170" height="80" as="geometry" />
@@ -367,13 +378,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-75" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="745" y="1730" width="30" height="30" as="geometry" />
+          <mxGeometry x="660" y="1540" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-85" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="170" y="430" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-86" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="200" y="1670" width="290" height="40" as="geometry" />
+          <mxGeometry x="285" y="1620" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-76" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="770" y="1450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-89" value="&lt;div&gt;clientReadCache = false&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteTime= 3600&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="855" y="1870" width="190" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-78" value="榜单类型内容id遍历完毕？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="570" y="2110" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-91" value="&lt;div&gt;clientReadCache = false&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteTime= 3600&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="555" y="1860" width="190" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-62" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="485" y="1700" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-94" value="&lt;div&gt;clientReadCache = t&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteTime= 3600&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="210" y="1860" width="190" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-70" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="650" y="1730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-95" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="650" y="1370" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="-150" width="860" height="460" as="geometry" />
@@ -464,42 +499,6 @@
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-45" target="IQsKiP9p9qlhISxIr5vT-49">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-61" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="2060" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-62" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="175" y="2210" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-66" target="IQsKiP9p9qlhISxIr5vT-68">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-66">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="2589.9999999999995" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="170" y="2250" />
-              <mxPoint x="170" y="2540" />
-              <mxPoint x="320" y="2540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-68">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="2589.9999999999995" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-68" value="请求ranker" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="2390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-70" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="2280" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-76" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="2100" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-78" value="榜单类型内容id遍历完毕？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="2590" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-79" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="2600" width="30" height="30" as="geometry" />
