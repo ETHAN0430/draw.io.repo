@@ -227,9 +227,6 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-219" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="9Gnq12phPFpCPruZLT1S-207" vertex="1">
           <mxGeometry x="505" y="410" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-220" value="目前和缓存相关的只有个性化算法榜单&lt;br&gt;后续这里的判断条件可以是可拓展的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="9Gnq12phPFpCPruZLT1S-207" vertex="1">
-          <mxGeometry x="250" y="440" width="230" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-224" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-222" target="9Gnq12phPFpCPruZLT1S-223" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -363,6 +360,21 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-84" value="&lt;div&gt;clientReadCache = false&lt;br&gt;clientWriteCache = false&lt;br&gt;clientWriteTime= null&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="930" y="1735" width="290" height="103" as="geometry" />
         </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-66" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="565" y="1650" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-73" target="IQsKiP9p9qlhISxIr5vT-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-75" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="745" y="1730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-85" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="170" y="430" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-86" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="200" y="1670" width="290" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="-150" width="860" height="460" as="geometry" />
         </mxCell>
@@ -453,17 +465,11 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-45" target="IQsKiP9p9qlhISxIr5vT-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-73" target="IQsKiP9p9qlhISxIr5vT-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-61" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="2060" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-62" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="175" y="2210" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-63" value="目前和缓存相关的只有个性化算法榜单&lt;br&gt;后续这里的判断条件可以是可拓展的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="2240" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-66" target="IQsKiP9p9qlhISxIr5vT-68">
           <mxGeometry relative="1" as="geometry" />
@@ -478,9 +484,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-66" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="2210" width="170" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-68">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="2589.9999999999995" as="targetPoint" />
@@ -491,18 +494,6 @@
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-70" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="2280" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-73" target="IQsKiP9p9qlhISxIr5vT-68">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="490" y="2140" />
-              <mxPoint x="490" y="2350" />
-              <mxPoint x="320" y="2350" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-75" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="2170" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-76" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="2100" width="30" height="30" as="geometry" />
