@@ -1,13 +1,13 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="2571" dy="2139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3269" dy="2527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9Gnq12phPFpCPruZLT1S-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Gnq12phPFpCPruZLT1S-2" target="9Gnq12phPFpCPruZLT1S-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-2" value="进入搜索首页" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-2" value="进入搜索首页" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="115" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Gnq12phPFpCPruZLT1S-4" target="9Gnq12phPFpCPruZLT1S-164" edge="1">
@@ -16,7 +16,7 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9Gnq12phPFpCPruZLT1S-4" target="9Gnq12phPFpCPruZLT1S-167" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-4" value="客户端有缓存？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-4" value="客户端有榜单缓存？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="90" y="-40" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9Gnq12phPFpCPruZLT1S-61" target="9Gnq12phPFpCPruZLT1S-103" edge="1">
@@ -464,7 +464,7 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-154" target="IQsKiP9p9qlhISxIr5vT-157">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-154" value="点击异步TAB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-154" value="点击异步TAB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1315" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-157" target="IQsKiP9p9qlhISxIr5vT-167">
@@ -473,7 +473,7 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQsKiP9p9qlhISxIr5vT-157" target="IQsKiP9p9qlhISxIr5vT-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-157" value="客户端有缓存？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-157" value="客户端有【这个】榜单的缓存？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1290" y="-60" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-158" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -503,7 +503,7 @@
           <mxGeometry x="870" y="-60" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-165" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="-230" width="860" height="460" as="geometry" />
+          <mxGeometry x="710" y="-230" width="970" height="460" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-166" value="请求头加参数&lt;br&gt;refreshRankCache = false" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="IQsKiP9p9qlhISxIr5vT-165">
           <mxGeometry y="370" width="180" height="60" as="geometry" />
