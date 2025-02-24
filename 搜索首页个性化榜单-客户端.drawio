@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="1259" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2086" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,14 +38,16 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-8" value="不用携带榜单id" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-18" target="9Gnq12phPFpCPruZLT1S-30">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="790" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-18" value="遍历组装所有榜单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-18" value="遍历组装榜单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-20" value="时间戳 or 过期时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="740" y="555" width="120" height="30" as="geometry" />
+          <mxGeometry x="280" y="250" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-21">
           <mxGeometry relative="1" as="geometry">
@@ -69,11 +71,56 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-28" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="500" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-29" value="下发全部榜单信息&lt;br&gt;needClientCache都是false&lt;br&gt;个性化榜单内容版本隔离12.3以上" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-29" value="下发全部榜单信息&lt;br&gt;客户端不会做任何缓存" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="640" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-30" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="790" width="120" height="60" as="geometry" />
+        <mxCell id="9Gnq12phPFpCPruZLT1S-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-32" target="9Gnq12phPFpCPruZLT1S-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-32" value="needCache.contains(rankid)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="930" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-33" target="9Gnq12phPFpCPruZLT1S-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-33" target="9Gnq12phPFpCPruZLT1S-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-33" value="配置中心强制刷新榜单id列表" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="790" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-34" value="clientCache = true" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-36" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="800" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-37" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-39" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-41" value="p.s.个性化榜单内容限制在12.3以上，故肯定不会下发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="750" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-42" target="9Gnq12phPFpCPruZLT1S-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Gnq12phPFpCPruZLT1S-42" target="9Gnq12phPFpCPruZLT1S-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1415" />
+              <mxPoint x="820" y="770" />
+              <mxPoint x="600" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-42" value="遍历结束？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="1370" width="245" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-43" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1555" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
