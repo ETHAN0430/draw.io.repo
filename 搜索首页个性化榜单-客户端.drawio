@@ -231,7 +231,7 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-211" target="9Gnq12phPFpCPruZLT1S-216">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-211" value="needRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+        <mxCell id="9Gnq12phPFpCPruZLT1S-211" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="825" y="210" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-214" value="请求算法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
