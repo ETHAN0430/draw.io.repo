@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="3689" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3398" dy="2139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,7 +198,7 @@
           <mxGeometry x="582.5" y="380" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-207" value="服务端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="500" width="1300" height="2240" as="geometry" />
+          <mxGeometry x="-370" y="480" width="1300" height="2240" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-211" target="9Gnq12phPFpCPruZLT1S-216" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -401,7 +401,7 @@
           <mxGeometry x="285" y="1740" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-94" value="&lt;div&gt;clientReadCache = true&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteExpireTime= 3600&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="20" y="1960" width="190" height="63" as="geometry" />
+          <mxGeometry x="10" y="1940" width="190" height="63" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-70" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="435" y="1810" width="30" height="30" as="geometry" />
@@ -418,7 +418,7 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-96" value="是个性化榜单？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="570" y="1440" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-99" value="clientReadCache = false&lt;br&gt;clientWriteCache = null&lt;br&gt;clientWriteExpireTime= null" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-99" value="clientReadCache = false&lt;br&gt;clientWriteCache = false&lt;br&gt;clientWriteExpireTime= 0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="880" y="1855.5" width="180" height="72" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-102" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
