@@ -449,6 +449,11 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-103" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="729" y="1450" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665.0000000000005" y="2410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-104" value="缓存参数有效性校验，非法情况：&lt;br&gt;1. 客户端实时读取服务端榜单，但是服务端下发空数据：clientReadCache == false &amp;amp;&amp;amp; isEmpty(list)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="50" y="2120" width="1230" height="63" as="geometry" />
         </mxCell>
