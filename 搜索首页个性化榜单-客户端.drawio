@@ -275,7 +275,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-28" value="属于强制刷新榜单id的列表？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="565" y="290" width="170" height="80" as="geometry" />
+          <mxGeometry x="565" y="300" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="9Gnq12phPFpCPruZLT1S-211" target="IQsKiP9p9qlhISxIr5vT-28">
           <mxGeometry relative="1" as="geometry">
@@ -284,7 +284,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-30" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="650" y="360" width="30" height="30" as="geometry" />
+          <mxGeometry x="650" y="370" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-34" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="720" y="300" width="30" height="30" as="geometry" />
