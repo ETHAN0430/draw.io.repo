@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="2263" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2862" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,7 +446,7 @@
             <mxPoint x="665.0000000000005" y="2183" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-122" value="客户端缓存参数有效性校验：&lt;br&gt;1. 客户端实时读取榜单 &amp;amp;&amp;amp; 榜单数据为空，即clientReadCache == false &amp;amp;&amp;amp; isEmpty(wordList)；如果是首TAB直接过滤卡片，如果是其他TAB强改&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-122" value="&lt;div&gt;内容及参数有效性校验 + 监控&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="90" y="2110" width="1170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
