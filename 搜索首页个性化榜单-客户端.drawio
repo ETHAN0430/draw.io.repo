@@ -266,6 +266,9 @@
         <mxCell id="9Gnq12phPFpCPruZLT1S-230" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="990" y="210" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9Gnq12phPFpCPruZLT1S-229" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+          <mxGeometry x="580" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="-150" width="860" height="460" as="geometry" />
         </mxCell>
@@ -343,9 +346,6 @@
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-33" value="配置中心强制刷新榜单id列表&lt;br&gt;【防止黑名单资源】" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-761.45" y="830" width="245" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="9Gnq12phPFpCPruZLT1S-229" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="255" y="778" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
