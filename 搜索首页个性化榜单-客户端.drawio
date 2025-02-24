@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="2353" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1525" dy="1557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -464,8 +464,8 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-171" value="客户端缓存目的：保证榜单稳定性的同时，降低服务端存储成本；而不是加快渲染。&lt;br&gt;&lt;br&gt;客户端缓存了还要请求服务端的目的：算法可能出黑产资源，服务端需要感知并且及时干预。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="770" y="-150" width="520" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-173" value="重新评估是否能用服务端缓存消耗，和收入相比是否能正向。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="895" y="20" width="350" height="30" as="geometry" />
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-173" value="重新评估是否能用服务端缓存，算一笔账单和收入相比是否能正向。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="880" y="20" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
