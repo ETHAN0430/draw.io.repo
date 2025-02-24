@@ -310,7 +310,7 @@
         <mxCell id="IQsKiP9p9qlhISxIr5vT-41" value="appVersion &amp;gt;= 11.29?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="555" y="1040" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-115" target="IQsKiP9p9qlhISxIr5vT-53">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-43" target="IQsKiP9p9qlhISxIr5vT-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IQsKiP9p9qlhISxIr5vT-43" value="只组装一个TAB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
@@ -446,27 +446,7 @@
             <mxPoint x="665.0000000000005" y="2183" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-43" target="IQsKiP9p9qlhISxIr5vT-115">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="1710" as="sourcePoint" />
-            <mxPoint x="280" y="1800" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Gnq12phPFpCPruZLT1S-207" source="IQsKiP9p9qlhISxIr5vT-115">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="1290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-115" value="榜单为空？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="527.5" y="1250" width="245" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-118" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="500" y="1259" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-120" value="直接不出卡片 监控告警" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="20" y="1260" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IQsKiP9p9qlhISxIr5vT-122" value="客户端缓存参数有效性校验：&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+        <mxCell id="IQsKiP9p9qlhISxIr5vT-122" value="客户端缓存参数有效性校验：&lt;br&gt;1. 客户端实时读取榜单 &amp;amp;&amp;amp; ，clientReadCache == false &amp;amp;&amp;amp; isEmpty()，直接不出这张卡&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="90" y="2110" width="1170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
