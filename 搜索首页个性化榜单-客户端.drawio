@@ -247,7 +247,7 @@
           <mxGeometry x="990" y="210" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-220" value="目前和缓存相关的只有个性化算法榜单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
-          <mxGeometry x="785" y="290" width="230" height="30" as="geometry" />
+          <mxGeometry x="795" y="290" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Gnq12phPFpCPruZLT1S-208" value="客户端" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="-150" width="860" height="460" as="geometry" />
