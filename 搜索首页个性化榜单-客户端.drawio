@@ -461,7 +461,7 @@
         <mxCell id="SpRwDZlbMjW81mHkaQeA-3" value="过期时间有变化？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="142.5" y="1810" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SpRwDZlbMjW81mHkaQeA-6" value="&lt;div&gt;clientReadCache = true&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteExpireTime= xxx&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
+        <mxCell id="SpRwDZlbMjW81mHkaQeA-6" value="&lt;div&gt;clientReadCache = true&lt;br&gt;clientWriteCache = true&lt;br&gt;clientWriteExpireTime= 180&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
           <mxGeometry x="180" y="1945" width="160" height="53" as="geometry" />
         </mxCell>
         <mxCell id="SpRwDZlbMjW81mHkaQeA-7" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9Gnq12phPFpCPruZLT1S-207">
