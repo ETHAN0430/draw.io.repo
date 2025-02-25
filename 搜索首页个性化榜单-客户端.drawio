@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="1737" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2127" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -521,14 +521,8 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-96" target="6uMsSRoJtcrCQNANOXgR-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-96">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1750" y="2160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1750" y="875" />
-              <mxPoint x="1750" y="1960" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-96" target="6uMsSRoJtcrCQNANOXgR-138">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-96" value="refreshRankCache" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2287.5" y="890" width="205" height="80" as="geometry" />
@@ -594,7 +588,7 @@
             <mxPoint x="2390" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-117" value="只组装一个TAB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-117" value="只组装一个榜单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2260" y="1480" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-118" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
