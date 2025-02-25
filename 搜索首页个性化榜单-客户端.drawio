@@ -598,10 +598,10 @@
           <mxGeometry x="2260" y="1480" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-118" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="1420" width="30" height="30" as="geometry" />
+          <mxGeometry x="2350" y="1410" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-119" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2485" y="1320" width="30" height="30" as="geometry" />
+          <mxGeometry x="2267.5" y="1340" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-120" value="一次性下发全部榜单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1910" y="1570" width="290" height="103" as="geometry" />
