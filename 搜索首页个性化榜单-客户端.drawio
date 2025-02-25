@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="2127" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1898" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,7 +530,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-96" value="refreshRankCache &lt;br&gt;&amp;amp;&amp;amp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-96" value="refreshRankCache" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2287.5" y="890" width="205" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-98">
@@ -649,8 +649,8 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-151" target="6uMsSRoJtcrCQNANOXgR-98">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2530" y="820" />
-              <mxPoint x="2530" y="990" />
+              <mxPoint x="2560" y="820" />
+              <mxPoint x="2560" y="990" />
               <mxPoint x="2390" y="990" />
             </Array>
           </mxGeometry>
@@ -659,13 +659,13 @@
           <mxGeometry x="2310" y="780" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-154" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="848" width="30" height="30" as="geometry" />
+          <mxGeometry x="2390" y="848" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-156" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2462.5" y="788" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-157" value="如果客户端要的榜单id和当前服务端的榜单id不一致，说明可能运营换了榜单ID&lt;div&gt;那么不管客户端要不要刷新，都去强刷，效果约等于榜单id&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="788" width="440" height="40" as="geometry" />
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-157" value="如果客户端要的榜单id和当前服务端的榜单id不一致，说明可能运营换了榜单ID或者顺序&lt;div&gt;那么不管客户端要不要刷新，都去强刷&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1815" y="788" width="490" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
