@@ -618,13 +618,13 @@
           <mxGeometry x="520" y="1203" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-34" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
-          <mxGeometry x="535" y="1040" width="30" height="30" as="geometry" />
+          <mxGeometry x="620" y="1120" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-35" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="735" y="1040" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-36" value="一次性下发全部榜单&lt;br&gt;（肯定不包括个性化榜单，因为个性化 &amp;gt;= 12.3)&lt;div&gt;&lt;br&gt;clientReadCache = null&lt;br&gt;clientWriteCache = null&lt;br&gt;clientWriteTime= null&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
-          <mxGeometry x="970" y="1100" width="290" height="103" as="geometry" />
+          <mxGeometry x="970" y="1150" width="290" height="103" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6uMsSRoJtcrCQNANOXgR-1" source="6uMsSRoJtcrCQNANOXgR-31" target="6uMsSRoJtcrCQNANOXgR-36">
           <mxGeometry relative="1" as="geometry" />
