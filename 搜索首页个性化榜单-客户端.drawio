@@ -667,7 +667,7 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-166" value="内容有效性校验" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1980" y="1890" width="740" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-171" value="如果forceRefreshCache = false &amp;amp;&amp;amp; refreshRankCache = true ，可以允许榜单内容为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-171" value="如果forceRefreshCache = false &amp;amp;&amp;amp; refreshRankCache = false，可以允许榜单内容为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2300" y="1970" width="480" height="30" as="geometry" />
         </mxCell>
       </root>
