@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="1965" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2647" dy="2123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -522,10 +522,15 @@
           <mxGeometry x="650" y="260" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-8" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
-          <mxGeometry x="505" y="410" width="70" height="30" as="geometry" />
+          <mxGeometry x="327" y="440" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6uMsSRoJtcrCQNANOXgR-1" source="6uMsSRoJtcrCQNANOXgR-11" target="6uMsSRoJtcrCQNANOXgR-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6uMsSRoJtcrCQNANOXgR-1" source="6uMsSRoJtcrCQNANOXgR-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-11" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="565" y="430" width="170" height="80" as="geometry" />
@@ -648,7 +653,7 @@
           <mxGeometry x="445" y="1620" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-51" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
-          <mxGeometry x="255" y="450" width="290" height="40" as="geometry" />
+          <mxGeometry x="210" y="410" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-52" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="70" y="1700" width="290" height="40" as="geometry" />
@@ -682,6 +687,9 @@
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-74" value="过期时间有变化？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="565" y="1890" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-82" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
+          <mxGeometry x="250" y="1560" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
