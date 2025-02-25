@@ -648,7 +648,7 @@
           <mxGeometry x="445" y="1620" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-51" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
-          <mxGeometry x="275" y="460" width="290" height="40" as="geometry" />
+          <mxGeometry x="255" y="450" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-52" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="70" y="1700" width="290" height="40" as="geometry" />
