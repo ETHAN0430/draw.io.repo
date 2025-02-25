@@ -516,7 +516,7 @@
           <mxGeometry x="2350" y="620" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-93" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2235" y="840" width="70" height="30" as="geometry" />
+          <mxGeometry x="2235" y="900" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-96" target="6uMsSRoJtcrCQNANOXgR-98">
           <mxGeometry relative="1" as="geometry" />
@@ -609,11 +609,8 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-115" target="6uMsSRoJtcrCQNANOXgR-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-123" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2055" y="900" width="290" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-130" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2255" y="980" width="30" height="30" as="geometry" />
+          <mxGeometry x="2350" y="970" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-131">
           <mxGeometry relative="1" as="geometry">
@@ -646,9 +643,6 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-146" value="&lt;b&gt;新增规则：如果需要客户端刷新缓存，允许榜单为空&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2540" y="2065" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-149" value="如果是强刷呢？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="2050" width="260" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-151" target="6uMsSRoJtcrCQNANOXgR-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -669,6 +663,9 @@
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-156" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2462.5" y="788" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-157" value="如果客户端要的榜单id和当前服务端的榜单id不一致，那么不管客户端要不要刷新，都去强刷" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="790" width="510" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
