@@ -661,8 +661,8 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-154" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2390" y="848" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-156" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2462.5" y="788" width="30" height="30" as="geometry" />
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-156" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2455" y="788" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-157" value="如果客户端要的榜单id和当前服务端的榜单id不一致，说明可能运营换了榜单ID或者顺序&lt;div&gt;那么不管客户端要不要刷新，都去强刷&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1815" y="788" width="490" height="40" as="geometry" />
