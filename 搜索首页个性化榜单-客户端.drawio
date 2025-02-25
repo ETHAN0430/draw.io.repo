@@ -615,7 +615,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-127" value="强制刷新开关" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2310" y="1770" width="160" height="80" as="geometry" />
+          <mxGeometry x="2310" y="1620" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-129" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2740" y="1920" width="30" height="30" as="geometry" />
