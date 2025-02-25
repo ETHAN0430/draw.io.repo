@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="1898" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2344" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -538,7 +538,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-98" value="请求ranker-recommend" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="1000" width="120" height="60" as="geometry" />
+          <mxGeometry x="2330" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-99" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2480" y="610" width="30" height="30" as="geometry" />
@@ -553,8 +553,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2560" y="750" />
-              <mxPoint x="2560" y="960" />
-              <mxPoint x="2390" y="960" />
+              <mxPoint x="2560" y="990" />
+              <mxPoint x="2390" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -573,25 +573,11 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-106" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2500" y="720" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-109" target="6uMsSRoJtcrCQNANOXgR-89">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2770" y="1240" />
-              <mxPoint x="2770" y="580" />
-              <mxPoint x="2390" y="580" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-109">
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2390" y="1339.9999999999995" as="targetPoint" />
+            <mxPoint x="2390" y="1280" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-109" value="榜单类型内容id遍历完毕？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2305" y="1200" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-110" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2475" y="1210" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-111" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2390" y="1280" width="30" height="30" as="geometry" />
@@ -626,14 +612,8 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-115" target="6uMsSRoJtcrCQNANOXgR-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-122" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2185" y="2030" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-123" value="目前只有个性化算法榜单用到这个参数&lt;br&gt;后续这里的判断条件可以是拓展到非个性化榜单的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2055" y="900" width="290" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-124" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2025" y="2150" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-127">
           <mxGeometry relative="1" as="geometry">
@@ -646,9 +626,6 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-127" value="强制刷新开关" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2310" y="1770" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-128" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2185" y="1880" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-129" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2740" y="1920" width="30" height="30" as="geometry" />
         </mxCell>
@@ -657,6 +634,9 @@
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-131" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2580" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-132" value="内容有效性校验：&lt;br&gt;如果客户端要刷新时，允许为空" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="2080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
