@@ -527,11 +527,6 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6uMsSRoJtcrCQNANOXgR-1" source="6uMsSRoJtcrCQNANOXgR-11" target="6uMsSRoJtcrCQNANOXgR-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="6uMsSRoJtcrCQNANOXgR-1" source="6uMsSRoJtcrCQNANOXgR-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="780" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-11" value="refreshRankCache？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="565" y="410" width="170" height="80" as="geometry" />
         </mxCell>
@@ -641,9 +636,6 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-42" value="属于强制刷新榜单id的列表？&lt;br&gt;【配置中心】" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="527.5" y="1595" width="245" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-43" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
-          <mxGeometry x="660" y="1320" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6uMsSRoJtcrCQNANOXgR-1" source="6uMsSRoJtcrCQNANOXgR-48" target="6uMsSRoJtcrCQNANOXgR-74">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="1940" as="targetPoint" />
@@ -669,9 +661,6 @@
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-58" value="N or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
           <mxGeometry x="285" y="1740" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-62" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="6uMsSRoJtcrCQNANOXgR-1">
-          <mxGeometry x="604" y="1420" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6uMsSRoJtcrCQNANOXgR-1" source="6uMsSRoJtcrCQNANOXgR-65" target="6uMsSRoJtcrCQNANOXgR-42">
           <mxGeometry relative="1" as="geometry" />
