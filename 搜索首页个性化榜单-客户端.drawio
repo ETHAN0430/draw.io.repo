@@ -573,38 +573,29 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-106" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2500" y="720" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2390" y="1339.9999999999995" as="targetPoint" />
-            <mxPoint x="2390" y="1280" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-111" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="1280" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-113" target="6uMsSRoJtcrCQNANOXgR-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-113" value="组装40118热搜卡" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="1340" width="120" height="60" as="geometry" />
+          <mxGeometry x="2330" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-115" target="6uMsSRoJtcrCQNANOXgR-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-115" value="appVersion &amp;gt;= 11.29?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2295" y="1450" width="190" height="80" as="geometry" />
+          <mxGeometry x="2295" y="1330" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-117" target="6uMsSRoJtcrCQNANOXgR-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-117" value="只组装一个TAB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2260" y="1613" width="260" height="60" as="geometry" />
+          <mxGeometry x="2260" y="1480" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-118" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2360" y="1530" width="30" height="30" as="geometry" />
+          <mxGeometry x="2350" y="1420" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-119" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2475" y="1450" width="30" height="30" as="geometry" />
+          <mxGeometry x="2485" y="1320" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-120" value="一次性下发全部榜单&lt;br&gt;（肯定不包括个性化榜单，因为个性化 &amp;gt;= 12.3)&lt;div&gt;&lt;br&gt;clientReadCache = null&lt;br&gt;clientWriteCache = null&lt;br&gt;clientWriteTime= null&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2710" y="1560" width="290" height="103" as="geometry" />
