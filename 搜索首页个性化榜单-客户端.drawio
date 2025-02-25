@@ -635,7 +635,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-146" value="&lt;b&gt;新增规则：如果需要客户端刷新缓存，允许榜单为空&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2540" y="2065" width="300" height="30" as="geometry" />
+          <mxGeometry x="2481" y="1790" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-151" target="6uMsSRoJtcrCQNANOXgR-96">
           <mxGeometry relative="1" as="geometry" />
