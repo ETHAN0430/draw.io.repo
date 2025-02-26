@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="第 1 页" id="NQEf47WvhXZKwdAwDiqe">
-    <mxGraphModel dx="1972" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -515,16 +515,6 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-92" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2350" y="620" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2388" y="860" as="sourcePoint" />
-            <mxPoint x="1748" y="2160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2388" y="900" />
-              <mxPoint x="1748" y="900" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6uMsSRoJtcrCQNANOXgR-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2390" y="1199.9999999999995" as="targetPoint" />
@@ -617,7 +607,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-131" value="组装客户端缓存相关参数&lt;br&gt;1. expireTime = Config.get(&quot;search.home.rank.client.cache.expire.time&quot;)&lt;br&gt;&lt;br&gt;2. forceRefreshCache =&amp;nbsp; Config.get(&quot;search.home.rank.client.cache.force.refresh.switch&quot;) == true || cachedRankId != rankId" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-131" value="组装客户端缓存相关参数&lt;br&gt;1. expireTime = Config.get(&quot;search.home.rank.client.cache.expire.time&quot;)&lt;br&gt;&lt;br&gt;2. forceRefreshCache =&amp;nbsp; Config.get(&quot;search.home.rank.client.cache.force.refresh.switch&quot;) == true" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="2200" y="1620" width="720" height="140" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6uMsSRoJtcrCQNANOXgR-134" target="6uMsSRoJtcrCQNANOXgR-135" edge="1">
@@ -644,6 +634,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="_7v98rm_GWObLLPDpftG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6uMsSRoJtcrCQNANOXgR-151" target="6uMsSRoJtcrCQNANOXgR-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2140" y="820" />
+              <mxPoint x="2140" y="1150" />
+              <mxPoint x="2390" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-151" value="cachedRankId == rankId" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2310" y="780" width="160" height="80" as="geometry" />
         </mxCell>
@@ -651,7 +650,7 @@
           <mxGeometry x="2475" y="788" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-157" value="如果客户端当前缓存的榜单id和服务端个性化榜单id不一致，说明可能运营换了榜单ID或者顺序&lt;div&gt;那么不管客户端要不要刷新，都去强刷&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="788" width="520" height="40" as="geometry" />
+          <mxGeometry x="1770" y="780" width="520" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6uMsSRoJtcrCQNANOXgR-166" target="6uMsSRoJtcrCQNANOXgR-138" edge="1">
           <mxGeometry relative="1" as="geometry" />
