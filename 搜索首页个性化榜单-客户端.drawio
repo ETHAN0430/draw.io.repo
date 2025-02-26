@@ -641,7 +641,7 @@
         <mxCell id="6uMsSRoJtcrCQNANOXgR-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6uMsSRoJtcrCQNANOXgR-151" target="6uMsSRoJtcrCQNANOXgR-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2560" y="820" />
+              <mxPoint x="2560" y="830" />
               <mxPoint x="2560" y="990" />
               <mxPoint x="2390" y="990" />
             </Array>
@@ -663,10 +663,10 @@
           <mxGeometry x="1980" y="1890" width="740" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-171" value="新增规则：如果forceRefreshCache = false &amp;amp;&amp;amp; refreshRankCache = false，可以允许榜单内容为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="2750" y="1905" width="540" height="30" as="geometry" />
+          <mxGeometry x="2068" y="1970" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_7v98rm_GWObLLPDpftG-1" value="Y or null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2315" y="848" width="70" height="30" as="geometry" />
+          <mxGeometry x="2290" y="848" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
