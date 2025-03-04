@@ -603,7 +603,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6uMsSRoJtcrCQNANOXgR-131" value="组装客户端缓存相关参数&lt;br&gt;1. expireTime = Config.get(&quot;search.home.rank.client.cache.expire.time&quot;)&lt;br&gt;&lt;br&gt;2. forceRefreshCache =&amp;nbsp; Config.get(&quot;search.home.rank.client.cache.force.refresh.switch&quot;) == true" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
+        <mxCell id="6uMsSRoJtcrCQNANOXgR-131" value="新增组装客户端缓存相关参数&lt;br&gt;1. 缓存过期时间：expireTime = Config.get(&quot;search.home.rank.client.cache.expire.time&quot;)&lt;br&gt;&lt;br&gt;2. 强制刷新缓存：forceRefreshCache =&amp;nbsp; Config.get(&quot;search.home.rank.client.cache.force.refresh.switch&quot;) == true" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="2200" y="1620" width="720" height="140" as="geometry" />
         </mxCell>
         <mxCell id="6uMsSRoJtcrCQNANOXgR-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6uMsSRoJtcrCQNANOXgR-134" target="6uMsSRoJtcrCQNANOXgR-135" edge="1">
