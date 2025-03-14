@@ -16,22 +16,16 @@
         <mxCell id="DGAGe3rqw4YAZApAKZPy-2" value="从媒体引擎获取列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="341" y="320" width="146" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-4" target="DGAGe3rqw4YAZApAKZPy-6">
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-4" target="DGAGe3rqw4YAZApAKZPy-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-4" value="过滤联想词" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-6">
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="DGAGe3rqw4YAZApAKZPy-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="690" as="targetPoint" />
+            <mxPoint x="414" y="630" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-6" target="DGAGe3rqw4YAZApAKZPy-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-6" value="实验：推荐理由开？" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-8" target="DGAGe3rqw4YAZApAKZPy-12">
           <mxGeometry relative="1" as="geometry" />
@@ -39,14 +33,26 @@
         <mxCell id="DGAGe3rqw4YAZApAKZPy-8" value="需要推荐理由的资源打标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="800" width="186" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-10" target="DGAGe3rqw4YAZApAKZPy-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-10" value="实验：前n位接入推荐理由，属于前n位？" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="223" y="690" width="120" height="60" as="geometry" />
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="DGAGe3rqw4YAZApAKZPy-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="283" y="750" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-12" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-15" target="DGAGe3rqw4YAZApAKZPy-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-15" value="实验：推荐理由开？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="550" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-18" value="实验：前n位接入推荐理由，属于前n位？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="178" y="670" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
