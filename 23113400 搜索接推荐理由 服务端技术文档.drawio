@@ -122,13 +122,13 @@
         <mxCell id="DGAGe3rqw4YAZApAKZPy-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-47" target="DGAGe3rqw4YAZApAKZPy-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-47" value="过滤联想词、快应用、预约" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-47" value="过滤联想词" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1116" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-50" target="DGAGe3rqw4YAZApAKZPy-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-50" value="需要推荐理由的资源打标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-50" value="快应用、预约资源打不需要推荐理由的标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1083" y="570" width="186" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-52" target="DGAGe3rqw4YAZApAKZPy-63">
