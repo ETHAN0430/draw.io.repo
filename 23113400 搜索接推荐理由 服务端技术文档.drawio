@@ -134,7 +134,7 @@
         <mxCell id="DGAGe3rqw4YAZApAKZPy-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-52" target="DGAGe3rqw4YAZApAKZPy-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-52" value="获取服务端素材优先级" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-52" value="获取服务端素材优先级&lt;br&gt;（快应用、预约资源除外）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1098" y="710" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-63" target="DGAGe3rqw4YAZApAKZPy-65">
