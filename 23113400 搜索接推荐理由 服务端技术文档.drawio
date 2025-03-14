@@ -86,8 +86,14 @@
         <mxCell id="DGAGe3rqw4YAZApAKZPy-27" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="700" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-33" target="DGAGe3rqw4YAZApAKZPy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-33" value="预取服务端素材（干预一句话、榜单等）并打标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="336" y="1230" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-36" value="调用ranker素材决策" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
