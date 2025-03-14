@@ -27,8 +27,14 @@
             <mxPoint x="280" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-6" value="实验：推荐理由开" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-6" target="DGAGe3rqw4YAZApAKZPy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-6" value="实验：推荐理由开？" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-8" target="DGAGe3rqw4YAZApAKZPy-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DGAGe3rqw4YAZApAKZPy-8" value="需要推荐理由的资源打标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="800" width="186" height="60" as="geometry" />
@@ -36,8 +42,11 @@
         <mxCell id="DGAGe3rqw4YAZApAKZPy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DGAGe3rqw4YAZApAKZPy-10" target="DGAGe3rqw4YAZApAKZPy-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DGAGe3rqw4YAZApAKZPy-10" value="实验：前n位接入推荐理由" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-10" value="实验：前n位接入推荐理由，属于前n位？" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="223" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGAGe3rqw4YAZApAKZPy-12" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
