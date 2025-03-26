@@ -95,8 +95,41 @@
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-32" value="算法召回池是否够丰富？模块之间小游戏的重合度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="950" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-33" value="有AI词条？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mQm4HfIO1lFHJKP5LkmW-33" target="mQm4HfIO1lFHJKP5LkmW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mQm4HfIO1lFHJKP5LkmW-33" target="mQm4HfIO1lFHJKP5LkmW-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-33" value="有AI词条卡？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="990" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-35" value="上下文推荐" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-37" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1068" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mQm4HfIO1lFHJKP5LkmW-38" target="mQm4HfIO1lFHJKP5LkmW-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="1220" />
+              <mxPoint x="390" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-38" value="有游戏助手卡片" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1068" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-42" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1148" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-43" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="990" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
