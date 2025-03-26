@@ -89,8 +89,8 @@
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-31" value="第二点，AI词条实验流量问题，这个优先级高于ai词条？AI词条实验流量减少。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="610" y="850" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-32" value="算法召回池是否够丰富，模块之间小游戏的重合度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="720" y="940" width="290" height="30" as="geometry" />
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-32" value="算法召回池是否够丰富？模块之间小游戏的重合度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="950" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
