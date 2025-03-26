@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="m9TrbYDOdCIX-7oSl9vr">
-    <mxGraphModel dx="899" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,10 @@
           <mxGeometry x="725" y="358" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-28" value="实验：&lt;br&gt;1. 运营配置 or 走混排，其实直接走就行吗，效果理论上是更好的，加个开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="690" y="460" width="430" height="40" as="geometry" />
+          <mxGeometry x="680" y="520" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-29" value="算法推荐失败了 走什么?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="588" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
