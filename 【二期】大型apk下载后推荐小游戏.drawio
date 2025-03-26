@@ -78,7 +78,7 @@
           <mxGeometry x="725" y="358" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-28" value="实验：&lt;br&gt;1. 运营配置 or 走混排，其实直接走就行吗，效果理论上是更好的，加个开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="585" y="523" width="430" height="40" as="geometry" />
+          <mxGeometry x="690" y="460" width="430" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
