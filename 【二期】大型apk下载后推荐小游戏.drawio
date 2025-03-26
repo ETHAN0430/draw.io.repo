@@ -83,6 +83,12 @@
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-29" value="算法推荐失败了 走什么?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="725" y="588" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-30" value="实验的必要性&lt;br&gt;&lt;br&gt;1. 实验条件 分别目的是想验证什么?&lt;br&gt;2.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="668" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-31" value="第二点，AI词条实验流量问题，这个优先级高于ai词条？AI词条实验流量减少。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="850" width="440" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
