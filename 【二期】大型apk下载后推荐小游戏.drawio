@@ -68,7 +68,7 @@
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mQm4HfIO1lFHJKP5LkmW-23" target="mQm4HfIO1lFHJKP5LkmW-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-23" value="&lt;br&gt;【虚拟卡片】小游戏推荐&lt;br&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-23" value="&lt;br&gt;【虚拟卡片】小游戏推荐&lt;br&gt;&lt;br&gt;&lt;div&gt;【配置中心】 K：appid V：appid关联的instantId&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="255" y="680" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-25" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
