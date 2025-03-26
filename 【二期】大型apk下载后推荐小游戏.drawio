@@ -77,6 +77,9 @@
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-27" value="问题：游戏tab 搜索结果页是旧场景 改一下接混排即可&lt;br&gt;&lt;br&gt;搜索首页 目前只有游戏助手&lt;br&gt;搜索联想页 是直接跳的结果页 是放开jumpSource吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="725" y="358" width="310" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-28" value="实验：&lt;br&gt;1. 运营配置 or 走混排，其实直接走就行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="523" width="230" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
