@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="m9TrbYDOdCIX-7oSl9vr">
-    <mxGraphModel dx="1145" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1199" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,24 +76,6 @@
         </mxCell>
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-25" value="获取AI词条卡" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="880" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-27" value="问题：游戏tab 搜索结果页是旧场景 改一下接混排即可&lt;br&gt;&lt;br&gt;搜索首页 目前只有游戏助手&lt;br&gt;搜索联想页 是直接跳的结果页 是放开jumpSource吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="725" y="358" width="310" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-28" value="实验：&lt;br&gt;1. 运营配置 or 走混排，其实直接走就行吗，效果理论上是更好的，加个开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="520" width="430" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-29" value="算法推荐失败了 走什么?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="790" y="610" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-30" value="实验的必要性&lt;br&gt;&lt;br&gt;1. 实验条件 分别目的是想验证什么?&lt;br&gt;2.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="695" width="210" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-31" value="第二点，AI词条实验流量问题，这个优先级高于ai词条？AI词条实验流量减少。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="850" width="440" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-32" value="算法召回池是否够丰富？模块之间小游戏的重合度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="670" y="950" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mQm4HfIO1lFHJKP5LkmW-33" target="mQm4HfIO1lFHJKP5LkmW-35">
           <mxGeometry relative="1" as="geometry" />
