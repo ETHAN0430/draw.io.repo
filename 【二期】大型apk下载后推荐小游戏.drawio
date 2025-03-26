@@ -74,8 +74,8 @@
         <mxCell id="mQm4HfIO1lFHJKP5LkmW-25" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mQm4HfIO1lFHJKP5LkmW-27" value="问题：游戏tab 搜索结果页是旧场景&lt;br&gt;&lt;br&gt;搜索首页 目前只有游戏助手&lt;br&gt;搜索联想页 是直接跳的结果页 是放开jumpSource吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="730" y="358" width="300" height="70" as="geometry" />
+        <mxCell id="mQm4HfIO1lFHJKP5LkmW-27" value="问题：游戏tab 搜索结果页是旧场景 改一下接混排即可&lt;br&gt;&lt;br&gt;搜索首页 目前只有游戏助手&lt;br&gt;搜索联想页 是直接跳的结果页 是放开jumpSource吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="358" width="310" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
