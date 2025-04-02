@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.3">
   <diagram name="第 1 页" id="m9TrbYDOdCIX-7oSl9vr">
-    <mxGraphModel dx="2088" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -297,7 +297,7 @@
         <mxCell id="s6yLkB2lFRndOvAFE7hh-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s6yLkB2lFRndOvAFE7hh-67" target="s6yLkB2lFRndOvAFE7hh-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s6yLkB2lFRndOvAFE7hh-67" value="小游戏推荐实验分流命中" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="s6yLkB2lFRndOvAFE7hh-67" value="小游戏算法推荐实验分流命中" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="670" y="3351" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="s6yLkB2lFRndOvAFE7hh-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="s6yLkB2lFRndOvAFE7hh-68" target="s6yLkB2lFRndOvAFE7hh-74" edge="1">
