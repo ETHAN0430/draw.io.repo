@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="k6I2dJEl2S4Jem4GHuK7">
-    <mxGraphModel dx="2080" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2301" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-91" value="&lt;b&gt;时间周期内 - 曝光&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1120" width="450" height="350" as="geometry" />
+        </mxCell>
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eR_Sy2IDM2DOBQeA-dOJ-5" target="eR_Sy2IDM2DOBQeA-dOJ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -50,9 +53,6 @@
         </mxCell>
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-10" value="获取浮层内容，来源：&lt;br&gt;1. 运营配置&lt;br&gt;2. 定投" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="329" y="740" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bc9c-BoKLLF40jqhuCIy-16" target="b60gb2IuZ7ZULIwAAaqr-22">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bc9c-BoKLLF40jqhuCIy-16" target="b60gb2IuZ7ZULIwAAaqr-42">
           <mxGeometry relative="1" as="geometry">
@@ -184,7 +184,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-72" value="拉取合约广告" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="132.75" y="1800" width="120" height="60" as="geometry" />
+          <mxGeometry x="126.37" y="1800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-74" target="b60gb2IuZ7ZULIwAAaqr-42">
           <mxGeometry relative="1" as="geometry">
@@ -196,7 +196,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-74" value="广告返空？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="107.75" y="1910" width="170" height="80" as="geometry" />
+          <mxGeometry x="101.37" y="1910" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-77" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="77.75" y="1910" width="30" height="30" as="geometry" />
@@ -216,8 +216,29 @@
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-86" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="413" y="1570" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-87" value="&lt;div&gt;&lt;b&gt;过滤链&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;1.&amp;nbsp;客户端版本过滤&lt;br&gt;2.&amp;nbsp;安装去重过滤&lt;br&gt;3. 跳转链接校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="272" y="1730" width="274" height="130" as="geometry" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-87" target="b60gb2IuZ7ZULIwAAaqr-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="1790" />
+              <mxPoint x="850" y="600" />
+              <mxPoint x="409" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-87" value="&lt;div&gt;&lt;b&gt;过滤链，是否过滤？&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;1.&amp;nbsp;客户端版本过滤&lt;br&gt;2.&amp;nbsp;安装去重过滤&lt;br&gt;3. 跳转链接校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="273" y="1725" width="274" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-89" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="547" y="1754" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-90" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1855" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.508;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bc9c-BoKLLF40jqhuCIy-16" target="b60gb2IuZ7ZULIwAAaqr-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-93" value="&lt;b&gt;过滤：浮层总曝光&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="189" y="2030" width="450" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
