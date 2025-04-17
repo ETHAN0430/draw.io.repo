@@ -45,8 +45,16 @@
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-8" value="找到当前时间生效的浮层排期&lt;br&gt;（浮层类型：page、ad_page）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="555" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Bc9c-BoKLLF40jqhuCIy-10" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="695" width="120" height="60" as="geometry" />
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bc9c-BoKLLF40jqhuCIy-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-10" value="获取浮层内容，来源：&lt;br&gt;1. 运营配置&lt;br&gt;2. 定投" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="695" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-16" value="内容被当前用户点击跳过？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="840" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
