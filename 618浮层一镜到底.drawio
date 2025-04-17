@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="k6I2dJEl2S4Jem4GHuK7">
-    <mxGraphModel dx="716" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="864" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,8 +33,20 @@
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-3" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="290" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bc9c-BoKLLF40jqhuCIy-7" target="Bc9c-BoKLLF40jqhuCIy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-7" value="浮层模块扩展开关" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bc9c-BoKLLF40jqhuCIy-8" target="Bc9c-BoKLLF40jqhuCIy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-8" value="找到当前时间生效的浮层排期&lt;br&gt;（浮层类型：page、ad_page）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="555" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-10" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="695" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
