@@ -54,8 +54,10 @@
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-10" value="获取浮层内容，来源：&lt;br&gt;1. 运营配置&lt;br&gt;2. 定投" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="329" y="660" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Bc9c-BoKLLF40jqhuCIy-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bc9c-BoKLLF40jqhuCIy-16" target="Bc9c-BoKLLF40jqhuCIy-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Bc9c-BoKLLF40jqhuCIy-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Bc9c-BoKLLF40jqhuCIy-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409" y="1080" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bc9c-BoKLLF40jqhuCIy-16" target="b60gb2IuZ7ZULIwAAaqr-7">
           <mxGeometry relative="1" as="geometry">
@@ -69,8 +71,10 @@
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-16" value="浮层内容被当前用户点击跳过？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="277.75" y="930" width="262.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Bc9c-BoKLLF40jqhuCIy-17" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="349" y="1080" width="120" height="60" as="geometry" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="b60gb2IuZ7ZULIwAAaqr-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409" y="1140" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-1" value="疑似废弃" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="819.01" y="740" width="70" height="30" as="geometry" />
@@ -101,6 +105,9 @@
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-19" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="1010" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-20" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
