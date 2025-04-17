@@ -157,6 +157,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-66" target="b60gb2IuZ7ZULIwAAaqr-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-66" value="浮层内容类型是ad_page&lt;br&gt;合约广告浮层？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="246.5" y="1490" width="325" height="80" as="geometry" />
         </mxCell>
@@ -167,11 +170,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-68" target="b60gb2IuZ7ZULIwAAaqr-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-68" value="是儿童账号？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="1640" width="192.75" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-70" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="348.25" y="1810" width="120" height="60" as="geometry" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-70" value="过滤：&lt;br&gt;1.&amp;nbsp;客户端版本过滤&lt;br&gt;2.&amp;nbsp;安装去重过滤&lt;br&gt;3.&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="289.5" y="1725" width="241" height="100" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-72" target="b60gb2IuZ7ZULIwAAaqr-74">
           <mxGeometry relative="1" as="geometry" />
@@ -197,14 +203,17 @@
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-78" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="1990" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-80" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1640" width="30" height="30" as="geometry" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-80" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="278" y="1650" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-82" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="190" y="1725" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-83" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="230.32999999999998" y="1490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-86" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="413" y="1570" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
