@@ -54,7 +54,7 @@
           <mxGeometry x="330" y="695" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bc9c-BoKLLF40jqhuCIy-16" value="内容被当前用户点击跳过？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="840" width="130" height="80" as="geometry" />
+          <mxGeometry x="307.5" y="840" width="205" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
