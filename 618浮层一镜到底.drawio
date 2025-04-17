@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="k6I2dJEl2S4Jem4GHuK7">
-    <mxGraphModel dx="1722" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2393" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,8 +87,9 @@
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-22" target="b60gb2IuZ7ZULIwAAaqr-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-22" target="b60gb2IuZ7ZULIwAAaqr-59">
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-22">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.99999999999955" y="1490" as="targetPoint" />
             <Array as="points">
               <mxPoint x="200" y="1190" />
               <mxPoint x="200" y="1410" />
@@ -111,8 +112,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-33" target="b60gb2IuZ7ZULIwAAaqr-59">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.99999999999955" y="1490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-33" value="当前用户浮层周期内曝光超阈值？&lt;br&gt;【日曝光1次 周曝光2次】" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="277.75" y="1280" width="262.5" height="80" as="geometry" />
@@ -147,8 +150,8 @@
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-58" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="640" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-59" value="添加" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="349" y="1490" width="120" height="60" as="geometry" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-66" value="浮层内容类型是合约广告浮层？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="246.5" y="1490" width="325" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
