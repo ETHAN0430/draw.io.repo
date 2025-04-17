@@ -225,6 +225,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b60gb2IuZ7ZULIwAAaqr-87" target="b60gb2IuZ7ZULIwAAaqr-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-87" value="&lt;div&gt;&lt;b&gt;过滤链，是否过滤？&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;1.&amp;nbsp;客户端版本过滤&lt;br&gt;2.&amp;nbsp;安装去重过滤&lt;br&gt;3. 跳转链接校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="273" y="1725" width="274" height="130" as="geometry" />
         </mxCell>
@@ -238,7 +241,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-93" value="&lt;b&gt;过滤：浮层总曝光&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="189" y="2030" width="450" height="350" as="geometry" />
+          <mxGeometry x="184" y="2060" width="450" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
