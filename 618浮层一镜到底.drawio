@@ -241,7 +241,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-93" value="&lt;b&gt;过滤：浮层总曝光&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="184" y="2060" width="450" height="350" as="geometry" />
+          <mxGeometry x="191.25" y="2050" width="436" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-95" value="是定投？&lt;div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290.5" y="2090" width="243.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-96" value="特权？&lt;div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="2190" width="243.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-97" value="是广告？&lt;div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="288.25" y="2290" width="243.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-98" value="浮层内容总曝光超设定阈值&lt;div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="2390" width="243.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
