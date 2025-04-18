@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="k6I2dJEl2S4Jem4GHuK7">
-    <mxGraphModel dx="2080" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1755" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,8 +117,8 @@
             <mxPoint x="408.99999999999955" y="1490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b60gb2IuZ7ZULIwAAaqr-33" value="当前用户浮层周期内曝光超阈值？&lt;br&gt;【日曝光1次 周曝光2次】" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="277.75" y="1280" width="262.5" height="80" as="geometry" />
+        <mxCell id="b60gb2IuZ7ZULIwAAaqr-33" value="当前用户浮层周期内曝光超阈值？&lt;br&gt;&lt;b&gt;普通浮层：&lt;/b&gt;配置中心【日曝光1次 周曝光2次】&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="253.88" y="1260" width="310.25" height="110" as="geometry" />
         </mxCell>
         <mxCell id="b60gb2IuZ7ZULIwAAaqr-40" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="540.25" y="1290" width="30" height="30" as="geometry" />
@@ -333,7 +333,7 @@
           <mxGeometry x="270" y="2390" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WKd8nXuMr76AMNq-mm7P-93" value="&lt;b&gt;过滤：时间周期内 - 曝光&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="1090" width="450" height="350" as="geometry" />
+          <mxGeometry x="2200" y="1100" width="370" height="350" as="geometry" />
         </mxCell>
         <mxCell id="WKd8nXuMr76AMNq-mm7P-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKd8nXuMr76AMNq-mm7P-95" target="WKd8nXuMr76AMNq-mm7P-99">
           <mxGeometry relative="1" as="geometry" />
@@ -412,15 +412,17 @@
         <mxCell id="WKd8nXuMr76AMNq-mm7P-116" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2394" y="1070" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKd8nXuMr76AMNq-mm7P-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKd8nXuMr76AMNq-mm7P-119" target="WKd8nXuMr76AMNq-mm7P-123">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WKd8nXuMr76AMNq-mm7P-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKd8nXuMr76AMNq-mm7P-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2389" y="1250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WKd8nXuMr76AMNq-mm7P-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKd8nXuMr76AMNq-mm7P-119">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2388.9999999999995" y="1460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2180" y="1160" />
-              <mxPoint x="2180" y="1380" />
+              <mxPoint x="2230" y="1160" />
+              <mxPoint x="2230" y="1380" />
               <mxPoint x="2389" y="1380" />
             </Array>
           </mxGeometry>
@@ -431,22 +433,21 @@
         <mxCell id="WKd8nXuMr76AMNq-mm7P-120" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2227.75" y="1120" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKd8nXuMr76AMNq-mm7P-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WKd8nXuMr76AMNq-mm7P-123" target="WKd8nXuMr76AMNq-mm7P-128">
+        <mxCell id="WKd8nXuMr76AMNq-mm7P-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="WKd8nXuMr76AMNq-mm7P-128">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2770" y="1290" />
               <mxPoint x="2770" y="570" />
               <mxPoint x="2389" y="570" />
             </Array>
+            <mxPoint x="2520.25" y="1290" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKd8nXuMr76AMNq-mm7P-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WKd8nXuMr76AMNq-mm7P-123">
+        <mxCell id="WKd8nXuMr76AMNq-mm7P-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2388.9999999999995" y="1460" as="targetPoint" />
+            <mxPoint x="2389.083333333334" y="1329.974603174603" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="WKd8nXuMr76AMNq-mm7P-123" value="当前用户浮层周期内曝光超阈值？&lt;br&gt;【日曝光1次 周曝光2次】" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2257.75" y="1250" width="262.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WKd8nXuMr76AMNq-mm7P-124" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2520.25" y="1260" width="30" height="30" as="geometry" />
@@ -659,6 +660,9 @@
         </mxCell>
         <mxCell id="WKd8nXuMr76AMNq-mm7P-177" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2250" y="2360" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WKd8nXuMr76AMNq-mm7P-187" value="当前用户浮层周期内曝光超阈值？&lt;br&gt;&lt;b&gt;普通浮层：&lt;/b&gt;配置中心&lt;br&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;一镜到底：&lt;/b&gt;后台配置&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2228.87" y="1250" width="312.25" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
