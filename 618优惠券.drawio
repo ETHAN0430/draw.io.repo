@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="1472" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="863" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,7 +173,7 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-52" target="afSKzVF0Jw_LSbCJ2PBr-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-52" value="从本地缓存获取素材，并满足条件：&lt;br&gt;1. DSP来源符合&lt;br&gt;2.&amp;nbsp;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-52" value="从本地缓存获取素材，并满足条件：&lt;br&gt;1. DSP_SRC符合&lt;br&gt;2. 定投条件命中&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="292.5" y="2834" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-54" target="afSKzVF0Jw_LSbCJ2PBr-42">
@@ -206,9 +206,6 @@
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-59" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="208.75" y="2474" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-60" value="这里串行调定投，网络IO平均耗时1.27ms&lt;br&gt;但是场景比较少，暂时可接受" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="555" y="2844" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-62" target="afSKzVF0Jw_LSbCJ2PBr-42">
           <mxGeometry relative="1" as="geometry" />
