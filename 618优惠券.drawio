@@ -20,8 +20,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="350" />
-              <mxPoint x="80" y="1220" />
-              <mxPoint x="415" y="1220" />
+              <mxPoint x="80" y="1310" />
+              <mxPoint x="415" y="1310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -32,7 +32,7 @@
           <mxGeometry x="337.5" y="310" width="155" height="80" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-9" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1250" width="90" height="50" as="geometry" />
+          <mxGeometry x="370" y="1360" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-11" target="afSKzVF0Jw_LSbCJ2PBr-15">
           <mxGeometry relative="1" as="geometry" />
@@ -46,26 +46,45 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-14" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="307.5" y="310" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-15" target="afSKzVF0Jw_LSbCJ2PBr-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.0571428571427" y="770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-15" value="组装资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-17" target="afSKzVF0Jw_LSbCJ2PBr-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.0571428571427" y="880" as="sourcePoint" />
+            <mxPoint x="415" y="980" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-17" value="超级主题素材条件：&lt;br&gt;1. 是常规结果页列表资源&lt;br&gt;2. 客户端版本&lt;br&gt;3. 边下边玩&lt;br&gt;4. 云游&lt;br&gt;5. 意图词性" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="283.75" y="770" width="262.5" height="110" as="geometry" />
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="afSKzVF0Jw_LSbCJ2PBr-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1040" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-19" target="afSKzVF0Jw_LSbCJ2PBr-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-21" value="从本地缓存获取素材 并请求定投" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="1130" width="255" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-19" value="超级主题素材频控：&lt;br&gt;1. 总数&lt;br&gt;2. 前n位&lt;br&gt;3. 间隔数" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="355" y="985" width="120" height="60" as="geometry" />
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-23" value="&lt;span style=&quot;text-align: left;&quot;&gt;满足频控：&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;1. 总数&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2. 前n位&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;3. 间隔数&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="980" width="336" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-21" value="" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="355" y="1125" width="120" height="60" as="geometry" />
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-24" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1058" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-25" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="980" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-26" value="&lt;span style=&quot;text-align: left;&quot;&gt;满足条件：&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;1. 是常规结果页列表资源&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2. 客户端版本&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;3. 边下边玩&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;4. 云游&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;5. 意图词性&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203.75" y="770" width="422.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-27" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="203.75" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-28" value="这里串行调定投，网络IO平均耗时1.27ms&lt;br&gt;但是场景比较少，暂时可接受" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1140" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
