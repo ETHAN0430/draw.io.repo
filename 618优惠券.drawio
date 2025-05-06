@@ -52,8 +52,14 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-15" value="组装资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-17" value="根据appid获取超级主题素材，条件：&lt;br&gt;1. 是常规结果页列表资源&lt;br&gt;2. 客户端版本&lt;br&gt;3. 边下边玩&lt;br&gt;4.&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-17" target="afSKzVF0Jw_LSbCJ2PBr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-17" value="超级主题素材条件：&lt;br&gt;1. 是常规结果页列表资源&lt;br&gt;2. 客户端版本&lt;br&gt;3. 边下边玩&lt;br&gt;4. 云游&lt;br&gt;5. 意图词性" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="283.75" y="770" width="262.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-19" value="超级主题素材频控：&lt;br&gt;1. 总数&lt;br&gt;2. 前n位&lt;br&gt;3. 间隔数" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="355" y="985" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
