@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="1043" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="715" dy="387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,8 +52,8 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-15" value="组装资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-17" value="根据appid获取超级主题素材" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-17" value="根据appid获取超级主题素材，条件：&lt;br&gt;1. 是常规结果页列表资源&lt;br&gt;2. 客户端版本&lt;br&gt;3. 边下边玩&lt;br&gt;4.&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="283.75" y="770" width="262.5" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
