@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="863" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1668" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,16 +165,10 @@
             <mxPoint x="420" y="2684" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="afSKzVF0Jw_LSbCJ2PBr-52">
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="afSKzVF0Jw_LSbCJ2PBr-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="2744" as="sourcePoint" />
+            <mxPoint x="420" y="2894" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-52" target="afSKzVF0Jw_LSbCJ2PBr-62">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-52" value="从本地缓存获取素材，并满足条件：&lt;br&gt;1. DSP_SRC符合&lt;br&gt;2. 定投条件命中&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="292.5" y="2834" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-54" target="afSKzVF0Jw_LSbCJ2PBr-42">
           <mxGeometry relative="1" as="geometry">
@@ -183,6 +177,9 @@
               <mxPoint x="85" y="3264" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-54" target="afSKzVF0Jw_LSbCJ2PBr-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-54" value="&lt;span style=&quot;text-align: left;&quot;&gt;满足频控：&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;1. 总数&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;2. 前n位&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;3. 间隔数&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="252" y="2684" width="336" height="80" as="geometry" />
@@ -318,6 +315,26 @@
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-90" value="组装DTO" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1107.5" y="3004" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-91" target="afSKzVF0Jw_LSbCJ2PBr-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="2872" />
+              <mxPoint x="90" y="3264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-91" value="从本地缓存获取素材，并满足条件：&lt;br&gt;1. DSP_SRC符合&lt;br&gt;2. 定投条件命中" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2814" width="360" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-94" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2930" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-95" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="2590" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-97" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="2834" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
