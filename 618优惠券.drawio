@@ -37,7 +37,7 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-11" target="afSKzVF0Jw_LSbCJ2PBr-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-11" value="常规逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-11" value="常规混排逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-13" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -52,7 +52,7 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-15" value="组装资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-17" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-17" value="根据appid获取超级主题素材" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
