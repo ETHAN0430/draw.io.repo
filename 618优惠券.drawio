@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.3.0">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="3569" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3798" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -405,13 +405,13 @@
           <mxGeometry x="-1860" y="560" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 可能情况：&lt;br&gt;1. 客户端版本低于 12.7&lt;br&gt;2. 客户端版本高于 12.7 外启详情页&lt;br&gt;3. 客户端版本高于 12.7 从商店内不支持权益素材的场景进入的详情页" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1580" y="530" width="390" height="70" as="geometry" />
+          <mxGeometry x="-1500" y="530" width="390" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-10" value="详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="-1740" y="350" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-13" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1520" y="730" width="250" height="80" as="geometry" />
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-13" value="有没有超级主题？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1530" y="660" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-14" value="客户端从12.7开始，需要把 权益素材（含超级主题/优惠券) 素材id带到详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1450" y="280" width="430" height="30" as="geometry" />
@@ -437,7 +437,7 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-27" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1790" y="965" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-29" value="背景：&lt;br&gt;1. 权益要在&lt;b&gt;全场景&lt;/b&gt;实现DSP限制：&lt;br&gt;虽然分发/搜索能感知DSP实现限制，但是详情页不能感知DSP（DSP不会下发给客户端，所以客户端也带不进来）。&lt;br&gt;&lt;br&gt;2. 从搜索结果页展示优惠券 =》点击详情页 =》 点击安装，在安装完成后需要弹窗优惠券信息。&lt;br&gt;&lt;br&gt;3. 外启详情页展示超级主题，但是不展示优惠券。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-29" value="背景：&lt;br&gt;1. 权益要在&lt;b&gt;全场景&lt;/b&gt;实现DSP限制：&lt;br&gt;虽然分发/搜索能感知DSP实现限制，但是详情页不能感知DSP（DSP不会下发给客户端，所以客户端也带不进来）。&lt;br&gt;&lt;br&gt;2. 从搜索结果页展示优惠券 =》点击详情页 =》 点击安装，在安装完成后需要拉起优惠券弹窗。&lt;br&gt;&lt;br&gt;3. 外启详情页展示超级主题，但是不展示优惠券。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1440" y="310" width="640" height="110" as="geometry" />
         </mxCell>
       </root>
