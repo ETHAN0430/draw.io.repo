@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.3.0">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="3123" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3798" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -442,8 +442,8 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-27" value="组装优惠券下发" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1790" y="980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-29" value="背景：&lt;br&gt;1. 权益要在&lt;b&gt;全场景（包括详情页）&lt;/b&gt;实现DSP限制：&lt;br&gt;虽然分发/搜索能感知DSP实现限制，但是详情页不能感知DSP（DSP现状不会下发给客户端，所以客户端也带不进来）；&lt;br&gt;&lt;br&gt;2. 从搜索结果页展示优惠券 =》点击详情页 =》 点击安装，在安装完成后需要拉起优惠券弹窗。&lt;br&gt;&lt;br&gt;3. 外启详情页展示超级主题，但是不展示优惠券。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="-1990" y="190" width="660" height="110" as="geometry" />
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-29" value="&lt;b&gt;背景 -&amp;nbsp;&lt;/b&gt;需要实现以下功能：&lt;br&gt;&lt;br&gt;1. 权益要在&lt;b&gt;全场景（包括详情页）&lt;/b&gt;实现DSP限制：&lt;br&gt;虽然分发/搜索能感知DSP实现限制，但是详情页不能感知DSP（DSP现状不会下发给客户端，所以客户端也带不进来）；&lt;br&gt;&lt;br&gt;2. 从搜索结果页展示优惠券 =》点击详情页 =》 点击安装，在安装完成后需要拉起优惠券弹窗。&lt;br&gt;&lt;br&gt;3. 外启详情页展示超级主题，但是不展示优惠券。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-1990" y="180" width="660" height="130" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xy2Sa3KlGMwKTaiAb8sO-34" target="xy2Sa3KlGMwKTaiAb8sO-35">
           <mxGeometry relative="1" as="geometry" />
