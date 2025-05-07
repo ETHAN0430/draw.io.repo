@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="834" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="481" dy="261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -358,7 +358,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-163" value="从本地缓存获取素材，并满足条件：&lt;br&gt;1. 当前用户机型能看到的最高版本高于DP最低版本&lt;br&gt;2. &lt;b&gt;DSP来源符合&lt;/b&gt;&lt;br&gt;3. 定投条件命中" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-163" value="从本地缓存获取素材，并满足条件：&lt;br&gt;1. 当前用户能看到的最高APP版本 高于 DP版本&lt;br&gt;2. &lt;b&gt;DSP来源符合&lt;/b&gt;&lt;br&gt;3. 定投条件命中" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1110.1399999999999" y="2790" width="330" height="116" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-164" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;dp冲突问题：（待定，需要客户运营与客户沟通后确认）&amp;quot;,&amp;quot;1:\&amp;quot;rgb(249%2C%20237%2C%20166)\&amp;quot;|8:1&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;A6t5\&amp;quot;|7:3|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;由于优惠券附带dp打开交互，与现有的广告延迟dp冲突，需按照“有延迟dp则不展示优惠券”进行兼容处理，避免延迟dp被覆盖。&amp;quot;,&amp;quot;1:\&amp;quot;rgb(249%2C%20237%2C%20166)\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;text-align: justify;font-size: 11pt;color: #494949;&quot; class=&quot;ql-align-justify ql-direction-ltr ql-long-256471&quot; align=&quot;justify&quot;&gt;&lt;strong style=&quot;background-color: rgb(249, 237, 166);&quot; class=&quot;ql-author-256471&quot;&gt;dp冲突问题：（待定，需要客户运营与客户沟通后确认）&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;text-align: justify;font-size: 11pt;color: #494949;&quot; class=&quot;ql-align-justify ql-direction-ltr ql-long-256471&quot; align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: rgb(249, 237, 166);&quot; class=&quot;ql-author-256471&quot;&gt;由于优惠券附带dp打开交互，与现有的广告延迟dp冲突，需按照“有延迟dp则不展示优惠券”进行兼容处理，避免延迟dp被覆盖。&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
