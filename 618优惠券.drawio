@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="1043" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3128" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,8 +248,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="2030" />
-              <mxPoint x="940" y="3210" />
-              <mxPoint x="1275" y="3210" />
+              <mxPoint x="940" y="3320" />
+              <mxPoint x="1275" y="3320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -260,7 +260,7 @@
           <mxGeometry x="1197.6399999999999" y="1990" width="155" height="80" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-140" value="结束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230.1399999999999" y="3240" width="90" height="50" as="geometry" />
+          <mxGeometry x="1230.1399999999999" y="3380" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-142" target="afSKzVF0Jw_LSbCJ2PBr-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -297,8 +297,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="2700" />
-              <mxPoint x="940" y="3210" />
-              <mxPoint x="1275" y="3210" />
+              <mxPoint x="940" y="3320" />
+              <mxPoint x="1275" y="3320" />
+              <mxPoint x="1275" y="3390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -320,8 +321,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="2510" />
-              <mxPoint x="940" y="3210" />
-              <mxPoint x="1275" y="3210" />
+              <mxPoint x="940" y="3320" />
+              <mxPoint x="1275" y="3320" />
+              <mxPoint x="1275" y="3390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -331,11 +333,11 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-156" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1063.8899999999999" y="2450" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-158" target="afSKzVF0Jw_LSbCJ2PBr-140" edge="1">
+        <mxCell id="nyr_95l-Gm0MTkM-s56c-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="afSKzVF0Jw_LSbCJ2PBr-158" target="nyr_95l-Gm0MTkM-s56c-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-158" value="组装DTO" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1147.6399999999999" y="2980" width="255" height="60" as="geometry" />
+          <mxGeometry x="1147.6399999999999" y="2950" width="255" height="60" as="geometry" />
         </mxCell>
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-159" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1280.1399999999999" y="2906" width="30" height="30" as="geometry" />
@@ -350,8 +352,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="2848" />
-              <mxPoint x="940" y="3210" />
-              <mxPoint x="1275" y="3210" />
+              <mxPoint x="940" y="3320" />
+              <mxPoint x="1275" y="3320" />
+              <mxPoint x="1275" y="3390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -361,8 +364,19 @@
         <mxCell id="afSKzVF0Jw_LSbCJ2PBr-164" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;dp冲突问题：（待定，需要客户运营与客户沟通后确认）&amp;quot;,&amp;quot;1:\&amp;quot;rgb(249%2C%20237%2C%20166)\&amp;quot;|8:1&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;A6t5\&amp;quot;|7:3|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;由于优惠券附带dp打开交互，与现有的广告延迟dp冲突，需按照“有延迟dp则不展示优惠券”进行兼容处理，避免延迟dp被覆盖。&amp;quot;,&amp;quot;1:\&amp;quot;rgb(249%2C%20237%2C%20166)\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;text-align: justify;font-size: 11pt;color: #494949;&quot; class=&quot;ql-align-justify ql-direction-ltr ql-long-256471&quot; align=&quot;justify&quot;&gt;&lt;strong style=&quot;background-color: rgb(249, 237, 166);&quot; class=&quot;ql-author-256471&quot;&gt;dp冲突问题：（待定，需要客户运营与客户沟通后确认）&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;text-align: justify;font-size: 11pt;color: #494949;&quot; class=&quot;ql-align-justify ql-direction-ltr ql-long-256471&quot; align=&quot;justify&quot;&gt;&lt;span style=&quot;background-color: rgb(249, 237, 166);&quot; class=&quot;ql-author-256471&quot;&gt;由于优惠券附带dp打开交互，与现有的广告延迟dp冲突，需按照“有延迟dp则不展示优惠券”进行兼容处理，避免延迟dp被覆盖。&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="1530" y="2480" width="850" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="afSKzVF0Jw_LSbCJ2PBr-166" value="有优惠券：&lt;br&gt;1. AI解释性文案前10位清空 AIDescExplainDto&lt;br&gt;2. 广告富媒体清空 adMaterial&lt;br&gt;3. 干预富媒体清空 ？？？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="2975" width="270" height="70" as="geometry" />
+        <mxCell id="nyr_95l-Gm0MTkM-s56c-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nyr_95l-Gm0MTkM-s56c-1" target="nyr_95l-Gm0MTkM-s56c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nyr_95l-Gm0MTkM-s56c-1" value="处理冲突素材：&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1. 广告富媒体清空 adMaterial&lt;/span&gt;&lt;br style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;2. 干预富媒体清空 ？？？&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1107.14" y="3050" width="334.86" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nyr_95l-Gm0MTkM-s56c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nyr_95l-Gm0MTkM-s56c-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275.1400000000003" y="3380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nyr_95l-Gm0MTkM-s56c-3" value="清空其他app的解释性文案" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1112.71" y="3204" width="324.86" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
