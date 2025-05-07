@@ -910,7 +910,7 @@
         <mxCell id="FDVszxc_j1CTkvgCFpPh-4" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2225" y="100" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FDVszxc_j1CTkvgCFpPh-5" value="从权益id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FDVszxc_j1CTkvgCFpPh-5" value="从商店场景把权益id带到详情页" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2230" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FDVszxc_j1CTkvgCFpPh-7" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
