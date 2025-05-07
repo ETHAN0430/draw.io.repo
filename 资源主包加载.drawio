@@ -898,11 +898,11 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-141" value="如果所有region_version 一个appid的versionid全都是下架，返回的数据就不会有这个appid。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="3035" y="2288" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FDVszxc_j1CTkvgCFpPh-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FDVszxc_j1CTkvgCFpPh-1" value="/" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2230" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FDVszxc_j1CTkvgCFpPh-2" value="主启详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2250" y="48" width="80" height="30" as="geometry" />
+          <mxGeometry x="-2210" y="55" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FDVszxc_j1CTkvgCFpPh-3" value="外启详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1463.74" y="40" width="80" height="30" as="geometry" />
