@@ -402,7 +402,7 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-8" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="560" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 情况：&lt;br&gt;1. 客户端版本低于 12.7&lt;br&gt;2. 客户端版本高于 12.7 外启详情页&lt;br&gt;3. 客户端版本高于 12.7 从商店内不支持权益素材的场景进入的详情页" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 可能情况：&lt;br&gt;1. 客户端版本低于 12.7&lt;br&gt;2. 客户端版本高于 12.7 外启详情页&lt;br&gt;3. 客户端版本高于 12.7 从商店内不支持权益素材的场景进入的详情页" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1570" y="515" width="390" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-10" value="详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
