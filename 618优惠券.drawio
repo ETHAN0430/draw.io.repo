@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.3.0">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="3375" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3569" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -387,17 +387,16 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xy2Sa3KlGMwKTaiAb8sO-5" target="xy2Sa3KlGMwKTaiAb8sO-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xy2Sa3KlGMwKTaiAb8sO-5" target="xy2Sa3KlGMwKTaiAb8sO-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xy2Sa3KlGMwKTaiAb8sO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1399.95652173913" y="730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-5" value="有权益素材id？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1825" y="560" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2000" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1460" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-8" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="560" width="30" height="30" as="geometry" />
@@ -407,6 +406,9 @@
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-10" value="详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1750" y="388" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-13" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="730" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
