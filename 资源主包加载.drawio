@@ -898,9 +898,6 @@
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-141" value="如果所有region_version 一个appid的versionid全都是下架，返回的数据就不会有这个appid。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="3035" y="2288" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FDVszxc_j1CTkvgCFpPh-2" value="主启详情页 优惠券" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2230" y="55" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="FDVszxc_j1CTkvgCFpPh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FDVszxc_j1CTkvgCFpPh-4" target="FDVszxc_j1CTkvgCFpPh-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
