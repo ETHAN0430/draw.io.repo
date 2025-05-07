@@ -367,7 +367,7 @@
         <mxCell id="nyr_95l-Gm0MTkM-s56c-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nyr_95l-Gm0MTkM-s56c-1" target="nyr_95l-Gm0MTkM-s56c-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nyr_95l-Gm0MTkM-s56c-1" value="处理冲突素材：&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-wrap: nowrap;&quot;&gt;清空&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: transparent;&quot;&gt;富媒体 adMaterial&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="nyr_95l-Gm0MTkM-s56c-1" value="处理冲突素材：&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-wrap: nowrap;&quot;&gt;清空&lt;/span&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: transparent;&quot;&gt;富媒体 adMaterial（含广告 + 其他）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: transparent;&quot;&gt;2. 清空节点活动素材 nodeActivityMaterial&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1107.14" y="3050" width="334.86" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nyr_95l-Gm0MTkM-s56c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nyr_95l-Gm0MTkM-s56c-3">
