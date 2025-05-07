@@ -413,8 +413,8 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-13" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1520" y="730" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-14" value="客户端从12.7开始把 权益素材（含超级主题/优惠券) 素材id带到详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1450" y="280" width="390" height="30" as="geometry" />
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-14" value="客户端从12.7开始，需要把 权益素材（含超级主题/优惠券) 素材id带到详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="280" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xy2Sa3KlGMwKTaiAb8sO-18" target="xy2Sa3KlGMwKTaiAb8sO-20">
           <mxGeometry relative="1" as="geometry" />
@@ -437,7 +437,7 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-27" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1790" y="965" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-29" value="背景：&lt;br&gt;1. 权益要在&lt;b&gt;全场景&lt;/b&gt;实现DSP限制：&lt;br&gt;虽然分发/搜索能感知DSP实现限制，但是详情页不能感知DSP（DSP不会下发给客户端，所以客户端也带不进来）。&lt;br&gt;&lt;br&gt;&lt;br&gt;2. 从搜索结果页展示优惠券 =》点击详情页 =》 点击安装，在安装完成后需要弹窗优惠券信息。&lt;br&gt;3. 外启详情页展示超级主题，" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-29" value="背景：&lt;br&gt;1. 权益要在&lt;b&gt;全场景&lt;/b&gt;实现DSP限制：&lt;br&gt;虽然分发/搜索能感知DSP实现限制，但是详情页不能感知DSP（DSP不会下发给客户端，所以客户端也带不进来）。&lt;br&gt;&lt;br&gt;2. 从搜索结果页展示优惠券 =》点击详情页 =》 点击安装，在安装完成后需要弹窗优惠券信息。&lt;br&gt;&lt;br&gt;3. 外启详情页展示超级主题，" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1440" y="310" width="640" height="110" as="geometry" />
         </mxCell>
       </root>
