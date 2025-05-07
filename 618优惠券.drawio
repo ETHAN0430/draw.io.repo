@@ -402,8 +402,8 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-8" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="560" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 说明是从外启 or 内部不支持权益场景进来的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1655" y="560" width="270" height="30" as="geometry" />
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 情况：&lt;br&gt;1. 客户端版本低于12.7&lt;br&gt;2. 客户端版本高于12.7 外启详情页&lt;br&gt;3. 客户端版本高于 12.7&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1535" y="520" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-10" value="详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1750" y="388" width="60" height="30" as="geometry" />
