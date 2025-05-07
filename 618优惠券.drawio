@@ -378,10 +378,8 @@
         <mxCell id="nyr_95l-Gm0MTkM-s56c-3" value="清空其他app的解释性文案" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1112.71" y="3204" width="324.86" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xy2Sa3KlGMwKTaiAb8sO-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1710" y="555" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xy2Sa3KlGMwKTaiAb8sO-2" target="xy2Sa3KlGMwKTaiAb8sO-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1765" y="430" width="110" height="60" as="geometry" />
@@ -404,8 +402,8 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-8" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="560" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="560" width="40" height="30" as="geometry" />
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 说明是从外启 or 内部不支持权益场景进来的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1655" y="560" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-10" value="详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1750" y="388" width="60" height="30" as="geometry" />
