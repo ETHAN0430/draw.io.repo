@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.3.0">
   <diagram name="第 1 页" id="o4eZLWBOoZ1R6lj8plFQ">
-    <mxGraphModel dx="3798" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3732" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -404,8 +404,8 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-8" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1860" y="560" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 可能情况：&lt;br&gt;1. 客户端版本低于 12.7&lt;br&gt;2. 客户端版本高于 12.7 外启详情页&lt;br&gt;3. 客户端版本高于 12.7 从商店内没有展示权益素材的场景进入的详情页" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1500" y="530" width="400" height="70" as="geometry" />
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 可能情况：&lt;br&gt;1. 客户端版本低于 12.7&lt;br&gt;3. 客户端版本高于 12.7 从商店内没有展示权益素材的场景进入的详情页" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="535" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-14" value="客户端从12.7开始，需要把 权益素材（含超级主题/优惠券) 素材id带到详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1900" y="390" width="430" height="30" as="geometry" />
