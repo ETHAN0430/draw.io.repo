@@ -404,7 +404,7 @@
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-8" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1860" y="560" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 可能情况：&lt;br&gt;1. 客户端版本低于 12.7&lt;br&gt;3. 客户端版本高于 12.7 从商店内没有展示权益素材的场景进入的详情页" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="xy2Sa3KlGMwKTaiAb8sO-9" value="N&amp;nbsp; 可能情况：&lt;br&gt;1. 客户端版本低于 12.7&lt;br&gt;2. 客户端版本高于 12.7 从商店内没有展示权益素材的场景进入的详情页" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1500" y="535" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xy2Sa3KlGMwKTaiAb8sO-14" value="客户端从12.7开始，需要把 权益素材（含超级主题/优惠券) 素材id带到详情页" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
