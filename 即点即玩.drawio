@@ -10,8 +10,8 @@
         <mxCell id="6JTWCHrBCL2EqqVO5LBY-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="60" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6JTWCHrBCL2EqqVO5LBY-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="185" width="120" height="60" as="geometry" />
+        <mxCell id="6JTWCHrBCL2EqqVO5LBY-2" value="资源加载 - 版本维度&lt;br&gt;&lt;br style=&quot;text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;text-align: left; float: none; display: inline !important; color: rgb(0, 0, 0); background-color: rgb(236, 236, 236);&quot;&gt;version_incsetup version_incsetup_file&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="160" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
