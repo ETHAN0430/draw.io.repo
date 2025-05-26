@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="27.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="第 1 页" id="ahhZ_oQwKZSK2pZefBPP">
-    <mxGraphModel dx="3344" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4983" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -897,58 +897,6 @@
         </mxCell>
         <mxCell id="0dyDwwtQKs_j8eoFrtzp-141" value="如果所有region_version 一个appid的versionid全都是下架，返回的数据就不会有这个appid。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="3035" y="2288" width="510" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE6xVuz3cEfxm38Ogd1R-1" target="fE6xVuz3cEfxm38Ogd1R-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2040" y="70" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE6xVuz3cEfxm38Ogd1R-6" target="fE6xVuz3cEfxm38Ogd1R-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-6" value="获取未结束的闪屏排期" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2067" y="190" width="145" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE6xVuz3cEfxm38Ogd1R-8" target="fE6xVuz3cEfxm38Ogd1R-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-8" value="闪屏组装完毕？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2131.75" y="315" width="274.5" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fE6xVuz3cEfxm38Ogd1R-10" target="fE6xVuz3cEfxm38Ogd1R-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1994" y="570" />
-              <mxPoint x="-2250" y="570" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-10" value="组装闪屏内容" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2054.5" y="455" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-14" value="广告内容，频控：&lt;br&gt;1.&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2310" y="615" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-16" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1975" y="398" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-17" value="定投内容，频控：&lt;br&gt;1.&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2056.75" y="620" width="124.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-18" value="打底内容，频控：&lt;br&gt;1. 总曝光" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1830" y="623" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.066;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fE6xVuz3cEfxm38Ogd1R-10" target="fE6xVuz3cEfxm38Ogd1R-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fE6xVuz3cEfxm38Ogd1R-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fE6xVuz3cEfxm38Ogd1R-10" target="fE6xVuz3cEfxm38Ogd1R-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1994" y="570" />
-              <mxPoint x="-1770" y="570" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
