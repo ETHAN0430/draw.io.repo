@@ -26,7 +26,7 @@
           <mxGeometry x="60" y="30" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gXH2KROTv9_O8nOjZuND-15" value="表" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="707" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gXH2KROTv9_O8nOjZuND-16" value="&lt;p style=&quot;line-height: 14.6667px; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr ql-long-284244&quot;&gt;&lt;span style=&quot;font-size: 11pt; text-align: justify; background-color: transparent;&quot; class=&quot;ql-author-256471&quot;&gt;应用下标：当前实际使用中，只有“官方”标在此后台配置；历史还存在福利、精品等标签，&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; text-align: justify; background-color: transparent;&quot; data-comment-guid=&quot;comment-w7CJpligpHakv3lP&quot; class=&quot;ql-author-256471 ql-commented ql-commented-background&quot;&gt;但线上应该没用了。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 14.6667px; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr ql-long-284244&quot;&gt;&lt;span class=&quot;ql-author-284244&quot;&gt;appstore_resource.app_extra_info&amp;nbsp; where type = 3&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="130" width="410" height="60" as="geometry" />
@@ -76,7 +76,7 @@
             <mxPoint x="790" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gXH2KROTv9_O8nOjZuND-59" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="gXH2KROTv9_O8nOjZuND-19">
+        <mxCell id="gXH2KROTv9_O8nOjZuND-59" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gXH2KROTv9_O8nOjZuND-48" target="gXH2KROTv9_O8nOjZuND-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="880" y="400" as="sourcePoint" />
             <mxPoint x="1300" y="340" as="targetPoint" />
