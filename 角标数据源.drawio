@@ -160,7 +160,7 @@
         <mxCell id="QHSw0P1N_Az1xsyme0HO-3" value="&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 14.6667px;&quot;&gt;官方标&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QHSw0P1N_Az1xsyme0HO-6" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;应用下标后台：&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;hfpQ\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.app_extra_info&amp;nbsp; where type = 3&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;KG1t\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;nrkN\&amp;quot;&amp;quot;],[20,&amp;quot;应用下标库管理：&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;0zpr\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.subscript_lable&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;eeaw\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;owhY\&amp;quot;&amp;quot;],[20,&amp;quot;下标(新)：&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;AwLg\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.app_extra_info&amp;nbsp; type in (23,24)&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;A2Q8\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;ZBQM\&amp;quot;&amp;quot;],[20,&amp;quot;应用下标：（保留这个）&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;MEDD\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;cdo_resource_ext.app_icon_content where type in(2,6,7) and subscript != &#39;&#39;&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;bfCV\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;RlGI\&amp;quot;&amp;quot;],[20,&amp;quot;列表卡片标签管理：（保留这个）&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;X4qz\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.app_extra_info&amp;nbsp; where (type = 3 and content = 1004) or type = 23&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr ql-long-284244&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 11pt;&quot;&gt;列表卡片标签管理：&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr ql-long-284244&quot;&gt;&lt;span class=&quot;ql-author-284244&quot;&gt;appstore_resource.app_extra_info&amp;nbsp; where (type = 3 and content = 1004) or type = 23 or type = 25&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QHSw0P1N_Az1xsyme0HO-6" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;应用下标后台：&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;hfpQ\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.app_extra_info&amp;nbsp; where type = 3&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;KG1t\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;nrkN\&amp;quot;&amp;quot;],[20,&amp;quot;应用下标库管理：&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;0zpr\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.subscript_lable&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;eeaw\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;owhY\&amp;quot;&amp;quot;],[20,&amp;quot;下标(新)：&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;AwLg\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.app_extra_info&amp;nbsp; type in (23,24)&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;A2Q8\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;ZBQM\&amp;quot;&amp;quot;],[20,&amp;quot;应用下标：（保留这个）&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;MEDD\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;cdo_resource_ext.app_icon_content where type in(2,6,7) and subscript != &#39;&#39;&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;bfCV\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;RlGI\&amp;quot;&amp;quot;],[20,&amp;quot;列表卡片标签管理：（保留这个）&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;X4qz\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;appstore_resource.app_extra_info&amp;nbsp; where (type = 3 and content = 1004) or type = 23&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr ql-long-284244&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 11pt;&quot;&gt;列表卡片标签管理：&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt;&quot; class=&quot;ql-direction-ltr ql-long-284244&quot;&gt;&lt;span style=&quot;&quot; class=&quot;ql-author-284244&quot;&gt;&lt;font color=&quot;#494949&quot;&gt;appstore_resource.app_extra_info&amp;nbsp; where (type = 3 and content = 1004) or type = 23&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt; or type = 25&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1490" width="690" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-7" value="角标类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
@@ -179,7 +179,7 @@
           <mxGeometry x="1230" y="1360" width="660" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-12" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;竞价广告素材-应用下标：接收广告应用下标素材数据，商店侧审核&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;text-align: justify;font-size: 11pt;color: #494949;&quot; class=&quot;ql-align-justify ql-direction-ltr ql-long-256471&quot; align=&quot;justify&quot;&gt;&lt;span class=&quot;ql-author-256471&quot;&gt;竞价广告素材-应用下标：接收广告应用下标素材数据，商店侧审核&lt;br&gt;&lt;span style=&quot;text-align: center;&quot;&gt;cdo_resource_ext.app_icon_content where type in(2,6,7) and subscript != &#39;&#39;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="1740" width="540" height="60" as="geometry" />
+          <mxGeometry x="1260" y="1790" width="540" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-13" value="delivery-ext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="434" y="1500" width="120" height="60" as="geometry" />
@@ -191,7 +191,7 @@
           <mxGeometry x="780" y="1360" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-16" value="&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 14.6667px;&quot;&gt;cdo_resource_ext.app_icon_content&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="1740" width="280" height="60" as="geometry" />
+          <mxGeometry x="790" y="1790" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QHSw0P1N_Az1xsyme0HO-3" target="QHSw0P1N_Az1xsyme0HO-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -231,32 +231,32 @@
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QHSw0P1N_Az1xsyme0HO-16" target="QHSw0P1N_Az1xsyme0HO-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1110" y="1600" as="sourcePoint" />
-            <mxPoint x="1390" y="1730" as="targetPoint" />
+            <mxPoint x="1100" y="1650" as="sourcePoint" />
+            <mxPoint x="1380" y="1780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-24" value="delivery-ext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-25" value="resource-ext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-26" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="QHSw0P1N_Az1xsyme0HO-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="1770" as="sourcePoint" />
-            <mxPoint x="500" y="1650" as="targetPoint" />
+            <mxPoint x="250" y="1820" as="sourcePoint" />
+            <mxPoint x="490" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-27" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QHSw0P1N_Az1xsyme0HO-24" target="QHSw0P1N_Az1xsyme0HO-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="1770" as="sourcePoint" />
-            <mxPoint x="510" y="1770" as="targetPoint" />
+            <mxPoint x="350" y="1820" as="sourcePoint" />
+            <mxPoint x="500" y="1820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-28" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QHSw0P1N_Az1xsyme0HO-25" target="QHSw0P1N_Az1xsyme0HO-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="1800" as="sourcePoint" />
-            <mxPoint x="630" y="1790" as="targetPoint" />
+            <mxPoint x="560" y="1850" as="sourcePoint" />
+            <mxPoint x="620" y="1840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-29" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QHSw0P1N_Az1xsyme0HO-13" target="QHSw0P1N_Az1xsyme0HO-15">
@@ -296,7 +296,7 @@
           <mxGeometry x="120" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-37" value="&lt;font color=&quot;#494949&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;竞价广告&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHSw0P1N_Az1xsyme0HO-45" value="&lt;font color=&quot;#494949&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;政务&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="1610" width="120" height="60" as="geometry" />
