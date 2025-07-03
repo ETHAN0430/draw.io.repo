@@ -511,22 +511,8 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-62" value="&lt;i&gt;&lt;u&gt;&lt;b&gt;联运&lt;/b&gt;&lt;/u&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2574" y="929.6899999999998" width="62" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EMqu3kAwZpFHPyhhM5yz-69" target="EMqu3kAwZpFHPyhhM5yz-76" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-69" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;DB app_resource&lt;br&gt;label_color_mapping&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2255" y="980" width="120" height="59.38" as="geometry" />
-        </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EMqu3kAwZpFHPyhhM5yz-74" target="EMqu3kAwZpFHPyhhM5yz-155" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EMqu3kAwZpFHPyhhM5yz-76" target="EMqu3kAwZpFHPyhhM5yz-155" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2315" y="1270" />
-              <mxPoint x="2480" y="1270" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EMqu3kAwZpFHPyhhM5yz-77" target="EMqu3kAwZpFHPyhhM5yz-155" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -534,7 +520,7 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-77" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;官渠/官渠互通&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="2520" y="1186.57" width="100" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-155" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryLabelByType&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-long-284244 ql-authorBlock-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;&lt;u&gt;&lt;i&gt;&lt;b&gt;queryLabelByType&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-155" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryLabelByType&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-long-284244 ql-authorBlock-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;&lt;u&gt;&lt;i&gt;&lt;b&gt;queryLabelByAppId&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2300" y="1305" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-158" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -558,22 +544,8 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-188" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;官渠/官渠互通&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1580" y="1564.38" width="100" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EMqu3kAwZpFHPyhhM5yz-76" target="EMqu3kAwZpFHPyhhM5yz-132" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2315" y="1270" />
-              <mxPoint x="1915" y="1270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-76" value="&lt;i&gt;&lt;u&gt;&lt;b&gt;标签颜色映射&lt;/b&gt;&lt;/u&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2265" y="1157.1900000000003" width="100" height="45.62" as="geometry" />
-        </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-74" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2415" y="1186.57" width="70" height="45.62" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-189" value="运营要在后台要配哪些标签？" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="1176.0900000000001" width="120" height="66.57" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-202" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryGlobalCreativeByPage&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-authorBlock-284244 ql-long-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;&lt;u&gt;&lt;i&gt;&lt;b&gt;官渠实验&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2220" y="1437.8100000000002" width="180" height="50" as="geometry" />
