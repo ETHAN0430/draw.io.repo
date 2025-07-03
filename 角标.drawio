@@ -220,6 +220,9 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-29" value="政务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1280" y="-477.5" width="70" height="45.62" as="geometry" />
         </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-31" value="官方" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="-475.62" width="70" height="45.62" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
