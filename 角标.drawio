@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="3565" dy="3077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2593" dy="2556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,7 +228,7 @@
           <mxGeometry x="1860" y="1385" width="250" height="495" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-123" value="page" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="1495" y="1385" width="250" height="535" as="geometry" />
+          <mxGeometry x="1502.5" y="1380" width="250" height="535" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-124" value="update" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="2480" y="1385" width="250" height="340" as="geometry" />
@@ -291,38 +291,11 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-140" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2570" y="1440" width="70" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-141" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1585" y="1495" width="70" height="45.62" as="geometry" />
-        </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-142" value="store（非推荐场景）" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="1190" y="1385" width="250" height="340" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-143" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1275" y="1440" width="70" height="45.62" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-144" value="广告主权益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="1622.5" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-145" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1557.5" y="1690" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-146" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1947.5" y="1550" width="70" height="45.62" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-147" value="广告主权益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="1660" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-148" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="1725" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-149" value="小游戏/快应用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1572.5" y="1440" width="95" height="44.38" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-151" value="小游戏/快应用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1937.5" y="1490.6200000000001" width="95" height="44.38" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-152" value="首位广告" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1937.5" y="1435" width="95" height="44.38" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EMqu3kAwZpFHPyhhM5yz-62" target="EMqu3kAwZpFHPyhhM5yz-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -342,26 +315,11 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-155" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryLabelByType&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-long-284244 ql-authorBlock-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;&lt;u&gt;&lt;i&gt;&lt;b&gt;queryLabelByAppId&lt;/b&gt;&lt;/i&gt;&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2300" y="1305" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-158" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1950" y="1790" width="70" height="45.62" as="geometry" />
-        </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-159" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;官渠/官渠互通&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="2265" y="1495" width="100" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-161" value="&lt;i style=&quot;&quot;&gt;&lt;u&gt;&lt;b&gt;官渠/官渠互通&lt;/b&gt;&lt;/u&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1932.5" y="1603.75" width="100" height="45.62" as="geometry" />
-        </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-182" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryLabelByType&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-long-284244 ql-authorBlock-284244&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;强行把“官渠”插入到质量标签&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2195" y="1545.62" width="240" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-184" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryGlobalCreativeByPage&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-authorBlock-284244 ql-long-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;广告主权益、竞价标签、官渠&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;br&gt;频控&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1527.5" y="1830" width="180" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-187" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="1754" width="70" height="45.62" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-188" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;官渠/官渠互通&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="1564.38" width="100" height="45.62" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-74" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2415" y="1186.57" width="70" height="45.62" as="geometry" />
@@ -377,6 +335,54 @@
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-90" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2130" y="-229.38" width="70" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="4hsmViWtGQXoQg3-sEdV-4" value="角标优先级排序" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="1410" width="210" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-149" value="小游戏/快应用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1572.5" y="1440" width="95" height="44.38" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-141" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1585" y="1495" width="70" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-188" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;官渠/官渠互通&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="1564.38" width="100" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-144" value="广告主权益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="1622.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-145" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1557.5" y="1690" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4hsmViWtGQXoQg3-sEdV-5" value="角标优先级排序" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1877.5" y="1410" width="210" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-146" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1947.5" y="1550" width="70" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-147" value="广告主权益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="1660" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-148" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="1725" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-151" value="小游戏/快应用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1937.5" y="1490.6200000000001" width="95" height="44.38" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-152" value="首位广告" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1937.5" y="1435" width="95" height="44.38" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-158" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="1790" width="70" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-161" value="&lt;i style=&quot;&quot;&gt;&lt;u&gt;&lt;b&gt;官渠/官渠互通&lt;/b&gt;&lt;/u&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="1932.5" y="1603.75" width="100" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-184" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryGlobalCreativeByPage&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-authorBlock-284244 ql-long-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;广告主权益、竞价标签、官渠&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;br&gt;频控&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1527.5" y="1830" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-187" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="1754" width="70" height="45.62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
