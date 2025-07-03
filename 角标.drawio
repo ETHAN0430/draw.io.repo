@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="第 1 页" id="8LxZiP1NVyg7wSqTXbnJ">
-    <mxGraphModel dx="3332" dy="2067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3691" dy="2259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -400,16 +400,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-122" value="searchx" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="1385" width="250" height="485" as="geometry" />
+          <mxGeometry x="1860" y="1385" width="250" height="525" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-123" value="page" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1495" y="1385" width="250" height="340" as="geometry" />
+          <mxGeometry x="1495" y="1385" width="250" height="515" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-124" value="update" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="2480" y="1385" width="250" height="340" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-125" value="store" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="1783.75" width="250" height="340" as="geometry" />
+          <mxGeometry x="1490" y="2020" width="250" height="340" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-126" value="detail" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="2190" y="1385" width="250" height="340" as="geometry" />
@@ -471,10 +471,10 @@
           <mxGeometry x="1275" y="1440" width="70" height="45.62" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-144" value="广告主权益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1565" y="1553.75" width="110" height="50" as="geometry" />
+          <mxGeometry x="1560" y="1622.5" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-145" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1565" y="1622.5" width="110" height="50" as="geometry" />
+          <mxGeometry x="1557.5" y="1690" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-146" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1947.5" y="1550" width="70" height="45.62" as="geometry" />
@@ -566,7 +566,25 @@
           <mxGeometry x="2195" y="1545.62" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-183" value="是否合理？&lt;div&gt;要看什么效果？&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="2130" y="1505" width="110" height="100" as="geometry" />
+          <mxGeometry x="2360" y="1455.94" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-184" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryGlobalCreativeByPage&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-authorBlock-284244 ql-long-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;实验频控&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1820" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-185" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryGlobalCreativeByPage&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-authorBlock-284244 ql-long-284244&quot;&gt;&lt;span class=&quot;ql-token hljs-title&quot;&gt;实验频控&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="1850" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-186" value="是否要做？" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="1825" width="75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-187" value="政务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1754" width="70" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-188" value="官渠/官渠互通" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1567.5" y="1564.38" width="100" height="45.62" as="geometry" />
+        </mxCell>
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-189" value="后台要配多少种标签？" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="1157.19" width="290" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
