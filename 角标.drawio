@@ -609,7 +609,7 @@
           <mxGeometry x="1875" y="1840" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-204" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryLabelByType&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-long-284244 ql-authorBlock-284244&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;cardStyle 1.1颜色适配&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1505" y="1800" width="240" height="50" as="geometry" />
+          <mxGeometry x="1505" y="1820" width="225" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
