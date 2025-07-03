@@ -224,7 +224,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-28" value="广告主权益" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="-487.19" width="110" height="50" as="geometry" />
+          <mxGeometry x="1820" y="-487.19" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-29" value="政务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1950" y="-485" width="70" height="45.62" as="geometry" />
@@ -238,8 +238,8 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-36" value="官渠/官渠互通" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2030" y="-485" width="100" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-41" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="-487.19" width="110" height="50" as="geometry" />
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-42" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="-487.19" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
