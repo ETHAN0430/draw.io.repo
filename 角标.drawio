@@ -201,7 +201,7 @@
           <mxGeometry x="1055" y="-284.38" width="250" height="340" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-14" value="update" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="-294.8800000000001" width="250" height="340" as="geometry" />
+          <mxGeometry x="2040" y="-284.3800000000001" width="250" height="340" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-16" value="store" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=3;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="1050" y="120" width="250" height="340" as="geometry" />
@@ -238,11 +238,8 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-36" value="官渠/官渠互通" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2030" y="-485" width="100" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-39" value="官渠/官渠互通" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="-874.38" width="100" height="45.62" as="geometry" />
-        </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-41" value="是啊啊" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="-485" width="110" height="50" as="geometry" />
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-41" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="-487.19" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
