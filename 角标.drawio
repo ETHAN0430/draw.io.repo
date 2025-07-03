@@ -188,13 +188,13 @@
           <mxGeometry x="1120" y="-26.879999999999995" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-109" value="官方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="-121.88" width="70" height="45.62" as="geometry" />
+          <mxGeometry x="1502.5" y="-92.5" width="70" height="45.62" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-110" value="广告主权益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1490" y="-61.879999999999995" width="110" height="50" as="geometry" />
+          <mxGeometry x="1482.5" y="-35" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-111" value="竞价标签" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1490" y="7.105427357601002e-15" width="110" height="50" as="geometry" />
+          <mxGeometry x="1485" y="29.380000000000006" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-112" value="小游戏/快应用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1125" y="-223.14" width="95" height="44.38" as="geometry" />
@@ -203,10 +203,10 @@
           <mxGeometry x="1850" y="-134.38" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-115" value="小游戏/快应用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1497.5" y="-178.76" width="95" height="44.38" as="geometry" />
+          <mxGeometry x="1490" y="-148.76" width="95" height="44.38" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-116" value="首位广告" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1497.5" y="-234.38" width="95" height="44.38" as="geometry" />
+          <mxGeometry x="1490" y="-210" width="95" height="44.38" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-118" value="数据源" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1190" y="870.0000000000001" width="1530" height="229.38" as="geometry" />
