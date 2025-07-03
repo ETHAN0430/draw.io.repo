@@ -565,7 +565,7 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-182" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryLabelByType&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-long-284244 ql-authorBlock-284244&quot;&gt;强行把“官渠”插入到质量标签&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2195" y="1545.62" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-183" value="是否合理？&lt;div&gt;实验怎么看效果？&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-183" value="是否合理？&lt;div&gt;要看什么效果？&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="2130" y="1505" width="110" height="100" as="geometry" />
         </mxCell>
       </root>
