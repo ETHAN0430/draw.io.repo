@@ -552,10 +552,10 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-170" value="&lt;span data-copy-origin=&quot;https://odocs.myoas.com&quot; data-docs-delta=&quot;[[20,&amp;quot;queryLabelByType&amp;quot;]]&quot;&gt;&lt;div style=&quot;line-height: 100%;&quot; data-language=&quot;java&quot; class=&quot;ql-code-block ql-direction-ltr ql-word-wrap-true ql-long-284244 ql-authorBlock-284244&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;u&gt;cardStyle 1.1颜色适配&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2485" y="1535" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-175" value="官渠/官渠互通" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-175" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;官渠/官渠互通&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1495" width="100" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-179" value="政务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-179" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1275" y="1555.94" width="70" height="45.62" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-180" value="是否要做？" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
@@ -576,10 +576,10 @@
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-186" value="是否要做？" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="2020" y="1900" width="75" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-187" value="政务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-187" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;政务&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1580" y="1754" width="70" height="45.62" as="geometry" />
         </mxCell>
-        <mxCell id="EMqu3kAwZpFHPyhhM5yz-188" value="官渠/官渠互通" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="EMqu3kAwZpFHPyhhM5yz-188" value="&lt;b&gt;&lt;i&gt;&lt;u&gt;官渠/官渠互通&lt;/u&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1567.5" y="1564.38" width="100" height="45.62" as="geometry" />
         </mxCell>
         <mxCell id="EMqu3kAwZpFHPyhhM5yz-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EMqu3kAwZpFHPyhhM5yz-76" target="EMqu3kAwZpFHPyhhM5yz-132">
