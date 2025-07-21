@@ -18,8 +18,8 @@
         <mxCell id="QA0QUVK-8WRyYNtd_WsQ-7" value="根据跳转类型找到对应handler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="220" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-9" value="创建" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-9" value="handler处理跳转链接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="360" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
