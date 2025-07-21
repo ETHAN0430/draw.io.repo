@@ -21,6 +21,33 @@
         <mxCell id="QA0QUVK-8WRyYNtd_WsQ-9" value="handler处理跳转链接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="360" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QA0QUVK-8WRyYNtd_WsQ-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-12" value="卡片/浮标/浮层内容获取" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="540" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QA0QUVK-8WRyYNtd_WsQ-18" target="QA0QUVK-8WRyYNtd_WsQ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-15" value="其他handler处理跳转链接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="830" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-16" value="【新增】任务墙handler处理跳转链接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="830" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=-0.117;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QA0QUVK-8WRyYNtd_WsQ-18" target="QA0QUVK-8WRyYNtd_WsQ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QA0QUVK-8WRyYNtd_WsQ-18" value="jumpType == 任务墙？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="680" width="180" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
