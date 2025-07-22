@@ -203,7 +203,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1590" y="1540" />
-              <mxPoint x="1590" y="2030" />
+              <mxPoint x="1590" y="2160" />
+              <mxPoint x="1385" y="2160" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -217,7 +218,7 @@
           <mxGeometry x="1325" y="1635" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="znacegDmGpC1Pjf5fTg1-5" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="2030" width="130" height="60" as="geometry" />
+          <mxGeometry x="1320" y="2190" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="znacegDmGpC1Pjf5fTg1-6" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1385" y="1578" width="30" height="30" as="geometry" />
@@ -225,8 +226,48 @@
         <mxCell id="znacegDmGpC1Pjf5fTg1-7" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1485" y="1508" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znacegDmGpC1Pjf5fTg1-9" target="znacegDmGpC1Pjf5fTg1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="znacegDmGpC1Pjf5fTg1-9" value="appVersion &amp;gt;= 10.4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1297.5" y="1740" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znacegDmGpC1Pjf5fTg1-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1384.9411764705883" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-11" value="组装互动桌面H5" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="znacegDmGpC1Pjf5fTg1-17" target="znacegDmGpC1Pjf5fTg1-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1590" y="1980" />
+              <mxPoint x="1590" y="2160" />
+              <mxPoint x="1385" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znacegDmGpC1Pjf5fTg1-17" target="znacegDmGpC1Pjf5fTg1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-17" value="互动桌面功能全量？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="1940" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-20" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="1938" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-21" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="2008" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="znacegDmGpC1Pjf5fTg1-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1384.9999999999995" y="2190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="znacegDmGpC1Pjf5fTg1-22" value="组装用户签到状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
