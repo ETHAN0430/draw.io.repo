@@ -197,7 +197,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRduOmiLx5QWzCSMZnZ5-168" value="initCache() 初始化Caffeine&#xa;(refreshAfterWrite: x±5min 默认30 )" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-109" target="sRduOmiLx5QWzCSMZnZ5-109">
+        <mxCell id="sRduOmiLx5QWzCSMZnZ5-168" value="initCache() 初始化Caffeine&#xa;(refreshAfterWrite: x±5min随机打散 x默认30 )" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-109" target="sRduOmiLx5QWzCSMZnZ5-109">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1338" y="269" />
