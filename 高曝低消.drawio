@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="D7XwczhKFFFPfdhn7USf">
-    <mxGraphModel dx="983" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -448,9 +448,6 @@
         </mxCell>
         <mxCell id="sRduOmiLx5QWzCSMZnZ5-514" value="定时任务刷新（每小时整点）" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
           <mxGeometry x="1059" y="1310" width="583" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="sRduOmiLx5QWzCSMZnZ5-515" value="几秒后读线程自然能看到新数据" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
-          <mxGeometry x="950" y="2326" width="268" height="49" as="geometry" />
         </mxCell>
         <mxCell id="sRduOmiLx5QWzCSMZnZ5-516" value="请求处理阶段" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
           <mxGeometry x="70" y="2437" width="1972" height="49" as="geometry" />
