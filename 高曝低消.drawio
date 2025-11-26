@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="D7XwczhKFFFPfdhn7USf">
-    <mxGraphModel dx="1426" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="951" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -563,7 +563,7 @@
         <mxCell id="v49IP3VJoUqm672FlF_S-361" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="③ 定时任务&#xa;@Scheduled&#xa;cron可配置&#xa;异常处理不刷缓存" vertex="1">
           <mxGeometry height="126" width="188" x="1010" y="6062" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-362" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="④ HighExposureLowConversionCache&#xa;volatile HashMap&#xa;Map&amp;lt;region, Set&amp;lt;appId&amp;gt;&amp;gt;&#xa;加载时用全局阈值过滤" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-362" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="④ HighExposureLowConversionCache&#xa;volatile HashMap&#xa;Map&lt;region, Set&lt;appId&gt;&gt;&#xa;加载时用全局阈值过滤" vertex="1">
           <mxGeometry height="150" width="306" x="1369" y="6050" as="geometry" />
         </mxCell>
         <mxCell id="v49IP3VJoUqm672FlF_S-363" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="⑤ ExperimentLoader&#xa;实验平台&#xa;控制过滤器开关" vertex="1">
