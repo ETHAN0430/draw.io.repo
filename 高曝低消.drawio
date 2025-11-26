@@ -241,14 +241,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRduOmiLx5QWzCSMZnZ5-485" value="构建新ConcurrentHashMap" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-433">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1135" y="1649" />
-              <mxPoint x="1135" y="1679" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sRduOmiLx5QWzCSMZnZ5-486" value="HGETALL获取数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-435">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
