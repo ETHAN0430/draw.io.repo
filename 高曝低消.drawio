@@ -1,461 +1,546 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="D7XwczhKFFFPfdhn7USf">
-    <mxGraphModel dx="1426" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3565" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="v49IP3VJoUqm672FlF_S-78" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="客户端请求" vertex="1">
-          <mxGeometry height="4237" width="150" x="20" y="20" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-163" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="客户端请求" vertex="1">
+          <mxGeometry height="5049" width="150" x="440" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-79" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="HighExposureLowConversionFilter" vertex="1">
-          <mxGeometry height="4237" width="261" x="220" y="20" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-164" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="HighExposureLowConversionFilter" vertex="1">
+          <mxGeometry height="5049" width="261" x="640" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-80" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="ExperimentLoader" vertex="1">
-          <mxGeometry height="4237" width="150" x="531" y="20" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-165" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="ExperimentLoader" vertex="1">
+          <mxGeometry height="5049" width="150" x="951" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-81" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="欧拉配置" vertex="1">
-          <mxGeometry height="4237" width="150" x="731" y="20" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-166" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="欧拉配置" vertex="1">
+          <mxGeometry height="5049" width="150" x="1151" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-82" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="HighExposureLowConversionCache" vertex="1">
-          <mxGeometry height="4237" width="268" x="931" y="20" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-167" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="HighExposureLowConversionCache" vertex="1">
+          <mxGeometry height="5049" width="268" x="1351" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-83" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Redis Set" vertex="1">
-          <mxGeometry height="4237" width="150" x="1251" y="20" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-168" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Redis Set" vertex="1">
+          <mxGeometry height="5049" width="150" x="1671" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-84" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Redis Hash数据" vertex="1">
-          <mxGeometry height="4237" width="150" x="1451" y="20" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-169" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Redis Hash数据" vertex="1">
+          <mxGeometry height="5049" width="150" x="1871" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-85" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
-          <mxGeometry height="286" width="170" x="981" y="738" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-170" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="286" width="170" x="1401" y="1584" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-86" parent="v49IP3VJoUqm672FlF_S-85" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[符合高曝低消条件]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-171" parent="v49IP3VJoUqm672FlF_S-170" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[符合高曝低消条件]" vertex="1">
           <mxGeometry height="20" width="140" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-87" parent="v49IP3VJoUqm672FlF_S-85" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[不符合条件]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-172" parent="v49IP3VJoUqm672FlF_S-170" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[不符合条件]" vertex="1">
           <mxGeometry height="4" width="170" y="133" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-88" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
-          <mxGeometry height="528" width="586" x="951" y="506" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-173" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="656" width="586" x="1371" y="1224" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-89" parent="v49IP3VJoUqm672FlF_S-88" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[遍历每个region]" vertex="1">
-          <mxGeometry height="20" width="546" x="40" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-174" parent="v49IP3VJoUqm672FlF_S-173" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[region数据查不到]" vertex="1">
+          <mxGeometry height="20" width="556" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-90" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" value="" vertex="1">
-          <mxGeometry height="1012" width="1208" x="340" y="144" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-175" parent="v49IP3VJoUqm672FlF_S-173" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[region数据正常]" vertex="1">
+          <mxGeometry height="4" width="586" y="185" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-91" parent="v49IP3VJoUqm672FlF_S-90" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
-          <mxGeometry height="20" width="1208" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-176" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
+          <mxGeometry height="764" width="606" x="1361" y="1126" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-92" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
-          <mxGeometry height="344" width="556" x="981" y="1607" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-177" parent="v49IP3VJoUqm672FlF_S-176" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[遍历每个region]" vertex="1">
+          <mxGeometry height="20" width="566" x="40" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-93" parent="v49IP3VJoUqm672FlF_S-92" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[遍历每个region]" vertex="1">
-          <mxGeometry height="20" width="516" x="40" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-178" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" value="" vertex="1">
+          <mxGeometry height="1248" width="1218" x="760" y="764" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-94" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" value="" vertex="1">
-          <mxGeometry height="858" width="752" x="795" y="1215" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-179" parent="v49IP3VJoUqm672FlF_S-178" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="20" width="1218" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-95" parent="v49IP3VJoUqm672FlF_S-94" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
-          <mxGeometry height="20" width="752" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-180" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="472" width="578" x="1379" y="2891" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-96" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
-          <mxGeometry height="286" width="170" x="267" y="3396" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-181" parent="v49IP3VJoUqm672FlF_S-180" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[region数据查不到]" vertex="1">
+          <mxGeometry height="20" width="548" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-97" parent="v49IP3VJoUqm672FlF_S-96" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[符合地区阈值]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-182" parent="v49IP3VJoUqm672FlF_S-180" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[region数据正常]" vertex="1">
+          <mxGeometry height="4" width="578" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-183" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
+          <mxGeometry height="580" width="598" x="1369" y="2793" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-184" parent="v49IP3VJoUqm672FlF_S-183" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[遍历每个region]" vertex="1">
+          <mxGeometry height="20" width="558" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-185" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="1062" width="618" x="1359" y="2433" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-186" parent="v49IP3VJoUqm672FlF_S-185" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Redis连接异常]" vertex="1">
+          <mxGeometry height="20" width="588" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-187" parent="v49IP3VJoUqm672FlF_S-185" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[正常]" vertex="1">
+          <mxGeometry height="4" width="618" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-188" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" value="" vertex="1">
+          <mxGeometry height="1434" width="772" x="1215" y="2071" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-189" parent="v49IP3VJoUqm672FlF_S-188" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="20" width="772" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-190" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="286" width="170" x="687" y="4828" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-191" parent="v49IP3VJoUqm672FlF_S-190" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[符合地区阈值]" vertex="1">
           <mxGeometry height="20" width="140" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-98" parent="v49IP3VJoUqm672FlF_S-96" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[不符合地区阈值]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-192" parent="v49IP3VJoUqm672FlF_S-190" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[不符合地区阈值]" vertex="1">
           <mxGeometry height="4" width="170" y="133" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-99" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
-          <mxGeometry height="634" width="561" x="257" y="3216" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-193" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="634" width="561" x="677" y="4648" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-100" parent="v49IP3VJoUqm672FlF_S-99" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[有地区配置且阈值不同]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-194" parent="v49IP3VJoUqm672FlF_S-193" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[有地区配置且阈值不同]" vertex="1">
           <mxGeometry height="20" width="531" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-101" parent="v49IP3VJoUqm672FlF_S-99" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[无地区配置或阈值相同]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-195" parent="v49IP3VJoUqm672FlF_S-193" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[无地区配置或阈值相同]" vertex="1">
           <mxGeometry height="4" width="561" y="481" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-102" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
-          <mxGeometry height="1004" width="830" x="247" y="3066" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-196" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="1004" width="830" x="667" y="4498" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-103" parent="v49IP3VJoUqm672FlF_S-102" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[appId在Set中]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-197" parent="v49IP3VJoUqm672FlF_S-196" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[appId在Set中]" vertex="1">
           <mxGeometry height="20" width="800" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-104" parent="v49IP3VJoUqm672FlF_S-102" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[appId不在Set中]" vertex="1">
+        <mxCell id="v49IP3VJoUqm672FlF_S-198" parent="v49IP3VJoUqm672FlF_S-196" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[appId不在Set中]" vertex="1">
           <mxGeometry height="4" width="830" y="799" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-105" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
-          <mxGeometry height="1426" width="915" x="237" y="2654" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-199" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="1426" width="936" x="657" y="4086" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-106" parent="v49IP3VJoUqm672FlF_S-105" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[在白名单豁免期内]" vertex="1">
-          <mxGeometry height="20" width="885" x="30" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-200" parent="v49IP3VJoUqm672FlF_S-199" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[在白名单豁免期内]" vertex="1">
+          <mxGeometry height="20" width="906" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-107" parent="v49IP3VJoUqm672FlF_S-105" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[不在白名单]" vertex="1">
-          <mxGeometry height="4" width="915" y="185" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-201" parent="v49IP3VJoUqm672FlF_S-199" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[不在白名单]" vertex="1">
+          <mxGeometry height="4" width="936" y="185" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-108" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
-          <mxGeometry height="1534" width="935" x="227" y="2556" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-202" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
+          <mxGeometry height="1534" width="956" x="647" y="3988" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-109" parent="v49IP3VJoUqm672FlF_S-108" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[遍历候选广告]" vertex="1">
-          <mxGeometry height="20" width="895" x="40" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-203" parent="v49IP3VJoUqm672FlF_S-202" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[遍历候选广告]" vertex="1">
+          <mxGeometry height="20" width="916" x="40" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-110" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
-          <mxGeometry height="1844" width="1087" x="84" y="2308" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-204" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="1844" width="1109" x="504" y="3740" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-111" parent="v49IP3VJoUqm672FlF_S-110" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[实验关闭]" vertex="1">
-          <mxGeometry height="20" width="1057" x="30" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-205" parent="v49IP3VJoUqm672FlF_S-204" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[实验关闭]" vertex="1">
+          <mxGeometry height="20" width="1079" x="30" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-112" parent="v49IP3VJoUqm672FlF_S-110" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[实验开启]" vertex="1">
-          <mxGeometry height="4" width="1087" y="103" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-206" parent="v49IP3VJoUqm672FlF_S-204" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[实验开启]" vertex="1">
+          <mxGeometry height="4" width="1109" y="103" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-113" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" value="" vertex="1">
-          <mxGeometry height="2030" width="1107" x="74" y="2132" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-207" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0" value="" vertex="1">
+          <mxGeometry height="2030" width="1129" x="494" y="3564" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-114" parent="v49IP3VJoUqm672FlF_S-113" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
-          <mxGeometry height="20" width="1107" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-208" parent="v49IP3VJoUqm672FlF_S-207" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="20" width="1129" as="geometry" />
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-115" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="@PostConstruct init()">
+        <mxCell id="v49IP3VJoUqm672FlF_S-209" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="@PostConstruct init()">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="716" y="196" />
+              <mxPoint x="1136" y="816" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-116" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-81" value="获取全局阈值">
+        <mxCell id="v49IP3VJoUqm672FlF_S-210" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-166" value="获取全局阈值">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="947" y="248" />
+              <mxPoint x="1367" y="868" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-117" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-81" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="全局阈值">
+        <mxCell id="v49IP3VJoUqm672FlF_S-211" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-166" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="全局阈值">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="944" y="300" />
+              <mxPoint x="1364" y="920" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-118" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-83" value="SMEMBERS获取region列表">
+        <mxCell id="v49IP3VJoUqm672FlF_S-212" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-168" value="SMEMBERS获取region列表">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1204" y="352" />
+              <mxPoint x="1624" y="972" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-119" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-83" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="Set region列表">
+        <mxCell id="v49IP3VJoUqm672FlF_S-213" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-168" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="Set region列表">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1207" y="404" />
+              <mxPoint x="1627" y="1024" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-120" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="构建 HashMap">
-          <mxGeometry relative="1" x="0.0075" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="1116" y="456" />
-              <mxPoint x="1116" y="486" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-121" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-84" value="HGETALL获取数据">
+        <mxCell id="v49IP3VJoUqm672FlF_S-214" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="构建新HashMap">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1304" y="584" />
+              <mxPoint x="1536" y="1076" />
+              <mxPoint x="1536" y="1106" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-122" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-84" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="Hash数据">
+        <mxCell id="v49IP3VJoUqm672FlF_S-215" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-169" value="HGETALL获取数据">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1307" y="636" />
+              <mxPoint x="1724" y="1204" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-123" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="解析数据并根据全局阈值过滤">
+        <mxCell id="v49IP3VJoUqm672FlF_S-216" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-169" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="抛出异常">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="688" />
-              <mxPoint x="1116" y="718" />
+              <mxPoint x="1727" y="1302" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-124" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="将appId加入Set">
+        <mxCell id="v49IP3VJoUqm672FlF_S-217" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="捕获异常不刷缓存">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="816" />
-              <mxPoint x="1116" y="846" />
+              <mxPoint x="1536" y="1354" />
+              <mxPoint x="1536" y="1384" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-125" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="跳过">
+        <mxCell id="v49IP3VJoUqm672FlF_S-218" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-169" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="Hash数据">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="944" />
-              <mxPoint x="1116" y="974" />
+              <mxPoint x="1727" y="1482" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-126" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="regionCache = newCache">
+        <mxCell id="v49IP3VJoUqm672FlF_S-219" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="解析数据并根据全局阈值过滤">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1076" />
-              <mxPoint x="1116" y="1106" />
+              <mxPoint x="1536" y="1534" />
+              <mxPoint x="1536" y="1564" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-127" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="@Scheduled cron=0 */30 * * * ?">
+        <mxCell id="v49IP3VJoUqm672FlF_S-220" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="将appId加入Set">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1267" />
-              <mxPoint x="1116" y="1297" />
+              <mxPoint x="1536" y="1662" />
+              <mxPoint x="1536" y="1692" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-128" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-81" value="获取全局阈值">
+        <mxCell id="v49IP3VJoUqm672FlF_S-221" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="跳过">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="947" y="1349" />
+              <mxPoint x="1536" y="1790" />
+              <mxPoint x="1536" y="1820" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-129" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-81" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="全局阈值">
+        <mxCell id="v49IP3VJoUqm672FlF_S-222" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="regionCache = newCache">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="944" y="1401" />
+              <mxPoint x="1536" y="1932" />
+              <mxPoint x="1536" y="1962" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-130" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-83" value="SMEMBERS获取region列表">
+        <mxCell id="v49IP3VJoUqm672FlF_S-223" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-166" value="获取定时任务cron配置">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1204" y="1453" />
+              <mxPoint x="1367" y="2123" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-131" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-83" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="Set region列表">
+        <mxCell id="v49IP3VJoUqm672FlF_S-224" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-166" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="cron表达式">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1207" y="1505" />
+              <mxPoint x="1364" y="2175" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-132" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="构建新ConcurrentHashMap">
+        <mxCell id="v49IP3VJoUqm672FlF_S-225" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="@Scheduled cron=配置值">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1557" />
-              <mxPoint x="1116" y="1587" />
+              <mxPoint x="1536" y="2227" />
+              <mxPoint x="1536" y="2257" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-133" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-84" value="HGETALL获取数据">
+        <mxCell id="v49IP3VJoUqm672FlF_S-226" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-166" value="获取全局阈值">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1304" y="1685" />
+              <mxPoint x="1367" y="2309" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-134" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-84" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="Hash数据">
+        <mxCell id="v49IP3VJoUqm672FlF_S-227" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-166" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="全局阈值">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1307" y="1737" />
+              <mxPoint x="1364" y="2361" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-135" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="根据全局阈值过滤">
+        <mxCell id="v49IP3VJoUqm672FlF_S-228" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-168" value="SMEMBERS获取region列表">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1789" />
-              <mxPoint x="1116" y="1819" />
+              <mxPoint x="1624" y="2413" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-136" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="存入newCache">
+        <mxCell id="v49IP3VJoUqm672FlF_S-229" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-168" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="抛出异常">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1871" />
-              <mxPoint x="1116" y="1901" />
+              <mxPoint x="1627" y="2511" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-137" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="regionCache = newCache">
+        <mxCell id="v49IP3VJoUqm672FlF_S-230" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="捕获异常记录日志不刷缓存">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1993" />
-              <mxPoint x="1116" y="2023" />
+              <mxPoint x="1536" y="2563" />
+              <mxPoint x="1536" y="2593" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-138" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-78" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="请求广告召回">
+        <mxCell id="v49IP3VJoUqm672FlF_S-231" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-168" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="Set region列表">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="231" y="2184" />
+              <mxPoint x="1627" y="2691" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-139" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-80" value="检查实验开关">
+        <mxCell id="v49IP3VJoUqm672FlF_S-232" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="构建新HashMap">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="487" y="2236" />
+              <mxPoint x="1536" y="2743" />
+              <mxPoint x="1536" y="2773" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-140" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-80" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="是否启用过滤器">
+        <mxCell id="v49IP3VJoUqm672FlF_S-233" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-169" value="HGETALL获取数据">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="2288" />
+              <mxPoint x="1724" y="2871" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-141" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-78" value="不过滤继续召回">
+        <mxCell id="v49IP3VJoUqm672FlF_S-234" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-169" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="抛出异常">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="234" y="2386" />
+              <mxPoint x="1727" y="2969" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-142" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-81" value="获取配置">
+        <mxCell id="v49IP3VJoUqm672FlF_S-235" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="捕获异常记录日志不刷缓存">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="587" y="2484" />
+              <mxPoint x="1536" y="3021" />
+              <mxPoint x="1536" y="3051" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-143" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-81" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="全局阈值 地区配置 APP白名单">
+        <mxCell id="v49IP3VJoUqm672FlF_S-236" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-169" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="Hash数据">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="2536" />
+              <mxPoint x="1727" y="3149" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-144" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-81" value="检查APP白名单豁免">
+        <mxCell id="v49IP3VJoUqm672FlF_S-237" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="根据全局阈值过滤">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="587" y="2634" />
+              <mxPoint x="1536" y="3201" />
+              <mxPoint x="1536" y="3231" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-145" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-81" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="在白名单且时间范围内">
+        <mxCell id="v49IP3VJoUqm672FlF_S-238" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="存入newCache">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="2732" />
+              <mxPoint x="1536" y="3283" />
+              <mxPoint x="1536" y="3313" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-146" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-79" value="保留该广告不过滤">
+        <mxCell id="v49IP3VJoUqm672FlF_S-239" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="regionCache = newCache">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="402" y="2784" />
-              <mxPoint x="402" y="2814" />
+              <mxPoint x="1536" y="3415" />
+              <mxPoint x="1536" y="3445" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-147" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-81" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="不在白名单">
+        <mxCell id="v49IP3VJoUqm672FlF_S-240" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-163" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="请求广告召回">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="2912" />
+              <mxPoint x="651" y="3616" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-148" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-82" value="isHighExposureLowConversion region appId">
+        <mxCell id="v49IP3VJoUqm672FlF_S-241" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-165" value="检查实验开关">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="716" y="2964" />
+              <mxPoint x="907" y="3668" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-149" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-82" value="读取regionCache">
+        <mxCell id="v49IP3VJoUqm672FlF_S-242" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-165" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="是否启用过滤器">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="3016" />
-              <mxPoint x="1116" y="3046" />
+              <mxPoint x="910" y="3720" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-150" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="true高曝低消">
+        <mxCell id="v49IP3VJoUqm672FlF_S-243" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-163" value="不过滤继续召回">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="719" y="3144" />
+              <mxPoint x="654" y="3818" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-151" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-81" value="检查地区阈值">
+        <mxCell id="v49IP3VJoUqm672FlF_S-244" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-166" value="获取配置">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="587" y="3196" />
+              <mxPoint x="1007" y="3916" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-152" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-81" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="地区阈值">
+        <mxCell id="v49IP3VJoUqm672FlF_S-245" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-166" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="全局阈值 地区配置 APP白名单">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="3294" />
+              <mxPoint x="1010" y="3968" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-153" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-79" value="用地区阈值重新判断">
+        <mxCell id="v49IP3VJoUqm672FlF_S-246" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-166" value="检查APP白名单豁免">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="402" y="3346" />
-              <mxPoint x="402" y="3376" />
+              <mxPoint x="1007" y="4066" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-154" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-79" value="过滤掉该广告">
+        <mxCell id="v49IP3VJoUqm672FlF_S-247" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-166" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="在白名单且时间范围内">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="402" y="3474" />
-              <mxPoint x="402" y="3504" />
+              <mxPoint x="1010" y="4164" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-155" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-79" value="保留该广告">
+        <mxCell id="v49IP3VJoUqm672FlF_S-248" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-164" value="保留该广告不过滤">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="402" y="3602" />
-              <mxPoint x="402" y="3632" />
+              <mxPoint x="822" y="4216" />
+              <mxPoint x="822" y="4246" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-156" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-79" value="过滤掉该广告">
+        <mxCell id="v49IP3VJoUqm672FlF_S-249" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-166" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="不在白名单">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="402" y="3770" />
-              <mxPoint x="402" y="3800" />
+              <mxPoint x="1010" y="4344" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-157" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-82" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-79" value="false不是高曝低消">
+        <mxCell id="v49IP3VJoUqm672FlF_S-250" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-167" value="isHighExposureLowConversion region appId">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="719" y="3938" />
+              <mxPoint x="1136" y="4396" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-158" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-79" value="保留该广告">
+        <mxCell id="v49IP3VJoUqm672FlF_S-251" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-167" value="读取regionCache HashMap">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="402" y="3990" />
-              <mxPoint x="402" y="4020" />
+              <mxPoint x="1536" y="4448" />
+              <mxPoint x="1536" y="4478" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-159" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-79" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-78" value="返回过滤后的广告列表">
+        <mxCell id="v49IP3VJoUqm672FlF_S-252" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="true高曝低消">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="234" y="4132" />
+              <mxPoint x="1139" y="4576" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-160" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="系统启动初始化阶段" vertex="1">
-          <mxGeometry height="49" width="511" x="1040" y="95" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-253" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="v49IP3VJoUqm672FlF_S-166" value="检查地区阈值">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1007" y="4628" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-161" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="定时任务刷新每30分钟【可配置】" vertex="1">
-          <mxGeometry height="49" width="511" x="1040" y="1166" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-254" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-166" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="地区阈值">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="4726" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="v49IP3VJoUqm672FlF_S-162" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="请求处理阶段" vertex="1">
-          <mxGeometry height="49" width="761" x="70" y="2083" as="geometry" />
+        <mxCell id="v49IP3VJoUqm672FlF_S-255" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-164" value="用地区阈值重新判断">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="4778" />
+              <mxPoint x="822" y="4808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-256" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-164" value="过滤掉该广告">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="4906" />
+              <mxPoint x="822" y="4936" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-257" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-164" value="保留该广告">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="5034" />
+              <mxPoint x="822" y="5064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-258" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-164" value="过滤掉该广告">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="5202" />
+              <mxPoint x="822" y="5232" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-259" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-167" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-164" value="false不是高曝低消">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1139" y="5370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-260" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="curved=1;endArrow=block;rounded=0;" target="v49IP3VJoUqm672FlF_S-164" value="保留该广告">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="822" y="5422" />
+              <mxPoint x="822" y="5452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-261" edge="1" parent="1" source="v49IP3VJoUqm672FlF_S-164" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="v49IP3VJoUqm672FlF_S-163" value="返回过滤后的广告列表">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="654" y="5564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-262" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="系统启动初始化阶段" vertex="1">
+          <mxGeometry height="49" width="511" x="1460" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-263" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="定时任务刷新可配置cron" vertex="1">
+          <mxGeometry height="49" width="511" x="1460" y="2022" as="geometry" />
+        </mxCell>
+        <mxCell id="v49IP3VJoUqm672FlF_S-264" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="请求处理阶段" vertex="1">
+          <mxGeometry height="49" width="761" x="490" y="3515" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
