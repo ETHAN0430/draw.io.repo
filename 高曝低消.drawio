@@ -175,12 +175,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRduOmiLx5QWzCSMZnZ5-476" value="跳过（不缓存空region）" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-433">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="sRduOmiLx5QWzCSMZnZ5-476" value="抛异常，不刷新" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-433">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1135" y="925" />
               <mxPoint x="1135" y="955" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sRduOmiLx5QWzCSMZnZ5-477" value="log.error(&quot;[高曝低消缓存] 加载region数据失败: {}&quot;, region, e)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-436">
@@ -263,19 +264,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sRduOmiLx5QWzCSMZnZ5-489" value="跳过（不缓存）" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-433">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="sRduOmiLx5QWzCSMZnZ5-489" value="抛异常，不刷新" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-433">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1135" y="2055" />
               <mxPoint x="1135" y="2085" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sRduOmiLx5QWzCSMZnZ5-490" value="log.error(&quot;[高曝低消缓存] 加载region数据失败: {}&quot;, region, e)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-436">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0004" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1459" y="2183" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sRduOmiLx5QWzCSMZnZ5-491" value="regionCache = newCache&#xa;(原子替换)" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="sRduOmiLx5QWzCSMZnZ5-433" target="sRduOmiLx5QWzCSMZnZ5-433">
