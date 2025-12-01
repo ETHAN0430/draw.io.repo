@@ -84,7 +84,7 @@
             <mxPoint x="-57" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTJOoBpru_eV6NbQ9EAv-438" edge="1" parent="1" source="NTJOoBpru_eV6NbQ9EAv-421" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="NTJOoBpru_eV6NbQ9EAv-418" value="写入高曝低消广告ID集合&#xa;(SET结构, Key: ad:show:recall:low:conversion:ad:set, TTL: 2h)">
+        <mxCell id="NTJOoBpru_eV6NbQ9EAv-438" edge="1" parent="1" source="NTJOoBpru_eV6NbQ9EAv-421" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="NTJOoBpru_eV6NbQ9EAv-418" value="写入高曝低消广告ID集合&#xa;(SET结构, Key: ad:show:recall:low:conversion:ad:set)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1814" y="1202" />
