@@ -13,7 +13,7 @@
         <mxCell id="e-FyrwK2Wqwma2Pdnts7-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="开发代码" vertex="1">
           <mxGeometry height="54" width="124" x="20" y="186" as="geometry" />
         </mxCell>
-        <mxCell id="e-FyrwK2Wqwma2Pdnts7-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1" value="代码评审&#xa;/review" vertex="1">
+        <mxCell id="e-FyrwK2Wqwma2Pdnts7-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="代码评审&#xa;/review" vertex="1">
           <mxGeometry height="78" width="124" x="194" y="90" as="geometry" />
         </mxCell>
         <mxCell id="e-FyrwK2Wqwma2Pdnts7-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="查看报告" vertex="1">
@@ -25,16 +25,16 @@
         <mxCell id="e-FyrwK2Wqwma2Pdnts7-33" edge="1" parent="1" source="e-FyrwK2Wqwma2Pdnts7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="e-FyrwK2Wqwma2Pdnts7-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e-FyrwK2Wqwma2Pdnts7-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1" value="代码修复&#xa;/fix" vertex="1">
+        <mxCell id="e-FyrwK2Wqwma2Pdnts7-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="代码修复&#xa;/fix" vertex="1">
           <mxGeometry height="78" width="124" x="753" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="e-FyrwK2Wqwma2Pdnts7-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1" value="规则生成&#xa;/generate-rule&#xa;(可选）" vertex="1">
+        <mxCell id="e-FyrwK2Wqwma2Pdnts7-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="规则生成&#xa;/generate-rule&#xa;(可选）" vertex="1">
           <mxGeometry height="102" width="167" x="732" y="148" as="geometry" />
         </mxCell>
-        <mxCell id="e-FyrwK2Wqwma2Pdnts7-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1" value="规则整理&#xa;/organize-rules&#xa;（可选）" vertex="1">
+        <mxCell id="e-FyrwK2Wqwma2Pdnts7-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="规则整理&#xa;/organize-rules&#xa;（可选）" vertex="1">
           <mxGeometry height="102" width="170" x="948" y="148" as="geometry" />
         </mxCell>
-        <mxCell id="e-FyrwK2Wqwma2Pdnts7-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1" value="git commit（含评审报告）" vertex="1">
+        <mxCell id="e-FyrwK2Wqwma2Pdnts7-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="git commit（含评审报告）" vertex="1">
           <mxGeometry height="78" width="162" x="1168" y="160" as="geometry" />
         </mxCell>
         <mxCell id="e-FyrwK2Wqwma2Pdnts7-26" edge="1" parent="1" source="e-FyrwK2Wqwma2Pdnts7-18" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="e-FyrwK2Wqwma2Pdnts7-19" value="">
@@ -84,7 +84,7 @@
         <mxCell id="_x9x5bA9OyKknrtyiS-l-3" edge="1" parent="1" source="_x9x5bA9OyKknrtyiS-l-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="e-FyrwK2Wqwma2Pdnts7-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_x9x5bA9OyKknrtyiS-l-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1" value="人工评审/修复" vertex="1">
+        <mxCell id="_x9x5bA9OyKknrtyiS-l-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontStyle=1" value="人工修复 / 纠正" vertex="1">
           <mxGeometry height="78" width="124" x="194" y="260" as="geometry" />
         </mxCell>
       </root>
