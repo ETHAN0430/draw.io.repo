@@ -109,7 +109,7 @@
         <mxCell id="ZkTm3aSHAklMv9n6L5dm-35" parent="ZkTm3aSHAklMv9n6L5dm-34" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
           <mxGeometry height="20" width="812" as="geometry" />
         </mxCell>
-        <mxCell id="ZkTm3aSHAklMv9n6L5dm-36" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ZkTm3aSHAklMv9n6L5dm-6" value="写入版本列表&#xa;KEY: ad:show:recall:low:conversion:version:list&#xa;TYPE: LIST, TTL: 72h&#xa;VALUE: [timestamp1, timestamp2, ...]">
+        <mxCell id="ZkTm3aSHAklMv9n6L5dm-36" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ZkTm3aSHAklMv9n6L5dm-6" value="写入版本列表&#xa;KEY: ad:show:recall:low:conversion:version:list&#xa;TYPE: LIST, TTL: 48h&#xa;VALUE: [timestamp1, timestamp2, ...]">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1995" y="259" />
