@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="29.2.6">
   <diagram name="第 1 页" id="koUY-GKG6jGSpLQKiAwZ">
-    <mxGraphModel dx="983" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,7 +266,7 @@
             <mxPoint x="298" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZkTm3aSHAklMv9n6L5dm-62" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ZkTm3aSHAklMv9n6L5dm-4" value="写入预加载数据&#xa;（低价值广告集合）">
+        <mxCell id="ZkTm3aSHAklMv9n6L5dm-62" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ZkTm3aSHAklMv9n6L5dm-4" value="写入数据">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1070" y="1706" />
@@ -290,8 +290,9 @@
             <mxPoint x="-137.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZkTm3aSHAklMv9n6L5dm-66" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ZkTm3aSHAklMv9n6L5dm-3" value="获取实验分流结果&#xa;实验层: high_exposion_low_conversion_exp">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="ZkTm3aSHAklMv9n6L5dm-66" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ZkTm3aSHAklMv9n6L5dm-3" value="获取实验分流结果&#xa;实验层: low_value_ad_exp">
+          <mxGeometry relative="1" x="0.0004" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="551" y="1959" />
             </Array>
@@ -338,7 +339,7 @@
             <mxPoint x="287" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZkTm3aSHAklMv9n6L5dm-74" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="curved=1;endArrow=block;rounded=0;" target="ZkTm3aSHAklMv9n6L5dm-2" value="HighExposureLowConversionFilter&#xa;开始过滤">
+        <mxCell id="ZkTm3aSHAklMv9n6L5dm-74" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="curved=1;endArrow=block;rounded=0;" target="ZkTm3aSHAklMv9n6L5dm-2" value="LowValueConversionFilter&#xa;开始过滤">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="406" y="2276" />
@@ -351,7 +352,7 @@
             <mxPoint x="-57" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZkTm3aSHAklMv9n6L5dm-76" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="curved=1;endArrow=block;rounded=0;" target="ZkTm3aSHAklMv9n6L5dm-2" value="检查广告ID+地区&#xa;是否在低价值广告集合中">
+        <mxCell id="ZkTm3aSHAklMv9n6L5dm-76" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="curved=1;endArrow=block;rounded=0;" target="ZkTm3aSHAklMv9n6L5dm-2" value="检查广告ID+地区&#xa;是低价值广告集合中">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="406" y="2425" />
@@ -447,7 +448,7 @@
           <mxGeometry height="49" width="278" x="1035" y="1584" as="geometry" />
         </mxCell>
         <mxCell id="ZkTm3aSHAklMv9n6L5dm-94" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="数据预加载完成，供recall-service使用" vertex="1">
-          <mxGeometry height="49" width="282" x="917" y="1726" as="geometry" />
+          <mxGeometry height="49" width="282" x="917" y="1705" as="geometry" />
         </mxCell>
         <mxCell id="ZkTm3aSHAklMv9n6L5dm-95" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="阶段3: 广告过滤请求流程（实时请求）" vertex="1">
           <mxGeometry height="49" width="897" x="70" y="1805" as="geometry" />
