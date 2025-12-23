@@ -352,7 +352,7 @@
             <mxPoint x="-57" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZkTm3aSHAklMv9n6L5dm-76" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="curved=1;endArrow=block;rounded=0;" target="ZkTm3aSHAklMv9n6L5dm-2" value="检查广告ID+地区&#xa;是低价值广告集合中">
+        <mxCell id="ZkTm3aSHAklMv9n6L5dm-76" edge="1" parent="1" source="ZkTm3aSHAklMv9n6L5dm-2" style="curved=1;endArrow=block;rounded=0;" target="ZkTm3aSHAklMv9n6L5dm-2" value="检查广告ID+地区&#xa;是低价值广告">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="406" y="2425" />
