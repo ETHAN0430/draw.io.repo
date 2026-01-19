@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hAr9lJeYo1al9K_x5e55-1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="开始: fillAdStatData" vertex="1">
-          <mxGeometry height="39" width="167" x="401.5" y="945" as="geometry" />
+          <mxGeometry height="39" width="167" x="352.5" y="945" as="geometry" />
         </mxCell>
         <mxCell id="hAr9lJeYo1al9K_x5e55-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="计算ctrE6&#xa;divideByE6&#xa;adDownNums/exposeNums" vertex="1">
-          <mxGeometry height="102" width="252" x="359" y="1034" as="geometry" />
+          <mxGeometry height="102" width="252" x="310" y="1034" as="geometry" />
         </mxCell>
         <mxCell id="hAr9lJeYo1al9K_x5e55-10" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="激活数是否&#xa;小于阈值?&#xa;adStatEcpmLowestActive" vertex="1">
-          <mxGeometry height="282" width="282" x="344" y="1186" as="geometry" />
+          <mxGeometry height="112" width="282" x="300" y="1390" as="geometry" />
         </mxCell>
         <mxCell id="hAr9lJeYo1al9K_x5e55-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="调用getBaseCvrE6&#xa;获取基础CVR" vertex="1">
           <mxGeometry height="78" width="188" x="138" y="1824" as="geometry" />
@@ -46,12 +46,7 @@
         <mxCell id="hAr9lJeYo1al9K_x5e55-21" edge="1" parent="1" source="hAr9lJeYo1al9K_x5e55-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="485.0000000000002" y="1034" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hAr9lJeYo1al9K_x5e55-29" edge="1" parent="1" source="hAr9lJeYo1al9K_x5e55-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="hAr9lJeYo1al9K_x5e55-10" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="436.0000000000002" y="1034" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hAr9lJeYo1al9K_x5e55-30" edge="1" parent="1" source="hAr9lJeYo1al9K_x5e55-10" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.85;entryX=0.5;entryY=0.01;rounded=0;" target="hAr9lJeYo1al9K_x5e55-11" value="是">
@@ -181,6 +176,9 @@
               <mxPoint x="1470" y="3074" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VuZPThui1JbLNjOZOQh2-12" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="实验开关开启？" vertex="1">
+          <mxGeometry height="102" width="282" x="300" y="1220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
