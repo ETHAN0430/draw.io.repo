@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.3.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.3.3">
   <diagram name="第 1 页" id="mtio7LLNS8P9rHGajO4Y">
     <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,14 +138,16 @@
         <mxCell id="8xmey3OdTpoW5hBX-Ep--1" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="开始: fillAdStatData" vertex="1">
           <mxGeometry height="39" width="167" x="1633.5" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="8xmey3OdTpoW5hBX-Ep--49" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8xmey3OdTpoW5hBX-Ep--49" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1717" y="1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="计算ctrE6&#xa;divideByE6&#xa;adDownNums/exposeNums" vertex="1">
           <mxGeometry height="102" width="252" x="1591" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="激活数是否&#xa;小于阈值?&#xa;" vertex="1">
-          <mxGeometry height="127" width="282" x="1558" y="1450" as="geometry" />
+          <mxGeometry height="127" width="282" x="1576" y="1470" as="geometry" />
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="调用getBaseCvrE6&#xa;获取基础CVR" vertex="1">
           <mxGeometry height="78" width="188" x="1370" y="1859" as="geometry" />
@@ -263,46 +265,46 @@
         <mxCell id="8xmey3OdTpoW5hBX-Ep--29" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="【配置中心】获取广告激活数阈值" vertex="1">
           <mxGeometry height="80" width="205" x="382.5" y="1210" as="geometry" />
         </mxCell>
-        <mxCell id="8xmey3OdTpoW5hBX-Ep--52" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--3">
+        <mxCell id="kZQ7fyG0uYEUTEuShZfj-8" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--40" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="【实验平台】获取广告激活数阈值" vertex="1">
-          <mxGeometry height="60" width="213" x="1430" y="1290" as="geometry" />
+          <mxGeometry height="60" width="213" x="1450" y="1300" as="geometry" />
         </mxCell>
-        <mxCell id="8xmey3OdTpoW5hBX-Ep--53" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--3">
+        <mxCell id="kZQ7fyG0uYEUTEuShZfj-9" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--42" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="【配置中心】获取广告激活数阈值" vertex="1">
-          <mxGeometry height="60" width="213" x="1780" y="1290" as="geometry" />
-        </mxCell>
-        <mxCell id="8xmey3OdTpoW5hBX-Ep--46" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--40">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1537" y="1226" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8xmey3OdTpoW5hBX-Ep--47" edge="1" parent="1" source="8xmey3OdTpoW5hBX-Ep--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1887" y="1226" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8xmey3OdTpoW5hBX-Ep--45" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="【配置中心】获取实验开关" vertex="1">
-          <mxGeometry height="73" width="213" x="1610.5" y="1190" as="geometry" />
-        </mxCell>
-        <mxCell id="8xmey3OdTpoW5hBX-Ep--50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Y" vertex="1">
-          <mxGeometry height="30" width="30" x="1588" y="1190" as="geometry" />
+          <mxGeometry height="60" width="213" x="1790" y="1300" as="geometry" />
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="N" vertex="1">
-          <mxGeometry height="30" width="30" x="1821" y="1190" as="geometry" />
+          <mxGeometry height="30" width="30" x="1892" y="1190" as="geometry" />
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--55" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="原逻辑" vertex="1">
           <mxGeometry height="32" width="120" x="1280" y="984" as="geometry" />
         </mxCell>
         <mxCell id="8xmey3OdTpoW5hBX-Ep--56" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="变更逻辑" vertex="1">
           <mxGeometry height="32" width="120" x="1280" y="1034" as="geometry" />
+        </mxCell>
+        <mxCell id="kZQ7fyG0uYEUTEuShZfj-4" edge="1" parent="1" source="kZQ7fyG0uYEUTEuShZfj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1557" y="1216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kZQ7fyG0uYEUTEuShZfj-6" edge="1" parent="1" source="kZQ7fyG0uYEUTEuShZfj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8xmey3OdTpoW5hBX-Ep--42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1897" y="1216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kZQ7fyG0uYEUTEuShZfj-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="实验平台是否有实验？" vertex="1">
+          <mxGeometry height="51" width="282" x="1580" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="kZQ7fyG0uYEUTEuShZfj-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Y" vertex="1">
+          <mxGeometry height="30" width="30" x="1540" y="1180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
