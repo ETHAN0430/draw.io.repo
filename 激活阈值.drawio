@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.3.3">
   <diagram name="第 1 页" id="mtio7LLNS8P9rHGajO4Y">
-    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2194" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -305,6 +305,9 @@
         </mxCell>
         <mxCell id="kZQ7fyG0uYEUTEuShZfj-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Y" vertex="1">
           <mxGeometry height="30" width="30" x="1540" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="kZQ7fyG0uYEUTEuShZfj-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="目前是配置的对照组的值 10，&lt;br&gt;等到实验全量之后，改成实验组的值 0" vertex="1">
+          <mxGeometry height="30" width="280" x="1990" y="1315" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
