@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="第 1 页" id="O2ROCtE2RukvbL0ybH2U">
-    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-73" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="recall-job&#xa;定时任务" vertex="1">
-          <mxGeometry height="1932" width="150" x="20" y="20" as="geometry" />
-        </mxCell>
         <mxCell id="Lt1LlJFp-fGM24B6cQKX-74" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="recall-job&#xa;RegionPosBlacklistCacheManager" vertex="1">
           <mxGeometry height="1932" width="240" x="220" y="20" as="geometry" />
         </mxCell>
@@ -42,18 +39,6 @@
         </mxCell>
         <mxCell id="Lt1LlJFp-fGM24B6cQKX-85" parent="Lt1LlJFp-fGM24B6cQKX-84" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="" vertex="1">
           <mxGeometry height="20" width="679" as="geometry" />
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-86" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-73" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Lt1LlJFp-fGM24B6cQKX-74" value="触发处理">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="226" y="196" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-87" parent="Lt1LlJFp-fGM24B6cQKX-86" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="1" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-130" y="-7" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Lt1LlJFp-fGM24B6cQKX-88" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-74" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Lt1LlJFp-fGM24B6cQKX-75" value="SCAN扫描黑名单key&#xa;PATTERN: ad:show:recall:region:pos:blacklist:*">
           <mxGeometry relative="1" as="geometry">
@@ -103,80 +88,6 @@
             <mxPoint x="239.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-96" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-74" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Lt1LlJFp-fGM24B6cQKX-76" value="更新本地缓存&#xa;保存所有黑名单数据">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="695" y="617" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-97" parent="Lt1LlJFp-fGM24B6cQKX-96" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="6" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-353.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-98" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-76" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Lt1LlJFp-fGM24B6cQKX-74" value="缓存更新成功">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="698" y="669" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-99" parent="Lt1LlJFp-fGM24B6cQKX-98" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="7" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="339.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-100" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-74" style="curved=1;endArrow=block;rounded=0;" target="Lt1LlJFp-fGM24B6cQKX-74" value="处理黑名单数据&#xa;转换为Set&lt;String&gt;格式">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="391" y="742" />
-              <mxPoint x="391" y="772" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-101" parent="Lt1LlJFp-fGM24B6cQKX-100" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-57" y="-22" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-102" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-74" style="curved=1;endArrow=block;rounded=0;" target="Lt1LlJFp-fGM24B6cQKX-74" value="打标到广告&#xa;设置blockRegionPos字段">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="391" y="854" />
-              <mxPoint x="391" y="884" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-103" parent="Lt1LlJFp-fGM24B6cQKX-102" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-57" y="-22" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-104" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-74" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Lt1LlJFp-fGM24B6cQKX-77" value="写入广告数据&#xa;KEY: ad:show:online:{showUnit}&#xa;FIELD: blockRegionPos&#xa;TYPE: SET">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="795" y="1014" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-105" parent="Lt1LlJFp-fGM24B6cQKX-104" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="10" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="-453.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-106" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-77" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="Lt1LlJFp-fGM24B6cQKX-74" value="返回结果">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="798" y="1066" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-107" parent="Lt1LlJFp-fGM24B6cQKX-106" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="11" vertex="1">
-          <mxGeometry height="14" relative="1" width="14" as="geometry">
-            <mxPoint x="439.5" y="-7" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Lt1LlJFp-fGM24B6cQKX-108" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-78" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="Lt1LlJFp-fGM24B6cQKX-77" value="读取广告数据&#xa;GET ad:show:online:{showUnit}">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -213,7 +124,7 @@
             <mxPoint x="-145.5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-114" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-79" style="curved=1;endArrow=block;rounded=0;" target="Lt1LlJFp-fGM24B6cQKX-79" value="拼接region">
+        <mxCell id="Lt1LlJFp-fGM24B6cQKX-114" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-79" style="curved=1;endArrow=block;rounded=0;" target="Lt1LlJFp-fGM24B6cQKX-79" value="拼接region#pos">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1864" y="1449" />
@@ -226,8 +137,9 @@
             <mxPoint x="-57" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lt1LlJFp-fGM24B6cQKX-116" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-79" style="curved=1;endArrow=block;rounded=0;" target="Lt1LlJFp-fGM24B6cQKX-79" value="检查blockRegionPos&#xa;是否包含当前region">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="Lt1LlJFp-fGM24B6cQKX-116" edge="1" parent="1" source="Lt1LlJFp-fGM24B6cQKX-79" style="curved=1;endArrow=block;rounded=0;" target="Lt1LlJFp-fGM24B6cQKX-79" value="检查blockRegionPos&#xa;是否包含当前region#pos">
+          <mxGeometry relative="1" x="0.005" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="1864" y="1561" />
               <mxPoint x="1864" y="1591" />
@@ -278,10 +190,78 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lt1LlJFp-fGM24B6cQKX-124" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="阶段1: 定时任务加载与打标" vertex="1">
-          <mxGeometry height="49" width="1187" x="70" y="115" as="geometry" />
+          <mxGeometry height="49" width="1017" x="240" y="115" as="geometry" />
         </mxCell>
         <mxCell id="Lt1LlJFp-fGM24B6cQKX-125" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="阶段2: 实时请求过滤" vertex="1">
           <mxGeometry height="49" width="326" x="1512" y="1116" as="geometry" />
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-31" edge="1" parent="1" style="curved=1;endArrow=block;rounded=0;" value="处理黑名单数据 字符串拼接region#pos&#xa;转换为Set&lt;String&gt;格式">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="401" y="590" />
+              <mxPoint x="401" y="620" />
+            </Array>
+            <mxPoint x="350" y="590" as="sourcePoint" />
+            <mxPoint x="350" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-32" parent="RtCMQcYR-EeQIVRJjDdb-31" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="8" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-33" edge="1" parent="1" style="curved=1;endArrow=block;rounded=0;" value="设置缓存&#xa;Map&lt;groupId, Set&lt;region#pos&gt;">
+          <mxGeometry relative="1" x="0.0075" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="401" y="702" />
+              <mxPoint x="401" y="732" />
+            </Array>
+            <mxPoint x="350" y="702" as="sourcePoint" />
+            <mxPoint x="350" y="732" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-34" parent="RtCMQcYR-EeQIVRJjDdb-33" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="9" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-35" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="获取广告组的广告位黑名单信息">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="805" y="780" />
+            </Array>
+            <mxPoint x="350" y="780" as="sourcePoint" />
+            <mxPoint x="1030" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-43" edge="1" parent="1" style="curved=1;endArrow=block;rounded=0;" value="给Ad达标&#xa;Set&lt;String&gt; blockRegionPos">
+          <mxGeometry relative="1" x="0.0075" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1081" y="820" />
+              <mxPoint x="1081" y="850" />
+            </Array>
+            <mxPoint x="1030" y="820" as="sourcePoint" />
+            <mxPoint x="1030" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-44" parent="RtCMQcYR-EeQIVRJjDdb-43" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="10" vertex="1">
+          <mxGeometry height="14" relative="1" width="14" as="geometry">
+            <mxPoint x="-57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-45" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" value="写入广告">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="930" />
+            </Array>
+            <mxPoint x="1057" y="930" as="sourcePoint" />
+            <mxPoint x="1257" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtCMQcYR-EeQIVRJjDdb-46" parent="1" style="ellipse;aspect=fixed;fillColor=#000000;align=center;fontColor=#FFFFFF;" value="11" vertex="1">
+          <mxGeometry height="14" width="14" x="1020" y="920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
